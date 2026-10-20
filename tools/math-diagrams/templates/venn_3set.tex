@@ -1,0 +1,40 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% venn_3set — three-set Venn diagram
+% Contract: circles must all overlap; region labels only; no white sticker boxes;
+% no prose captions; set names OUTSIDE the circles.
+% Geometry: r=1.55 at (-0.9,0.55), (0.9,0.55), (0,-0.85).
+%   M–E distance 1.80, M–S distance 1.66  (both < 2r = 3.10) → all pairs overlap.
+\begin{document}
+\begin{tikzpicture}[md]
+  % Universal set rectangle
+  \draw[md thin, draw=mdInk] (-3.3,-2.95) rectangle (3.5,2.55);
+  \node[anchor=north east, font=\sffamily\small, text=mdMuted] at (3.5,2.55) {$U$};
+
+  % Soft fills (M blue, E red, S green) — lens areas blend
+  \fill[mdAccentSoft, opacity=0.85] (-0.9,0.55) circle (1.55);
+  \fill[mdRed, opacity=0.12] (0.9,0.55) circle (1.55);
+  \fill[mdGreen, opacity=0.12] (0,-0.85) circle (1.55);
+  \draw[md, draw=mdAccent, line width=1pt] (-0.9,0.55) circle (1.55);
+  \draw[md, draw=mdRed, line width=1pt] (0.9,0.55) circle (1.55);
+  \draw[md, draw=mdGreen, line width=1pt] (0,-0.85) circle (1.55);
+
+  % Set names — OUTSIDE, near each circle
+  \node[font=\sffamily\bfseries\small, text=mdAccent] at (-2.15,2.05) {$M$};
+  \node[font=\sffamily\bfseries\small, text=mdRed] at (2.15,2.05) {$E$};
+  \node[font=\sffamily\bfseries\small, text=mdGreen] at (0,-2.7) {$S$};
+
+  % Outer (single-set) regions
+  \node[font=\sffamily\footnotesize, text=mdInk] at (-1.95,0.85) {$M$ only};
+  \node[font=\sffamily\footnotesize, text=mdInk] at (1.95,0.85) {$E$ only};
+  \node[font=\sffamily\footnotesize, text=mdInk] at (0,-1.5) {$S$ only};
+
+  % Pairwise lenses (outside the triple)
+  \node[font=\sffamily\tiny, text=mdInk] at (0,1.15) {$M \cap E$};
+  \node[font=\sffamily\tiny, text=mdInk] at (-1.05,-0.55) {$M \cap S$};
+  \node[font=\sffamily\tiny, text=mdInk] at (1.05,-0.55) {$E \cap S$};
+
+  % Triple intersection — small enough to sit inside the lens
+  \node[font=\sffamily\tiny, text=mdInk] at (0,0.12) {$M \cap E \cap S$};
+\end{tikzpicture}
+\end{document}

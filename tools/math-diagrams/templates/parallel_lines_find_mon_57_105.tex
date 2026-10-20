@@ -1,0 +1,42 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+% parallel_lines_find_mon_57_105 — p ∥ q, given 57° and 105°, find ∠MON
+% Contract: no white boxes; angle values sit INSIDE the angle they name;
+% the unknown label must clear the transversal.
+\begin{document}
+\begin{tikzpicture}[md]
+  % parallel lines
+  \draw[md thick] (-2.8,2.8) -- (5.0,2.8);
+  \draw[md thick] (-2.8,0) -- (5.0,0);
+  \node[font=\sffamily\small, text=mdInk] at (5.3,2.8) {$p$};
+  \node[font=\sffamily\small, text=mdInk] at (5.3,0) {$q$};
+  \draw[md thin] (-2.1,2.95) -- (-1.6,2.95);
+  \draw[md thin] (-2.1,0.15) -- (-1.6,0.15);
+
+  \coordinate (P) at (-2.4,2.8);
+  \coordinate (M) at (0.2,2.8);
+  \coordinate (O) at (1.5,0);
+  \coordinate (N) at (4.4,0);
+
+  \draw[md accent, thick] (M) -- (O);
+  \node[md point] at (M) {};
+  \node[md point] at (O) {};
+
+  % vertices — plain, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (M) [above left=2pt] {$M$};
+  \node[font=\sffamily\small, text=mdInk] at (O) [below left=2pt] {$O$};
+  \node[font=\sffamily\small, text=mdInk] at (P) [left=2pt] {$P$};
+  \node[font=\sffamily\small, text=mdInk] at (N) [below right=2pt] {$N$};
+
+  % 57° at M: the angle P-M-O opens BELOW line p and LEFT of the transversal
+  \pic[md angle arc, angle radius=0.55cm] {angle=P--M--O};
+  \node[font=\sffamily\small, text=mdInk] at ($(M)+(-1.05,-0.50)$) {$57^\circ$};
+
+  % 105° at O: the marked angle on the lower side
+  \pic[md highlight, angle radius=0.7cm] {angle=M--O--N};
+  \node[font=\sffamily\small, text=mdInk] at ($(O)+(1.35,-1.05)$) {$105^\circ$};
+
+  % unknown — clear of the transversal (M→O), inside the upper wedge
+  \node[font=\sffamily\small, text=mdAccent] at (2.15,0.75) {$\angle MON = ?$};
+\end{tikzpicture}
+\end{document}

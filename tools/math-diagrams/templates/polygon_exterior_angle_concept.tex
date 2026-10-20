@@ -1,0 +1,42 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+% polygon_exterior_angle_concept — interior + exterior at vertex B
+% Contract: no white boxes; angle labels sit INSIDE their own wedge and clear
+% of the arms.  B→C has slope 2.1/1.7 ≈ 1.235 — keep labels off that line.
+% Formula `interior + exterior = 180°` is data (kept).
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.4,0);
+  \coordinate (C) at (5.1,2.1);
+  \coordinate (D) at (3.6,4.1);
+  \coordinate (E) at (0.9,4.1);
+  \coordinate (F) at (-0.7,2.1);
+  \draw[md shape, line width=0.9pt] (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- cycle;
+
+  % extend AB past B to D (dashed + ray)
+  \draw[md dashed] (A) -- ($(A)!1.65!(B)$) coordinate (Dext);
+  \draw[md ray, thick] (B) -- (Dext);
+
+  % vertices — plain, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (A) [below left=2pt] {$A$};
+  \node[font=\sffamily\small, text=mdInk] at (B) [below right=2pt] {$B$};
+  \node[font=\sffamily\small, text=mdInk] at (C) [above right=2pt] {$C$};
+  \node[font=\sffamily\small, text=mdInk] at (Dext) [right=2pt] {$D$};
+
+  % angle arcs
+  \pic[md angle arc, angle radius=0.55cm, angle eccentricity=1.2] {angle=C--B--A};
+  \pic[md highlight, angle radius=0.85cm, angle eccentricity=1.15] {angle=Dext--B--C};
+
+  % labels INSIDE their wedges, clear of the arms
+  % interior wedge: between B→A (left) and B→C (up-right)
+  \node[font=\sffamily\small, text=mdInk] at (2.55,1.15) {interior};
+  % exterior wedge: between the B→D ray (right) and B→C (up-right)
+  % B→C at x=4.6 is y≈1.48, so (4.55,0.55) sits in the wedge below the edge
+  \node[font=\sffamily\small, text=mdInk] at (4.55,0.55) {exterior};
+
+  % formula (data)
+  \node[font=\sffamily\small, text=mdInk] at (1.7,-1.35)
+    {interior $+$ exterior $= 180^\circ$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,37 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+% hexagon_angles_diagram — irregular hexagon with algebraic interior angles
+% Contract: no white boxes; angle values outside their vertex, clear of the edges.
+% Math check: 120 + (5x-6) + (4x+14) + 7x + (8x-8) + 6x = 720
+%            => 120 + 30x = 720 => x = 20
+%            => 120°, 94°, 94°, 140°, 152°, 120°  (sum 720 ✓)
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.0,0.2);
+  \coordinate (C) at (4.5,1.9);
+  \coordinate (D) at (3.7,3.9);
+  \coordinate (E) at (1.2,4.2);
+  \coordinate (F) at (-0.85,2.3);
+  \draw[md shape, line width=1.1pt] (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- cycle;
+
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=B--A--F};
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=C--B--A};
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=D--C--B};
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=E--D--C};
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=F--E--D};
+  \pic[md angle arc, angle radius=0.38cm, angle eccentricity=1.15] {angle=A--F--E};
+
+  % angle values outside their vertex — plain text, no boxes
+  \node[font=\sffamily\large, text=mdInk] at (-0.55,-0.75) {$120^\circ$};
+  \node[font=\sffamily\large, text=mdInk] at (3.15,-0.85) {$(5x-6)^\circ$};
+  \node[font=\sffamily\large, text=mdInk] at (5.85,1.85) {$(4x+14)^\circ$};
+  \node[font=\sffamily\large, text=mdInk] at (3.95,5.15) {$7x^\circ$};
+  \node[font=\sffamily\large, text=mdInk] at (1.15,5.45) {$(8x-8)^\circ$};
+  \node[font=\sffamily\large, text=mdInk] at (-2.15,2.35) {$6x^\circ$};
+
+  % formula (data)
+  \node[font=\sffamily\small, text=mdInk] at (1.7,-1.7)
+    {interior sum $= (n-2) \times 180^\circ = 720^\circ$};
+\end{tikzpicture}
+\end{document}

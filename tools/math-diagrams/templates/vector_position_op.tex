@@ -1,0 +1,21 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% vector_position_op — position vector OP for P(4,3)
+% Contract: no white boxes; the vector formula is data but must NOT sit on the
+% vector line.  Line O→P has slope 3/4, so at x = 2.4 the line is at y = 1.8 —
+% never place a label there.  Use (3.3, 1.1), which is clear below-right.
+\begin{document}
+\begin{tikzpicture}[md]
+  \mdAxes{-1}{6}{-1}{5}{1}{1}
+  \coordinate (O) at (0,0);
+  \coordinate (P) at (4,3);
+  \draw[md accent, thick, ->] (O) -- (P);
+  \node[md accent point] at (P) {};
+
+  % labels — plain, clear of the vector stroke
+  \node[font=\sffamily\small, text=mdInk] at (P) [above right] {$P(4,3)$};
+  \node[font=\sffamily\small, text=mdInk] at (O) [below left] {$O$};
+  \node[font=\sffamily\small, text=mdAccent] at (3.35,1.05)
+    {$\vec{OP} = \begin{pmatrix} 4 \\ 3 \end{pmatrix}$};
+\end{tikzpicture}
+\end{document}

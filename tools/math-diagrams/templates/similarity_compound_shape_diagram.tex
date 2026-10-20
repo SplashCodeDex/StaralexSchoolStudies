@@ -1,0 +1,54 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+\begin{document}
+\begin{tikzpicture}[md]
+  % Two similar trapezoids PQRS (small) and WXYZ (large)
+  % WXYZ: WX=12, ZY=20, WZ=15, ∠WZY=70°, ∠ZWX=110°
+  % PQRS: PQ=c=8, SR=b, PS=a  with k = 1.5
+  \begin{scope}
+    % small trapezoid PQRS, PQ ∥ SR
+    \coordinate (P) at (0,1.4);
+    \coordinate (Q) at (2.4,1.4);
+    \coordinate (R) at (3.3,0);
+    \coordinate (S) at (-0.5,0);
+    \draw[md shape] (P) -- (Q) -- (R) -- (S) -- cycle;
+    \draw[md accent, dashed] (P) -- (R); % diagonal
+    \node[md label bold] at (P) [above left] {$P$};
+    \node[md label bold] at (Q) [above right] {$Q$};
+    \node[md label bold] at (R) [below right] {$R$};
+    \node[md label bold] at (S) [below left] {$S$};
+    \node[md label] at ($(P)!0.5!(Q)+(0,0.22)$) {$c=8$};
+    \node[md label] at ($(S)!0.5!(R)+(0,-0.22)$) {$b$};
+    \node[md label] at ($(P)!0.5!(S)+(-0.22,0)$) {$a$};
+    % parallel marks
+    \draw[md thin] ($(P)!0.5!(Q)+(0.15,0.10)$) -- ($(P)!0.5!(Q)+(0.45,0.10)$);
+    \draw[md thin] ($(S)!0.5!(R)+(0.15,-0.10)$) -- ($(S)!0.5!(R)+(0.45,-0.10)$);
+    \node[md label muted] at (1.4,-0.95) {$PQRS$};
+  \end{scope}
+
+  \begin{scope}[xshift=5.6cm]
+    % large trapezoid WXYZ, WX ∥ ZY
+    \coordinate (W) at (0,2.1);
+    \coordinate (X) at (3.6,2.1);
+    \coordinate (Y) at (5.4,0);
+    \coordinate (Z) at (-0.8,0);
+    \draw[md shape] (W) -- (X) -- (Y) -- (Z) -- cycle;
+    \draw[md accent, dashed] (W) -- (Y);
+    \node[md label bold] at (W) [above left] {$W$};
+    \node[md label bold] at (X) [above right] {$X$};
+    \node[md label bold] at (Y) [below right] {$Y$};
+    \node[md label bold] at (Z) [below left] {$Z$};
+    \node[md label] at ($(W)!0.5!(X)+(0,0.24)$) {$12$};
+    \node[md label] at ($(Z)!0.5!(Y)+(0,-0.24)$) {$20$};
+    \node[md label] at ($(W)!0.5!(Z)+(-0.28,0)$) {$15$};
+    \pic[md angle arc, angle radius=0.55cm, "$70^\circ$", angle eccentricity=1.3] {angle=W--Y--Z};
+    \pic[md angle arc, angle radius=0.55cm, "$110^\circ$", angle eccentricity=1.35] {angle=X--W--Z};
+    \draw[md thin] ($(W)!0.5!(X)+(0.15,0.10)$) -- ($(W)!0.5!(X)+(0.55,0.10)$);
+    \draw[md thin] ($(Z)!0.5!(Y)+(0.15,-0.10)$) -- ($(Z)!0.5!(Y)+(0.55,-0.10)$);
+    \node[md label muted] at (2.3,-1.05) {$WXYZ$};
+  \end{scope}
+
+  \node[md label accent] at (5.0,-1.85)
+    {$k = \dfrac{12}{8} = 1.5 \Rightarrow b = \dfrac{20}{1.5},\ a = \dfrac{15}{1.5}$};
+\end{tikzpicture}
+\end{document}

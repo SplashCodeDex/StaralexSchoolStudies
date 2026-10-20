@@ -1,0 +1,29 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% circle_radius_diameter — circle with centre O, radius r, diameter d = 2r
+% Contract: measurements/formula are data; no white boxes; NO label collisions.
+% O sits ABOVE-LEFT of the centre dot; d = 2r sits BELOW the diameter, clear of O.
+\begin{document}
+\begin{tikzpicture}[md]
+  \draw[md shape] (0,0) circle (2.1);
+
+  \coordinate (A) at (-2.1,0);
+  \coordinate (B) at (2.1,0);
+
+  % diameter (dashed) and radius (solid)
+  \draw[md accent, dashed] (A) -- (B);
+  \draw[md accent, thick] (0,0) -- (B);
+
+  % points
+  \node[md point] at (0,0) {};
+  \node[md point] at (A) {};
+  \node[md point] at (B) {};
+
+  % labels — plain text, no boxes, no collisions
+  \node[font=\sffamily\small, text=mdInk] at (-0.38,0.28) {$O$};
+  \node[font=\sffamily\small, text=mdInk] at (-2.45,0) {$A$};
+  \node[font=\sffamily\small, text=mdInk] at (2.45,0) {$B$};
+  \node[font=\sffamily\small, text=mdAccent] at (1.15,0.28) {$r$};
+  \node[font=\sffamily\small, text=mdInk] at (0,-0.62) {$d = 2r$};
+\end{tikzpicture}
+\end{document}

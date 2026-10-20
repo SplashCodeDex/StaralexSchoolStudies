@@ -1,0 +1,40 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% vector_parallelogram_law — a + b via the parallelogram
+% Contract: no white boxes; no prose captions (drop "parallelogram law");
+% name all four vertices; place the sum label BESIDE the diagonal, not inside.
+% Diagonal O→C has slope 2.5/3.8 ≈ 0.658 — label goes clearly off that line.
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (O) at (0,0);
+  \coordinate (B) at (3.0,0.2);
+  \coordinate (D) at (0.8,2.3);
+  \coordinate (C) at ($(B)+(D)$);
+
+  % parallelogram outline
+  \draw[md shape] (O) -- (B) -- (C) -- (D) -- cycle;
+
+  % vectors a = OB, b = OD, sum = OC
+  \draw[md accent, thick, ->] (O) -- (B);
+  \draw[md accent, thick, ->] (O) -- (D);
+  \draw[md highlight, thick, ->] (O) -- (C);
+
+  % vertices
+  \node[md point] at (O) {};
+  \node[md point] at (C) {};
+  \node[font=\sffamily\small, text=mdInk] at (O) [below left] {$O$};
+  \node[font=\sffamily\small, text=mdInk] at (B) [below right] {$B$};
+  \node[font=\sffamily\small, text=mdInk] at (D) [above left] {$D$};
+  \node[font=\sffamily\small, text=mdInk] at (C) [above right] {$C$};
+
+  % vector names — computed off the strokes
+  \node[font=\sffamily\small, text=mdAccent] at (1.55,-0.45) {$\mathbf{a}$};
+  \node[font=\sffamily\small, text=mdAccent] at (0.28,1.35) {$\mathbf{b}$};
+  % O→C: slope 0.658; at x = 2.35 the line is at y ≈ 1.55, so (2.35, 0.75) is clear below
+  \node[font=\sffamily\small, text=mdRed] at (2.35,0.75) {$\mathbf{a}+\mathbf{b}$};
+
+  % formula (data) — no prose prefix
+  \node[font=\sffamily\small, text=mdInk] at (2.0,-1.15)
+    {$\vec{OB} + \vec{OD} = \vec{OC}$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,29 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% linear_graph_gradient — gradient as rise/run on a straight line
+% Contract: formula is data (keep it), but place it in EMPTY space, never on
+% the line; no white sticker boxes; rise/run legs in highlight red.
+% Line through (1,1.5) and (3,3) → m = 1/2.  Rise/run triangle between them.
+\begin{document}
+\begin{tikzpicture}[md]
+  \mdAxes{-1}{6}{-1}{5}{1}{1}
+  \draw[md accent, thick] (-0.5,0.5) -- (5.5,4.5);
+
+  \coordinate (P1) at (1,1.5);
+  \coordinate (P2) at (3,3);
+  \coordinate (corner) at (3,1.5);
+
+  % rise / run legs (highlight)
+  \draw[md highlight, thick] (P1) -- (corner)
+    node[midway, below=3pt, font=\sffamily\small, text=mdInk] {run $= 2$};
+  \draw[md highlight, thick] (corner) -- (P2)
+    node[midway, right=3pt, font=\sffamily\small, text=mdInk] {rise $= 1$};
+
+  \node[md point] at (P1) {};
+  \node[md point] at (P2) {};
+
+  % formula in empty space BELOW the x-axis (the line never reaches here)
+  \node[font=\sffamily\small, text=mdAccent] at (3.6,-0.55)
+    {$m = \dfrac{\text{rise}}{\text{run}}$};
+\end{tikzpicture}
+\end{document}

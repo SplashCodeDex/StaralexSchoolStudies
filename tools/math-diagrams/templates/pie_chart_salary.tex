@@ -1,0 +1,28 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+% pie_chart_salary — pie chart with 4 labelled sectors
+% Contract: labels OUTSIDE the circle, clear of the stroke; no white boxes;
+% the sector-angle formula is data (kept), rendered cleanly.
+% Angles: Food 144 + Rent 90 + Transport 72 + Savings 54 = 360.
+\begin{document}
+\begin{tikzpicture}[md]
+  \def\r{2.0}
+  \fill[mdAccentSoft] (0,0) -- (0:\r) arc(0:144:\r) -- cycle;
+  \fill[mdRed!18] (0,0) -- (144:\r) arc(144:234:\r) -- cycle;
+  \fill[mdGreen!18] (0,0) -- (234:\r) arc(234:306:\r) -- cycle;
+  \fill[mdAmber!22] (0,0) -- (306:\r) arc(306:360:\r) -- cycle;
+  \draw[md, line width=0.9pt] (0,0) -- (0:\r) (0,0) -- (144:\r)
+    (0,0) -- (234:\r) (0,0) -- (306:\r);
+  \draw[md, line width=0.9pt] (0,0) circle (\r);
+
+  % labels — plain text, pushed clear of the circle stroke
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (72:2.9) {Food $144^\circ$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (189:2.9) {Rent $90^\circ$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (270:2.9) {Transport $72^\circ$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (333:3.15) {Savings $54^\circ$};
+
+  % formula (data), rendered cleanly
+  \node[font=\sffamily\small, text=mdInk] at (0,-3.75)
+    {$\theta = \dfrac{\text{percent}}{100} \times 360^\circ$};
+\end{tikzpicture}
+\end{document}

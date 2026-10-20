@@ -1,0 +1,31 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% right_triangle_qpr_6_8 — triangle QPR, right angle at R, QR=6, PR=8, θ at Q
+% Contract: measurement labels + vertex names + angle mark only.
+% NO baked solution ("|PQ| = √(6²+8²) = 10 …") — the working lives in the lesson prose.
+% Right-angle mark MUST be a square corner: two legs of equal length from R.
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (R) at (0,0);
+  \coordinate (Q) at (3.0,0);
+  \coordinate (P) at (0,4.0);
+  \draw[md shape] (Q) -- (R) -- (P) -- cycle;
+
+  % right-angle square at R — legs of 0.32 along RQ and RP
+  \draw[md right angle] ($(R)+(0.32,0)$) -- ($(R)+(0.32,0.32)$) -- ($(R)+(0,0.32)$);
+
+  % vertex names
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (R) [below left] {$R$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (Q) [below right] {$Q$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (P) [above left] {$P$};
+
+  % measurements (data, not captions)
+  \node[font=\sffamily\small, text=mdInk] at ($(Q)!0.5!(R)+(0,-0.3)$) {$6$ cm};
+  \node[font=\sffamily\small, text=mdInk] at ($(R)!0.5!(P)+(-0.32,0)$) {$8$ cm};
+  \node[font=\sffamily\small, text=mdMuted] at ($(Q)!0.55!(P)+(0.32,0.12)$) {$|PQ|$};
+
+  % angle mark at Q
+  \pic[md angle arc, angle radius=0.7cm, "$\theta$", angle eccentricity=1.35]
+    {angle=P--Q--R};
+\end{tikzpicture}
+\end{document}

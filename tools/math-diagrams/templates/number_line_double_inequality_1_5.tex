@@ -1,0 +1,21 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{mathdiagrams}
+% RULES (tools/README-figures.md):
+%  - solution ray sits ABOVE the axis
+%  - NO baked caption / inequality text in the figure
+%  - tick numbers only; open = excluded, filled = included
+\begin{document}
+\begin{tikzpicture}[md]
+  % 1 < x <= 5
+  \def\y{0}
+  \def\yr{0.55}
+  \draw[md axis] (-1,\y) -- (7,\y);
+  \foreach \x in {-1,...,7}{
+    \draw[md tick] (\x,\y-0.12) -- (\x,\y+0.12) node[md label naked, below=2.5pt] {\x};
+  }
+  % solution segment ABOVE the axis
+  \draw[md accent, thick] (1,\yr) -- (5,\yr);
+  \node[md open point, minimum size=4pt] at (1,\yr) {};
+  \node[md accent point, minimum size=4pt] at (5,\yr) {};
+\end{tikzpicture}
+\end{document}

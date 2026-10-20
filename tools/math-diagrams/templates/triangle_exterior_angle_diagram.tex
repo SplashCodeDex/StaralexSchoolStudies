@@ -1,0 +1,35 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+\begin{document}
+\begin{tikzpicture}[md]
+  % Triangle ABC with exterior angle at C (extend BC to D)
+  % Given: ∠A = 25°, ∠B = (x+15)°, exterior ∠ACD = (3x−10)°
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (4.6,0);
+  \coordinate (C) at (1.55,2.35);
+  \coordinate (D) at (6.2,0); % B extended past C? No — extend side BC beyond C
+  % Actually exterior at C: extend BC past C. Easier: extend AC? Lesson says exterior opposite to the two remote interiors at A and B is at C.
+  % Exterior angle ACD: D on line BC beyond C.
+  \draw[md shape] (A) -- (B) -- (C) -- cycle;
+  % extend BC through C to D
+  \draw[md dashed] (B) -- ($(B)!1.55!(C)$) coordinate (D);
+  \draw[md ray] (C) -- (D);
+
+  \node[md point] at (A) {};
+  \node[md point] at (B) {};
+  \node[md point] at (C) {};
+  \node[md label] at (A) [below left=1pt] {$A$};
+  \node[md label] at (B) [below right=1pt] {$B$};
+  \node[md label] at (C) [above right=1pt] {$C$};
+  \node[md label] at (D) [right=2pt] {$D$};
+
+  % interior at A = 25°
+  \pic[md angle arc, angle radius=0.65cm, "$25^\circ$", angle eccentricity=1.35] {angle=B--A--C};
+  % interior at B = (x+15)°
+  \pic[md angle arc, angle radius=0.65cm, "$(x+15)^\circ$", angle eccentricity=1.4] {angle=C--B--A};
+  % exterior at C between CA and CD
+  \pic[md highlight, angle radius=0.75cm, "$(3x-10)^\circ$", angle eccentricity=1.35] {angle=D--C--A};
+  % small mark for interior at C
+  \pic[md thin, color=mdMuted, angle radius=0.4cm, "", angle eccentricity=1] {angle=A--C--B};
+\end{tikzpicture}
+\end{document}

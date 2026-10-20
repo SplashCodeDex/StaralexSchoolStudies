@@ -1,0 +1,16 @@
+# BECE Mock Papers is its own repository with history — keep it nested, never embed it
+/BECE_MOCK_PAPERS/
+
+# Build / tooling junk
+__pycache__/
+.venv/
+.pytest_cache/
+*.log
+*.aux
+*.out
+
+# Scratch / temp assets
+/_diag_shade.png
+
+# Lock files
+.mimocode/.cron-lock

@@ -1,0 +1,26 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% semicircle_r7 — semicircle with radius 7 cm (Mock P2 Q3d)
+% Contract: ONE base line only (dashed accent diameter — do NOT close the arc
+% with -- cycle or the base gets drawn twice); no white boxes; formulas are data.
+\begin{document}
+\begin{tikzpicture}[md]
+  % curved part only — no -- cycle, so no doubled base
+  \draw[md shape] (-2.2,0) arc[start angle=180, end angle=0, radius=2.2];
+
+  % diameter as the single base line
+  \draw[md accent, thick, dashed] (-2.2,0) -- (2.2,0);
+
+  % centre and radius
+  \node[md point] at (0,0) {};
+  \draw[md accent, thick] (0,0) -- (2.2,0);
+
+  % labels — plain text, no white boxes
+  \node[font=\sffamily\small, text=mdInk] at (0.22,-0.3) {$O$};
+  \node[font=\sffamily\small, text=mdAccent] at (1.15,0.28) {$r = 7$ cm};
+
+  % formulas (data, not captions) — kept clear of the shape
+  \node[font=\sffamily\small, text=mdInk] at (0,-0.85)
+    {$\text{Area} = \tfrac{1}{2}\pi r^{2} \qquad \text{perimeter} = \pi r + 2r$};
+\end{tikzpicture}
+\end{document}

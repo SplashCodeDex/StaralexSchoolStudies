@@ -1,0 +1,54 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+\begin{document}
+\begin{tikzpicture}[md]
+  % Two congruent triangles — labels outside, matching tick marks, angles with white chips
+  \begin{scope}
+    \coordinate (A) at (0,0);
+    \coordinate (B) at (3.6,0);
+    \coordinate (C) at (1.2,2.5);
+    \draw[md shape, line width=0.9pt] (A) -- (B) -- (C) -- cycle;
+    \node[md label bold] at (A) [below left=2pt] {$A$};
+    \node[md label bold] at (B) [below right=2pt] {$B$};
+    \node[md label bold] at (C) [above=2pt] {$C$};
+    % side ticks
+    \draw[md thin] ($(A)!0.5!(B)+(0,0.14)$) -- ($(A)!0.5!(B)+(0,-0.14)$);
+    \draw[md thin] ($(A)!0.5!(B)+(0.14,0.14)$) -- ($(A)!0.5!(B)+(0.14,-0.14)$);
+    \draw[md thin] ($(B)!0.5!(C)+(0.12,-0.10)$) -- ($(B)!0.5!(C)+(-0.12,0.10)$);
+    \draw[md thin] ($(A)!0.5!(C)+(0.16,0.05)$) -- ($(A)!0.5!(C)+(-0.02,0.18)$);
+    \draw[md thin] ($(A)!0.5!(C)+(0.02,-0.15)$) -- ($(A)!0.5!(C)+(-0.16,0.02)$);
+    \draw[md thin] ($(A)!0.5!(C)+(0.20,0.20)$) -- ($(A)!0.5!(C)+(-0.20,-0.20)$);
+    \pic[md angle arc, angle radius=0.5cm, angle eccentricity=1.35] {angle=B--A--C};
+    \pic[md angle arc, angle radius=0.5cm, angle eccentricity=1.35] {angle=C--B--A};
+    \pic[md angle arc, angle radius=0.42cm, angle eccentricity=1.45] {angle=A--C--B};
+    \node[md label] at ($(A)+(0.85,0.55)$) {$55^\circ$};
+    \node[md label] at ($(B)+(-0.95,0.55)$) {$70^\circ$};
+    \node[md label] at ($(C)+(0.05,0.75)$) {$55^\circ$};
+  \end{scope}
+
+  \begin{scope}[xshift=6.0cm]
+    \coordinate (D) at (0,0);
+    \coordinate (E) at (3.6,0);
+    \coordinate (F) at (1.2,2.5);
+    \draw[md shape, line width=0.9pt] (D) -- (E) -- (F) -- cycle;
+    \node[md label bold] at (D) [below left=2pt] {$D$};
+    \node[md label bold] at (E) [below right=2pt] {$E$};
+    \node[md label bold] at (F) [above=2pt] {$F$};
+    \draw[md thin] ($(D)!0.5!(E)+(0,0.14)$) -- ($(D)!0.5!(E)+(0,-0.14)$);
+    \draw[md thin] ($(D)!0.5!(E)+(0.14,0.14)$) -- ($(D)!0.5!(E)+(0.14,-0.14)$);
+    \draw[md thin] ($(E)!0.5!(F)+(0.12,-0.10)$) -- ($(E)!0.5!(F)+(-0.12,0.10)$);
+    \draw[md thin] ($(D)!0.5!(F)+(0.16,0.05)$) -- ($(D)!0.5!(F)+(-0.02,0.18)$);
+    \draw[md thin] ($(D)!0.5!(F)+(0.02,-0.15)$) -- ($(D)!0.5!(F)+(-0.16,0.02)$);
+    \draw[md thin] ($(D)!0.5!(F)+(0.20,0.20)$) -- ($(D)!0.5!(F)+(-0.20,-0.20)$);
+    \pic[md angle arc, angle radius=0.5cm, angle eccentricity=1.35] {angle=E--D--F};
+    \pic[md angle arc, angle radius=0.5cm, angle eccentricity=1.35] {angle=F--E--D};
+    \pic[md angle arc, angle radius=0.42cm, angle eccentricity=1.45] {angle=D--F--E};
+    \node[md label] at ($(D)+(0.85,0.55)$) {$55^\circ$};
+    \node[md label] at ($(E)+(-0.95,0.55)$) {$70^\circ$};
+    \node[md label] at ($(F)+(0.05,0.75)$) {$55^\circ$};
+  \end{scope}
+
+  \node[md label accent] at (4.7,-1.3)
+    {$\triangle ABC \cong \triangle DEF$ (same shape, same size)};
+\end{tikzpicture}
+\end{document}

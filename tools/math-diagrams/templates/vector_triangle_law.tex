@@ -1,0 +1,38 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% vector_triangle_law — AB + BC = AC
+% Contract: no white boxes; formula is data (keep), but drop prose like "triangle law:";
+% labels must clear the strokes — place off the line, not at `midway`.
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.2,0.3);
+  \coordinate (C) at (4.6,2.8);
+
+  \draw[md accent, thick, ->] (A) -- (B);
+  \draw[md accent, thick, ->] (B) -- (C);
+  \draw[md highlight, thick, ->] (A) -- (C);
+
+  \node[md point] at (A) {};
+  \node[md point] at (B) {};
+  \node[md point] at (C) {};
+
+  % vertex names — plain, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (A) [below left] {$A$};
+  \node[font=\sffamily\small, text=mdInk] at (B) [below right] {$B$};
+  \node[font=\sffamily\small, text=mdInk] at (C) [above right] {$C$};
+
+  % vector names — placed OFF the strokes
+  % A→B is nearly horizontal, so sit well below its midpoint
+  \node[font=\sffamily\small, text=mdAccent] at (1.6,-0.45) {$\mathbf{a}$};
+  % B→C: place to the right of the segment, clear of it
+  \node[font=\sffamily\small, text=mdAccent] at (4.35,1.55) {$\mathbf{b}$};
+  % A→C has slope 2.8/4.6 ≈ 0.61; at x = 1.8 the line is at y ≈ 1.10,
+  % so (1.75, 1.85) is well above it.
+  \node[font=\sffamily\small, text=mdRed] at (1.75,1.85) {$\mathbf{a}+\mathbf{b}$};
+
+  % formula only — no prose prefix
+  \node[font=\sffamily\small, text=mdInk] at (2.3,-1.05)
+    {$\vec{AB} + \vec{BC} = \vec{AC}$};
+\end{tikzpicture}
+\end{document}

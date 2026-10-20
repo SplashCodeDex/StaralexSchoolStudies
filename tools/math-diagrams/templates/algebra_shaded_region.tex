@@ -1,0 +1,26 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% algebra_shaded_region — Mock P2 Q6a
+% outer (5x+8) × (6x+2), inner unshaded (x+6) × 5x
+% Contract: no white boxes; length labels sit along the side they measure.
+% Check: (5x+8)(6x+2) − (x+6)(5x) = 30x²+58x+16 − 5x²−30x = 25x²+28x+16.
+\begin{document}
+\begin{tikzpicture}[md]
+  % outer shaded rectangle
+  \draw[md accent fill] (0,0) rectangle (5.8,3.6);
+  % inner unshaded rectangle
+  \draw[md shape] (1.3,0.8) rectangle (4.3,2.7);
+
+  % outer: width above, height at the right
+  \node[font=\sffamily\small, text=mdInk] at (2.9,3.88) {$(5x+8)$};
+  \node[font=\sffamily\small, text=mdInk] at (6.25,1.8) {$(6x+2)$};
+
+  % inner: width below the inner top edge, height on the inner right edge
+  \node[font=\sffamily\small, text=mdInk] at (2.8,2.42) {$(x+6)$};
+  \node[font=\sffamily\small, text=mdInk] at (4.55,1.75) {$5x$};
+
+  % equation (data)
+  \node[font=\sffamily\small, text=mdInk] at (2.9,-0.55)
+    {shaded area $= (5x+8)(6x+2) - (x+6)(5x)$};
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,25 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% scale_drawing_20m_10cm — drawing 10 cm ↔ actual 20 m
+% Contract: no white boxes; no prose qualifiers ("on diagram", "in real life");
+% measurements only — the formula carries the relationship.
+% Check: 10 cm : 20 m = 10 : 2000 = 1 : 200.
+\begin{document}
+\begin{tikzpicture}[md]
+  % diagram length
+  \draw[md thick] (0,0) -- (5,0);
+  \draw[md thin] (0,-0.15) -- (0,0.15);
+  \draw[md thin] (5,-0.15) -- (5,0.15);
+  \node[font=\sffamily\small, text=mdInk] at (2.5,0.32) {$10$ cm};
+
+  % actual length
+  \draw[md accent, thick] (0,-1.1) -- (5,-1.1);
+  \draw[md thin] (0,-1.25) -- (0,-0.95);
+  \draw[md thin] (5,-1.25) -- (5,-0.95);
+  \node[font=\sffamily\small, text=mdInk] at (2.5,-1.48) {$20$ m};
+
+  % scale formula (data)
+  \node[font=\sffamily\small, text=mdInk] at (2.5,-2.25)
+    {scale $= 10 \text{ cm} : 20 \text{ m} = 1 : 200$};
+\end{tikzpicture}
+\end{document}

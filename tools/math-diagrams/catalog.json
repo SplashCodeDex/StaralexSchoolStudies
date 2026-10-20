@@ -1,0 +1,389 @@
+{
+  "diagrams": [
+    {
+      "id": "number_line_x_gt_4",
+      "tex": "templates/number_line_x_gt_4.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_gt_4.png",
+      "caption": "Solution of x > 4 on a number line — open circle at 4, arrow to the right",
+      "lesson": "Grade9-Maths Lesson-01-Equations-And-Inequalities"
+    },
+    {
+      "id": "number_line_x_ge_minus_4_3",
+      "tex": "templates/number_line_x_ge_minus_4_3.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_ge_minus_4_3.png",
+      "caption": "Solution of 6 ≥ 2 − 3x on a number line — solid dot at −4/3, arrow to the right",
+      "lesson": "Grade9-Maths Lesson-01-Equations-And-Inequalities"
+    },
+    {
+      "id": "hexagon_angles_diagram",
+      "tex": "templates/hexagon_angles_diagram.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/hexagon_angles_diagram.png",
+      "caption": "Irregular hexagon with interior angles 120°, (5x−6)°, (4x+14)°, 7x°, (8x−8)°, 6x°",
+      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+    },
+    {
+      "id": "triangle_exterior_angle_diagram",
+      "tex": "templates/triangle_exterior_angle_diagram.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/triangle_exterior_angle_diagram.png",
+      "caption": "Triangle exterior angle theorem — exterior (3x−10)° equals sum of remote interiors 25° and (x+15)°",
+      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+    },
+    {
+      "id": "polygon_exterior_angle_concept",
+      "tex": "templates/polygon_exterior_angle_concept.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_exterior_angle_concept.png",
+      "caption": "Exterior angle of a polygon formed by extending one side; interior + exterior = 180°",
+      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+    },
+    {
+      "id": "polygon_triangulation_proof",
+      "tex": "templates/polygon_triangulation_proof.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_triangulation_proof.png",
+      "caption": "Triangulation from one vertex: (n−3) diagonals create (n−2) triangles",
+      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+    },
+    {
+      "id": "congruent_triangles_schema",
+      "tex": "templates/congruent_triangles_schema.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/congruent_triangles_schema.png",
+      "caption": "Congruent triangles △ABC ≅ △DEF with equal corresponding sides and angles",
+      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+    },
+    {
+      "id": "similar_triangles_schema",
+      "tex": "templates/similar_triangles_schema.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similar_triangles_schema.png",
+      "caption": "Similar triangles via parallel intercept — △PST ∼ △PQR with ST ∥ QR",
+      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+    },
+    {
+      "id": "similarity_compound_shape_diagram",
+      "tex": "templates/similarity_compound_shape_diagram.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similarity_compound_shape_diagram.png",
+      "caption": "Similar trapezoids PQRS and WXYZ with linear scale factor k = 1.5",
+      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+    },
+    {
+      "id": "parallel_lines_alternate_mon_pmo",
+      "tex": "templates/parallel_lines_alternate_mon_pmo.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_alternate_mon_pmo.png",
+      "caption": "Alternate angles in the Z-configuration — ∠PMO and ∠MON",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+    },
+    {
+      "id": "parallel_lines_find_mon_57_105",
+      "tex": "templates/parallel_lines_find_mon_57_105.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_find_mon_57_105.png",
+      "caption": "Find ∠MON from the given 57° and 105°",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+    },
+    {
+      "id": "isosceles_triangle_xyz_42",
+      "tex": "templates/isosceles_triangle_xyz_42.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/isosceles_triangle_xyz_42.png",
+      "caption": "Isosceles △XYZ with XY=YZ and vertex angle 42°",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+    },
+    {
+      "id": "right_triangle_qpr_6_8",
+      "tex": "templates/right_triangle_qpr_6_8.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/right_triangle_qpr_6_8.png",
+      "caption": "Right triangle QPR with QR=6 cm, PR=8 cm, θ at Q",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+    },
+    {
+      "id": "venn_2set",
+      "tex": "templates/venn_2set.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_2set.png",
+      "caption": "Two-set Venn diagram in universal set U",
+      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+    },
+    {
+      "id": "venn_3set",
+      "tex": "templates/venn_3set.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_3set.png",
+      "caption": "Three-set Venn diagram (fill from the centre outwards)",
+      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+    },
+    {
+      "id": "number_system_hierarchy",
+      "tex": "templates/number_system_hierarchy.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/number_system_hierarchy.png",
+      "caption": "Real number system hierarchy N ⊂ W ⊂ Z ⊂ Q ⊂ R",
+      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+    },
+    {
+      "id": "place_value_chart",
+      "tex": "templates/place_value_chart.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/diagrams/place_value_chart.png",
+      "caption": "Place-value chart for a large number",
+      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form"
+    },
+    {
+      "id": "circle_radius_diameter",
+      "tex": "templates/circle_radius_diameter.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/circle_radius_diameter.png",
+      "caption": "Circle with centre O, radius r and diameter d",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+    },
+    {
+      "id": "semicircle_r7",
+      "tex": "templates/semicircle_r7.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/semicircle_r7.png",
+      "caption": "Semicircle with radius 7 cm",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+    },
+    {
+      "id": "scale_drawing_20m_10cm",
+      "tex": "templates/scale_drawing_20m_10cm.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/scale_drawing_20m_10cm.png",
+      "caption": "Scale drawing: 20 m hall drawn as 10 cm",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+    },
+    {
+      "id": "vector_position_op",
+      "tex": "templates/vector_position_op.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_position_op.png",
+      "caption": "Position vector OP of P(4,3)",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+    },
+    {
+      "id": "vector_triangle_law",
+      "tex": "templates/vector_triangle_law.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_triangle_law.png",
+      "caption": "Triangle law of vector addition",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+    },
+    {
+      "id": "vector_parallelogram_law",
+      "tex": "templates/vector_parallelogram_law.tex",
+      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_parallelogram_law.png",
+      "caption": "Parallelogram law of vector addition",
+      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+    },
+    {
+      "id": "linear_graph_gradient",
+      "tex": "templates/linear_graph_gradient.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient/diagrams/linear_graph_gradient.png",
+      "caption": "Gradient as rise/run on Cartesian axes",
+      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient"
+    },
+    {
+      "id": "algebra_shaded_region",
+      "tex": "templates/algebra_shaded_region.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_shaded_region.png",
+      "caption": "Shaded region between outer and inner rectangles",
+      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
+    },
+    {
+      "id": "algebra_length_from_diagram",
+      "tex": "templates/algebra_length_from_diagram.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_length_from_diagram.png",
+      "caption": "Rectangle length 9.7 split into 2.1 + x + 3.4",
+      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
+    },
+    {
+      "id": "number_line_double_inequality_1_5",
+      "tex": "templates/number_line_double_inequality_1_5.tex",
+      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_double_inequality_1_5.png",
+      "caption": "Solution of 1 < x ≤ 5 on a number line",
+      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities"
+    },
+    {
+      "id": "pie_chart_salary",
+      "tex": "templates/pie_chart_salary.tex",
+      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/pie_chart_salary.png",
+      "caption": "Pie chart of monthly salary spending",
+      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
+    },
+    {
+      "id": "stem_and_leaf_marks",
+      "tex": "templates/stem_and_leaf_marks.tex",
+      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/stem_and_leaf_marks.png",
+      "caption": "Stem-and-leaf plot of examination marks",
+      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
+    },
+    {
+      "id": "probability_tree_two_stage",
+      "tex": "templates/probability_tree_two_stage.tex",
+      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-2-Chance-And-Probability/Lesson-01-Probability/diagrams/probability_tree_two_stage.png",
+      "caption": "Two-stage probability tree (without replacement)",
+      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-2-Chance-And-Probability/Lesson-01-Probability"
+    },
+    {
+      "id": "bece_number_line_x_le_minus_3",
+      "tex": "templates/bece_number_line_x_le_minus_3.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_01_number_line_inequality.png",
+      "caption": "Number line inequality x <= -3 with solid dot and leftward arrow",
+      "lesson": "BECE Question Bank (Q_ad9e083ec027, B9.2.3.1.2)"
+    },
+    {
+      "id": "bece_parallel_lines_transversal_lm_pq",
+      "tex": "templates/bece_parallel_lines_transversal_lm_pq.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_02_parallel_lines_transversal.png",
+      "caption": "Parallel lines LM and PQ with transversal and interior angles",
+      "lesson": "BECE Question Bank (Q_6455776a3ae2, B8.3.1.1.2)"
+    },
+    {
+      "id": "bece_right_triangle_elevation_62deg",
+      "tex": "templates/bece_right_triangle_elevation_62deg.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_03_right_triangle_elevation.png",
+      "caption": "Right triangle GKM with angle of elevation 62 degrees",
+      "lesson": "BECE Question Bank (Q_89f417f7c231, B9.3.1.2.1)"
+    },
+    {
+      "id": "bece_venn_two_sets_universal",
+      "tex": "templates/bece_venn_two_sets_universal.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_04_venn_two_sets.png",
+      "caption": "Two-set Venn diagram with universal boundary rectangle",
+      "lesson": "BECE Question Bank (Q_a0c32b50bb3b, B7.1.1.1.2)"
+    },
+    {
+      "id": "bece_angle_bisector_construction",
+      "tex": "templates/bece_angle_bisector_construction.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_05_angle_bisector_construction.png",
+      "caption": "Compass and straightedge angle bisector construction with arc cuts",
+      "lesson": "BECE Question Bank (Q_a79f64bf5fe5, B8.3.1.2.1)"
+    },
+    {
+      "id": "bece_bearing_three_figure_060",
+      "tex": "templates/bece_bearing_three_figure_060.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_06_bearing_three_figure.png",
+      "caption": "Three-figure compass bearing of 060 degrees with cardinal axes",
+      "lesson": "BECE Question Bank (Q_2077e69c5e53, B9.3.2.1.1)"
+    },
+    {
+      "id": "bece_similar_triangles_enlargement_k3",
+      "tex": "templates/bece_similar_triangles_enlargement_k3.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_07_similar_triangles_enlargement.png",
+      "caption": "Similar right triangles with scale factor enlargement k=3",
+      "lesson": "BECE Question Bank (Q_3a5cb48ef668, B9.3.1.1.2)"
+    },
+    {
+      "id": "bece_3d_cuboid_dimensions",
+      "tex": "templates/bece_3d_cuboid_dimensions.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_08_3d_cuboid_dimensions.png",
+      "caption": "3D cuboid in oblique perspective with dimension callouts",
+      "lesson": "BECE Question Bank (Q_2ee6f8ef1a7a, B7.3.1.1.1)"
+    },
+    {
+      "id": "bece_net_square_pyramid",
+      "tex": "templates/bece_net_square_pyramid.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_09_net_square_pyramid.png",
+      "caption": "2D net of a square pyramid with 4 triangular faces",
+      "lesson": "BECE Question Bank (Q_b78f6735c05d, B8.3.1.1.1)"
+    },
+    {
+      "id": "bece_running_track_mensuration",
+      "tex": "templates/bece_running_track_mensuration.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_10_running_track_mensuration.png",
+      "caption": "Composite running track with rectangle and two semicircles",
+      "lesson": "BECE Question Bank (Q_3e6398d7ae5c, B9.3.1.1.1)"
+    },
+    {
+      "id": "bece_polygon_interior_angles_pentagon",
+      "tex": "templates/bece_polygon_interior_angles_pentagon.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_11_polygon_interior_angles.png",
+      "caption": "Irregular convex pentagon with algebraic interior angles",
+      "lesson": "BECE Question Bank (Q_ef6f03027b50, B8.3.1.1.3)"
+    },
+    {
+      "id": "bece_trapezium_area_composite",
+      "tex": "templates/bece_trapezium_area_composite.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_12_trapezium_area_composite.png",
+      "caption": "Right trapezium composite area decomposition into rectangle and triangle",
+      "lesson": "BECE Question Bank (Q_e851d7b3ebec, B8.3.1.1.1)"
+    },
+    {
+      "id": "bece_pie_chart_angles",
+      "tex": "templates/bece_pie_chart_angles.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_13_pie_chart_angles.png",
+      "caption": "Pie chart showing categorical sector angle subdivisions",
+      "lesson": "BECE Question Bank (Q_31a980753b81, B8.4.1.1.1)"
+    },
+    {
+      "id": "bece_straight_line_angles",
+      "tex": "templates/bece_straight_line_angles.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_14_straight_line_angles.png",
+      "caption": "Supplementary angles on a straight line summing to 180 degrees",
+      "lesson": "BECE Question Bank (Q_fcb665dfb12e, B7.3.1.1.2)"
+    },
+    {
+      "id": "bece_circle_sector_chord",
+      "tex": "templates/bece_circle_sector_chord.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_15_circle_sector_chord.png",
+      "caption": "Circle sector with chord and subtended central angle",
+      "lesson": "BECE Question Bank (Q_a6a7a7ba5056, B9.3.1.1.1)"
+    },
+    {
+      "id": "bece_isosceles_exterior_angle_108",
+      "tex": "templates/bece_isosceles_exterior_angle_108.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_16_isosceles_exterior_angle.png",
+      "caption": "Isosceles triangle with exterior angle of 108 degrees",
+      "lesson": "BECE Question Bank (Q_7f9999fc990d, B8.3.1.1.2)"
+    },
+    {
+      "id": "bece_linear_mapping_arrows",
+      "tex": "templates/bece_linear_mapping_arrows.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_17_linear_mapping_arrows.png",
+      "caption": "Linear mapping relation arrow diagram from domain to codomain",
+      "lesson": "BECE Question Bank (Q_89c314b13a7c, B7.2.1.1.1)"
+    },
+    {
+      "id": "bece_kite_perimeter",
+      "tex": "templates/bece_kite_perimeter.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_18_kite_perimeter.png",
+      "caption": "Geometric kite with sloped edge dimension callouts",
+      "lesson": "BECE Question Bank (Q_8f7b7cf7a8a1, B7.3.1.1.1)"
+    },
+    {
+      "id": "bece_bar_chart_frequency_marks",
+      "tex": "templates/bece_bar_chart_frequency_marks.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_19_bar_chart_frequency.png",
+      "caption": "Frequency distribution bar chart on millimeter graph paper grid",
+      "lesson": "BECE Question Bank (Q_6460e408ec21, B7.4.1.1.1)"
+    },
+    {
+      "id": "bece_construction_30_degrees",
+      "tex": "templates/bece_construction_30_degrees.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_20_construction_30_degrees.png",
+      "caption": "Compass and straightedge construction of a 30-degree angle",
+      "lesson": "BECE Question Bank (Q_3d392d0a9561, B8.3.1.2.1)"
+    },
+    {
+      "id": "bece_circle_sector_hatching_60deg",
+      "tex": "templates/bece_circle_sector_hatching_60deg.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_21_circle_sector_hatching.png",
+      "caption": "Circle minor sector with 60-degree angle and horizontal hatching",
+      "lesson": "BECE Question Bank (Q_d56a32870df3, B9.3.1.1.1)"
+    },
+    {
+      "id": "bece_triangle_congruent_segments",
+      "tex": "templates/bece_triangle_congruent_segments.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_22_triangle_congruent_segments.png",
+      "caption": "Composite triangle with congruent segments and unknown angle x",
+      "lesson": "BECE Question Bank (Q_6d000f0ad440, B8.3.1.1.2)"
+    },
+    {
+      "id": "bece_parallel_reflex_angle_y",
+      "tex": "templates/bece_parallel_reflex_angle_y.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_23_parallel_reflex_angle.png",
+      "caption": "Parallel lines with zigzag transversal and reflex angle y",
+      "lesson": "BECE Question Bank (Q_4d06681dd516, B8.3.1.1.2)"
+    },
+    {
+      "id": "bece_pythagoras_triangle_5_12_13",
+      "tex": "templates/bece_pythagoras_triangle_5_12_13.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_24_pythagoras_triangle.png",
+      "caption": "Right-angled triangle Pythagoras theorem 5-12-13 proportions",
+      "lesson": "BECE Question Bank (Q_cefd67e8a9c8, B9.3.1.2.1)"
+    },
+    {
+      "id": "bece_venn_circle_triangle_union",
+      "tex": "templates/bece_venn_circle_triangle_union.tex",
+      "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_25_venn_circle_triangle.png",
+      "caption": "Non-standard Venn diagram with intersecting circle and triangle sets",
+      "lesson": "BECE Question Bank (Q_c1c27647f002, B7.1.1.1.2)"
+    }
+  ]
+}

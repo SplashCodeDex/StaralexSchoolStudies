@@ -1,0 +1,38 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% isosceles_triangle_xyz_42 — XY = YZ, ∠XYZ = 42°, base angles = x
+% Contract: no white boxes; no prose captions (formulas only).
+% CRITICAL: TikZ `angle=A--B--C` draws counterclockwise from BA to BC.
+%   At X, `angle=Y--X--Z` runs 50° → 0° the LONG way (310° reflex).
+%   Use `angle=Z--X--Y` so it sweeps the small interior angle.
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (Y) at (0,2.6);
+  \coordinate (X) at (-2.2,0);
+  \coordinate (Z) at (2.2,0);
+  \draw[md shape] (X) -- (Y) -- (Z) -- cycle;
+
+  % equal-side ticks on XY and YZ
+  \draw[md thin] ($(X)!0.5!(Y)+(0.14,0.10)$) -- ($(X)!0.5!(Y)+(-0.10,0.14)$);
+  \draw[md thin] ($(Y)!0.5!(Z)+(0.10,0.14)$) -- ($(Y)!0.5!(Z)+(-0.14,0.10)$);
+
+  % vertices — plain, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (Y) [above] {$Y$};
+  \node[font=\sffamily\small, text=mdInk] at (X) [below left] {$X$};
+  \node[font=\sffamily\small, text=mdInk] at (Z) [below right] {$Z$};
+
+  % angles — ray order chosen so the SMALL interior angle is drawn
+  \pic[md angle arc, angle radius=0.55cm] {angle=X--Y--Z};
+  \pic[md angle arc, angle radius=0.55cm] {angle=Z--X--Y};
+  \pic[md angle arc, angle radius=0.55cm] {angle=Y--Z--X};
+
+  % angle values — inside each angle, plain text
+  \node[font=\sffamily\small, text=mdInk] at (0,1.85) {$42^\circ$};
+  \node[font=\sffamily\small, text=mdInk] at (-1.45,0.55) {$x$};
+  \node[font=\sffamily\small, text=mdInk] at (1.45,0.55) {$x$};
+
+  % formulas only — no prose
+  \node[font=\sffamily\small, text=mdInk] at (0,-1.15)
+    {$XY = YZ \qquad 2x + 42^\circ = 180^\circ$};
+\end{tikzpicture}
+\end{document}

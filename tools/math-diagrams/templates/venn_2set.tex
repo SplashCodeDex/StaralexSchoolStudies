@@ -1,0 +1,32 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% venn_2set — two-set Venn diagram
+% Contract: circles MUST overlap; region labels only; no prose captions;
+% no white sticker boxes.
+% Geometry: centres ±0.85, r=1.35 → lens width 0.95 (fits "A ∩ B").
+% Set names sit ABOVE the circles (outside), not inside.
+\begin{document}
+\begin{tikzpicture}[md]
+  % Universal set rectangle
+  \draw[md thin, draw=mdInk] (-3.0,-1.85) rectangle (3.2,2.35);
+  \node[anchor=north east, font=\sffamily\small, text=mdMuted] at (3.2,2.35) {$U$};
+
+  % Two overlapping circles (soft translucent fills)
+  \fill[mdAccentSoft, opacity=0.9] (-0.85,0.15) circle (1.35);
+  \fill[mdRed, opacity=0.15] (0.85,0.15) circle (1.35);
+  \draw[md, draw=mdAccent, line width=1pt] (-0.85,0.15) circle (1.35);
+  \draw[md, draw=mdRed, line width=1pt] (0.85,0.15) circle (1.35);
+
+  % Set names — outside, above each circle
+  \node[font=\sffamily\bfseries\small, text=mdAccent] at (-1.75,1.85) {$A$};
+  \node[font=\sffamily\bfseries\small, text=mdRed] at (1.75,1.85) {$B$};
+
+  % Region labels — plain, centred inside each region
+  \node[font=\sffamily\small, text=mdInk] at (-1.55,0.15) {$A$ only};
+  \node[font=\sffamily\footnotesize, text=mdInk] at (0,0.15) {$A \cap B$};
+  \node[font=\sffamily\small, text=mdInk] at (1.55,0.15) {$B$ only};
+
+  % Complement label — mathematical, no prose
+  \node[font=\sffamily\footnotesize, text=mdMuted] at (0,-1.5) {$(A \cup B)'$};
+\end{tikzpicture}
+\end{document}

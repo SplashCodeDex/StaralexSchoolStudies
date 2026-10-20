@@ -1,0 +1,45 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% polygon_triangulation_proof — hexagon triangulated from vertex A
+% Contract: no white boxes; no prose captions (keep formula only);
+% triangle labels must sit in their own triangle, clear of the diagonals.
+% A→C has slope 1.9/5.0 = 0.38 — T1 must sit well above that line.
+\begin{document}
+\begin{tikzpicture}[md]
+  \coordinate (A) at (0,0);
+  \coordinate (B) at (3.4,0.15);
+  \coordinate (C) at (5.0,1.9);
+  \coordinate (D) at (4.0,4.0);
+  \coordinate (E) at (1.5,4.4);
+  \coordinate (F) at (-0.8,2.4);
+
+  \draw[md shape] (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- cycle;
+  \draw[md accent, dashed] (A) -- (C);
+  \draw[md accent, dashed] (A) -- (D);
+  \draw[md accent, dashed] (A) -- (E);
+
+  \node[md point] at (A) {};
+
+  % vertices — plain text, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (A) [below left] {$A$};
+  \node[font=\sffamily\small, text=mdInk] at (B) [below right] {$B$};
+  \node[font=\sffamily\small, text=mdInk] at (C) [right] {$C$};
+  \node[font=\sffamily\small, text=mdInk] at (D) [above right] {$D$};
+  \node[font=\sffamily\small, text=mdInk] at (E) [above left] {$E$};
+  \node[font=\sffamily\small, text=mdInk] at (F) [left] {$F$};
+
+  % triangle labels — inside each triangle, clear of the dashed diagonals
+  % T1 = A-B-C; A→C slope 0.38, at x=1.6 the line is y=0.61 → put T1 at y=1.10
+  \node[font=\sffamily\small, text=mdAccent] at (1.6,1.10) {$T_1$};
+  % T2 = A-C-D; between A→C (y=0.38x) and A→D (y=x)
+  \node[font=\sffamily\small, text=mdAccent] at (3.0,1.85) {$T_2$};
+  % T3 = A-D-E; above A→D (y=x), left of D→E
+  \node[font=\sffamily\small, text=mdAccent] at (2.55,3.35) {$T_3$};
+  % T4 = A-E-F; left of A→E (steep)
+  \node[font=\sffamily\small, text=mdAccent] at (0.75,2.95) {$T_4$};
+
+  % formula only — no prose prefix
+  \node[font=\sffamily\small, text=mdInk] at (2.2,-1.05)
+    {$d = n - 3 \quad t = n - 2$};
+\end{tikzpicture}
+\end{document}

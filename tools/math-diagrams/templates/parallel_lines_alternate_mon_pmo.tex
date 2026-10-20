@@ -1,0 +1,50 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% parallel_lines_alternate_mon_pmo — Z-configuration, ∠PMO and ∠MON alternate
+% (Mock P1 Q30).  Contract: no white boxes; angle labels inside their wedge and
+% clear of the arms and the vertex; no prose captions — formula only.
+\begin{document}
+\begin{tikzpicture}[md]
+  % parallel lines
+  \draw[md thick] (-2.2,2.2) -- (3.6,2.2);
+  \draw[md thick] (-2.2,0) -- (3.6,0);
+  \node[font=\sffamily\small, text=mdInk] at (3.85,2.2) {$p$};
+  \node[font=\sffamily\small, text=mdInk] at (3.85,0) {$q$};
+
+  % parallel marks
+  \draw[md thin] (-1.6,2.32) -- (-1.2,2.32);
+  \draw[md thin] (-1.6,0.12) -- (-1.2,0.12);
+
+  \coordinate (P) at (-1.8,2.2);
+  \coordinate (M) at (0.2,2.2);
+  \coordinate (O) at (-0.8,0);
+  \coordinate (N) at (1.4,0);
+
+  % transversal + Z highlight
+  \draw[md accent, thick] (M) -- (O);
+  \draw[md highlight, thick] (P) -- (M) -- (O) -- (N);
+
+  \node[md point] at (M) {};
+  \node[md point] at (O) {};
+
+  % vertices — plain, no boxes
+  \node[font=\sffamily\small, text=mdInk] at (M) [above right=1pt] {$M$};
+  \node[font=\sffamily\small, text=mdInk] at (O) [below left=1pt] {$O$};
+  \node[font=\sffamily\small, text=mdInk] at (P) [above left=1pt] {$P$};
+  \node[font=\sffamily\small, text=mdInk] at (N) [below right=1pt] {$N$};
+
+  % angle arcs
+  \pic[md angle arc, angle radius=0.55cm] {angle=P--M--O};
+  \pic[md angle arc, angle radius=0.55cm] {angle=M--O--N};
+
+  % angle names — placed INSIDE each wedge, off the arms and vertex
+  % ∠PMO wedge opens down-left from M; bisector ≈ 209°, radius 1.35
+  \node[font=\sffamily\small, text=mdInk] at (-1.00,1.52) {$\angle PMO$};
+  % ∠MON wedge opens up-right from O; label at (0.35, 0.85) is right of O-M and above O-N
+  \node[font=\sffamily\small, text=mdInk] at (0.35,0.85) {$\angle MON$};
+
+  % formula only — no prose prefix
+  \node[font=\sffamily\small, text=mdInk] at (0.8,-1.15)
+    {$\angle PMO = \angle MON$};
+\end{tikzpicture}
+\end{document}

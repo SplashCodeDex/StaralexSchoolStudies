@@ -1,0 +1,44 @@
+\documentclass[tikz,border=8pt]{standalone}
+\usepackage{mathdiagrams}
+% probability_tree_two_stage — pens: G 2/10, R 8/10, without replacement
+% Contract: no white boxes; every branch label OFFSET off its stroke AND off
+% neighbouring labels.  Probabilities: 2/10+8/10=1; 1/9+8/9=1; 2/9+7/9=1;
+% GG 2/90 + GR 16/90 + RG 16/90 + RR 56/90 = 90/90 = 1.
+\begin{document}
+\begin{tikzpicture}[md]
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (-0.15,0.15) {Start};
+
+  % ================= stage 1 =================
+  % G branch: (0.15,-0.3) → (2.7,-1.0)
+  \draw[md arrow, thick] (0.15,-0.3) -- (2.7,-1.0);
+  \node[font=\sffamily\small, text=mdInk] at (1.3,-0.30) {$G,\ \tfrac{2}{10}$};
+  % R branch: (0.15,-0.3) → (2.7,-3.4)
+  \draw[md arrow, thick] (0.15,-0.3) -- (2.7,-3.4);
+  \node[font=\sffamily\small, text=mdInk] at (1.3,-1.35) {$R,\ \tfrac{8}{10}$};
+
+  \node[md point] at (2.7,-1.0) {};
+  \node[md point] at (2.7,-3.4) {};
+
+  % ================= stage 2 from G (2.7,-1.0) =================
+  % upper → (5.7,-0.35); slope +0.217; label above at y=-0.35
+  \draw[md arrow, thick] (2.85,-1.0) -- (5.7,-0.35);
+  \node[font=\sffamily\small, text=mdInk] at (4.15,-0.35) {$G,\ \tfrac{1}{9}$};
+  % lower → (5.7,-1.75); slope −0.25; label below at y=-1.78
+  \draw[md arrow, thick] (2.85,-1.0) -- (5.7,-1.75);
+  \node[font=\sffamily\small, text=mdInk] at (4.15,-1.80) {$R,\ \tfrac{8}{9}$};
+
+  % ================= stage 2 from R (2.7,-3.4) =================
+  % upper → (5.7,-2.7); slope +0.233; label above at y=-2.68
+  \draw[md arrow, thick] (2.85,-3.4) -- (5.7,-2.7);
+  \node[font=\sffamily\small, text=mdInk] at (4.15,-2.68) {$G,\ \tfrac{2}{9}$};
+  % lower → (5.7,-4.1); slope −0.233; label below at y=-4.14
+  \draw[md arrow, thick] (2.85,-3.4) -- (5.7,-4.1);
+  \node[font=\sffamily\small, text=mdInk] at (4.15,-4.16) {$R,\ \tfrac{7}{9}$};
+
+  % ================= outcomes =================
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (7.7,-0.35) {$GG = \tfrac{2}{90}$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (7.7,-1.80) {$GR = \tfrac{16}{90}$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (7.7,-2.68) {$RG = \tfrac{16}{90}$};
+  \node[font=\sffamily\bfseries\small, text=mdInk] at (7.7,-4.16) {$RR = \tfrac{56}{90}$};
+\end{tikzpicture}
+\end{document}
