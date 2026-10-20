@@ -193,7 +193,7 @@ def build_pdf():
         body_style
     ))
     
-    cong_img_path = os.path.join(base_dir, "diagrams", "congruent_triangles_schema.jpg")
+    cong_img_path = os.path.join(base_dir, "diagrams", "congruent_triangles_schema.png")
     if os.path.exists(cong_img_path):
         img_tbl = Table([[
             Image(cong_img_path, width=160, height=160),
@@ -231,7 +231,7 @@ def build_pdf():
         body_style
     ))
     
-    sim_img_path = os.path.join(base_dir, "diagrams", "similar_triangles_schema.jpg")
+    sim_img_path = os.path.join(base_dir, "diagrams", "similar_triangles_schema.png")
     if os.path.exists(sim_img_path):
         sim_tbl = Table([[
             Image(sim_img_path, width=160, height=160),
@@ -277,7 +277,7 @@ def build_pdf():
     story.append(Spacer(1, 6))
 
     # Exemplar 3: Compound Trapezoid
-    comp_img_path = os.path.join(base_dir, "diagrams", "similarity_compound_shape_diagram.jpg")
+    comp_img_path = os.path.join(base_dir, "diagrams", "similarity_compound_shape_diagram.png")
     comp_content = [
         Paragraph("<b>Exemplar 2: Compound Similarity in Trapezoids (PDF Page 35)</b>", h2_style),
         Paragraph("<b>Problem:</b> Trapezoids PQRS and WXYZ are mathematically similar with bases c = 8 cm, WX = 12 cm, ZY = 20 cm, and slant side WZ = 15 cm. Angles are 70° and 110°. Find scale factor k, and lengths b and a in PQRS.", body_style)

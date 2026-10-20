@@ -252,7 +252,7 @@ def build_pdf():
         body_style
     ))
     
-    proof_img_path = os.path.join(base_dir, "diagrams", "polygon_triangulation_proof.jpg")
+    proof_img_path = os.path.join(base_dir, "diagrams", "polygon_triangulation_proof.png")
     if os.path.exists(proof_img_path):
         img_table = Table([[
             Image(proof_img_path, width=170, height=170),
@@ -290,7 +290,7 @@ def build_pdf():
         body_style
     ))
     
-    ext_img_path = os.path.join(base_dir, "diagrams", "polygon_exterior_angle_concept.jpg")
+    ext_img_path = os.path.join(base_dir, "diagrams", "polygon_exterior_angle_concept.png")
     if os.path.exists(ext_img_path):
         ext_table = Table([[
             Image(ext_img_path, width=160, height=160),
@@ -325,7 +325,7 @@ def build_pdf():
     story.append(Paragraph("4. Step-by-Step Curriculum Exemplars (from NaCCA Syllabus)", h1_style))
     
     # Exemplar 1: Hexagon Problem
-    hex_img_path = os.path.join(base_dir, "diagrams", "hexagon_angles_diagram.jpg")
+    hex_img_path = os.path.join(base_dir, "diagrams", "hexagon_angles_diagram.png")
     hex_content = [
         Paragraph("<b>Exemplar 1: Irregular Hexagon Algebraic Angle Problem (PDF Page 34)</b>", h2_style),
         Paragraph("<b>Problem:</b> An irregular convex hexagon has interior angles: 120°, (5x - 6)°, (4x + 14)°, 7x°, (8x - 8)°, and 6x°. Find x and all six angles.", body_style)
@@ -368,7 +368,7 @@ def build_pdf():
     story.append(Spacer(1, 8))
 
     # Exemplar 2: Triangle Exterior Angle
-    tri_img_path = os.path.join(base_dir, "diagrams", "triangle_exterior_angle_diagram.jpg")
+    tri_img_path = os.path.join(base_dir, "diagrams", "triangle_exterior_angle_diagram.png")
     tri_content = [
         Paragraph("<b>Exemplar 2: Triangle Remote Exterior Angle Theorem (PDF Page 34)</b>", h2_style),
         Paragraph("<b>Problem:</b> In triangle ABC, angle A = 25°, angle B = (x + 15)°, and remote exterior angle ACD = (3x - 10)°. Solve for x and all angles.", body_style)

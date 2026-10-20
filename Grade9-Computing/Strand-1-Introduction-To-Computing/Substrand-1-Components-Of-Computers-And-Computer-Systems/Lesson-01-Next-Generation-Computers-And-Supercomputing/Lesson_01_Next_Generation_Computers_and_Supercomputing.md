@@ -51,7 +51,7 @@ Before examining next-generation computers, it is essential to understand how co
 +------------------------------------+------------------------------------+
 ```
 
-![Comparison of Classical Bit and Quantum Bit](diagrams/classical_vs_quantum_bit.jpg)
+![Comparison of Classical Bit and Quantum Bit](diagrams/classical_vs_quantum_bit.png)
 
 ---
 
@@ -126,7 +126,7 @@ Before examining next-generation computers, it is essential to understand how co
 +-----------------------------------------+-----------------------------------------+
 ```
 
-![Comparing Computing Paradigms](diagrams/quantum_supremacy_comparison.jpg)
+![Comparing Computing Paradigms](diagrams/quantum_supremacy_comparison.png)
 
 ---
 

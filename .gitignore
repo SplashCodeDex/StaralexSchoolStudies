@@ -12,5 +12,11 @@ __pycache__/
 # Scratch / temp assets
 /_diag_shade.png
 
+# Strict diagram asset policy: figures are .tex + 300 DPI .png ONLY
+# (no .svg, .jpg, .jpeg, or retained .pdf diagram assets)
+*.svg
+*.jpg
+*.jpeg
+
 # Lock files
 .mimocode/.cron-lock
