@@ -103,8 +103,8 @@ w:/StaralexSchoolStudies/Grade9-Maths/
     - Addition, subtraction, multiplication, and long division with terminating and recurring decimals.
     - Applying decimal calculations to real-life multi-tier transactions and inventory scenarios.
     - Precision control: truncating and rounding final results to given significant figures and decimal places.
-  - Status: [ ] Not Started
-  - Exercise Quota: 8 exercises x 5 questions + worked solutions.
+  - Status: [x] Lesson 3 Delivered (Decimals & Multi-Step Word Problems — 15 worked examples incl. Mock P1 Q1/Q14/Q32, P2 Q2(a)(ii), Q3(a), Q5(b); 5 sections × 5 questions + full worked solutions per user quota override; 12% spiral review. Bank solutions cached: SOL_0fe17603e13c, SOL_e22cac22c197, SOL_2c06206bf3f0, SOL_a339d7c5013a, SOL_7620c52bc225)
+  - Exercise Quota: override in force for this round — 5 exercises x 5 questions + worked solutions.
 
 - **Days 6 - 7: Consolidation, Comprehensive Review, and Deep Practice for Week 1**
   - Synthesised problem sets across Sub-strands 1 and 2 (Part 1-3).

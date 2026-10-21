@@ -1,0 +1,46 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{arrows.meta}
+
+% Redrawn from authentic scan: Mathematics_2022_Maths-2013_3dbdf9b1_q37_rId51.png
+% BECE 2013 Paper 1 Q37 — two similar trapezia; similarity ratio 5:3.
+% ABCD: AD = 6, BC = 18, AB = 9, DC = 12  ->  apex height h = sqrt(81 - (81/24)^2) = 8.343
+% PQRS = ABCD x 5/3 (PQRS drawn to the same paper scale): PS = 10, PQ = 15, SR = 20, QR = b.
+
+\begin{document}
+\begin{tikzpicture}[line width=0.9pt]
+
+    % ---------- ABCD (smaller trapezium) ----------
+    \coordinate (A) at (1.4175, 3.504);
+    \coordinate (B) at (0, 0);
+    \coordinate (C) at (7.56, 0);
+    \coordinate (D) at (3.9375, 3.504);
+    \draw[thick] (A) -- (D) -- (C) -- (B) -- cycle;
+
+    \node[font=\bfseries\large] at (1.16, 3.88)  {A};
+    \node[font=\bfseries\large] at (4.26, 3.88)  {D};
+    \node[font=\bfseries\large] at (-0.35, -0.32) {B};
+    \node[font=\bfseries\large] at (7.92, -0.32) {C};
+    \node at (2.678, 3.90)  {\small 6 cm};
+    \node at (0.45, 1.75)   {\small 9 cm};
+    \node at (6.85, 1.75)   {\small 12 cm};
+    \node at (3.78, -0.42)  {\small 18 cm};
+
+    % ---------- PQRS (larger trapezium, scale 5/3) ----------
+    \coordinate (P) at (2.3625, -1.85);
+    \coordinate (Q) at (0, -7.69);
+    \coordinate (R) at (12.6, -7.69);
+    \coordinate (S) at (6.5625, -1.85);
+    \draw[thick] (P) -- (S) -- (R) -- (Q) -- cycle;
+
+    \node[font=\bfseries\large] at (2.02, -1.52)  {P};
+    \node[font=\bfseries\large] at (6.90, -1.52)  {S};
+    \node[font=\bfseries\large] at (-0.35, -8.05) {Q};
+    \node[font=\bfseries\large] at (12.95, -8.05) {R};
+    \node at (4.462, -1.50) {\small 10 cm};
+    \node at (0.72, -4.77)  {\small 15 cm};
+    \node at (10.70, -4.77) {\small 20 cm};
+    \node at (6.30, -8.20)  {\large$b$};
+
+\end{tikzpicture}
+\end{document}

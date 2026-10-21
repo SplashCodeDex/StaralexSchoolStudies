@@ -430,7 +430,7 @@ The following authentic questions have been retrieved from the central BECE Ques
 **Question:**
 If the two figures $ABCD$ and $PQRS$ are similar, find the value of $b$.
 
-![Similar Trapeziums Diagram](file:///w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/data/extracted_questions/images/Mathematics_2022_Maths-2013_3dbdf9b1_q37_rId51.png)
+![Similar Trapeziums Diagram](diagrams/similar_trapezia_abcd_pqrs.png)
 
 - **A.** 60 cm
 - **B.** 40 cm
@@ -459,7 +459,7 @@ If the two figures $ABCD$ and $PQRS$ are similar, find the value of $b$.
 **Question:**
 In the diagram below, $RS$ and $WV$ are parallel lines. The value of the angle marked $\alpha$ is:
 
-![Parallel Lines Cut by Transversal](file:///w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/data/extracted_questions/images/pdf_Mathematics_2022_BECE-MATHEMATICS-1990-2013_ee6bb659_p34_835.jpeg)
+![Parallel Lines Cut by Transversal](diagrams/parallel_lines_alpha_128.png)
 
 - **A.** 38°
 - **B.** 52°

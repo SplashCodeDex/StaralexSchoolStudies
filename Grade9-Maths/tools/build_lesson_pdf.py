@@ -53,7 +53,7 @@ TOFU_CHARS = {
 
 # Symbols we will use in body text and expect Cambria to have.
 SYMBOL_ALLOWLIST = set(
-    "×÷±−→←↔≤≥≠≈∞∅∈∉∪∩θαβγπΣ°′″"  # math
+    "×÷±−→←↔≤≥≠≈∞∅∈∉∪∩θαβγπΣ°′″∥"  # math
     "₦¢£€¥$"  # currency
     "▪●○◆■□"  # filled/hollow markers used deliberately
     "½⅓¼¾⅕⅙⅛⅔⅗¾⅚⅞"  # vulgar fractions
@@ -230,6 +230,11 @@ _LATEX_TO_UNI = [
     (r"\\mu", "μ"),
     (r"\\sigma", "σ"),
     (r"\\cdot", "·"),
+    (r"\\dfrac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),
+    (r"\\tfrac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),
+    (r"\\ldots", "..."),
+    (r"\\cdots", "..."),
+    (r"\\dots", "..."),
     (r"\\times", "×"),
     (r"\\;", " "),
     (r"\\,", " "),
@@ -246,6 +251,10 @@ _LATEX_TO_UNI = [
     (r"\\subset", "⊂"),
     (r"\\leq", "≤"),
     (r"\\geq", "≥"),
+    (r"\\parallel", "∥"),
+    (r"\^\{\\circ\}", "°"),
+    (r"\^\\circ", "°"),
+    (r"\\circ", "°"),
     (r"\\sqrt\{([^{}]*)\}", r"√(\1)"),
     (r"\\sqrt", "√"),
     (r"\\frac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),
@@ -303,19 +312,29 @@ def esc(t: str) -> str:
 
 
 def clean_inline(t: str, problems: list, where: str = "inline") -> str:
-    # 1) Extract inline math FIRST, before HTML escaping, as Unicode in a stash.
-    stash: list[str] = []
+    # 0) Protect inline code spans FIRST: their contents must never be touched
+    #    by LaTeX-stripping / subscript prettifiers (bank IDs like Q_f41... contain _).
+    cstash: list[str] = []
+
+    def _code(m: re.Match) -> str:
+        cstash.append(m.group(1))
+        return "@@C%d@@" % (len(cstash) - 1)
+
+    t = re.sub(r"`([^`]+)`", _code, t)
+
+    # 1) Extract inline math before HTML escaping, as Unicode in a separate stash.
+    mstash: list[str] = []
 
     def _imath(m: re.Match) -> str:
-        stash.append(latex_to_unicode(m.group(1)))
-        return "@@M%d@@" % (len(stash) - 1)
+        mstash.append(latex_to_unicode(m.group(1)))
+        return "@@M%d@@" % (len(mstash) - 1)
 
     t = re.sub(r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", _imath, t)
 
     # 2) HTML-escape the prose only
     t = t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
-    # 3) Strip leftover LaTeX in prose
+    # 3) Strip leftover LaTeX in prose — code-span placeholders are already safe
     for pat, repl in _LATEX_TO_UNI:
         t = re.sub(pat, repl, t)
     t = re.sub(r"\\([a-zA-Z]+)", r"\1", t)
@@ -325,10 +344,11 @@ def clean_inline(t: str, problems: list, where: str = "inline") -> str:
     # 4) Markdown emphasis
     t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
     t = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", t)
-    t = re.sub(r"`([^`]+)`", r'<font face="Mono">\1</font>', t)
 
-    # 5) Restore maths (already Unicode)
-    for i, s in enumerate(stash):
+    # 5) Restore code spans verbatim (escaped), then maths (already Unicode)
+    for i, s in enumerate(cstash):
+        t = t.replace("@@C%d@@" % i, '<font face="Mono">%s</font>' % esc(s))
+    for i, s in enumerate(mstash):
         safe = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         t = t.replace("@@M%d@@" % i, safe)
 
