@@ -353,7 +353,7 @@ A box holds $5x - 3$ sweets. 4 boxes hold $4(5x - 3) = 20x - 12$ sweets.
 1. $2n + 3$.  
 2. $2.5n$.  
 3. $4x$ and $8x$.  
-4. $x + 5 = 8$; $\frac{6 + 10}{2} = 8$ ✓.  
+4. $x + 5 = 8$; $\frac{6 + 10}{2} = 8$ — correct.  
 5. $\mathbf{88}$ km/h.
 
 ### Solutions to Exercise 8

@@ -384,6 +384,13 @@
       "out": "BECE_MOCK_PAPERS/data/diagrams/math_redrawn/diagram_25_venn_circle_triangle.png",
       "caption": "Non-standard Venn diagram with intersecting circle and triangle sets",
       "lesson": "BECE Question Bank (Q_c1c27647f002, B7.1.1.1.2)"
+    },
+    {
+      "id": "distributive_area_model",
+      "tex": "templates/distributive_area_model.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/diagrams/distributive_area_model.png",
+      "caption": "The distributive property as one rectangle 7 x (10 + 3) cut into 70 and 21",
+      "lesson": "Grade9-Maths Lesson-02-Number-Properties-And-Operational-Laws"
     }
   ]
 }

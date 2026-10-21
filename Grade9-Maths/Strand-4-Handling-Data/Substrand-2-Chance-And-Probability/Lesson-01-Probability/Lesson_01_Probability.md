@@ -304,7 +304,7 @@ $P(\text{red then blue}) = P(\text{blue then red})$ in this bag, but the working
 2. $\frac{6}{10} = \frac{3}{5}$.  
 3. $\frac{1}{4}$.  
 4. $6$.  
-5. 10th value 57, 11th value 58; median $= 57.5$ ✓.
+5. 10th value 57, 11th value 58; median $= 57.5$ (correct).
 
 ### Solutions to Exercise 8
 1. $1 - \left(\frac{5}{6}\right)^2 = \frac{11}{36}$.  

@@ -1,0 +1,27 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% distributive_area_model — Lesson 02 (Number Properties), section 5.2
+% Concrete case of a(b + c) = ab + ac: 7 x (10 + 3) split into 70 and 21.
+% Proportions honest: base 13 units -> 6.5 cm; split at 10 -> 5.0 cm; height 1.5 cm.
+\begin{document}
+\begin{tikzpicture}[md]
+  % outer rectangle = a x (b + c);  dashed cut = the b | c boundary
+  \draw[md shape] (0,0) rectangle (6.5,1.5);
+  \draw[md thin, dashed] (5.0,0) -- (5.0,1.5);
+
+  % area values inside each part
+  \node[font=\sffamily\small, text=mdInk] at (2.5,0.75) {$7 \times 10 = 70$};
+  \node[font=\sffamily\small, text=mdAccent] at (5.75,0.75) {$21$};
+
+  % height label (the shared factor 7)
+  \node[font=\sffamily\small, text=mdInk] at (-0.38,0.75) {$7$};
+
+  % base labels under each segment
+  \node[font=\sffamily\small, text=mdInk] at (2.5,-0.30) {$10$};
+  \node[font=\sffamily\small, text=mdInk] at (5.75,-0.30) {$3$};
+
+  % the property, stated with these numbers
+  \node[font=\sffamily\small, text=mdInk] at (3.25,-0.95)
+    {$7 \times (10 + 3) = 7 \times 10 + 7 \times 3 = 70 + 21 = 91$};
+\end{tikzpicture}
+\end{document}

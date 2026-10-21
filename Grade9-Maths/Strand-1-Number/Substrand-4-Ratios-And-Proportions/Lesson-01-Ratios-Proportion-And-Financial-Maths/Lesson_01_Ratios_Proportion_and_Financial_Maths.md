@@ -42,7 +42,7 @@ Share GH₵ 720 in the ratio 2 : 3.
 1. Total parts $= 2 + 3 = 5$.  
 2. One part $= 720 \div 5 = 144$.  
 3. Shares: $2 \times 144 = 288$; $3 \times 144 = 432$.  
-Check: $288 + 432 = 720$ ✓
+Check: $288 + 432 = 720$ — correct.
 
 ### 3.3 Ratio to fraction
 $2 : 3$ means $\frac{2}{5}$ and $\frac{3}{5}$ of the total.

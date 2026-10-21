@@ -208,7 +208,7 @@ Football only $= 22 - 9 = 13$.
 Hockey only $= 18 - 9 = 9$.  
 Both $= 9$.  
 Neither $= 9$.  
-Check: $13 + 9 + 9 + 9 = 40$ ✓
+Check: $13 + 9 + 9 + 9 = 40$ — correct.
 
 ### Example 14 — Mock Paper 2 Q5(d): fishmongers
 In a market of 36 fishmongers, 28 sell mackerel (M), 18 sell tilapia (T), 13 sell both.
@@ -235,7 +235,7 @@ In a market of 36 fishmongers, 28 sell mackerel (M), 18 sell tilapia (T), 13 sel
 
 ### Example 15 — Finding n(A) from the picture
 From Example 14, how many sell mackerel?  
-Mackerel only + both = $15 + 13 = 28$ ✓ (matches the question).
+Mackerel only + both = $15 + 13 = 28$ (matches the question).
 
 ### Example 16 — Three-set introduction
 If we add a third set C (say, those who sell crabs), we draw a third circle. The centre region is A ∩ B ∩ C (all three). We still fill the **innermost** regions first.

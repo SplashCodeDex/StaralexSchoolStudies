@@ -110,8 +110,8 @@ Data: $2, 3, (4m-3), (3m+1), 11, 13$. Median in ascending order is 6. Find $m$.
 Six values → median is the mean of the 3rd and 4th when ordered.  
 For the median to be 6, the two middle values must average to 6.
 
-Try $m = 1$: values $2, 3, 1, 4, 11, 13$. Ordered: $1, 2, 3, 4, 11, 13$. Median $= \frac{3+4}{2} = 3.5$ ✗  
-Try $m = 2$: $2, 3, 5, 7, 11, 13$. Ordered: $2, 3, 5, 7, 11, 13$. Median $= \frac{5+7}{2} = 6$ ✓
+Try $m = 1$: values $2, 3, 1, 4, 11, 13$. Ordered: $1, 2, 3, 4, 11, 13$. Median $= \frac{3+4}{2} = 3.5$ — wrong, so try the next value.  
+Try $m = 2$: $2, 3, 5, 7, 11, 13$. Ordered: $2, 3, 5, 7, 11, 13$. Median $= \frac{5+7}{2} = 6$ — correct, so the answer is $m = 2$.
 
 **Answer: $m = 2$.**
 

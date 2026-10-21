@@ -93,8 +93,8 @@ w:/StaralexSchoolStudies/Grade9-Maths/
     - Associative property of addition and multiplication ($a+(b+c) = (a+b)+c$; $(a \times b) \times c = a \times (b \times c)$).
     - Distributive property of multiplication over addition and subtraction ($a(b \pm c) = ab \pm ac$).
     - Applying structural algebraic properties to mental calculation shortcuts.
-  - Status: [ ] Not Started
-  - Exercise Quota: 8 exercises x 5 questions + worked solutions.
+  - Status: [x] Lesson 2 Delivered (Number Properties & Operational Laws — 15 worked examples incl. BECE 1998/2009 authentic items; 5 sections × 5 questions + full worked solutions per user quota override; 12% spiral review; mock P1 Q18/Q40 + P2 Q4(d)/Q6(a) linked. Bank solutions cached: SOL_c5cce219905b, SOL_d45c2b1df5ef, SOL_5e2f06f5cd9e)
+  - Exercise Quota: override in force for this round — 5 exercises x 5 questions + worked solutions.
 
 - **Day 5: Strand 1, Sub-strand 2 (Part 3) - Decimal Operations and Multi-Step Word Problems**
   - Content Standard: B9.1.2.2
