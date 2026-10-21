@@ -60,8 +60,8 @@ w:/StaralexSchoolStudies/Grade9-Maths/
     - Place value deduction problems and numerical puzzles.
   - Status: [x] Lesson 1 Delivered (Modular Package Live, 40 Exercises & Worked Solutions Ready)
   - Lesson Files:
-    - [Lesson_01_Place_Value_and_Standard_Form.pdf](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/Lesson_01_Place_Value_and_Standard_Form.pdf)
-    - [Lesson_01_Place_Value_and_Standard_Form.md](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/Lesson_01_Place_Value_and_Standard_Form.md)
+    - [Lesson_01_Place_Value_and_Standard_Form.pdf](Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/Lesson_01_Place_Value_and_Standard_Form.pdf)
+    - [Lesson_01_Place_Value_and_Standard_Form.md](Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/Lesson_01_Place_Value_and_Standard_Form.md)
   - Exercise Quota: 8 exercises x 5 questions + worked solutions.
 
 - **Day 2: Strand 1, Sub-strand 1 (Part 2) - Real Number System Hierarchy and Venn Diagrams**
@@ -397,9 +397,9 @@ w:/StaralexSchoolStudies/Grade9-Maths/
     - Setting up algebraic equations to find missing angles in irregular polygons.
   - Status: [x] Lesson 1 Delivered (Modular Package Live, 40 Exercises & Worked Solutions Ready)
   - Lesson Files:
-    - [Lesson_01_Polygons_and_Angle_Properties.pdf](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/Lesson_01_Polygons_and_Angle_Properties.pdf)
-    - [Lesson_01_Polygons_and_Angle_Properties.md](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/Lesson_01_Polygons_and_Angle_Properties.md)
-    - [polygon_angle_playground.py](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/polygon_angle_playground.py)
+    - [Lesson_01_Polygons_and_Angle_Properties.pdf](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/Lesson_01_Polygons_and_Angle_Properties.pdf)
+    - [Lesson_01_Polygons_and_Angle_Properties.md](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/Lesson_01_Polygons_and_Angle_Properties.md)
+    - [polygon_angle_playground.py](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/polygon_angle_playground.py)
   - Exercise Quota: 8 exercises x 5 questions + worked solutions.
 
 - **Day 40: Strand 3, Sub-strand 1 (Part 2) - Congruence and Similarity in Triangles**
@@ -412,9 +412,9 @@ w:/StaralexSchoolStudies/Grade9-Maths/
     - Setting up scale proportions to calculate unknown lengths and angle measures.
   - Status: [x] Lesson 2 Delivered (Modular Package Live, 40 Exercises & Worked Solutions Ready)
   - Lesson Files:
-    - [Lesson_02_Congruence_and_Similarity.pdf](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/Lesson_02_Congruence_and_Similarity.pdf)
-    - [Lesson_02_Congruence_and_Similarity.md](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/Lesson_02_Congruence_and_Similarity.md)
-    - [congruence_similarity_playground.py](file:///w:/StaralexSchoolStudies/Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/congruence_similarity_playground.py)
+    - [Lesson_02_Congruence_and_Similarity.pdf](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/Lesson_02_Congruence_and_Similarity.pdf)
+    - [Lesson_02_Congruence_and_Similarity.md](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/Lesson_02_Congruence_and_Similarity.md)
+    - [congruence_similarity_playground.py](Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/congruence_similarity_playground.py)
   - Exercise Quota: 8 exercises x 5 questions + worked solutions (includes 15% cumulative spiral review of Lesson 1).
 
 - **Days 41 - 42: Week 6 Revision and Mid-Geometry Checkpoint**
