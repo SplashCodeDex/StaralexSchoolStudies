@@ -637,3 +637,44 @@ solutions. Generated questions are in the BECE question bank.
 **Lessons 1 & 2 of Sub-strand 1 Shapes (Polygons; Congruence & Similarity) remain
 delivered from the earlier Strand 3 run. Lesson 3 (Angles / Trig) was added for the
 mock's parallel-line and right-triangle items.**
+
+---
+
+## Geometry & Measurement Essentials Block — Delivery Register (October 2026)
+
+User request: four linked maths topics — *part of a circle*, *area of polygons/square/circle*,
+*working with different triangle types*, and *construction* — with every prerequisite lesson
+taught first. This was resolved into **six full lessons in pedagogical order** (A→F below).
+Each lesson contains 12–15 fully worked examples (authentic BECE/mock items preferred, marked
+"(authentic)" with year) followed by **5 exercise sections × 5 questions + full worked
+solutions per user quota override** (this block uses the user-override quota, not the default
+8×5 rubric), with 10–20% spiral review per exercise set.
+
+| Order | Lesson | Folder & file | Indicators | Status |
+| :---: | :--- | :--- | :--- | :---: |
+| A | Perimeter & Area Basics (prerequisite) | Substrand-2/Lesson-03 — `Lesson_03_Perimeter_and_Area_Basics.md` | B7.3.2.1.3, B8.3.2.1.x (foundations) | Done |
+| B | Triangle Types & Angles | Substrand-1/Lesson-04 — `Lesson_04_Triangle_Types_and_Angles.md` | B7.3.2.2.1, B7.3.2.2.2, B8.3.2.1.2/3/4 | Done |
+| C | Area of Polygons | Substrand-2/Lesson-04 — `Lesson_04_Area_of_Polygons.md` | B7.3.2.2.1/x area bases | Done |
+| D | Circle Parts & Measures | Substrand-2/Lesson-05 — `Lesson_05_Circle_Parts_and_Measures.md` | B7.3.2.1.2, B8.3.2.1.1 | Done |
+| E | Geometric Constructions I (lines, perpendiculars, bisectors, 60/45/30/90 + loci) | Substrand-1/Lesson-05 — `Lesson_05_Geometric_Constructions_I_Lines_and_Angles.md` | B7.3.1.2.1, B7.3.1.2.2, B8.3.1.2.1, B8.3.1.2.3 | Done |
+| F | Geometric Constructions II (SSS/SAS/ASA, quadrilaterals, incircle & circumcircle) | Substrand-1/Lesson-06 — `Lesson_06_Geometric_Constructions_II_Triangles_and_Quadrilaterals.md` | B8.3.1.2.2, B9.3.1.2.1, B9.3.1.2.2 | Done |
+
+Notes:
+- All diagram assets in these lessons are `.png` (300 dpi) with `.tex` sources in each
+  lesson's `diagrams/` folder — no `.pdf`/`.svg` diagram assets retained.
+- Authentic theory tasks re-taught inside Lessons F: BECE 2017 P2 (ABC: 9/8/6 with bisectors,
+  $BY = YC = 4.8$ cm, base $\approx 20.5°$, isosceles), BECE 2012 P2 (PQ = 10, 45°/60°, $TP
+  \approx 5.2$ cm), BECE 1998 P2 (PQ = 8, 90°/30°, $RQ \approx 9.2$ cm = diameter, $OP \approx
+  4.6$ cm), BECE 1990 P2 (6/4/90° right triangle, $PR \approx 7.2$ cm, $\angle QPR \approx
+  33.7°$). 29 solved authentic bank items were cached back to the question bank via
+  `save-solution` with lesson labels `Strand-3-Geometry-And-Measurement/Substrand-.../Lesson-...`.
+- Flagged official-key errors teaching correct maths: "longest chord = segment" (1990/1999
+  banking; correct = diameter) in Lesson D, and the lost-option locus item (1998) in Lesson E.
+
+**PDF delivery (same block): all six lessons A-F were compiled to PDF with the house
+builder `tools/build_lesson_pdf.py` (Cambria body, LaTeX-rendered display maths, embedded
+300 dpi PNG figures). Glyph checks: clean on all six. Seven new TikZ figures were added for
+ richer illustration (rectangle perimeter; 4x3 unit-square grid; triangle-types triptych;
+5-12-13 ladder; loci triptych; 105-degree build; 120-degree rhombus split), plus previously
+idle assets exercised (diagram_15 chord/sector, circle radius/diameter, diagram_26
+perpendicular bisector). Each PDF sits beside its lesson markdown.**

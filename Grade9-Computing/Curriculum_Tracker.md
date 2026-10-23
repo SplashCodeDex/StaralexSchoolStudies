@@ -66,20 +66,33 @@ Grade9-Computing/
     - Playground: `next_gen_computers_playground.py`
     - Diagrams: `classical_vs_quantum_bit.jpg`, `quantum_supremacy_comparison.jpg`
   - Status: [x] Completed
-- **Day 2**: Strand 1, Sub-strand 1 (Part 2) - Perceptual Computing & Novel Output Devices
-  - Indicators: B9.1.1.1.2, B9.1.1.1.3
-  - Key Topics: Perceptual computing, gesture and facial recognition, wearable displays (Google Glass), electronic paper (E-Paper), e-readers (Kindle).
-  - Status: [ ] Not Started
-- **Day 3**: Strand 1, Sub-strand 1 (Part 3) - Advanced Storage Architecture & Desktop Management
-  - Indicators: B9.1.1.1.4, B9.1.1.2.1, B9.1.1.2.2
-  - Key Topics: Network/cloud storage, smart cards, holographic storage, media servers, device drivers (sound, video), plug-and-play mechanisms.
-  - Deliverable: Sub-strand 1 Exercise Battery (Exercises 1 to 8 + Solutions).
-  - Status: [ ] Not Started
-- **Day 4**: Strand 1, Sub-strand 2 - Technology in the Community (Communication)
-  - Indicators: B9.1.2.1.1, B9.1.2.1.2, B9.1.2.1.3
-  - Key Topics: Community problem evaluation, technological solution proposals, project design and presentation.
-  - Deliverable: Sub-strand 2 Community Problem-Solving Case Study.
-  - Status: [ ] Not Started
+- **Day 2**: Strand 1, Sub-strand 1 (Part 2) - Storage, Direct Data Entry, Printers and File Management
+  - Indicators: B9.1.1.1.4 (network/cloud storage, smart cards), B9.1.1.2.2 (file management techniques) + recap of B7.1.1.2.2, B8.1.1.1.2, B8.1.1.1.3, B8.1.1.1.4, B8.1.1.2.2
+  - Key Topics: Magnetic/optical/flash storage, capacity units (MB/GB/TB), drives and partitions, barcode/OMR/RFID direct data entry, impact vs non-impact printers, file, folder and drive management.
+  - Deliverables:
+    - Notes: `Lesson_02_Storage_Direct_Data_Entry_Printers_And_File_Management.md`
+    - PDF: `Lesson_02_Storage_Direct_Data_Entry_Printers_And_File_Management.pdf`
+    - Exercises: 5 sections × 5 questions + marking scheme (embedded in lesson).
+  - Status: [x] Completed
+  - Note: originally planned Perceptual Computing (B9.1.1.1.2) and Novel Output Devices (B9.1.1.1.3) rescheduled to a later consolidation lesson (see Day 3).
+- **Day 3**: Strand 1, Sub-strand 1 (Part 3) - Perceptual Computing, E-Paper Readers and Personalisation
+  - Indicators: B9.1.1.1.2 (perceptual computing), B9.1.1.1.3 (novel output devices: wearable displays, E-Paper, e-readers), B9.1.1.2.1 (desktop personalisation), B9.1.1.2.2 (device drivers and plug-and-play — completes sub-strand 1)
+  - Key Topics: Perceptual computing (facial recognition, gesture control, voice processing) and its privacy risk; E-Paper reflective displays vs LCD; e-readers (Kindle); wearable displays (Google Glass); device drivers (printer, sound, graphics); plug-and-play; desktop personalisation — wallpaper, icons, shortcuts, mouse pointers; taskbar and context menu.
+  - Deliverables:
+    - Notes: `Lesson_04_Perceptual_Computing_Novel_Output_Devices_And_Personalisation.md`
+    - PDF: `Lesson_04_Perceptual_Computing_Novel_Output_Devices_And_Personalisation.pdf` (7 pages, glyph-checked)
+    - Diagrams: `diagrams/figure_01_ereader_parts.png`, `diagrams/figure_02_desktop_personalise.png` (TikZ + PNG masters kept)
+    - Exercises: 5 sections × 5 questions + full marking scheme (embedded in lesson), with [Review] spiral items from Lessons 01-03.
+  - Status: [x] Completed — **sub-strand 1 is now fully covered** (B9.1.1.1.1-4, B9.1.1.2.1-2)
+- **Day 4**: Strand 1, Sub-strand 2 - Technology in the Community (Assistive, Adaptive and Portable Technology + Environment)
+  - Indicators: B8.1.2.1.1 (assistive/adaptive technologies), B8.1.2.1.2 (portable computing devices) + recap of B7.1.2.1.4 (environmental impact), B7.1.2.1.5 (responsible practices)
+  - Key Topics: Assistive vs adaptive technology for learners with disabilities (memory hook: Assistive = Adds, Adaptive = Adjusted), portable devices and battery trade-offs, e-waste, product life cycle, environmentally responsible use of computers.
+  - Deliverables:
+    - Notes: `Lesson_03_Assistive_And_Adaptive_Technology_Portable_Devices_And_The_Environment.md`
+    - PDF: `Lesson_03_Assistive_And_Adaptive_Technology_Portable_Devices_And_The_Environment.pdf`
+    - Exercises: 5 sections × 5 questions + marking scheme (embedded in lesson).
+  - Status: [x] Completed
+  - Note: B9-level community problem-solving indicators (B9.1.2.1.1–3: community problem evaluation, solution proposals, project design and presentation) still to deliver as a project/case-study lesson.
 - **Day 5**: Strand 1, Sub-strand 3 - Health and Safety at Workstations
   - Indicators: B9.1.3.1.1, B9.1.3.1.2
   - Key Topics: Ergonomic setups (keyboards, document holders, monitor positioning), lighting considerations, thermal dissipation and heat reduction.
