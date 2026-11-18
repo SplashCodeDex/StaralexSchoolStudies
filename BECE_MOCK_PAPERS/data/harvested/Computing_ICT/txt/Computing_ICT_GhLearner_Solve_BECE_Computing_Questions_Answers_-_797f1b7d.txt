@@ -1,0 +1,399 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/computing-bece-lookalike
+TITLE: Solve BECE Computing Questions & Answers - Computing BECE Lookalike
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Computing BECE Lookalike
+1.
+BECE mock · Computing
+A student in the computer laboratory wants to change the style, size and colour of a typeface in Microsoft Word. The appropriate tool to be used is
+A
+Font
+B
+Styles
+C
+Clipboard
+D
+Paragraph
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+BECE mock · Computing
+Which tool in Microsoft Word is used to adjust line spacing and indents?
+A
+Paragraph
+B
+Font
+C
+Styles
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+BECE mock · Computing
+To apply a preset collection of heading and body fonts throughout a Word document, you should use
+A
+Styles
+B
+Font
+C
+Paragraph
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+BECE mock · Computing
+Which command copies the formatting of selected text so you can apply it elsewhere in Word?
+A
+Format Painter
+B
+Clipboard
+C
+Styles
+D
+Paragraph
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+BECE mock · Computing
+Where in Word would you increase the character spacing (tracking) of selected text?
+A
+Font dialog (Advanced)
+B
+Paragraph
+C
+Styles
+D
+Track Changes
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+BECE mock · Computing
+Which feature lets you replace every instance of one font with another across a document?
+A
+Replace Font
+B
+Styles
+C
+Clipboard
+D
+Thesaurus
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+BECE mock · Computing
+To ensure a heading always stays with the next paragraph, which Word setting is used?
+A
+Keep with next (Paragraph option)
+B
+Font
+C
+Styles
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+BECE mock · Computing
+While Internet Explorer is used to access information from the Internet, Windows File Explorer is used to
+A
+Browse the internet using Explorer
+B
+Edit files in the Explorer window
+C
+Manage and organise files and folders
+D
+Manage and organise music and videos
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+BECE mock · Computing
+Which task is typically done in Windows File Explorer?
+A
+Rename files
+B
+Compose e-mails
+C
+Browse web pages
+D
+Compile code
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+BECE mock · Computing
+Where would you map a network drive so that it appears as a local disk letter?
+A
+Windows File Explorer
+B
+Task Manager
+C
+Control Panel > Devices
+D
+Internet Explorer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+BECE mock · Computing
+Which Windows component shows storage devices and allows you to view their properties such as capacity and free space?
+A
+File Explorer
+B
+Device Manager
+C
+Edge Browser
+D
+Registry Editor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+BECE mock · Computing
+Which command in File Explorer quickly selects all items in the current folder?
+A
+Ctrl + A
+B
+Ctrl + C
+C
+Ctrl + V
+D
+F2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+BECE mock · Computing
+The Windows shortcut Windows key + E directly opens
+A
+File Explorer
+B
+Edge Browser
+C
+Run dialog
+D
+Settings
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+BECE mock · Computing
+Which File Explorer view displays large previews of pictures and videos?
+A
+Large icons view
+B
+List view
+C
+Details view
+D
+Content view
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+BECE mock · Computing
+The concept of Artificial Intelligence’s ability to suggest related information to a user who regularly surfs the Internet is referred to as
+A
+Deep learning
+B
+Neural network
+C
+Computer vision
+D
+Logical reasoning
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+BECE mock · Computing
+Netflix suggesting movies you might like is an example of
+A
+Recommendation system
+B
+Computer vision
+C
+Data compression
+D
+Edge computing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+BECE mock · Computing
+A program that learns patterns from user clicks to display personalised adverts is using
+A
+Supervised machine learning
+B
+Encryption
+C
+Virtual reality
+D
+Cache memory
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+BECE mock · Computing
+Which AI sub-field focuses on recognising and grouping similar user behaviours without labels?
+A
+Unsupervised learning
+B
+Deep fake
+C
+Blockchain
+D
+Quantum annealing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+BECE mock · Computing
+Suggesting related products (‘Customers also bought…’) on e-commerce sites mostly relies on
+A
+Collaborative filtering
+B
+Optical character recognition
+C
+Packet switching
+D
+Hashing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+BECE mock · Computing
+When an AI system continuously updates its suggestions based on new clicks in real-time, it is using
+A
+Online learning
+B
+Batch processing
+C
+Static database
+D
+IPv6 tunnelling
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+BECE mock · Computing
+Which metric often evaluates the accuracy of recommendation systems?
+A
+Precision
+B
+Ping
+C
+Throughput
+D
+Latency
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+BECE mock · Computing
+A blog has many sections. The purpose of the comment section is to
+A
+Share personal information with readers
+B
+Promote other blogs on the same platform
+C
+Engage with readers and encourage discussion
+D
+Sell products and services to readers and friends
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+BECE mock · Computing
+Allowing readers to subscribe to new posts is a function of the
+A
+Follow/Subscribe widget
+B
+Comment section
+C
+Author bio
+D
+Tag cloud
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+BECE mock · Computing
+Which blog element helps search engines understand the content through brief keywords?
+A
+Tags
+B
+Comments
+C
+Media gallery
+D
+Permalink
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+BECE mock · Computing
+What is the main purpose of a blog’s category system?
+A
+To organise posts into broad topics
+B
+To display adverts
+C
+To collect emails
+D
+To host videos
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+BECE mock · Computing
+Which section typically contains the author’s short biography and social-media links?
+A
+Sidebar author box
+B
+Header menu
+C
+Footer credits
+D
+Comment section
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+BECE mock · Computing
+Which blog page lists reverse-chronological posts by default?
+A
+Blog index page
+B
+Contact page
+C
+About page
+D
+Archive widget
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+BECE mock · Computing
+Adding Open Graph meta-tags to a blog primarily improves
+A
+Social-media link previews
+B
+Internal search ranking
+C
+Image compression
+D
+Server uptime
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+BECE mock · Computing
+In the printing industry, the device that uses the mechanism of laying down a transparent dye and melting dots of wax-based ink to produce an output is a
+A
+Wax heater
+B
+Wax printer
+C
+Thermal heater
+D
+Thermal printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+BECE mock · Computing
+Which printer uses heat to make ink ribbons transfer dye onto photographic paper?
+A
+Dye-sublimation printer
+B
+Inkjet printer
+C
+Laser printer
+D
+Dot-matrix printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers & mocks
+Computing topics

@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2025/paper-1
+TITLE: Download 2025 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2025 BECE Computing Questions & Answers (PDF)
+1.
+[1]
+BECE 2025 · Paper 1
+A programmer has indented the codes in the program being written. The purpose of the indentation is to
+A
+make the code difficult to read by users.
+B
+show the start and end of a conditional statement.
+C
+create bugs in the program to disturb the codes.
+D
+hide the code from others when writing it.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2025 · Paper 1
+At the Internet cafe, Kofi connected his laptop to the Internet without using cable and Akua also connected her laptop to the Internet using cable. An example of Akua's connection type is
+A
+Wi-Fi adaptor
+B
+Infrared
+C
+Bluetooth
+D
+Ethernet adapter
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2025 · Paper 1
+In a group presentation, a group was to demonstrate how to insert an online video into a slide they have created. The first step to be considered by the group is to click on the
+A
+Online video.
+B
+Insert tab.
+C
+Design tab.
+D
+Download video.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2025 · Paper 1
+A man shared his property to his children and wife in a particular ratio. The most appropriate chart type that can be used to represent the sharing of the property is
+A
+scatter chart.
+B
+pie chart.
+C
+bar chart.
+D
+line chart.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2025 · Paper 1
+Robotic systems have components that relates to the functioning of the human organs. The component of the robot that acts like the human brain is the
+A
+sensors.
+B
+controllers.
+C
+batteries.
+D
+motors.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2025 · Paper 1
+A programmer uses a good algorithm to write a software. The algorithm being used is characterized by the following except
+A
+efficiency.
+B
+complexity.
+C
+correctness.
+D
+simplicity.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2025 · Paper 1
+Miss Fatima, the computing teacher taught the class basic programming terms. Explain to your friend what Miss Fatima said. Pseudocode is
+A
+flowchart decisions using symbols.
+B
+compiled programming codes.
+C
+structured programming symbols.
+D
+step-by-step outline of a program using informal language.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2025 · Paper 1
+The computing teacher during computing class advised the students that, studying computer networking provides entrepreneurial opportunities. Which of the following statements in your opinion justifies the advise given to the students?
+A
+Offering consulting services
+B
+Developing video games online
+C
+Creating social media platforms
+D
+Designing smartphone Apps for schools
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2025 · Paper 1
+In a computing class, a video of a user who gained unauthorized access into an organization's computer system was shown and discussed. The user's act in the video is termed
+A
+hacking.
+B
+authentication.
+C
+cyberbully.
+D
+encryption.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2025 · Paper 1
+To make teaching and learning of computing more interactive, the teacher intends to demonstrate an activity by showing diagrams, images and videos on a large screen in the classroom. The most appropriate device to achieve this objective by the teacher is a
+A
+printer.
+B
+plotter.
+C
+monitor.
+D
+projector.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2025 · Paper 1
+The graphic tablet is a kind of device used to capture
+A
+handwritings, drawings and inputs.
+B
+magnetic card data.
+C
+QR code scans.
+D
+RFID signals.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2025 · Paper 1
+After replacing his old smartphone with a new one, Muba cannot access most of his saved contacts. His friend advised that, he should have saved the contacts in an e-mail environment. The feature that would have allowed Muba to save and organize the contacts in the e-mail environment is referred to as
+A
+draft.
+B
+address book.
+C
+attach files.
+D
+folders.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2025 · Paper 1
+Text formatting options in Word processing applications include
+A
+strikethrough.
+B
+underline.
+C
+superscript.
+D
+subscript.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2025 · Paper 1
+A school prefect approached the computing club to guide him design a presentation using Microsoft PowerPoint. The prefect intends to practice the presentation and record the time spent for each slide to make his presentation run smooth. The best feature the computing club will suggest to the prefect is
+A
+rehearse timings.
+B
+presenter feature.
+C
+rehearse feature.
+D
+presenter notes.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2025 · Paper 1
+Which of the following terminologies is associated with computer network?
+A
+Firewall
+B
+Defragmenter
+C
+Junk
+D
+Trojan
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2025 · Paper 1
+What value will the Microsoft Excel function = COUNT(A1:A10) return?
+A
+1
+B
+11
+C
+10
+D
+9
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2025 · Paper 1
+The term multimedia is widely used in several areas in the computing environment. What will you tell the computing teacher about function of a multimedia feature in Word processing application?
+A
+It converts texts into audio formats.
+B
+It translates texts into different languages.
+C
+It removes images from word document.
+D
+It adds interactive elements like buttons and links.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2025 · Paper 1
+In a Desktop Publishing project work, a student's work contained more text than it can display. This situation is best described as
+A
+alignment.
+B
+template.
+C
+overflow.
+D
+layout.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2025 · Paper 1
+A designer consistently reminds his staff to use template in Desktop publishing because it helps to
+A
+provide an opportunity for users to print their work.
+B
+create documents in unique ways.
+C
+provide a starting point for document design.
+D
+decorate the document for distribution to others.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2025 · Paper 1
+A quiz master asked participants to complete the statement: while download folder is the default location for downloaded files, my recent folder is the default location for documents
+A
+just printed.
+B
+just worked on.
+C
+to be worked on.
+D
+to be saved.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2025 · Paper 1
+The role of neural networks in Artificial Intelligence in modern technology is to
+A
+create computer virus for robots to find solutions to them.
+B
+simulate human brain function for learning and problem-solving.
+C
+enhance Internet speed for fast movements of the robots.
+D
+control robots within their environment for work and safety.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2025 · Paper 1
+Robots are used in many areas of the society. An example of the application of robots in the society includes
+A
+artificial intelligence.
+B
+virtual reality.
+C
+autonomous vehicles.
+D
+machine learning.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2025 · Paper 1
+The Secretary to the Parliament of Ghana sits on an ergonomic chair to work in the office because it
+A
+promotes proper body alignment and support.
+B
+ensures proper sitting arrangements.
+C
+makes the workplace looks attractive.
+D
+aligns the chairs properly with the workstation.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2025 · Paper 1
+An entry on a blog that contains texts, images or multimedia content is called
+A
+account.
+B
+post.
+C
+name.
+D
+status.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2025 · Paper 1
+A student is very good at converting any integer to binary but finds it difficult to convert from hexadecimal to binary. Help the student to convert the hexadecimal number A2 to binary.
+A
+10100010
+B
+10010001
+C
+10001010
+D
+10000110
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2025 · Paper 1
+A customer gave a new laptop to a technician to set accounts on windows that is required to make changes to all system settings. The best account type that you will advise the technician to consider is
+A
+Standard.
+B
+Guest.
+C
+Remote.
+D
+Administrator.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2025 · Paper 1
+A user intends to create and customize diagrams in Microsoft PowerPoint application for a presentation. The best feature to help the user achieve the task is
+A
+Shapes.
+B
+Charts.
+C
+SmartArt.
+D
+WordArt.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2025 · Paper 1
+Surfing the Internet requires the use of search engines which was designed to help users find
+A
+information from the computer hard disk drive.
+B
+information on the Internet.
+C
+information from e-mail messages.
+D
+information from files and folders on the computer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2025 · Paper 1
+The purpose of the IF function in Microsoft Excel application is to
+A
+perform a logical test and return a value for a condition.
+B
+return the value from a specified row and column intersection.
+C
+calculate the average of a range of cells.
+D
+manipulate text from multiple cells into one cell.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2025 · Paper 1
+Zalia is very good at posting her pictures and location of where ever she goes on her social media platforms for her friends to see. The potential risk associated with Zalia's activities online is
+A
+learning difficulties.
+B
+identity theft.
+C
+building a professional network.
+D
+strengthening friendships.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2025 · Paper 1
+Computers have become smaller, faster and more reliable due to the use of microprocessor in the
+A
+third generation.
+B
+second generation.
+C
+fourth generation.
+D
+fifth generation.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2025 · Paper 1
+Bello formatted Microsoft Excel worksheet cells with different colours based on specific conditions and it was very beautiful. Which of the given features can a student use to achieve the same results as Bello?
+A
+Conditional formatting
+B
+Conditional sorting
+C
+Conditional filtering
+D
+Conditional validation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2025 · Paper 1
+After the computing class, a colleague approached you to further explain to him how to reference a worksheet cell in Microsoft Excel. In the explanation, you mentioned that, to reference a cell, one need to use the cell
+A
+address.
+B
+function.
+C
+content.
+D
+value.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2025 · Paper 1
+In the concept of programming, a comment in a program code is used to
+A
+temporarily remove a line of code.
+B
+change the output of the program.
+C
+make the program run faster.
+D
+explain portions of the code.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2025 · Paper 1
+A weekend assignment requires students to create a blog for the school. The best activity needed for the assignment is to
+A
+pick the blog name and niche.
+B
+determine the product to sell on the blog.
+C
+provide consulting services to the bloggers.
+D
+display advertisement of the blog.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2025 · Paper 1
+The most powerful technological innovation made during the development of the fifth-generation computers was the use of
+A
+integrated circuits.
+B
+VLSI microprocessors.
+C
+ULSI microprocessors.
+D
+vacuum tubes.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2025 · Paper 1
+The purpose of a storage device in a computer system is for
+A
+connecting devices to the Internet
+B
+executing computer programs
+C
+displaying graphic elements
+D
+keeping and retrieving data
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2025 · Paper 1
+JHS students were given a project by their computing teacher to create a virtual museum for the storage of electronic artifacts. The possible tool for this assignment is:
+A
+Augmented reality
+B
+Social networking
+C
+Cloud computing
+D
+Artificial intelligence
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2025 · Paper 1
+What is the correct syntax of the IF function in Microsoft Excel?
+A
+=IF(logical_test, ([value_if_true]), ([value_if_false]))
+B
+=IF(logical_test, [value_if_true], [value_if_false])
+C
+=IF(logical_test, [value_if_true])
+D
+=IF(logical_test; [value_if_true]; [value_if_false])
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2025 · Paper 1
+To send pictures via email (which students struggle with), the most appropriate email feature is:
+A
+categorize
+B
+compose
+C
+draft messages
+D
+attach files
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

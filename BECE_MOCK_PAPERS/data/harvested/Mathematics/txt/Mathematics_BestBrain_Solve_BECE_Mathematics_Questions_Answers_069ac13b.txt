@@ -1,0 +1,725 @@
+SOURCE URL: https://ghlearner.com/bece/mathematics/exams/best-brain-october-2026-mathematics
+TITLE: Solve BECE Mathematics Questions & Answers - Best Brain October 2026
+SUBJECT: Mathematics
+============================================================
+
+Solve BECE Mathematics Questions & Answers - Best Brain October 2026
+1.
+[1]
+BECE mock · Mathematics
+Find \(124.3+0.275+74.06\), correct to one decimal place.
+A
+198.6
+B
+198.7
+C
+892.0
+D
+892.4
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Mathematics
+Solve the inequality \(2x+1>9\).
+A
+\(x>3\)
+B
+\(x>4\)
+C
+\(x>2\)
+D
+\(x>1\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Mathematics
+A football match starts at 1:20 p.m. and lasts for 1 hour 50 minutes. At what time will the match end?
+A
+4:10 p.m.
+B
+5:10 p.m.
+C
+3:10 p.m.
+D
+5:10 a.m.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Mathematics
+The sum of three consecutive odd integers is 33. Find the numbers.
+A
+9, 11 and 13
+B
+7, 9 and 11
+C
+11, 13 and 15
+D
+13, 15 and 17
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Mathematics
+If the area of a circle is \(64\pi\), what is its circumference?
+A
+\(8\pi\)
+B
+\(16\pi\)
+C
+\(32\pi\)
+D
+\(64\pi\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Mathematics
+Nine men can complete a piece of work in 51 days. In how many days will 17 men of the same strength finish the same work?
+A
+29 days
+B
+31 days
+C
+27 days
+D
+37 days
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Mathematics
+The mean of the numbers 5, 8, 4, 7 and \(2x\) is 6. Find \(x\).
+A
+\(6\)
+B
+\(4\)
+C
+\(3\)
+D
+\(2\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Mathematics
+Kojo’s age in the next 10 years will be 4 times his age 5 years ago. How old is Kojo now?
+A
+5
+B
+6
+C
+10
+D
+15
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Mathematics
+Which of the following is not equivalent to \(3\times3\times3\times3\times3\times3\)?
+A
+\(3^6\)
+B
+18
+C
+\(9^3\)
+D
+729
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Mathematics
+Find the value of \(12x+9q\) when \(x=11\) and \(q=3\).
+A
+148
+B
+159
+C
+168
+D
+172
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Mathematics
+Which is the locus of points at a fixed distance from a given point?
+A
+A straight line
+B
+A circle
+C
+An arc
+D
+A rectangle
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Mathematics
+If \(\frac{n}{100}=10.5\), find \(n\).
+A
+0.0105
+B
+0.105
+C
+1050
+D
+105
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Mathematics
+Point \(A\) has coordinates \((2,3)\). If \(\overrightarrow{AB}=\begin{pmatrix}5\\-4\end{pmatrix}\), find the coordinates of \(B\).
+A
+\((7,-1)\)
+B
+\((-3,7)\)
+C
+\((3,-7)\)
+D
+\((5,4)\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Mathematics
+Evaluate \((0.07\times0.02)\div14\).
+A
+0.01
+B
+0.001
+C
+0.0001
+D
+0.011
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Mathematics
+Which of the following sets is the largest?
+A
+Whole numbers
+B
+Composite numbers
+C
+Natural numbers
+D
+Integers
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Mathematics
+Sam has \(5xy\) toffees and Joe has \(20xy\) toffees. How many more toffees has Joe?
+A
+\(15xy\)
+B
+\(15x\)
+C
+\(15y\)
+D
+\(4xy\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Mathematics
+[image required] Diagram of a rectilinear shape 9.7 cm across at the top, with lower horizontal segments 2.1 cm and 3.4 cm and an unknown middle horizontal span \(x\). Which calculation finds \(x\)?
+A
+Add 2.1 and 3.4, then subtract the sum from 9.7.
+B
+Add 9.7 and 3.4, then subtract 2.1 from the sum.
+C
+Subtract 2.1 from 3.4, then subtract the difference from 9.7.
+D
+Subtract 3.4 from 9.7, then add 2.1 to the difference.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Mathematics
+Find the solution set of \(5-5(3-y)\le65\) where \(y\) is one of the first six positive multiples of 5.
+A
+\(\{5,10,15\}\)
+B
+\(\{5,10\}\)
+C
+\(\{5,10,15,20\}\)
+D
+\(\{5,10,15,20,25,30\}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Mathematics
+Mina is \(x\) years old now. How old will she be in \(10+y\) years?
+A
+\((x-10+y)\) years
+B
+\((x-10-y)\) years
+C
+\((x+10+y)\) years
+D
+\((x+10-y)\) years
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Mathematics
+A line passes through \((1,2)\) and \((4,y)\). What is \(y\) if the gradient is \(-2\)?
+A
+4
+B
+-2
+C
+0
+D
+-4
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Mathematics
+If \(\overrightarrow{AB}=\begin{pmatrix}3\\5\end{pmatrix}\) and \(\overrightarrow{AC}=\begin{pmatrix}-4\\5\end{pmatrix}\), find \(\overrightarrow{BC}\).
+A
+\(\begin{pmatrix}7\\10\end{pmatrix}\)
+B
+\(\begin{pmatrix}-7\\-10\end{pmatrix}\)
+C
+\(\begin{pmatrix}7\\-10\end{pmatrix}\)
+D
+\(\begin{pmatrix}-7\\0\end{pmatrix}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Mathematics
+A line passes through the points \((2,6)\) and \((4,12)\). Find its constant of proportionality.
+A
+1
+B
+2
+C
+3
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Mathematics
+A van travels 154 km in \(1\frac34\) hours. Find its speed in km/h.
+A
+77 km/h
+B
+88 km/h
+C
+100 km/h
+D
+269 km/h
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Mathematics
+A hall which is 20 m long is represented on a diagram as 10 cm long. What is the scale of the diagram?
+A
+1:200
+B
+1:250
+C
+1:400
+D
+1:500
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Mathematics
+If \(13x-12=5x+60\), find \(x\).
+A
+-9
+B
+9
+C
+6
+D
+-6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Mathematics
+Order the fractions \(\frac38,\frac12,\frac5{16}\) from smallest to largest.
+A
+\(\frac38<\frac12<\frac5{16}\)
+B
+\(\frac12<\frac38<\frac5{16}\)
+C
+\(\frac5{16}<\frac38<\frac12\)
+D
+\(\frac5{16}<\frac12<\frac38\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Mathematics
+[image required] Diagram of triangle XYZ with \(XY=YZ\), \(\angle XYZ=42^\circ\), and \(\angle YXZ=(4y+8)^\circ\). Find \(\angle YXZ\).
+A
+\(138^\circ\)
+B
+\(59^\circ\)
+C
+\(42^\circ\)
+D
+\(69^\circ\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Mathematics
+The mean of ten numbers is 58. One of the numbers is 40. What is the mean of the remaining nine numbers?
+A
+54
+B
+56
+C
+58
+D
+60
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Mathematics
+The population of pigs on a farm is \(5(2x-3)\), where \(x\) is in months. Find the population after 4 months.
+A
+52
+B
+25
+C
+30
+D
+15
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Mathematics
+[image required] Diagram of triangle MNO showing a line NP through N, a ray MP through M parallel to NO, and an exterior angle at N. Angle MON and angle PMO are what type of angles?
+A
+Vertically opposite angles
+B
+Alternate angles
+C
+Corresponding angles
+D
+Adjacent angles
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Mathematics
+[image required] Diagram of triangle MNO showing an exterior angle of \(105^\circ\) at N and an interior angle of \(57^\circ\) at M. Find \(\angle MON\).
+A
+\(48^\circ\)
+B
+\(52^\circ\)
+C
+\(58^\circ\)
+D
+\(65^\circ\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Mathematics
+A fly weighs 0.1 kg. How much would 112 flies weigh combined?
+A
+1.12 kg
+B
+112 kg
+C
+11.2 kg
+D
+0.112 kg
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Mathematics
+The population growth of a town is given by \(2^{2m}\), where \(m\) is in years. Find the time needed for the population to be \(4^{14}\).
+A
+7
+B
+21
+C
+14
+D
+28
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Mathematics
+Which of the following is an example of numerical data?
+A
+Eye color
+B
+Height in metres
+C
+Type of car
+D
+Favourite food
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Mathematics
+[image required] Line graph of a walker’s height along a trail, with sections A–H. Which section shows the steepest positive gradient?
+A
+Section A
+B
+Section B
+C
+Section H
+D
+Section F
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Mathematics
+[image required] Line graph of a walker’s height along a trail, with sections A–H. Which section shows the shallowest positive gradient?
+A
+Section A
+B
+Section B
+C
+Section F
+D
+Section G
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Mathematics
+[image required] Line graph of a walker’s height along a trail, with sections A–H. In which section is the gradient zero?
+A
+Section A
+B
+Section B
+C
+Section D
+D
+Section E
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Mathematics
+Given that \(P=\begin{pmatrix}3x-6\\2y+5\end{pmatrix}\), \(R=\begin{pmatrix}9\\7\end{pmatrix}\), and \(P=R\), find \(x\) and \(y\).
+A
+x = 1 and y = 5
+B
+x = -5 and y = -1
+C
+x = 5 and y = 1
+D
+x = -1 and y = 5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Mathematics
+Solve the equation \(15-2x=6\).
+A
+-10.5
+B
+-4.5
+C
+4.5
+D
+10.5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Mathematics
+A baker has 12 identical cakes. In how many different ways can the baker divide them into equal packets?
+A
+4
+B
+5
+C
+6
+D
+7
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[1]
+BECE mock · Mathematics
+Convert 31 days into minutes and express your answer in standard form.
+42.
+[1]
+BECE mock · Mathematics
+Convert 6 hours into seconds and express your answer in standard form.
+43.
+[3]
+BECE mock · Mathematics
+Fred earns GH₵2,500 a month after tax; Eben earns three times as much. Find their combined earnings over five years if neither receives an increase.
+44.
+[3]
+BECE mock · Mathematics
+The data \(2,3,4m-3,3m+1,11,13\) are arranged in ascending order. If the median is 6, find \(m\).
+45.
+[3]
+BECE mock · Mathematics
+The marks of 20 students are 68, 42, 63, 57, 66, 54, 72, 58, 57, 73, 61, 54, 63, 45, 38, 40, 57, 58, 56, 48. Arrange them in a stem-and-leaf plot in ascending order.
+46.
+[2]
+BECE mock · Mathematics
+The marks of 20 students are 68, 42, 63, 57, 66, 54, 72, 58, 57, 73, 61, 54, 63, 45, 38, 40, 57, 58, 56, 48. Find the mode.
+47.
+[2]
+BECE mock · Mathematics
+The marks of 20 students are 68, 42, 63, 57, 66, 54, 72, 58, 57, 73, 61, 54, 63, 45, 38, 40, 57, 58, 56, 48. Find the median.
+48.
+[2]
+BECE mock · Mathematics
+Amina had \(2\frac12\) litres of water and drank \(\frac13\) litre. How many litres are left?
+49.
+[2]
+BECE mock · Mathematics
+Find \(0.893\times14.7\), correct to four decimal places.
+50.
+[2]
+BECE mock · Mathematics
+The mean height of 28 students is 162 cm. A student whose height is 149 cm joins the class. Find the new mean height.
+51.
+[2]
+BECE mock · Mathematics
+Find \(x\) if \((-3)^{x-2}=-243\).
+52.
+[2]
+BECE mock · Mathematics
+The water-consumption pattern of a community is given by \(11^{4x-3}\), where \(x\) is the number of months. Find the consumption after two months, correct to four significant figures.
+53.
+[2]
+BECE mock · Mathematics
+A class records the number of marbles brought to a lesson. The counts \(x=1,2,3,4,5,6\) have frequencies \(4,5,\text{unknown},9,\text{unknown},2\). The values \(fx\) for 3 and 5 marbles are 42 and 30 respectively. Complete the missing frequencies and all \(fx\) values.
+54.
+[1]
+BECE mock · Mathematics
+In a marble survey, the numbers \(1,2,3,4,5,6\) have frequencies \(4,5,14,9,6,2\). How many students are in the class?
+55.
+[1]
+BECE mock · Mathematics
+In a marble survey, 2 students brought six marbles. How many students brought six marbles?
+56.
+[1]
+BECE mock · Mathematics
+In a marble survey, the numbers \(1,2,3,4,5,6\) have frequencies \(4,5,14,9,6,2\). What is the most popular number of marbles?
+57.
+[4]
+BECE mock · Mathematics
+Mary earns GH₵8.25 an hour for 8 hours, plus overtime at \(1\frac12\) times her normal hourly rate for a further 4 hours. Find her total earnings for the day.
+58.
+[2]
+BECE mock · Mathematics
+[image required] Diagram needed: right-angled triangle \(PQR\), angle \(R=90^\circ\), \(QR=6\text{ cm}\), \(PR=8\text{ cm}\), and angle \(\theta\) at \(Q\). Find \(PQ\).
+59.
+[2]
+BECE mock · Mathematics
+[image required] Diagram needed: right-angled triangle \(PQR\), angle \(R=90^\circ\), \(QR=6\text{ cm}\), \(PR=8\text{ cm}\), and angle \(\theta\) at \(Q\). Find \(\tan\theta\).
+60.
+[4]
+BECE mock · Mathematics
+Solve \(6\geq2-3x\) and show the solution on a number line.
+61.
+[3]
+BECE mock · Mathematics
+Find the area of a semicircle with radius 7 cm. Take \(\pi=\frac{22}{7}\).
+62.
+[4]
+BECE mock · Mathematics
+A primary school has 35, 45, 24, 33, 23 and 20 pupils in Classes One to Six respectively. Draw a pie chart for this data.
+63.
+[1]
+BECE mock · Mathematics
+There are 45 pupils in Class Two out of 180 primary pupils. Find the fraction of pupils in Class Two.
+64.
+[2]
+BECE mock · Mathematics
+A school has 24 pupils in Class Three, 33 in Class Four, and 23 in Class Five, out of 180 pupils in all. Find their combined percentage to two decimal places.
+65.
+[2]
+BECE mock · Mathematics
+A straight line has gradient 7 and passes through \(P(-2,-3)\). Find its equation.
+66.
+[2]
+BECE mock · Mathematics
+A line has gradient 7 and passes through \(P(-2,-3)\). The point \(R(k,4)\) is on the line. Find \(k\).
+67.
+[2]
+BECE mock · Mathematics
+Evaluate \(\frac23\times\frac14+\frac25\div\frac{14}{15}\).
+68.
+[2]
+BECE mock · Mathematics
+The distance from A to B is \((x+2)\) km and from C to D is \((2x+1)\) km on a rectangular route. Its perimeter is 48 km. Find \(x\).
+69.
+[1]
+BECE mock · Mathematics
+A bag contains 5 red, 3 blue and 2 green pens. Find the probability of selecting a red pen.
+70.
+[2]
+BECE mock · Mathematics
+A bag contains 5 red, 3 blue and 2 green pens. Express the probability of picking a blue pen as a decimal, percentage and ratio.
+71.
+[3]
+BECE mock · Mathematics
+A bag contains 5 red, 3 blue and 2 green pens. Two pens are selected one after the other without replacement. Find the probability that both are green.
+72.
+[2]
+BECE mock · Mathematics
+Asoamah leaves Takoradi at 11:13 a.m. and arrives in Tema at 3:08 p.m. Find the journey duration.
+73.
+[2]
+BECE mock · Mathematics
+A pump delivers 20 gallons of water per minute. How many gallons enter a tank in half an hour?
+74.
+[3]
+BECE mock · Mathematics
+Of 36 fishmongers, 28 sell mackerel, 18 sell tilapia, and 13 sell both. Represent these counts on a Venn diagram.
+75.
+[2]
+BECE mock · Mathematics
+Of 36 fishmongers, 28 sell mackerel, 18 sell tilapia, and 13 sell both. How many sell neither fish?
+76.
+[4]
+BECE mock · Mathematics
+[image required] Diagram needed: rectangular frame with an outer rectangle labelled \((5x+8)\) across and \((6x+2)\) high, and an unshaded inner rectangle labelled \((x+6)\) across and \(5x\) high. Find the area of the shaded region.
+77.
+[4]
+BECE mock · Mathematics
+Solve \(\frac4{3x}=7-\frac3x\).
+78.
+[4]
+BECE mock · Mathematics
+Simplify \(\frac{25t^{-4}}{5^{-3}\times10\times t^{-5}}\).
+79.
+[3]
+BECE mock · Mathematics
+Given \(a=\begin{pmatrix}-4\\p\end{pmatrix}\), \(b=\begin{pmatrix}q\\1\end{pmatrix}\), and \(a+b=\begin{pmatrix}-1\\-8\end{pmatrix}\), find \(p\) and \(q\).
+More Mathematics
+All Mathematics papers & mocks
+Mathematics topics

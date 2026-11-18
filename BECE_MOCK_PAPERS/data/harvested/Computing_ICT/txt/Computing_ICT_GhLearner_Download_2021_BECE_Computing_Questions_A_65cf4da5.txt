@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2021/paper-1
+TITLE: Download 2021 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2021 BECE Computing Questions & Answers (PDF)
+1.
+[1]
+BECE 2021 · Paper 1
+Computers are classified according to the following features except
+A
+colour
+B
+purpose
+C
+size and capacity
+D
+data transmission
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2021 · Paper 1
+The utility software is one of the basic types of
+A
+word processing software
+B
+communication software
+C
+application software
+D
+system software
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2021 · Paper 1
+The information permanently stored in the Read only Memory chip is called
+A
+firmware
+B
+liveware
+C
+malware
+D
+hardware
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2021 · Paper 1
+The computer device that is used to display information in the softcopy form is the
+A
+scanner
+B
+monitor
+C
+printer
+D
+mouse
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2021 · Paper 1
+Which part of the computer mouse is used for double-clicking?
+A
+Scroll ball
+B
+Left button
+C
+Right button
+D
+Scroll button
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2021 · Paper 1
+Which of the following items is not a storage medium?
+A
+Plotters
+B
+Memory stick
+C
+Hard disk
+D
+Zip disk
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2021 · Paper 1
+One byte of data is equal to
+A
+8 bits
+B
+4 bits
+C
+16 bits
+D
+24 bits
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2021 · Paper 1
+The 3.5 inches floppy disk has a storage capacity of
+A
+1.44 MB
+B
+1.22 MB
+C
+2.44 MB
+D
+1.88 MB
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2021 · Paper 1
+To boot a computer system, the user needs
+A
+a word processing application
+B
+a printer attached
+C
+an operating system
+D
+a virus checking program
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2021 · Paper 1
+Which of the following buttons on the Turn Off computer dialogue box will lead a user to a warm booting activity?
+A
+Hibernate
+B
+Turn off
+C
+Log off
+D
+Restart
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2021 · Paper 1
+The start button is found on the
+A
+task bar
+B
+scroll bar
+C
+status bar
+D
+system tray
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2021 · Paper 1
+Which of the following items is not a feature on the computer desktop?
+A
+Icon
+B
+Screen saver
+C
+Cursor
+D
+Wallpaper
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2021 · Paper 1
+The desktop feature which contains the quick launch button is the
+A
+icon
+B
+task bar
+C
+start button
+D
+control box
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2021 · Paper 1
+Files that are no more needed by the user are sent to
+A
+My Briefcase
+B
+Recent Documents
+C
+My Documents
+D
+Recycle Bin
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2021 · Paper 1
+When a user unintentionally deletes files and folders from the computer hard disk, the user can restore the deleted files and folders from
+A
+Recycle Bin
+B
+My Pictures
+C
+My Documents
+D
+Recent Documents
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2021 · Paper 1
+The two main terms involved in the Information Processing Cycle are
+A
+Random Access Memory and Read Only Memory
+B
+raw facts and figures
+C
+raw data and Random Access Memory
+D
+data and information
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2021 · Paper 1
+Which of the following effects is associated with a computer user as a result of radiation from the monitor?
+A
+Eye irritation
+B
+Neck pains
+C
+Body pains
+D
+Dizziness
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2021 · Paper 1
+The following options are possible health problems associated with long term exposure to ICT tools except
+A
+backache
+B
+blur vision
+C
+wrist pain
+D
+toothache
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2021 · Paper 1
+Which of the following activities is a bad practice in the usage of ICT tools?
+A
+Not applying the correct procedure to eject USB flash drive from the computer system unit
+B
+Covering the monitor with dust covers after usage
+C
+Not making or receiving phone calls when charging the phone
+D
+Unplugging the computer power cable from the socket after switched off
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2021 · Paper 1
+ICT tools can be used to promote positive attitude in all the following ways except
+A
+transacting business activities
+B
+teaching and learning in schools
+C
+sharing of pornographic information
+D
+accessing and retrieving information
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2021 · Paper 1
+The application of science and scientific knowledge in our daily life is termed
+A
+scientific
+B
+technology
+C
+information
+D
+communication
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2021 · Paper 1
+The navigation keys on the computer keyboard are also called
+A
+typewriter keys
+B
+function keys
+C
+numeric keys
+D
+cursor keys
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2021 · Paper 1
+Which of the following computer keyboard keys can be used to delete a character?
+A
+Alt key
+B
+Backspace key
+C
+Enter key
+D
+Shift key
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2021 · Paper 1
+During typing lessons, which finger is used to type the letter D?
+A
+Right index finger
+B
+Left index finger
+C
+Left middle finger
+D
+Right middle finger
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2021 · Paper 1
+The commands used to move selected text from one location to another in the same document is the
+A
+cut and copy commands
+B
+copy and paste commands
+C
+cut and paste commands
+D
+copy and edit commands
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2021 · Paper 1
+Which of the following keys is used for multiple selection of texts that are not continuous?
+A
+Alt
+B
+Tab
+C
+Ctrl
+D
+Shift
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2021 · Paper 1
+To create a space while typing in a Word processing environment, the computer keyboard key used is the
+A
+space bar
+B
+shift
+C
+caps lock
+D
+back space
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2021 · Paper 1
+To underline a selected text in a Word document, the computer keyboard shortcut keys used are
+A
+Alt + U
+B
+Shift + U
+C
+Ctrl + U
+D
+Tab + U
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2021 · Paper 1
+Which of the following options shows the contents of both the standard toolbar and the formatting toolbar?
+A
+Home tab
+B
+Page layout
+C
+Clipboard group
+D
+Design
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2021 · Paper 1
+To print a document after previewing, use the
+A
+print command
+B
+edit command
+C
+open command
+D
+save command
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2021 · Paper 1
+Which of the following options is a valid website address?
+A
+htpp://waecgh.org
+B
+hppt://waecgh.org
+C
+hhtp://waecgh.org
+D
+http://waecgh.org
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2021 · Paper 1
+A special software that is used to access the internet is called
+A
+search engine
+B
+address bar
+C
+web browser
+D
+web page
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2021 · Paper 1
+In computing, an element or icon that links one document to another in a different document or within the same document is a
+A
+pointer
+B
+web browser
+C
+web page
+D
+hyperlink
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2021 · Paper 1
+Which of the following options is a web browser?
+A
+Windows
+B
+Operating systems
+C
+DOS
+D
+Internet Explorer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2021 · Paper 1
+The command button that opens up a dialogue box for users to compose an e-mail message is the
+A
+inbox button
+B
+sent button
+C
+junk button
+D
+create button
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2021 · Paper 1
+Which feature of a web browser enables a user to access the latest information from the browser?
+A
+Backward
+B
+Refresh
+C
+Forward
+D
+Home
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2021 · Paper 1
+Mathematical calculations in a Spreadsheet application are called
+A
+formulae
+B
+labels
+C
+values
+D
+numbers
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2021 · Paper 1
+Which of the following terms in a Spreadsheet application is identified by a letter and number
+A
+Column
+B
+Row
+C
+Cell
+D
+Range
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2021 · Paper 1
+A selected cell in a Spreadsheet application is the
+A
+name box
+B
+active cell
+C
+cell address
+D
+formula bar
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2021 · Paper 1
+The sign used to prompt a Spreadsheet application that a user is about to apply a formula to a cell is
+A
+\
+B
+-
+C
+/
+D
+=
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

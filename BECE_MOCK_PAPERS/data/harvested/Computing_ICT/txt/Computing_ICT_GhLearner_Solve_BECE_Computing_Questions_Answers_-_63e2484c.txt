@@ -1,0 +1,677 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/fast-printing-dec-2025-computing
+TITLE: Solve BECE Computing Questions & Answers - Fast Printing Dec 2025
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Fast Printing Dec 2025
+1.
+[1]
+BECE mock · Computing
+Ama wants to watch educational videos on the internet. Which of these websites will you recommend for her?
+A
+Facebook
+B
+WhatsApp
+C
+Twitter
+D
+YouTube
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+A student in Spreadsheet environment wants to highlight her important points in her data with colour, icons and diagrams using condition. Which of these features will enable her achieve this task?
+A
+Conditional formatting
+B
+If function
+C
+Sort and filter
+D
+Find and replace
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+Ben has an electronic gadget which enables him to track locations. What appropriate name is given to Ben gadget?
+A
+Tablet
+B
+Google glass
+C
+Smart watch
+D
+Kindle
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+Which one of the following is a direct input data device?
+A
+Keyboard
+B
+Barcode reader
+C
+Printer
+D
+Mouse
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+The hidden layer of an artificial neural network is used to process data while input layer
+A
+display the final prediction.
+B
+organize data.
+C
+receive data.
+D
+compare data received.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+Parallel processing and Artificial Intelligence are features of which of the following computer generation?
+A
+Fifth generation
+B
+Fourth generation
+C
+Third generation
+D
+First generation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+In computing, reading is the act of accessing information from a storage medium whereas writing is the act of
+A
+transferring information.
+B
+downloading information.
+C
+retrieving information.
+D
+copying information unto a storage medium.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+Mr. Bannor a computing teacher projects information on his Smartphone onto a screen for the students to view. What appropriate name is given to that projector?
+A
+Multimedia projector
+B
+Pico projector
+C
+Standalone projector
+D
+Data projector
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+A computer hardware device that uses pen, pencil, marker or any other writing tools instead of toner to print vector graphics is referred to as
+A
+barcode reader.
+B
+printer.
+C
+graphing plotter.
+D
+magnetic ink character reader.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+Mr. Owusu has connected an external hard disk to his computer to enables him to save essential files for future use. In computing, what appropriate name is given to Mr. Owusu device?
+A
+Input device
+B
+Primary storage device
+C
+Peripheral device
+D
+Output device
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+In computing, the system of managing electronic waste products in our environment is referred to
+A
+Green computing.
+B
+E-waste management.
+C
+E-commerce.
+D
+Environmental management.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+In computing programming, C++ is a
+A
+programming language.
+B
+code.
+C
+compiler.
+D
+data storage.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+A student while typing in MS Word was able to replace an existing text with new text. Which feature enables her achieved that?
+A
+Autocorrect mode
+B
+Find and place
+C
+Insert mode
+D
+Overtype mode
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+Anita after saving her presentation found .pptx attached to the name given to the file when saving. In computing, .pptx represents
+A
+program name.
+B
+fine name.
+C
+file extension.
+D
+the program version.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+Quattro pro is one of the Spreadsheet application whereas OpenOffice writer is
+A
+word processor.
+B
+presentation software.
+C
+programming language.
+D
+database software.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+Abba was surprise when she saw Aso making drawings on her tablet with a device. In computing, what appropriate name is given to Aso's device?
+A
+Joystick
+B
+Light pen
+C
+Barcode reader
+D
+Graphing plotter
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+The ability of AI to combine digital content like videos or graphics to an existing world is termed as
+A
+gamification.
+B
+virtual reality.
+C
+deep learning.
+D
+augmented reality.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+The connection of two or more computers is a network while the global network of computers is the
+A
+extranet.
+B
+intranet.
+C
+internet.
+D
+web.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+Which of these social media website is used for professional networking, career development and job searching?
+A
+Bing
+B
+LinkedIn
+C
+WhatsApp
+D
+YouTube
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+Which of these techniques for evaluating webpage ensures how true the information acquired is?
+A
+Content
+B
+Accuracy
+C
+Currency
+D
+Functionality
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+Abi used someone information on the internet for her project without citing the source. In computing, this act is referred to as
+A
+freeware.
+B
+shareware.
+C
+copyright.
+D
+plagiarism.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+Which of the following is a feature of bus topology?
+A
+It is a combination of two or more topology
+B
+Fully connected
+C
+Very robust
+D
+Data only transmit in one direction
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+Richard in coding his program made an error which stops the program from running. In computer programming, what appropriate name is given to this unexpected error?
+A
+Array
+B
+Compiler
+C
+Robust
+D
+Bug
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+In computer programming real numbers that do not have fractional values are termed as
+A
+integer.
+B
+string.
+C
+float.
+D
+double.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+Ama has been permitted to list files and subfolders in windows operating system. In computing, what type of permission has been granted to Ama?
+A
+Read
+B
+Write
+C
+Modify
+D
+Full control
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+Which of the following is an adaptive technology suitable for person with low vision?
+A
+Screen reader
+B
+Cane
+C
+Clutches
+D
+Scooter
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+Emma is a physically impaired student whose one leg has been amputated. With your knowledge in technology in the community, what appropriate assistive technology will you recommend for her easily mobility?
+A
+Crutches
+B
+Screen reader
+C
+Prosthetic device
+D
+Cane
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+Joan has a light-sensing device which reads printed texts and graphics and then translates the results into a form that the computer can process. What name is given to Joan device?
+A
+Braille printer
+B
+Barcode reader
+C
+Optical scanner
+D
+Plotter
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+Resizing in computing is the act of increasing or decreasing the size of an image while cropping is the act of
+A
+enhancing the image appearance.
+B
+removing unwanted part of an image.
+C
+formatting the image.
+D
+restoring the image.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+A student in designing her flyer in desktop publishing application finds it difficult to write the text around the image. Which tool will enable her to achieve this task?
+A
+Word wrap
+B
+Text merge
+C
+Text wrap
+D
+Text direction
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+Save is used to store new and existing file while Save As is purposely used to
+A
+store an existing file with new name and location.
+B
+restore files.
+C
+rename folders on the computer.
+D
+delete file.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+A student in Spreadsheet environment wants to show the relationship between her created data. Suggest an appropriate tool in Excel that will help her achieve this task.
+A
+If function
+B
+Smart Art
+C
+Shapes
+D
+Chart
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+Vera as student is using a computer which is not connected to any other computer or network. In computing, what appropriate name is given to Vera's computer?
+A
+Standalone
+B
+Networked
+C
+Server
+D
+Repeater
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+Justice log into online platform which consist of a collection of digital recorded images, sound file, text document, cultural or historical data, and scientific data. What appropriate name is given to this website?
+A
+Scrabble
+B
+Virtual museum
+C
+Encarta
+D
+Scratch
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+Use operator precedence approach to evaluate the expression: (3 + 2)*6 + 9.
+A
+75
+B
+39
+C
+27
+D
+20
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+Gyimah in email environment was able to address and write email message to be sent. Suggest an appropriate feature which enables him to achieve that task.
+A
+Sent
+B
+Incoming
+C
+Address book
+D
+Compose
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+A student programmer was able to solve complex problem by breaking it down into smaller or more manageable task. What name is given to this process in programming?
+A
+Decomposition
+B
+Modification
+C
+Interception
+D
+Fabrication
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+Ten years old Lordina was able to design a program with online platform that uses block-based visual programming language. What name is given to this platform?
+A
+Virtual museum
+B
+Java
+C
+Scratch
+D
+C++
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+The set of related objects with common properties in programming is referred to as
+A
+flowchart.
+B
+float.
+C
+array.
+D
+class.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+Convert 29(base 10) to binary.
+A
+11100
+B
+11000
+C
+11101
+D
+10101
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[3]
+BECE mock · Computing
+The Figure shows different types of input devices. Write all the manual input devices shown in Figure 1.
+42.
+[3]
+BECE mock · Computing
+The Figure shows different types of input devices. Which of the devices shown are automatic or direct input devices?
+43.
+[2]
+BECE mock · Computing
+The Figure shows different types of input devices. Which device or devices shown are purposely used in banking sectors to read information on cheques?
+44.
+[2]
+BECE mock · Computing
+The Figure shows different types of input devices. Which device shown is mainly used in educational sectors to mark alternative or objective questions?
+45.
+[2]
+BECE mock · Computing
+The Figure shows different types of input devices. Which device shown is used to capture unique human data to verify a user's identity in large industries?
+46.
+[2]
+BECE mock · Computing
+State two merits of input devices.
+47.
+[2]
+BECE mock · Computing
+State two demerits of input devices.
+48.
+[2]
+BECE mock · Computing
+A Find and Replace dialog box in MS Word is shown. Describe what happens when the user clicks the Replace button.
+49.
+[2]
+BECE mock · Computing
+A Find and Replace dialog box in MS Word is shown. What happens when the user clicks the Replace All button?
+50.
+[2]
+BECE mock · Computing
+A Find and Replace dialog box in MS Word is shown. What happens when the user clicks the Find Next button?
+51.
+[2]
+BECE mock · Computing
+A Find and Replace dialog box in MS Word is shown. State the steps in the correct order for displaying the Find and Replace dialog box in MS Word.
+52.
+[3]
+BECE mock · Computing
+Describe the OSI model of a computer network.
+53.
+[4]
+BECE mock · Computing
+Write all the layers of the OSI model in the correct order.
+54.
+[2]
+BECE mock · Computing
+What is the name of the figure shown below.
+55.
+[3]
+BECE mock · Computing
+Study the figure shown carefully. Discuss how you will  describe it to your colleagues.
+56.
+[2]
+BECE mock · Computing
+A table showing the mid-term marks of two students is provided. Write the number of columns and rows used to create the table.
+57.
+[4]
+BECE mock · Computing
+A table showing the mid-term marks of two students is provided. Outline the steps in the correct order to create the table shown.
+58.
+[4]
+BECE mock · Computing
+A table showing the mid-term marks of two students is provided. Write the steps in the correct order used to create the text 'Subject' in the table.
+59.
+[2]
+BECE mock · Computing
+A table showing the mid-term marks of two students is provided. A student wants to compare the relationship between students' data in a table. Which feature can be used to achieve this?
+60.
+[3]
+BECE mock · Computing
+Explain the concept of a word processor.
+61.
+[3]
+BECE mock · Computing
+Briefly explain the difference between CD-R and CD-RW storage devices.
+62.
+[3]
+BECE mock · Computing
+List any three web browsers you know.
+63.
+[3]
+BECE mock · Computing
+Suggest any three benefits of computer networks in a school.
+64.
+[4]
+BECE mock · Computing
+Mr. Musah, a computing tutor, enters 21 as his age on the computer. Convert the number 21 into digital form.
+65.
+[3]
+BECE mock · Computing
+Storage devices come in several types. List any three of the types.
+66.
+[2]
+BECE mock · Computing
+Beatrice finds it difficult to print a wide worksheet. Suggest an appropriate page orientation she should use.
+67.
+[3]
+BECE mock · Computing
+Beatrice finds it difficult to print a wide worksheet. List the steps in the correct order for applying the appropriate page orientation.
+More Computing
+All Computing papers & mocks
+Computing topics

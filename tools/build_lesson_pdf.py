@@ -209,6 +209,9 @@ _LATEX_TO_UNI = [
     (r"\\div", "÷"),
     (r"\\pm", "±"),
     (r"\\mp", "∓"),
+    (r"\\leftrightarrow", "↔"),
+    (r"\\leftarrow", "←"),
+    (r"\\rightarrow", "→"),
     (r"\\le(?:q)?", "≤"),
     (r"\\ge(?:q)?", "≥"),
     (r"\\ne(?:q)?", "≠"),
@@ -264,8 +267,8 @@ def latex_to_unicode(src: str) -> str:
     body = src
     for pat, repl in _LATEX_TO_UNI:
         body = re.sub(pat, repl, body)
-    # blackboard bold and friends
-    body = body.replace("\\mathbb{N}", "ℕ").replace("\\mathbb{W}", "𝕎")
+    # blackboard bold and friends (Cambria subfont 0 has ℕ, ℤ, ℚ, ℝ; use W for \mathbb{W} to avoid U+1D54E substitution)
+    body = body.replace("\\mathbb{N}", "ℕ").replace("\\mathbb{W}", "W")
     body = body.replace("\\mathbb{Z}", "ℤ").replace("\\mathbb{Q}", "ℚ")
     body = body.replace("\\mathbb{R}", "ℝ")
     # remaining \word -> just the word (best effort)
@@ -303,7 +306,18 @@ def esc(t: str) -> str:
 
 
 def clean_inline(t: str, problems: list, where: str = "inline") -> str:
-    # 1) Extract inline math FIRST, before HTML escaping, as Unicode in a stash.
+    # 0) Unwrap markdown links [label](url) -> label (preserving image syntax ![alt](url))
+    t = re.sub(r"(?<!!)\[([^\]]+)\]\([^)]+\)", r"\1", t)
+
+    # 1) Extract inline code and inline math FIRST, before HTML escaping or LaTeX-in-prose rules.
+    code_stash: list[str] = []
+
+    def _icode(m: re.Match) -> str:
+        code_stash.append(m.group(1))
+        return "@@C%d@@" % (len(code_stash) - 1)
+
+    t = re.sub(r"`([^`]+)`", _icode, t)
+
     stash: list[str] = []
 
     def _imath(m: re.Match) -> str:
@@ -312,8 +326,10 @@ def clean_inline(t: str, problems: list, where: str = "inline") -> str:
 
     t = re.sub(r"(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)", _imath, t)
 
-    # 2) HTML-escape the prose only
+    # 2) HTML-escape the prose only (preserving <br> / <br/> for ReportLab line breaks)
+    t = re.sub(r"<br\s*/?>", "@@BR@@", t, flags=re.IGNORECASE)
     t = t.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+    t = t.replace("@@BR@@", "<br/>")
 
     # 3) Strip leftover LaTeX in prose
     for pat, repl in _LATEX_TO_UNI:
@@ -325,12 +341,14 @@ def clean_inline(t: str, problems: list, where: str = "inline") -> str:
     # 4) Markdown emphasis
     t = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", t)
     t = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", t)
-    t = re.sub(r"`([^`]+)`", r'<font face="Mono">\1</font>', t)
 
-    # 5) Restore maths (already Unicode)
+    # 5) Restore maths (already Unicode) and inline code spans
     for i, s in enumerate(stash):
         safe = s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         t = t.replace("@@M%d@@" % i, safe)
+    for i, c in enumerate(code_stash):
+        safe_c = c.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        t = t.replace("@@C%d@@" % i, f'<font face="Mono">{safe_c}</font>')
 
     plain = t
     for a, b in (("&amp;", "&"), ("&gt;", ">"), ("&lt;", "<")):

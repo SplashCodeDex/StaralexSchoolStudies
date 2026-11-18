@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2023/paper-1
+TITLE: Download 2023 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2023 BECE Computing Questions & Answers (PDF)
+1.
+[1]
+BECE 2023 · Paper 1
+The start button is located on the
+A
+status bar.
+B
+taskbar.
+C
+menu bar.
+D
+tool bar.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2023 · Paper 1
+An application window can be exited using an option on the
+A
+status bar.
+B
+control box.
+C
+scroll bar.
+D
+dialogue box.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2023 · Paper 1
+In a spreadsheet application, when a user presses the tab key on the keyboard, the cursor moves
+A
+below the active cell.
+B
+to the right of the active cell.
+C
+to the left of the active cell.
+D
+above the active cell.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2023 · Paper 1
+The type of alignment that positions the selected text for both left and right margins to be straight is termed
+A
+justify.
+B
+left align.
+C
+right align.
+D
+center.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2023 · Paper 1
+The use of someone's intellectual property and presenting it as yours is called
+A
+copyright infringement.
+B
+copyright protection.
+C
+copyright ethics.
+D
+copyright law.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2023 · Paper 1
+Computer virus can also be classified as computer
+A
+firmware.
+B
+liveware.
+C
+software.
+D
+hardware.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2023 · Paper 1
+Using two or more keys on the computer keyboard to perform an action is termed
+A
+keyboard shortcut.
+B
+keyboard selection.
+C
+keyboard skills.
+D
+keyboard technology.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2023 · Paper 1
+A wrongly typed text in a word processing document will be prompted by the
+A
+Find and Replace.
+B
+Grammar checker.
+C
+AutoCorrect.
+D
+Spell checker.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2023 · Paper 1
+Which of the following options is not a hardware component of a computer system?
+A
+Input devices
+B
+Storage devices
+C
+Operating system
+D
+Processing devices
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2023 · Paper 1
+A file that is cut is temporarily sent to the
+A
+scissors.
+B
+folder.
+C
+recycle bin.
+D
+clipboard.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2023 · Paper 1
+Which of the following devices provides the function as a pointing object on the screen?
+A
+Bar code reader
+B
+Digitizer
+C
+Touchpad
+D
+Microphone
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2023 · Paper 1
+Numbering and bulleting tool in word processing application is located on the
+A
+View menu.
+B
+Insert menu.
+C
+Edit menu.
+D
+Format menu.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2023 · Paper 1
+The information that a spreadsheet displays when a user inputs incorrect formula is called
+A
+system message.
+B
+user message.
+C
+error message.
+D
+notification message.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2023 · Paper 1
+Which of the following is not a data storage unit in the field of computing?
+A
+KB
+B
+MB
+C
+GB
+D
+DB
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2023 · Paper 1
+In word processing environment, text selection can also be referred to as text
+A
+highlighting.
+B
+copying.
+C
+formatting.
+D
+editing.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2023 · Paper 1
+The platform provided by the operating system for user's interaction is called
+A
+data interface.
+B
+graphical user interface.
+C
+image user interface.
+D
+computer interface.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2023 · Paper 1
+Digital data can be transferred over the telephone lines with the help of
+A
+a modem.
+B
+a transformer.
+C
+a wi-fi device.
+D
+an adapter.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2023 · Paper 1
+The various forms of document view mode in word processing applications is located on the
+A
+taskbar.
+B
+scroll bar.
+C
+status bar.
+D
+title bar.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2023 · Paper 1
+Both the hard disc drive and the floppy disk drive are examples of
+A
+output device.
+B
+input device.
+C
+storage device.
+D
+storage media.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2023 · Paper 1
+The importance of password in an e-mail is to
+A
+provide another way of signing into the e-mail account.
+B
+be a security measure in accessing the e-mail account.
+C
+verify the type of e-mail the user is sending.
+D
+hide the e-mail account from others.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2023 · Paper 1
+To print different pages of a document, enter the page numbers and separate them with a
+A
+comma.
+B
+dash.
+C
+question mark.
+D
+full stop.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2023 · Paper 1
+One example of an input device is
+A
+projector.
+B
+printer.
+C
+monitor.
+D
+stylus.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2023 · Paper 1
+Which finger is usually placed on the spacebar during typing?
+A
+Middle
+B
+Index
+C
+Thumb
+D
+Little
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2023 · Paper 1
+When a user clicks on the start button, it displays
+A
+deleted applications.
+B
+running applications.
+C
+installed applications.
+D
+opened applications.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2023 · Paper 1
+Working with the computer at the office makes a user more
+A
+attentive.
+B
+creative.
+C
+active.
+D
+productive.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2023 · Paper 1
+The process where a user can save the address of a webpage so that it can be easily visited is called?
+A
+Session
+B
+History
+C
+Download
+D
+Bookmark
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2023 · Paper 1
+The step by step instructions that tell the computer what to do is
+A
+a software.
+B
+a hardware.
+C
+a data.
+D
+an information.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2023 · Paper 1
+Personal images from a mobile phone or digital camera are best stored in
+A
+My documents.
+B
+My computer.
+C
+My downloads.
+D
+My pictures.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2023 · Paper 1
+For a computer to be useful, the hardware must work together with the
+A
+peripheral devices.
+B
+liveware components.
+C
+application software.
+D
+operating system.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2023 · Paper 1
+The process of gaining unauthorized access into a computer system is referred to as
+A
+unlawful access.
+B
+hacking.
+C
+unauthorized entry.
+D
+stealing.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2023 · Paper 1
+To browse through webpages means to
+A
+move through webpages for information.
+B
+save webpages for information.
+C
+locate webpages for information.
+D
+select webpages for information.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2023 · Paper 1
+Which of the following features will display the content of the active cell in a spreadsheet?
+A
+Cell address
+B
+Column header
+C
+Formula bar
+D
+Name box
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2023 · Paper 1
+In computing environment, joystick is generally used to control
+A
+video games.
+B
+the screen.
+C
+the monitor.
+D
+audio games.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2023 · Paper 1
+Which of the following options is not part of a spreadsheet data type?
+A
+WordText
+B
+Word
+C
+Currency
+D
+Number
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2023 · Paper 1
+Which of the following applications makes teaching and learning easy and interesting?
+A
+Word processor
+B
+Educational Software
+C
+Spreadsheet
+D
+Facebook
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2023 · Paper 1
+Information in the computer is represented in
+A
+continuous format.
+B
+analogue format.
+C
+digital format.
+D
+straight format.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2023 · Paper 1
+E-mail messages are sent through
+A
+e-mail username.
+B
+e-mail password.
+C
+e-mail address.
+D
+e-mail account.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2023 · Paper 1
+DVD mostly used in computer is a type of
+A
+magnetic disc.
+B
+magnetic drive.
+C
+optical drive.
+D
+optical disc.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2023 · Paper 1
+Which of the following symbols is not part of a website address?
+A
+=
+B
+/
+C
+''
+D
+:
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2023 · Paper 1
+The process of pressing and releasing the default mouse button once is best called
+A
+pointing.
+B
+dragging.
+C
+selecting.
+D
+clicking.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

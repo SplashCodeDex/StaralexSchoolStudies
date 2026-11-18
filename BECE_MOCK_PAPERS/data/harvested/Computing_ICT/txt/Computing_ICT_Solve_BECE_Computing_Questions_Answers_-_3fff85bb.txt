@@ -1,0 +1,617 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/gbat-april-2026-computing
+TITLE: Solve BECE Computing Questions & Answers - GBAT April 2026 Computing
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - GBAT April 2026 Computing
+1.
+[1]
+BECE mock · Computing
+The following are the importance of creating Scrabble games, except
+A
+learning mathematics.
+B
+improve creativity.
+C
+improve vocabulary.
+D
+learning spelling.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+Selecting "Ignore once" when using the proofing option will
+A
+overlook all instances of the spelling error.
+B
+overlook the current instance of the spelling error.
+C
+add the new word to the dictionary.
+D
+delete the spelling error.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+Which of the following consists of a source code editor, build automation tools, and a debugger?
+A
+Sectional development environment
+B
+Integrated building environment
+C
+Development building scheme
+D
+Integrated development environment
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+Historical and scientific documents exhibited via the internet are an example of
+A
+presentation.
+B
+virtual learning environment.
+C
+word processing.
+D
+virtual museum.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+The process of breaking down larger problems into smaller, independent, often similar parts that can be executed simultaneously by multiple processors communicating via shared memory, the results of which are combined upon completion as part of an overall algorithm, is known as
+A
+serial computing.
+B
+systematic computing.
+C
+parallel computing.
+D
+modelled computing.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+One of the features of producing a terminal report is to insert the current date and time of printing the report. Which function can be used to achieve that?
+A
+=date-time ()
+B
+=now ()
+C
+=time ()
+D
+=today ()
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+A web cookie is a small piece of data that is
+A
+sent from a website and stored in the user's web browser while the user is browsing a website.
+B
+sent from the user and stored on the server while a user is browsing a website.
+C
+sent from the root server to all servers.
+D
+sent from the root server to other root servers.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+Which of the following groups are only input devices?
+A
+Mouse, keyboard, monitor, joystick
+B
+Mouse, keyboard, printer, light pen
+C
+Mouse, keyboard, scanner, joystick, light pen
+D
+Mouse, keyboard, trackball, touch screen, speaker
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+What does "viral" mean in the context of social media?
+A
+A harmful computer virus spreading through social media platforms
+B
+A type of online game that gains popularity quickly
+C
+A piece of content that spreads rapidly and extensively across the internet
+D
+An advertisement that receives negative feedback
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+What is a challenge associated with social media?
+A
+Lack of internet connection globally
+B
+Increased privacy protection
+C
+Cyberbullying and misinformation
+D
+Reduced usage of smartphones
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+What is the Second Law of Isaac Asimov's robotics?
+A
+Robot must obey the orders of humans
+B
+Robot may not injure humans
+C
+Robots must protect their own existence
+D
+Robot must operate at minimal speed
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+A template differs from a theme because a template
+A
+has no design.
+B
+cannot be edited.
+C
+contains sample content and layouts.
+D
+is found only online.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+A student writes IF Score > 50 THEN Pass. This represents
+A
+selection.
+B
+sequence.
+C
+loop.
+D
+debugging.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+A spreadsheet cell shows ####### instead of numbers. What is the likely problem?
+A
+Formula error
+B
+Column too narrow
+C
+Virus attack
+D
+Wrong font
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+A student wants to add a "Transition" to their PowerPoint presentation. This will affect
+A
+the movement of text within a slide.
+B
+the way one slide moves to the next.
+C
+the font size of the titles.
+D
+the background colour of the slides.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+Which of these is a benefit of networking computers in a school?
+A
+Increased physical space
+B
+Sharing a single printer among many users
+C
+Making the computers run faster
+D
+Preventing all viruses
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+When you transfer a file from your phone to a cloud storage like Google Drive, the process is called
+A
+downloading.
+B
+browsing.
+C
+uploading.
+D
+streaming.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+What is the primary purpose of an algorithm?
+A
+To decorate a webpage
+B
+To provide a step-by-step solution to a problem
+C
+To increase computer speed
+D
+To connect to the internet
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+To prevent eye strain, how far should your eyes be from the computer screen?
+A
+5 - 10 cm
+B
+50 - 70 cm
+C
+2 - 3 meters
+D
+10 - 20 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+What are the three algorithm constructs?
+A
+Sequence, selection, repetition
+B
+Input, process, output
+C
+Input/output, decision, terminator
+D
+Loop, input/ output, process
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+An office wants to reduce its "Carbon Footprint". Which action helps?
+A
+Leaving computers on all night
+B
+Printing every email
+C
+Using energy-efficient monitors and turning off unused devices
+D
+Buying more paper
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+A student's computer is frequently turning off due to power fluctuations in the area. Which device should be recommended to protect the hardware?
+A
+Stabilizer
+B
+UPS
+C
+Step-up Transformer
+D
+Power Strip
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+A gamer notices their computer is lagging. He finds that the temporary data the CPU needs is taking too long to retrieve from the RAM. Which type of memory should be improved for faster access?
+A
+Virtual Memory
+B
+Secondary Storage
+C
+Cache Memory
+D
+BIOS
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+Which port would you use to connect a modern digital monitor to a system unit for the best video quality?
+A
+VGA
+B
+PS2
+C
+HDMI
+D
+Serial Port
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+What is the purpose of the Clipboard in MS Word?
+A
+To format the text
+B
+To copy and paste text and graphics
+C
+To check spelling and grammar
+D
+To print the document
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+Which of the following is true about supercomputers?
+A
+I. The processing speed is a thousand times higher than personal computer
+B
+I, II and IV only
+C
+II, III, IV only
+D
+I, III and IV only
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+To crop all four sides of a picture at once while maintaining its proportions,
+A
+press and hold down the Ctrl key as you drag the handles.
+B
+press and hold down the shift key as you drag the handles.
+C
+press and hold down the Alt key as you drag the handles.
+D
+click and drag the handles while holding down the space bar.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+An important measure to reduce the risk of repetitive strain injury when using computers is
+A
+using a mouse with high sensitivity.
+B
+taking frequent breaks and stretching.
+C
+typing with a badly structured keyboard.
+D
+ignoring early symptoms of discomfort.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+What is a characteristic of network-attached storage (NAS)?
+A
+It stores data only on physical hard drives
+B
+It requires internet connectivity to access stored data
+C
+It provides storage resources over a local network
+D
+It can only be accessed by a single user at a time
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+Which computer technology helps analyse the environment and respond accordingly?
+A
+Perceptual computing
+B
+Cloud computing
+C
+Natural language processing
+D
+Sensor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+The two digits used by a computer in data processing are
+A
+0 and 1.
+B
+2 and 3.
+C
+0 and 2.
+D
+1 and 2.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+Which AI concept allows a machine to learn from data without being explicitly programmed?
+A
+Logical reasoning
+B
+Machine learning
+C
+Robotics
+D
+Computer vision
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+A student wants to insert a table that shows the "Name" and "Role" of 10 members. What is the appropriate table grid size?
+A
+10 columns and 2 rows
+B
+2 columns and 11 rows
+C
+1 column and 10 rows
+D
+5 columns and 5 rows
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+The teacher wants to see the relationship between student names and their total marks using a visual representation. The best tool is
+A
+a pivot table
+B
+a spreadsheet table
+C
+an Excel chart
+D
+a WordArt title
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+To combine three cells into one and centre the heading "STUDENT RECORDS", the teacher uses
+A
+wrap text.
+B
+merge & centre
+C
+format cells.
+D
+align centre.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+In pseudocode, which keyword is used to repeat an action a specific number of times?
+A
+IF
+B
+FOR
+C
+THEN
+D
+OUTPUT
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+What is a primary function of proper workstation lighting ergonomics?
+A
+Dim lighting to reduce energy consumption
+B
+Bright, uniform lighting to reduce glare and eye strain
+C
+Harsh, flickering lighting for visual stimulation
+D
+Positioning the computer screen directly under a bright overhead light
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+While researching robots online, a student's data is intercepted by a third party. This attack is called
+A
+fabrication.
+B
+interruption.
+C
+interception.
+D
+modification.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+To improve the robot's ability to recognise different types of scrap metal, the students use a subfield of AI called
+A
+machine learning.
+B
+logical reasoning.
+C
+word processing.
+D
+data entry.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+How can technology contribute to economic development in communities?
+A
+By increasing barriers to entry for small businesses through complex regulations
+B
+By automating manual tasks, thereby increasing productivity and efficiency
+C
+By promoting monopolistic practices among large corporations
+D
+By discouraging innovation and entrepreneurship through strict patents and copyright
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[5]
+BECE mock · Computing
+Define the term algorithm.
+42.
+[5]
+BECE mock · Computing
+State two characteristics of a good algorithm.
+43.
+[5]
+BECE mock · Computing
+Explain the term flowchart.
+44.
+[5]
+BECE mock · Computing
+State two advantages of using flowcharts.
+45.
+[5]
+BECE mock · Computing
+Differentiate between hardware and software.
+46.
+[5]
+BECE mock · Computing
+Give two examples of input devices.
+47.
+[5]
+BECE mock · Computing
+Explain the term operating system.
+48.
+[5]
+BECE mock · Computing
+State three functions of an operating system.
+49.
+[5]
+BECE mock · Computing
+Define the term database.
+50.
+[5]
+BECE mock · Computing
+State two advantages of a database system.
+51.
+[5]
+BECE mock · Computing
+Explain the term computer network.
+52.
+[5]
+BECE mock · Computing
+State two types of computer networks.
+More Computing
+All Computing papers & mocks
+Computing topics

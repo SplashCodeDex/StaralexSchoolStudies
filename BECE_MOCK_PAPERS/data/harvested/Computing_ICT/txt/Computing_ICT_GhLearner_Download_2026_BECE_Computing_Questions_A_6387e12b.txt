@@ -1,0 +1,572 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2026/paper-1
+TITLE: Download 2026 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2026 BECE Computing Questions & Answers (PDF)
+Computing Objective Test — instructions
+Each question is followed by four options lettered A to D. Find the correct option for each question and shade in pencil on your answer sheet the space which bears the same letter as the option you have chosen. Give only one answer to each question.
+1.
+[1]
+BECE 2026 · Paper 1
+1. Some school authorities use passwords on their school's Wi‑Fi to prevent
+A
+access to important information.
+B
+the use of printers.
+C
+data loss.
+D
+unauthorized access.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2026 · Paper 1
+2. In the construction and operation of a robot, the control system is required to
+A
+regulate the robot's movement.
+B
+detect objects in the robot's environment.
+C
+supply electrical power to the robot.
+D
+make decisions based on artificial intelligence.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2026 · Paper 1
+3. Use the figure below to answer the question. The device shown is used to
+A
+scan information.
+B
+process information.
+C
+print information.
+D
+store information.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2026 · Paper 1
+4. A secretary is working on a document in Microsoft Word that contains the dollar sign. The tool to help the secretary replace the dollar sign with the Ghana cedis sign is the
+A
+symbol tool.
+B
+word tool.
+C
+shapes tool.
+D
+equation tool.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2026 · Paper 1
+5. The feature in Word processing application that allow a user to bold, italicize or underline a selected text is found on the
+A
+standard toolbar.
+B
+menu bar.
+C
+format toolbar.
+D
+title bar.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2026 · Paper 1
+6. In a computing class, the teacher delivered a lesson using a presentation in Microsoft PowerPoint application with transition effects. The purpose of the transition effects is to
+A
+add sounds to slides.
+B
+create a smooth flow-between slides.
+C
+create animations in the slides.
+D
+make the slides look colourful.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2026 · Paper 1
+7. To access the location to an event, one can either type the GPS address or scan the
+A
+Pass code.
+B
+SMS code.
+C
+Bar code.
+D
+QR code.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2026 · Paper 1
+8. The use of scientific knowledge to create tools and techniques for solving problem is termed
+A
+intelligence.
+B
+information.
+C
+computing.
+D
+technology.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2026 · Paper 1
+9. The National Information Technology Authority provides educational resources to schools by using
+A
+print services.
+B
+web services.
+C
+client services.
+D
+mail services.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2026 · Paper 1
+10. In defining the logic of a program, conditional statements are used to
+A
+make decisions.
+B
+declare variable.
+C
+count comments.
+D
+create loops.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2026 · Paper 1
+11. A school's computer network setup includes computers, routers and switches. The function of the router is to
+A
+connect multiple networks.
+B
+connect devices within the network.
+C
+amplify the network signal.
+D
+allow users to use the network.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2026 · Paper 1
+12. A friend approached you to assist in selecting a software to prepare a presentation. The appropriate software to recommend is
+A
+PowerPoint.
+B
+Excel.
+C
+Photoshop.
+D
+Publisher.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2026 · Paper 1
+13. The element of design in Desktop Publishing application that helps a user to ensure consistent font styles and sizes for headings and body text when designing a product is
+A
+typography.
+B
+transition.
+C
+orientation.
+D
+animation.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2026 · Paper 1
+14. A client at the reception of a hospital uses an input device connected to the computer to send information to the computer.
+A
+process information in the computer.
+B
+store information on the computer.
+C
+move information from the computer.
+D
+send information to the computer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2026 · Paper 1
+15. Kofi was saving a file in the computer but the computer gave an error message on the name of the file because the file name
+A
+had special characters or spaces.
+B
+described the content of the file.
+C
+used short and meaningful words.
+D
+contained special characters.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2026 · Paper 1
+16. Which network device serves as the central connection point for all workstation in a typical wired Internet café setup?
+A
+Gateway
+B
+Repeater
+C
+Modem
+D
+Switch
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2026 · Paper 1
+17. The primary location to find All Programs that have been installed on the computer is through the
+A
+start menu.
+B
+task view.
+C
+system tray.
+D
+notification area.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2026 · Paper 1
+18. The period for the evolution of the fourth generation of computer started from
+A
+2006.
+B
+1957.
+C
+1971.
+D
+1995.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2026 · Paper 1
+19. To place a text close to and around an image in a desktop publishing document, use
+A
+Wrap Text.
+B
+Bring Forward.
+C
+Send Backward.
+D
+Align Middle.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2026 · Paper 1
+20. To search for Microsoft Excel file in a folder, the extension to use is
+A
+.xls
+B
+.doc
+C
+.ppt
+D
+.bak
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2026 · Paper 1
+21. Computer programmes use data types to hold information when developing software. The data type that is not valid in programming is
+A
+Circular.
+B
+Integer.
+C
+Boolean.
+D
+Float.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2026 · Paper 1
+22. The following activities are type of robotic locomotion except
+A
+rolling.
+B
+floating.
+C
+driving.
+D
+jumping.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2026 · Paper 1
+23. A group of interconnected computers and other computing devices connected to share resources is referred to as
+A
+link.
+B
+network.
+C
+system.
+D
+hyperlink.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2026 · Paper 1
+24. The Artificial Intelligence concept that is limited to a specific area of application is considered to be
+A
+strong AI.
+B
+weak AI.
+C
+smart AI.
+D
+super AI.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2026 · Paper 1
+25. One thousand candidates wrote an examination and their scores have been tabulated in a Microsoft Excel worksheet. The function that can be used to determine candidates who passed is
+A
+IF
+B
+COUNTIF
+C
+COUNT
+D
+SUMIF
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2026 · Paper 1
+26. A step-by-step procedure or set of instructions for solving a problem is known as
+A
+program.
+B
+algorithm.
+C
+flowchart.
+D
+instruction.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2026 · Paper 1
+27. A partially displayed text in Microsoft Excel worksheet cell can be fully displayed by adjusting the column width or row height using the
+A
+Format menu.
+B
+View tab.
+C
+Edit menu.
+D
+Insert tab.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2026 · Paper 1
+28. A small portable and battery-operated projector that is designed to project content from a smartphone or laptop is called
+A
+multimedia projector.
+B
+pico projector.
+C
+video projector.
+D
+data projector.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2026 · Paper 1
+29. A student entered data into a worksheet and realized an error in a particular cell. The correct action is to
+A
+right-click on the cell.
+B
+tap the delete key.
+C
+double-click on the cell.
+D
+click outside the cell.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2026 · Paper 1
+30. The feature that allows a user to freeze specific rows or columns in a spreadsheet application is
+A
+freeze tab.
+B
+freeze panes.
+C
+freeze cells.
+D
+freeze sheets.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2026 · Paper 1
+31. The flowchart symbol that requires one point entry and two points exit is the
+A
+oval.
+B
+parallelogram.
+C
+rectangle.
+D
+diamond.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2026 · Paper 1
+32. Students were tasked to surf the Internet for information on cybersecurity. This information could be accessed through the use of
+A
+Transmission Control Protocol.
+B
+User Datagram Protocol.
+C
+Uniform Resource Locator.
+D
+Domain Name Server.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2026 · Paper 1
+33. For computers to multi-task and provide user friendly environment, computer manufacturers introduced the windows operating system during the
+A
+fifth generation.
+B
+second generation.
+C
+fourth generation.
+D
+third generation.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2026 · Paper 1
+34. A potential consequence of a student spending too much time on social media platform is
+A
+enhanced sleep quality.
+B
+enhanced physical fitness.
+C
+improved concentration.
+D
+increased social isolation.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2026 · Paper 1
+35. In a class, the teacher explained that current technology allows applications to analyse a user's previous music listening history to suggest new songs for the user. This technology is best described as
+A
+Artificial Intelligence.
+B
+Virtual Reality.
+C
+Perceptual Computing.
+D
+Augmented Reality.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2026 · Paper 1
+36. Sam is using a computer and notices that the screen is glaring. The most likely reason for the glare screen is that
+A
+there is too much light reflecting off the screen.
+B
+the computer is over heated.
+C
+the computer is running too many programs.
+D
+the computer screen is too small.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2026 · Paper 1
+37. A Microsoft PowerPoint Presentation contains inconsistent colour scheme in a set of slides. The tab that will help a user to apply a consistent colour scheme is the
+A
+Animation tab.
+B
+Insert tab.
+C
+Design tab.
+D
+Review tab.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2026 · Paper 1
+38. In a computing class, the teacher taught the students that it is important to regularly update software because, updates
+A
+improve the performance of the software.
+B
+make the computer run faster.
+C
+delete unnecessary files from the software.
+D
+change the appearance of the user interface.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2026 · Paper 1
+39. The purpose of a hashtag (#) on social media platforms is to
+A
+process search on the site.
+B
+provide suggestions to users on the site.
+C
+hide important texts on the site.
+D
+categorize and group contents on the site.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2026 · Paper 1
+40. What does the function IF do in a spreadsheet formula?
+A
+Multiplies two numbers
+B
+Perform conditional testing
+C
+Adds up a range of cells
+D
+Counts the number of cells in a range
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

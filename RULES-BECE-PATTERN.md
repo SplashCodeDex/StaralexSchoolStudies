@@ -2,7 +2,7 @@
 ## Non-mathematical subjects (Computing / ICT, CDT / CAD / Creative Arts and Design)
 
 **Scope:** every grade and every subject that is **not** Mathematics (JHS 1–3 / B7–B9).  
-**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (587 Computing_ICT + 667 CDT_CAD questions, plus marking schemes) and the official NaCCA Common Core Programme PDFs.
+**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (587 Computing_ICT + 667 CDT_CAD questions, plus marking schemes) and, per subject: the official NaCCA CCP PDFs for Computing; **[`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md)** for Creative Arts & Design (the NaCCA CAD curriculum files were purged — the plan, grouped as Visual Arts incl. Design, Music, Dance Drama, is authoritative).
 
 Subject folders keep their own short `Rules.md` that **links here** and adds only subject-specific notes. Do not duplicate this file.
 

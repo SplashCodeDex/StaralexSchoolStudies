@@ -1,0 +1,434 @@
+{
+  "scanned": 175,
+  "filled": 138,
+  "unreadable": [
+    {
+      "file": "CDT_CAD_2021_Pre-Tech-2019_9e82be62.docx",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\docx\\CDT_CAD_2021_Pre-Tech-2019_9e82be62.docx"
+    },
+    {
+      "file": "Mathematics_2022_2021-BECE-MATHEMATICS_b2f5e05a.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2022_2021-BECE-MATHEMATICS_b2f5e05a.pdf"
+    },
+    {
+      "file": "Computing_ICT_2022_2021-BECE-ICT_16039b45.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2022_2021-BECE-ICT_16039b45.pdf"
+    },
+    {
+      "file": "CDT_CAD_2023_PTS-BECE-2022_b0e2cae6.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2023_PTS-BECE-2022_b0e2cae6.pdf"
+    },
+    {
+      "file": "Mathematics_2023_Mathematics-BECE-2022_86d397b4.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2023_Mathematics-BECE-2022_86d397b4.pdf"
+    },
+    {
+      "file": "Computing_ICT_2023_ICT-BECE-2022_6c7dde33.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2023_ICT-BECE-2022_6c7dde33.pdf"
+    },
+    {
+      "file": "Computing_ICT_ICT-BECE-private-2021_735229ee.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_ICT-BECE-private-2021_735229ee.pdf"
+    },
+    {
+      "file": "Computing_ICT_2025_SUPER-MOCK-B-COMPUTING-MARKING-SCHEME_01ac21ac.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2025_SUPER-MOCK-B-COMPUTING-MARKING-SCHEME_01ac21ac.pdf"
+    },
+    {
+      "file": "Computing_ICT_uc_13a23797.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_13a23797.pdf"
+    },
+    {
+      "file": "Mathematics_2026-BECE-MATHEMATICS-MARKING-SCHEME_ad2f2014.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2026-BECE-MATHEMATICS-MARKING-SCHEME_ad2f2014.pdf"
+    },
+    {
+      "file": "Computing_ICT_uc_c43e1959.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_uc_c43e1959.pdf"
+    },
+    {
+      "file": "General_Unclassified_2022_GBAT-V-MOCK-2-Social-Scheme_cb78daf3.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2022_GBAT-V-MOCK-2-Social-Scheme_cb78daf3.pdf"
+    },
+    {
+      "file": "Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_335037c4.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_335037c4.txt"
+    },
+    {
+      "file": "Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_341669a6.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_341669a6.txt"
+    },
+    {
+      "file": "Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_d1fa0dc7.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_d1fa0dc7.txt"
+    },
+    {
+      "file": "Computing_ICT_BestBrain_Solve_BECE_Computing_Questions_Answers_-_5ac9203a.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_BestBrain_Solve_BECE_Computing_Questions_Answers_-_5ac9203a.txt"
+    },
+    {
+      "file": "Mathematics_GhLearner_Solve_WASSCE_Core_Mathematics_Questions__404df587.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_GhLearner_Solve_WASSCE_Core_Mathematics_Questions__404df587.txt"
+    },
+    {
+      "file": "Mathematics_Passco_SHS_School_Mocks_Accra_Academy_Subjects__793b0d1c.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_Passco_SHS_School_Mocks_Accra_Academy_Subjects__793b0d1c.txt"
+    },
+    {
+      "file": "Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_9ee314d8.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_9ee314d8.txt"
+    },
+    {
+      "file": "Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_797f1b7d.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_797f1b7d.txt"
+    },
+    {
+      "file": "Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_43ad1a2f.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\txt\\Computing_ICT_GhLearner_Solve_BECE_Computing_Questions_Answers_-_43ad1a2f.txt"
+    },
+    {
+      "file": "Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_8f684b02.txt",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\txt\\Mathematics_GhLearner_Solve_BECE_Mathematics_Questions_Answers_8f684b02.txt"
+    },
+    {
+      "file": "Computing_ICT_2026-BECE-Computing-1-2_67138d39.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Computing_ICT\\pdf\\Computing_ICT_2026-BECE-Computing-1-2_67138d39.pdf"
+    },
+    {
+      "file": "CDT_CAD_2026-BECE-Career-Technology-1-2_fffa0cb3.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2026-BECE-Career-Technology-1-2_fffa0cb3.pdf"
+    },
+    {
+      "file": "CDT_CAD_2026-BECE-Creative-Arts-and-Design-1-2_17aaef96.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\CDT_CAD\\pdf\\CDT_CAD_2026-BECE-Creative-Arts-and-Design-1-2_17aaef96.pdf"
+    },
+    {
+      "file": "Mathematics_2026-BECE-Core-Mathematics-1-2_6efab06c.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\Mathematics\\pdf\\Mathematics_2026-BECE-Core-Mathematics-1-2_6efab06c.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-Social-Studies-Marking-Scheme_13bd1916.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-Social-Studies-Marking-Scheme_13bd1916.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-INTEGRATED-SCIENCE-MARKING-Sch_4203e83b.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-INTEGRATED-SCIENCE-MARKING-Sch_4203e83b.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-English-Language-1-2_776a856f.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-English-Language-1-2_776a856f.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-Integrated-Science-1-2_1c9e177c.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-Integrated-Science-1-2_1c9e177c.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-Social-Studies-1-2_229a939e.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-Social-Studies-1-2_229a939e.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-Religious-and-Moral-Education-_cc1df232.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-Religious-and-Moral-Education-_cc1df232.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-French-1-2_e494c51c.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-French-1-2_e494c51c.pdf"
+    },
+    {
+      "file": "General_Unclassified_2026-BECE-Ghanaian-Language-Ewe-1-2_2bf26831.pdf",
+      "local_path": "W:\\StaralexSchoolStudies\\BECE_MOCK_PAPERS\\data\\harvested\\General_Unclassified\\pdf\\General_Unclassified_2026-BECE-Ghanaian-Language-Ewe-1-2_2bf26831.pdf"
+    }
+  ],
+  "filename_heading_mismatches": [
+    {
+      "file": "Mathematics_2022_BECE-MATHEMATICS-1990-2013_ee6bb659.pdf",
+      "subject": "Mathematics",
+      "content_year": 2012,
+      "source": "heading_range_max",
+      "evidence": "1990 - 2012",
+      "filename_year": 1990,
+      "kind": "filename_heading_mismatch"
+    }
+  ],
+  "out_of_window": [
+    {
+      "file": "Computing_ICT_2022_ICT_2014_Qu_and_Ans_f8c560fb.doc",
+      "subject": "Computing_ICT",
+      "content_year": 2018,
+      "source": "heading_generic",
+      "evidence": "2018",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2015_7b0037ff.docx",
+      "subject": "Mathematics",
+      "content_year": 2015,
+      "source": "heading_explicit",
+      "evidence": "2015",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2017_72689baa.docx",
+      "subject": "Mathematics",
+      "content_year": 2018,
+      "source": "heading_generic",
+      "evidence": "2018",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2018_245a275d.docx",
+      "subject": "Mathematics",
+      "content_year": 2018,
+      "source": "heading_explicit",
+      "evidence": "2018",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2011_3de74a71.docx",
+      "subject": "Mathematics",
+      "content_year": 2011,
+      "source": "heading_explicit",
+      "evidence": "2011",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2012_00134e46.docx",
+      "subject": "Mathematics",
+      "content_year": 2012,
+      "source": "heading_explicit",
+      "evidence": "2012",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2016_176088cd.docx",
+      "subject": "Mathematics",
+      "content_year": 2016,
+      "source": "heading_explicit",
+      "evidence": "2016",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2010_e43b3934.docx",
+      "subject": "Mathematics",
+      "content_year": 2010,
+      "source": "heading_explicit",
+      "evidence": "BECE 2010",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "CDT_CAD_2022_2010-2017-home-economics_9d380a01.pdf",
+      "subject": "CDT_CAD",
+      "content_year": 2017,
+      "source": "heading_range_max",
+      "evidence": "2010 - 2017",
+      "filename_year": 2017,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2014_40198cbb.doc",
+      "subject": "Mathematics",
+      "content_year": 2018,
+      "source": "heading_generic",
+      "evidence": "2018",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_BECE-MATHEMATICS-1990-2013_ee6bb659.pdf",
+      "subject": "Mathematics",
+      "content_year": 2012,
+      "source": "heading_range_max",
+      "evidence": "1990 - 2012",
+      "filename_year": 1990,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_2022_Maths-2013_3dbdf9b1.docx",
+      "subject": "Mathematics",
+      "content_year": 2013,
+      "source": "heading_explicit",
+      "evidence": "2013",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "CDT_CAD_2022_2010-2017-pretech-skills_973876d3.pdf",
+      "subject": "CDT_CAD",
+      "content_year": 2017,
+      "source": "heading_range_max",
+      "evidence": "2010 - 2017",
+      "filename_year": 2017,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_Mathematics_2017_\u2014_BECE_Past_Questions_B_9a6c9f0b.txt",
+      "subject": "Mathematics",
+      "content_year": 2017,
+      "source": "heading_explicit",
+      "evidence": "2017",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_Computing_2015_\u2014_BECE_Past_Questions_BEC_95d92336.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2015,
+      "source": "heading_explicit",
+      "evidence": "2015",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_2012_BECE_ICT_Pasco_questions_with_answe_fae362a3.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2012,
+      "source": "heading_explicit",
+      "evidence": "April 2, 2024",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_Computing_2013_\u2014_BECE_Past_Questions_BEC_15e6f5de.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2013,
+      "source": "heading_explicit",
+      "evidence": "2013",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_Mathematics_2015_\u2014_BECE_Past_Questions_B_e1fc9a98.txt",
+      "subject": "Mathematics",
+      "content_year": 2015,
+      "source": "heading_explicit",
+      "evidence": "2015",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_Download_WASSCE_past_questions_for_SHS_M_0e0754e4.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2013,
+      "source": "heading_explicit",
+      "evidence": "May-June 2013",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_BestBrain_Best_Brain_Oct_2026_Mathematics_-_Questi_41e7ddbe.txt",
+      "subject": "Mathematics",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "BECE 2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_BestBrain_Best_Brain_CEPME_GBAT_etc_Mocks_2027_Bes_b7b81f87.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "BECE 2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_BestBrain_Best_Brain_Oct_2026_Computing_-_Question_caf0caef.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "BECE 2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_BestBrain_Best_Brain_CEPME_GBAT_etc_Mocks_2027_Ste_04ec354d.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "mocks-2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_BestBrain_Stepping_Stone_Mock_BECE_2027_Computing__b42cb862.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "mocks-2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_BestBrain_Best_Brain_CEPME_GBAT_etc_Mocks_2027_Ste_e2b3e47b.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "mocks-2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_BestBrain_Best_Brain_CEPME_GBAT_etc_Mocks_2027_Bes_6291f690.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "BECE 2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "General_Unclassified_Automated_ICT_BECE_past_questions_from_2_9dd2065b.txt",
+      "subject": "General_Unclassified",
+      "content_year": 2011,
+      "source": "heading_explicit",
+      "evidence": "November, 2021",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_BestBrain_Stepping_Stone_Mock_BECE_2027_Mathematic_f4946647.txt",
+      "subject": "Mathematics",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "mocks-2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Computing_ICT_Computing_Topics_for_BECE_2027_GhLearner_82710abd.txt",
+      "subject": "Computing_ICT",
+      "content_year": 2027,
+      "source": "heading_explicit",
+      "evidence": "BECE 2027",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_WASSCE_Passco_1998_-_2018_Elective_Maths_c80e39cb.txt",
+      "subject": "Mathematics",
+      "content_year": 1998,
+      "source": "heading_explicit",
+      "evidence": "WASSCE 2016",
+      "filename_year": null,
+      "kind": "out_of_window"
+    },
+    {
+      "file": "Mathematics_WASSCE_2016_ElectiveMaths_QnA_WASSCE_Pas_ddbea7c2.txt",
+      "subject": "Mathematics",
+      "content_year": 2016,
+      "source": "heading_explicit",
+      "evidence": "wassce-2016",
+      "filename_year": null,
+      "kind": "out_of_window"
+    }
+  ]
+}

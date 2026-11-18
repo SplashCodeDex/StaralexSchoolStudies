@@ -125,7 +125,10 @@ w:/StaralexSchoolStudies/Grade9-Maths/
       - Quotient rule: $\sqrt{\frac{a}{b}} = \frac{\sqrt{a}}{\sqrt{b}}$
       - Linear combination: $a\sqrt{c} \pm b\sqrt{c} = (a \pm b)\sqrt{c}$
       - Self-product: $(\sqrt{a})^2 = a$
-  - Status: [ ] Not Started
+  - Status: [x] Lesson 4 Delivered (`Lesson_04_Surds_and_Irrational_Roots` — 15 worked examples incl. authentic BECE/mock & NaCCA items; 8 sections × 5 questions = 40 exercises + SymPy-verified solutions, 15% spiral review; 3 TikZ 300 DPI PNG figures)
+  - Lesson Files:
+    - [Lesson_04_Surds_and_Irrational_Roots.pdf](Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/Lesson_04_Surds_and_Irrational_Roots.pdf)
+    - [Lesson_04_Surds_and_Irrational_Roots.md](Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/Lesson_04_Surds_and_Irrational_Roots.md)
   - Exercise Quota: 8 exercises x 5 questions + worked solutions.
 
 - **Day 9: Strand 1, Sub-strand 2 (Part 5) - Surd Simplification, Expansion, and Rationalisation**
@@ -139,8 +142,8 @@ w:/StaralexSchoolStudies/Grade9-Maths/
       - Monomial denominators: $\frac{b}{\sqrt{a}} \times \frac{\sqrt{a}}{\sqrt{a}}$
       - Binomial denominators: $\frac{c}{a \pm b\sqrt{n}} \times \frac{a \mp b\sqrt{n}}{a \mp b\sqrt{n}}$
     - Approximating non-perfect square roots using mathematical tables and bounding methods.
-  - Status: [ ] Not Started
-  - Exercise Quota: 9 exercises x 5 questions + worked solutions.
+  - Status: [x] Covered inside Lesson 4 Delivered (`Lesson_04_Surds_and_Irrational_Roots.pdf`)
+  - Exercise Quota: Included in Lesson 4 (8 exercises x 5 questions + worked solutions).
 
 - **Day 10: Strand 1, Sub-strand 3 (Part 1) - Systematic Fraction Arithmetic Review**
   - Content Standard: B9.1.3.1
@@ -582,7 +585,7 @@ w:/StaralexSchoolStudies/Grade9-Maths/
 | Strand | Sub-strand | Content Standard | Indicators | Target Days | Status |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **Strand 1: Number** | Sub-strand 1: Number and Numeration System | B9.1.1.1, B9.1.1.2 | B9.1.1.1.1, B9.1.1.1.2, B9.1.1.2.1, B9.1.1.2.2 | Days 1 - 2 | [ ] Not Started |
-| | Sub-strand 2: Number Operations | B9.1.2.1, B9.1.2.2, B9.1.2.4 | B9.1.2.1.1 - B9.1.2.1.4, B9.1.2.2.1 - B9.1.2.2.2, B9.1.2.4.1 - B9.1.2.4.4 | Days 3 - 9 | [ ] Not Started |
+| | Sub-strand 2: Number Operations | B9.1.2.1, B9.1.2.2, B9.1.2.4 | B9.1.2.1.1 - B9.1.2.1.4, B9.1.2.2.1 - B9.1.2.2.2, B9.1.2.4.1 - B9.1.2.4.4 | Days 3 - 9 | [x] Delivered (Lessons 1–4; B9.1.2.1–4 Complete) |
 | | Sub-strand 3: Fractions, Decimals and Percentages | B9.1.3.1 | B9.1.3.1.1, B9.1.3.1.2, B9.1.3.1.3 | Days 10 - 12 | [ ] Not Started |
 | | Sub-strand 4: Number: Ratios and Proportion | B9.1.4.1 | B9.1.4.1.1, B9.1.4.1.2, B9.1.4.1.3, B9.1.4.1.4 | Days 15 - 22 | [ ] Not Started |
 | **Strand 2: Algebra** | Sub-strand 1: Patterns and Relations | B9.2.1.1 | B9.2.1.1.1, B9.2.1.1.2, B9.2.1.1.3 | Days 25 - 26 | [ ] Not Started |

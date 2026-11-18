@@ -1,0 +1,607 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/suberb-mock-feb2026
+TITLE: Solve BECE Computing Questions & Answers - Suberb Mock Feb2026
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Suberb Mock Feb2026
+1.
+[1]
+BECE mock · Computing
+Which generation of computers was characterized by the use of vacuum tubes?
+A
+First Generation
+B
+Second Generation
+C
+Third Generation
+D
+Fourth Generation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+The process of converting raw facts into a meaningful and useful form is called
+A
+Data processing
+B
+Information input
+C
+Data capturing
+D
+Information retrieval
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+A student uses a smartphone to attend an online class. This is an application of ICT in
+A
+banking
+B
+entertainment
+C
+education
+D
+commerce
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+Which of the following is NOT a primary function of the Central Processing Unit (CPU)?
+A
+Executing instructions
+B
+Performing arithmetic calculations
+C
+Storing data permanently
+D
+Controlling the flow of data
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+A computer's main memory, which loses its content when the power is turned off, is known as
+A
+ROM
+B
+RAM
+C
+SSD
+D
+HDD
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+To create a digital copy of a physical photograph, which device would be most appropriate?
+A
+Printer
+B
+Monitor
+C
+Scanner
+D
+Webcam
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+You were guided to demonstrate to your classmates on the uses of network devices. What would be the purpose of the device below in network connection? [Router image]
+A
+It transfers current across the network
+B
+It blocks external devices
+C
+It connects different networks together
+D
+It stabilizes network connection
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+Ama wants to store her 500GB movie collection externally. Which storage device offers the most suitable capacity?
+A
+CD-ROM (700MB)
+B
+DVD (4.7GB)
+C
+Flash Drive (32GB)
+D
+External Hard Drive (1TB)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+The main circuit board that connects all components of the system unit is the
+A
+Power Supply Unit
+B
+Central Processing Unit
+C
+Motherboard
+D
+Hard Disk Drive
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+Which of the following software is essential for a computer to boot up and manage its resources?
+A
+Microsoft Word
+B
+Google Chrome
+C
+Windows 11
+D
+Adobe Photoshop
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+A program designed to perform a specific task for the user, such as typing a letter, is called
+A
+System software
+B
+Application software
+C
+Utility software
+D
+Operating system
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+Salinko installs antivirus program on his laptop. The primary purpose of an antivirus program is
+A
+to speed up the computer
+B
+to create documents
+C
+to protect against malware
+D
+to browse the internet
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+The set of rules governing communication over the internet is called
+A
+HTTP
+B
+URL
+C
+Protocol
+D
+HTML
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+The binary number 1010 is equal to decimal number
+A
+10
+B
+8
+C
+12
+D
+9
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+To access the internet, a user needs a computer, a modem, and a(n)
+A
+Printer
+B
+ISP account
+C
+Scanner
+D
+Antivirus
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+Which part of the email address
+[email protected]
+represents the domain name?
+A
+student.name
+B
+school.edu.gh
+C
+@
+D
+.gh
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+A user receives an email claiming they have won a lottery and asking for their bank details. This is likely an example of
+A
+spam
+B
+phishing
+C
+a virus
+D
+a cookie
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+The practice of using respectful and appropriate language online is known as
+A
+netiquette
+B
+socializing
+C
+browsing
+D
+e-commerce
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+The device below can be classified under what? [Image of hard drive]
+A
+Software
+B
+Hardware
+C
+Input devices
+D
+Output devices
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+A network that connects computers in a single building is most likely a
+A
+LAN
+B
+MAN
+C
+WAN
+D
+PAN
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+In setting up a local area network, the device that is used to connect multiple computers together is the
+A
+Modem
+B
+Switch
+C
+Printer
+D
+Monitor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+In a word processor, what is the function of the 'Undo' command?
+A
+To save the document
+B
+To delete the selected text
+C
+To reverse the last action
+D
+To print the document
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+Which feature in a spreadsheet application is used to perform calculations?
+A
+Chart
+B
+Formula
+C
+Table
+D
+Image
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+Identify the function of the button below in the computer system: [Power button image] A. To download programs, B. To protect storage devices, C. To control system power, D. To update system software
+A
+To download programs
+B
+To protect storage devices
+C
+To control system power
+D
+To update system software
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+A series of steps to solve a problem is called a(n)
+A
+Flowchart
+B
+Program
+C
+Algorithm
+D
+Code
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+In HTML lesson, a student is tasked to create the largest heading. Which of the following tags is preferable?
+A
+B
+C
+D
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+A single piece of information in a database, such as a student's name, is a
+A
+Record
+B
+Field
+C
+Table
+D
+File
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+It is always advisable to use secured passwords on one's PCs. Which of the following passwords is considered most secure?
+A
+1234 56
+B
+password
+C
+YourName2025
+D
+P@$$w0rd!23
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+The act of illegally copying and distributing software is known as
+A
+Hacking
+B
+Phishing
+C
+Software piracy
+D
+Trolling
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+The physical components of a computer system are collectively called
+A
+Software
+B
+Hardware
+C
+Firmware
+D
+Malware
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+Charles Babbage is often known as the 'Father of the Computer'. What is his invention?
+A
+Abacus
+B
+Analytical Engine
+C
+Transistor
+D
+Microprocessor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+The main difference between data and information is that information is
+A
+raw and unorganized
+B
+processed and meaningful
+C
+always numerical
+D
+always textual
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+One of the disadvantages of using ICT tools in learning is the
+A
+access to vast information
+B
+potential for distraction
+C
+enables distance learning
+D
+facilitates collaboration
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+The speed of a CPU is always measured in
+A
+Gigabytes (GB)
+B
+Megapixels (MP)
+C
+Gigahertz (GHz)
+D
+Dots Per Inch (DPI)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+The type of memory used by the computer to store start-up instructions is the
+A
+RAM
+B
+Cache Memory
+C
+ROM
+D
+Virtual Memory
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+A joystick is primarily used for
+A
+typing documents
+B
+playing games
+C
+scanning images
+D
+printing photos
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+Your class decided to design and print a citation for the best teacher in your school. Which printer type is best suited for printing high-quality photographs?
+A
+Dot Matrix Printer
+B
+Laser Printer
+C
+Inkjet Printer
+D
+3D Printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+One of the following is an example of an optical storage medium
+A
+Solid State Drive (SSD)
+B
+Blu-ray Disc
+C
+USB Flash Drive
+D
+Magnetic Tape
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+The process of starting a computer that is already turned on is called
+A
+cold booting
+B
+warm booting
+C
+hibernating
+D
+logging off
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+A graphical user interface (GUI) uses
+A
+text commands
+B
+icons and windows
+C
+keyboard shortcuts
+D
+sound alerts
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[2]
+BECE mock · Computing
+Write the name of Figure 1.1 showing peripheral device connection ports (HDMI, USB, VGA, Ethernet, Thunderbolt, Audio).
+42.
+[3]
+BECE mock · Computing
+Write the full meanings of the following parts of Figure 1.1: HDMI, USB, VGA.
+43.
+[4]
+BECE mock · Computing
+Write one device that can be connected to the computer through each of: HDMI, USB, VGA, Audio port.
+44.
+[2]
+BECE mock · Computing
+Outline the function of the parts labelled as 'd' (Ethernet port) and 'e' (Power port) in the diagram.
+45.
+[2]
+BECE mock · Computing
+If a user wants to connect sound speakers to the computer system, which two pairs of the features above would be utilized?
+46.
+[1]
+BECE mock · Computing
+What is the name of the folder opened in Figure 1.2 (showing 2024 Graduation Files)?
+47.
+[1]
+BECE mock · Computing
+How many files are in the folder shown in Figure 1.2?
+48.
+[1]
+BECE mock · Computing
+Which of the files in the folder is a word document?
+49.
+[2]
+BECE mock · Computing
+Name one software used to create the file named: Graduands, Drama Slide.
+50.
+[6]
+BECE mock · Computing
+Using the files in the folder above, complete the table below by providing the file extension for each file: Guests, Awards, Citation, Drama Slide, Brochure, Graduands.
+More Computing
+All Computing papers & mocks
+Computing topics

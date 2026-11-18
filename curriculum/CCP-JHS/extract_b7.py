@@ -11,7 +11,8 @@ OUT.mkdir(exist_ok=True)
 FILES = {
     "maths": BASE / "CCP_Mathematics_JHS.pdf",
     "computing": BASE / "CCP_Computing_JHS.pdf",
-    "cad": BASE / "CCP_Creative_Arts_and_Design_JHS.pdf",
+    # CAD was purged: the source of truth for Creative Arts & Design is
+    # W:\StaralexSchoolStudies\CAD-Lesson-Plan-B7-B9.md (rendered PDF alongside it).
 }
 
 # Pull every page's text and also dump a marker index for B7/Strand 1.

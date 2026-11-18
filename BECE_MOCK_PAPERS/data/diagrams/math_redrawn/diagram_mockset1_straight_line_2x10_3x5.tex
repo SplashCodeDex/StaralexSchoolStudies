@@ -1,0 +1,31 @@
+\documentclass[tikz,border=15pt]{standalone}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}[scale=1.25]
+    % Straight line PQR with one ray QT (adapted from diagram_14 template)
+    % Mock item (Paper 2, Question 4a):
+    % left angle = (2x + 10) deg, right angle = (3x - 5) deg, sum = 180 -> x = 35
+    \coordinate (Q) at (0, 0);
+    \coordinate (P) at (-4.2, 0);
+    \coordinate (R) at (4.2, 0);
+    \coordinate (T) at (0, 3.4);
+
+    \draw[line width=1.4pt] (P) -- (R);
+    \draw[line width=1.3pt] (Q) -- (T);
+
+    % Vertices labels
+    \node[left=3pt, font=\huge\sffamily\bfseries] at (P) {P};
+    \node[right=3pt, font=\huge\sffamily\bfseries] at (R) {R};
+    \node[below left=2pt, font=\huge\sffamily\bfseries] at (Q) {Q};
+    \node[above right=2pt, font=\huge\sffamily\bfseries] at (T) {T};
+
+    % Angle arcs: left wedge 90->180, right wedge 90->0
+    \draw[line width=0.9pt] (Q) + (90:0.95) arc (90:180:0.95);
+    \node[font=\bfseries] at (135:1.45) {$(2x+10)^\circ$};
+
+    \draw[line width=0.9pt] (Q) + (0:0.95) arc (0:90:0.95);
+    \node[font=\bfseries] at (45:1.45) {$(3x-5)^\circ$};
+\end{tikzpicture}
+\end{document}

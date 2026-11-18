@@ -1,6 +1,7 @@
 # Grade 7 Computing — Subject Rules
 
-**The lesson pattern lives in [`RULES-BECE-PATTERN.md`](../../RULES-BECE-PATTERN.md).**  
+**Master Plan & Tracker:** [`Computing-Lesson-Plan-B7-B9.md`](../Computing-Lesson-Plan-B7-B9.md) · [`Computing-Lesson-Tracker-B7-B9.md`](../Computing-Lesson-Tracker-B7-B9.md)  
+**The lesson pattern lives in [`RULES-BECE-PATTERN.md`](../RULES-BECE-PATTERN.md).**  
 Read it first. This file only adds subject notes.
 
 ## Subject notes (Computing / ICT, B7)

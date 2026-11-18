@@ -1,6 +1,3 @@
-# BECE Mock Papers is its own repository with history — keep it nested, never embed it
-/BECE_MOCK_PAPERS/
-
 # Build / tooling junk
 __pycache__/
 .venv/
@@ -8,15 +5,19 @@ __pycache__/
 *.log
 *.aux
 *.out
+*.db-shm
+*.db-wal
 
 # Scratch / temp assets
 /_diag_shade.png
 
 # Strict diagram asset policy: figures are .tex + 300 DPI .png ONLY
-# (no .svg, .jpg, .jpeg, or retained .pdf diagram assets)
+# (no .svg, .jpg, .jpeg, or retained .pdf diagram assets, except harvested question crops in BECE_MOCK_PAPERS)
 *.svg
 *.jpg
 *.jpeg
+!/BECE_MOCK_PAPERS/data/extracted_questions/images/*.jpg
+!/BECE_MOCK_PAPERS/data/extracted_questions/images/*.jpeg
 
 # Lock files
 .mimocode/.cron-lock

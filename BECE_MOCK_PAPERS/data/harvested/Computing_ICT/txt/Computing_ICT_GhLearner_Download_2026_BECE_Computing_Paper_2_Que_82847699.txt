@@ -1,0 +1,143 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2026/paper-2
+TITLE: Download 2026 BECE Computing Paper 2 Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2026 BECE Computing Paper 2 Questions & Answers (PDF)
+1.
+[24]
+BECE 2026 · Paper 2
+1. Your school is organizing a Technology Awareness Day. The headteacher has tasked the computing club with overseeing the successful organization of the programme. The club's role includes planning, communication, creating publicity materials and explaining key technology concepts to visitors.
+
+(a) As a member of the computing club, your team needs to share project files between three computers in different classrooms for visitors to view.
+(i) Name the type of computer network that would be suitable for the purpose.
+(ii) List two hardware components required to set up this network.
+(α)
+(β)
+
+(b) The club is to create a presentation using Microsoft PowerPoint to explain technology use to the visitors at the event. List two features the club would use to make the presentation engaging for the visitors.
+(i)
+(ii)
+
+(c) Your team was tasked to design an event flyer using Microsoft Publisher to aid publicity for the programme. Suggest two visual elements that would make the flyer attractive and informative.
+(i)
+(ii)
+
+(d) The club decided to write an algorithm for setting up a projector for the presentation. Write the algorithm using pseudocode.
+
+(e) Draw a flowchart for serving a snack at the event based on the following condition:
+If the amount donated by a visitor is more than GH¢ 200.00, serve meat pie and malt, otherwise serve biscuit and water.
+
+(f) As a member of the computing club, state one function of each of the following components used in constructing a robot that was exhibited at the event.
+(i) Gears
+(ii) Grippers
+(iii) Motors
+2.
+[3]
+BECE 2026 · Paper 2
+2. (a) During a computing lesson in your class, the teacher discussed the generation of computers while studying history of computers. In your own words, describe the term generation of computers.
+3.
+[3]
+BECE 2026 · Paper 2
+2. (b) Dan's computer desktop is disorganized with several photos, reports, and spreadsheet files. He finds it difficult when looking for a file.
+List three file management practices that Dan should use to organize his work better.
+(i)
+(ii)
+(iii)
+4.
+[3]
+BECE 2026 · Paper 2
+2. (c) A student plays a computer game for 5 hours every night before sleeping. This student experiences headache, dry and blurry eyes.
+(i) What computing-related disorder is the student likely experiencing?
+(ii) Explain the identified computer-related disorder in (c)(i).
+5.
+[3]
+BECE 2026 · Paper 2
+2. (d) A computing class is discussing how the choice of an output device depends entirely on the task to perform.
+State the most appropriate output device for performing the following tasks:
+(i) Printing a detailed architectural blueprint for a model house;
+(ii) Presenting a movie to the entire class for film studies;
+(iii) Sharing a short animation clip on a tablet with friends during a lunch break.
+6.
+[5]
+BECE 2026 · Paper 2
+3. (a) A student was typing the title of the final Junior High School examination when it was realised the Caps lock key was turned on and typed BASIC EDUCATION CERTIFICATE EXAMINATION instead. The student doesn't want to retype the title.
+(i) Which PowerPoint feature can the student use to fix the title to Basic Education Certificate Examination?
+(ii) Outline the steps the student should follow to apply this change.
+7.
+[4]
+BECE 2026 · Paper 2
+3. (b) A colleague, who is not confident in design skills, wants to design a flyer to look professional and was advised to use a pre-designed template.
+State two advantages of using a pre-designed template in desktop publishing.
+(i)
+(ii)
+8.
+[3]
+BECE 2026 · Paper 2
+3. (c) The marks for a student in an examination are entered in a Microsoft Excel worksheet in cells A2(85), B2(90) and C2(95).
+(i) Write a Microsoft Excel formula to calculate the total mark obtained by the student.
+(ii) Write a Microsoft Excel function to calculate the average mark obtained by the student.
+(iii) Write the symbol that must begin every formula or function in Microsoft Excel.
+9.
+[2]
+BECE 2026 · Paper 2
+4. (a) Kate is playing an online game on her laptop at home. She is talking to her friend using a wireless headset. Her laptop is connected to their home Wi-Fi. This same Wi-Fi connection enables her family to watch movies on the TV and allows her father to use his desktop computer for online studies.
+List the two main types of networks used in this scenario.
+(i)
+(ii)
+10.
+[4]
+BECE 2026 · Paper 2
+4. (b) The Art club at your school has recently completed a major project. They want to share multiple digital photos and the final artwork with all club members, their parent and teachers. They also want to create a discussion forum and an event page for the official launch.
+(i) Which type of social media platform would be suitable for this task?
+(ii) State three reasons for choosing the particular social media platform.
+(α)
+(β)
+(γ)
+11.
+[2]
+BECE 2026 · Paper 2
+4. (c) List two methods of protecting data against threats.
+(i)
+(ii)
+12.
+[4]
+BECE 2026 · Paper 2
+4. (d) A student typed sharks into a search engine and got over 500 million results. The first page has a mix of news articles about shark attacks, a cartoon movie website of sharks and an online store selling shark toys.
+What two specific actions would you advise the student to take to improve the search, and find better information?
+(i)
+(ii)
+13.
+[1]
+BECE 2026 · Paper 2
+5. (a) A student wrote the following program code to make a robot walk 10 steps:
+repeat (2)
+    move (5) steps
+end
+What is the correct programming term for the code structure?
+14.
+[4]
+BECE 2026 · Paper 2
+5. (b) Afia is writing a computer program to calculate the total expenses for her birthday party. A bag costs GH¢200.00. She needs one for each of her 12 friends. She also bought a special cake for GH¢150.00. She further bought a cap for GH¢23.00 for each of her 7 best friends.
+She wrote her expenses in the computer program as:
+Total_Expenses = 12 x GH¢200.00 + GH¢150.00 + 7 x GH¢23.00
+
+Calculate the Total_Expenses for the girl's birthday party using the computer operator precedence.
+15.
+[2]
+BECE 2026 · Paper 2
+5. (c) A robotic arm in a factory is strong enough to lift a heavy metal box. However, when it tries to pick up a delicate light bulb, it crushes it.
+List two main components that need to be improved or added to help the robotic arm handle both heavy and delicate objects safely.
+(i)
+(ii)
+16.
+[5]
+BECE 2026 · Paper 2
+5. (d) (i) Explain Artificial Intelligence.
+(ii) List two application areas of Artificial Intelligence.
+(α)
+(β)
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

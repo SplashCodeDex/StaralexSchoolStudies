@@ -1,0 +1,659 @@
+SOURCE URL: https://ghlearner.com/wassce/core-mathematics/exams/wassce-maths-mock
+TITLE: Solve WASSCE Core Mathematics Questions & Answers - WASSCE Maths Mock
+SUBJECT: Mathematics
+============================================================
+
+Solve WASSCE Core Mathematics Questions & Answers - WASSCE Maths Mock
+1.
+WASSCE mock · Core Mathematics
+If \(23_{x} = 1111_{2}\), find the value of \(x\).
+A
+5
+B
+6
+C
+7
+D
+8
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+WASSCE mock · Core Mathematics
+If \(21_{x} = 111_{2}\), find the value of \(x\).
+A
+2
+B
+3
+C
+4
+D
+5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+WASSCE mock · Core Mathematics
+If \(41_{x} = 10101_{2}\), find the value of \(x\).
+A
+4
+B
+5
+C
+6
+D
+7
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+WASSCE mock · Core Mathematics
+Which of the following equals \(101101_{2}\) when expressed in base 8?
+A
+\(54_{8}\)
+B
+\(55_{8}\)
+C
+\(64_{8}\)
+D
+\(65_{8}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+WASSCE mock · Core Mathematics
+What is the decimal value of \(7B_{16}\)?
+A
+115
+B
+117
+C
+123
+D
+127
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+WASSCE mock · Core Mathematics
+If \(23_{x}=43_{10}\), find the value of \(x\).
+A
+10
+B
+12
+C
+20
+D
+23
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+WASSCE mock · Core Mathematics
+If \(34_{x}=2A_{12}\) (where \(A_{12}=10_{10}\)), find \(x\).
+A
+8
+B
+9
+C
+10
+D
+12
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+WASSCE mock · Core Mathematics
+A die is rolled once.  Find the probability of obtaining a number less than \(3\).
+A
+\(\frac{1}{6}\)
+B
+\(\frac{5}{6}\)
+C
+\(\frac{2}{3}\)
+D
+\(\frac{1}{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+WASSCE mock · Core Mathematics
+A die is rolled once.  What is the probability of obtaining an even number?
+A
+\(\frac{1}{2}\)
+B
+\(\frac{1}{3}\)
+C
+\(\frac{2}{3}\)
+D
+\(\frac{1}{6}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+WASSCE mock · Core Mathematics
+A fair coin is tossed twice.  What is the probability of obtaining at least one head?
+A
+\(\frac{1}{2}\)
+B
+\(\frac{3}{4}\)
+C
+\(\frac{1}{4}\)
+D
+\(\frac{1}{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+WASSCE mock · Core Mathematics
+Two fair dice are rolled.  What is the probability that the sum is \(9\)?
+A
+\(\frac{1}{6}\)
+B
+\(\frac{1}{9}\)
+C
+\(\frac{1}{12}\)
+D
+\(\frac{1}{18}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+WASSCE mock · Core Mathematics
+A card is drawn from a standard 52-card deck.  What is the probability that it is a heart or a king?
+A
+\(\frac{1}{4}\)
+B
+\(\frac{4}{13}\)
+C
+\(\frac{3}{13}\)
+D
+\(\frac{5}{13}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+WASSCE mock · Core Mathematics
+Two fair dice are rolled.  What is the probability that the product of the two numbers is a multiple of \(3\)?
+A
+\(\frac{4}{9}\)
+B
+\(\frac{5}{9}\)
+C
+\(\frac{5}{12}\)
+D
+\(\frac{2}{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+WASSCE mock · Core Mathematics
+A box contains 4 red, 3 blue and 5 green balls.  A ball is drawn, replaced, and a second drawn.  What is the probability that the two balls are of different colours?
+A
+\(\frac{13}{18}\)
+B
+\(\frac{47}{72}\)
+C
+\(\frac{25}{72}\)
+D
+\(\frac{47}{60}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+WASSCE mock · Core Mathematics
+If \(y\) varies as \(x^{2}\) and \(y=3\) when \(x=\sqrt{2}\), find \(y\) when \(x=2\).
+A
+2
+B
+4
+C
+5
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+WASSCE mock · Core Mathematics
+If \(y\) varies directly as \(x^{2}\) and \(y=8\) when \(x=4\), find \(y\) when \(x=6\).
+A
+12
+B
+16
+C
+18
+D
+20
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+WASSCE mock · Core Mathematics
+If \(y\) varies inversely as \(x^{2}\) and \(y=5\) when \(x=2\), find \(y\) when \(x=5\).
+A
+0.8
+B
+1
+C
+1.5
+D
+2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+WASSCE mock · Core Mathematics
+\(y\) varies jointly as \(x\) and \(\sqrt{z}\).  If \(y=24\) when \(x=3\) and \(z=16\), find \(y\) when \(x=5\) and \(z=9\).
+A
+24
+B
+27
+C
+30
+D
+36
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+WASSCE mock · Core Mathematics
+If \(y\propto x^{3}\) and \(y=54\) when \(x=3\), find \(x\) when \(y=128\).
+A
+3
+B
+4
+C
+5
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+WASSCE mock · Core Mathematics
+If \(y\) varies as \(x^{4}\) and inversely as \(\sqrt{z}\), and \(y=32\) when \(x=2\) and \(z=4\), find \(y\) when \(x=3\) and \(z=9\).
+A
+90
+B
+96
+C
+108
+D
+120
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+WASSCE mock · Core Mathematics
+Given that \(p = x - \frac{1}{x}\) and \(q = x^{2} + \frac{1}{x^{2}}\), express \(q\) in terms of \(p\).
+A
+\(q = p^{2} + 2\)
+B
+\(q = p^{2} - 2\)
+C
+\(q = (p + 2)^{2}\)
+D
+\(q = (p - 2)^{2}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+WASSCE mock · Core Mathematics
+Given that \(p = x + \frac{1}{x}\) and \(q = x^{2} + \frac{1}{x^{2}}\), express \(q\) in terms of \(p\).
+A
+\(q = p^{2} - 2\)
+B
+\(q = p^{2} + 2\)
+C
+\(q = p^{2} - 1\)
+D
+\(q = (p - 2)^{2}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+WASSCE mock · Core Mathematics
+If \(p = x + \frac{1}{x}\) and \(r = x^{3} + \frac{1}{x^{3}}\), express \(r\) in terms of \(p\).
+A
+\(r = p^{3} - 3p\)
+B
+\(r = p^{3} + 3p\)
+C
+\(r = p^{3} - 6p\)
+D
+\(r = p^{3} + 6p\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+WASSCE mock · Core Mathematics
+If \(p = x - \frac{1}{x}\) and \(r = x^{3} - \frac{1}{x^{3}}\), express \(r\) in terms of \(p\).
+A
+\(r = p^{3} - 3p\)
+B
+\(r = p^{3} + 3p\)
+C
+\(r = p^{3} - 6p\)
+D
+\(r = p^{3} + 6p\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+WASSCE mock · Core Mathematics
+If \(x + \frac{1}{x} = 5\), find the value of \(x^{3} + \frac{1}{x^{3}}\).
+A
+110
+B
+100
+C
+105
+D
+115
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+WASSCE mock · Core Mathematics
+If \(p = x + \frac{1}{x}\) and \(s = x^{4} + \frac{1}{x^{4}}\), express \(s\) in terms of \(p\).
+A
+\(s = p^{4} - 4p^{2} + 2\)
+B
+\(s = p^{4} + 4p^{2} + 2\)
+C
+\(s = p^{4} - 2p^{2} + 4\)
+D
+\(s = p^{4} - 4p^{2} - 2\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+WASSCE mock · Core Mathematics
+If \(p = x - \frac{1}{x}\) and \(t = x^{4} + \frac{1}{x^{4}}\), express \(t\) in terms of \(p\).
+A
+\(t = p^{4} + 4p^{2} + 2\)
+B
+\(t = p^{4} - 4p^{2} + 2\)
+C
+\(t = p^{4} + 2p^{2} + 4\)
+D
+\(t = p^{4} - 4p^{2} - 2\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+WASSCE mock · Core Mathematics
+The interior angle of a regular polygon is twice its exterior angle. How many sides does the polygon have?
+A
+5
+B
+6
+C
+8
+D
+9
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+WASSCE mock · Core Mathematics
+The interior angle of a regular polygon is three times its exterior angle. How many sides has the polygon?
+A
+6
+B
+8
+C
+9
+D
+10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+WASSCE mock · Core Mathematics
+Each exterior angle of a regular polygon is \(40^{\circ}\). How many sides has the polygon?
+A
+8
+B
+9
+C
+10
+D
+12
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+WASSCE mock · Core Mathematics
+The sum of the interior angles of a regular polygon is \(1260^{\circ}\). How many sides does it have?
+A
+7
+B
+8
+C
+9
+D
+10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+WASSCE mock · Core Mathematics
+Each interior angle of a regular polygon is \(150^{\circ}\). How many sides has the polygon?
+A
+10
+B
+12
+C
+15
+D
+18
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+WASSCE mock · Core Mathematics
+Each interior angle of a regular polygon is \(168^{\circ}\). How many sides has the polygon?
+A
+24
+B
+30
+C
+32
+D
+15
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+WASSCE mock · Core Mathematics
+The ratio of the interior angle to the exterior angle of a regular polygon is \(5:1\). How many sides has the polygon?
+A
+6
+B
+8
+C
+10
+D
+12
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+WASSCE mock · Core Mathematics
+If \(A = \frac{1}{2}b(a + b)\), make \(a\) the subject of the relation.
+A
+\(a = b - \frac{2A}{b}\)
+B
+\(a = \frac{2A}{b} - b\)
+C
+\(a = \frac{2A}{b} + b\)
+D
+\(a = \frac{b}{2A} - b\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+WASSCE mock · Core Mathematics
+If \(S = \frac{1}{2}c(a + c)\), make \(a\) the subject of the relation.
+A
+\(a = \frac{2S}{c} - c\)
+B
+\(a = c - \frac{2S}{c}\)
+C
+\(a = \frac{2S}{c} + c\)
+D
+\(a = \frac{c}{2S} - c\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+WASSCE mock · Core Mathematics
+If \(V = \frac{1}{3}\pi r^{2}h\), make \(h\) the subject of the relation.
+A
+\(h = \frac{3V}{\pi r^{2}}\)
+B
+\(h = \frac{V}{3\pi r^{2}}\)
+C
+\(h = \frac{\pi r^{2}}{3V}\)
+D
+\(h = \frac{3\pi r^{2}}{V}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+WASSCE mock · Core Mathematics
+If \(P = 2\pi r(r + h)\), express \(h\) in terms of \(P\) and \(r\).
+A
+\(h = \frac{P}{2\pi r} - r\)
+B
+\(h = \frac{P}{2\pi r} + r\)
+C
+\(h = \frac{P}{\pi r} - r\)
+D
+\(h = \frac{2\pi r}{P} - r\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+WASSCE mock · Core Mathematics
+If \(M = \frac{2ab}{a + b}\), make \(b\) the subject.
+A
+\(b = \frac{Ma}{2a - M}\)
+B
+\(b = \frac{2aM}{a - M}\)
+C
+\(b = \frac{Ma}{2a + M}\)
+D
+\(b = \frac{2a - M}{Ma}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+WASSCE mock · Core Mathematics
+If \(Q = \frac{2a + b}{a - b}\), make \(a\) the subject of the relation.
+A
+\(a = \frac{b(Q + 1)}{Q - 2}\)
+B
+\(a = \frac{b(Q - 1)}{Q + 2}\)
+C
+\(a = \frac{b(Q + 2)}{Q - 1}\)
+D
+\(a = \frac{b(Q - 2)}{Q + 1}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+WASSCE mock · Core Mathematics
+If \(R = \frac{a^{2} - b^{2}}{a + b}\), make \(a\) the subject.
+A
+\(a = R + b\)
+B
+\(a = R - b\)
+C
+\(a = b - R\)
+D
+\(a = \frac{R}{b} + b\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+42.
+WASSCE mock · Core Mathematics
+An arc of a circle \(50\text{ cm}\) long subtends an angle \(75^{\circ}\) at the centre of the circle. Find, correct to three significant figures, the radius of the circle. \([\text{Take }\pi=\frac{22}{7}]\)
+A
+76.4 cm
+B
+61.2 cm
+C
+38.2 cm
+D
+8.74 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+43.
+WASSCE mock · Core Mathematics
+An arc of a circle \(44\text{ cm}\) long subtends an angle \(40^{\circ}\) at the centre. Calculate the radius correct to three significant figures. \([\pi=\frac{22}{7}]\)
+A
+52.8 cm
+B
+63.0 cm
+C
+70.2 cm
+D
+80.0 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+44.
+WASSCE mock · Core Mathematics
+A circle has radius \(12\text{ cm}\). Find the length of the arc that subtends an angle of \(150^{\circ}\) at the centre. Give your answer correct to one decimal place. \([\pi=\frac{22}{7}]\)
+A
+28.3 cm
+B
+31.4 cm
+C
+34.5 cm
+D
+38.0 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+45.
+WASSCE mock · Core Mathematics
+In a circle of radius \(21\text{ cm}\), an arc is \(11\text{ cm}\) long. Calculate, correct to the nearest degree, the angle subtended by the arc. \([\pi=\frac{22}{7}]\)
+A
+\(25^{\circ}\)
+B
+\(30^{\circ}\)
+C
+\(35^{\circ}\)
+D
+\(40^{\circ}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+46.
+WASSCE mock · Core Mathematics
+In a circle of radius \(15\text{ cm}\), the length of an arc is \(18\text{ cm}\). Find the angle, in degrees (nearest whole number), that the arc subtends at the centre. \([\pi=\frac{22}{7}]\)
+A
+\(65^{\circ}\)
+B
+\(69^{\circ}\)
+C
+\(75^{\circ}\)
+D
+\(80^{\circ}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+47.
+WASSCE mock · Core Mathematics
+The area of a sector of a circle of radius \(14\text{ cm}\) is \(154\text{ cm}^{2}\). Calculate the angle of the sector. \([\pi=\frac{22}{7}]\)
+A
+\(60^{\circ}\)
+B
+\(75^{\circ}\)
+C
+\(90^{\circ}\)
+D
+\(120^{\circ}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+48.
+WASSCE mock · Core Mathematics
+In a class of 30 students, 18 take Mathematics, 5 take both Mathematics and Biology, and 8 take neither. How many take Biology?
+A
+6
+B
+8
+C
+9
+D
+13
+Sign in to check your answer
+Free — see the marking scheme for every question.
+49.
+WASSCE mock · Core Mathematics
+In a class of 40 students, 25 study Mathematics, 7 study both Mathematics and Biology, and 5 study neither. How many study Biology?
+A
+12
+B
+15
+C
+17
+D
+18
+Sign in to check your answer
+Free — see the marking scheme for every question.
+50.
+WASSCE mock · Core Mathematics
+Among 60 students, 35 take Mathematics and 30 take Biology; 20 take both. How many take neither subject?
+A
+10
+B
+15
+C
+20
+D
+25
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Core Mathematics
+All Core Mathematics papers & mocks
+Core Mathematics topics

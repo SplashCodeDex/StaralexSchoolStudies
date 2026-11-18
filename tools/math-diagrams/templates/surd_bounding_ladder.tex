@@ -1,0 +1,25 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% surd_bounding_ladder — bounding non-perfect square roots using perfect squares
+\begin{document}
+\begin{tikzpicture}[md]
+  % Number line from 0 to 6.4 (1 unit = 1.75 cm)
+  \draw[md axis] (-0.35, 0) -- (11.2, 0);
+
+  % Integer ticks with aligned perfect-square anchors underneath
+  \foreach \n/\sq in {0/0, 1/1, 2/4, 3/9, 4/16, 5/25, 6/36} {
+    \pgfmathsetmacro{\px}{\n * 1.75}
+    \draw[md thick] (\px, -0.10) -- (\px, 0.10);
+    \node[md label bold] at (\px, -0.40) {$\n$};
+    \node[md label muted] at (\px, -0.85) {$(\sqrt{\sq})$};
+  }
+
+  % Approximate non-perfect square roots pinned above (staggered heights avoid overlap)
+  \foreach \val/\lbl/\stemh in {1.4142/\sqrt{2}\approx 1.41/0.52, 2.2361/\sqrt{5}\approx 2.24/1.18, 3.4641/\sqrt{12}\approx 3.46/0.52, 5.4772/\sqrt{30}\approx 5.48/0.52} {
+    \pgfmathsetmacro{\px}{\val * 1.75}
+    \draw[md dashed, color=mdAccent] (\px, 0) -- (\px, \stemh);
+    \node[md accent point] at (\px, 0) {};
+    \node[md label accent, anchor=south] at (\px, \stemh) {$\lbl$};
+  }
+\end{tikzpicture}
+\end{document}

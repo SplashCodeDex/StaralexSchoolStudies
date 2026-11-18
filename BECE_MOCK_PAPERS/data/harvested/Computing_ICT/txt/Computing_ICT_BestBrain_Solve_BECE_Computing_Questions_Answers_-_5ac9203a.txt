@@ -1,0 +1,569 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/best-brain-gaga-mock-practice
+TITLE: Solve BECE Computing Questions & Answers - Best Brain Gaga Mock
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Best Brain Gaga Mock
+1.
+[1]
+BECE mock · Computing
+A doctor wants to get advice on a patient's condition from an expert system. He would use the inference engine and user interface to
+A
+interact with the expert system and find instant solution to the medical condition
+B
+fetch the relevant knowledge from the knowledge base, interpret it and find a solution relevant to the patient’s problem
+C
+allow it to acquire enough knowledge from various sources and store it in the knowledge base
+D
+find ways to treat the patient, as well as procedures and intrinsic data relevant to the patient's condition
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+Luggage check-ins at the airport use barcodes which are read by computers. This is because
+A
+computers can think like human beings when barcodes are scanned into them
+B
+barcodes enable quick and accurate tracking of luggage with minimal errors
+C
+barcodes are made of barcodes and can read similar barcodes on luggage
+D
+barcodes ensure that bags are routed to every destination for accessibility
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+Adodo wants to safeguard his new computer against excessive heating. One of the things he should do is to
+A
+keep the computer inside a closed cabinet
+B
+Keep many programs running most of the time
+C
+update BIOS and drivers
+D
+charge the battery all the time
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+Which of the following is a feature of neuromorphic computing?
+A
+Mimicking human brain processing
+B
+Reliance on sequential data access
+C
+Requiring large physical space
+D
+Use of vacuum tubes
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+Machine learning is helpful in performing tasks because
+A
+the computer needs a lot of data
+B
+data input must be diverse and varied
+C
+machine learning can never go wrong
+D
+you do not need to tell the computer how to solve the problem
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+Which input device is used to capture handwritten signatures electronically?
+A
+Barcode reader
+B
+Signature pad
+C
+Microphone
+D
+Scanner
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+Managing your digital footprint properly requires that you
+A
+refrain from posting just about anything you like
+B
+advertise your digital footprint on social media
+C
+remove your private settings
+D
+post just about anything you like
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+Miltech Engineering firm wants to provide a secure network access to staff remotely. Which technology is needed to establish this link?
+A
+Storage Private Network
+B
+Personal Virtual Network
+C
+Virtual Area Network
+D
+Virtual Private Network
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+The switch in a computer network
+A
+goes to a particular computer
+B
+goes to all the computers
+C
+is used only for LAN
+D
+is used only for WAN
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+Which of the following is an example of an e-book reader?
+A
+Google Drive
+B
+Amazon Kindle
+C
+Apple iTunes
+D
+Microsoft Access
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+A common issue with online passwords is that they
+A
+have high storage capacity
+B
+are easy to hack if simple
+C
+provide excessive speed
+D
+are heavy to store
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+Which device is used to assist individuals with hearing impairments?
+A
+Screen reader
+B
+Braille embosser
+C
+Text-to-speech software
+D
+Computers with visual output
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+Computers can recognize and respond to their environment without user input by using the technology known as
+A
+cloud computing
+B
+perceptual computing
+C
+quantum computing
+D
+neuromorphic computing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+A malware is a software that
+A
+solves other software problems
+B
+solves hardware problems
+C
+a criminal installs on a computer
+D
+helps to detect viruses
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+A column in a data table is called a
+A
+unit
+B
+field
+C
+row
+D
+record
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+Defragmentation of hard disk involves
+A
+cleaning the disk of useless files
+B
+dividing it into multiple logical storage units
+C
+preparing it for storage
+D
+dividing it into two
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+Artificial intelligence can
+A
+recognize faces
+B
+pray to God
+C
+perform miracles
+D
+check news in human language
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+The formula to add values greater than 50 is
+A
+=COUNTIF(B:B, “<50”)
+B
+=COUNTIF(B2:B5, “<50”)
+C
+=SUMIF(B:B, “>50”)
+D
+=SUMIF(B2:B5, “>50”)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+What result would be given by the function =AVERAGE(B2:B5, “<70”)?
+A
+100
+B
+150
+C
+52
+D
+50
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+Algorithm is a term used to describe
+A
+how a software is created
+B
+the way a program is used
+C
+a problem you want to solve
+D
+a plan to solve a problem
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+You can protect your digital privacy by
+A
+using a simple password
+B
+switching on current location
+C
+hiding your activity status
+D
+having lots of audience
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+Operators in programming are used to
+A
+change values
+B
+change variables
+C
+store variables
+D
+store data
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+The Scratch programming language is
+A
+block-based
+B
+image-based
+C
+text-based
+D
+audio-based
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+In its operation, a search engine does not take into consideration
+A
+your personal identity
+B
+how popular a page is
+C
+how up to date a page is
+D
+your search history
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+Which network topology connects all devices to a central hub?
+A
+Bus
+B
+Ring
+C
+Star
+D
+Mesh
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+The main advantage of using e-books over printed books is
+A
+higher cost
+B
+portability
+C
+requires power source
+D
+less durable
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+Best Brain Examinations Konsortium has copyright of its examination questions. This means that
+A
+anyone can copy and print the questions for free
+B
+any other person must ask for the consent to use or share the questions
+C
+any other person has right to the questions as organization
+D
+others can own the questions once they get approval from the organization
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+The program used by search engines to automatically browse website and collect data is called
+A
+spider
+B
+browser
+C
+search master
+D
+robot
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+Data can be shared between two or more computers through
+A
+library
+B
+network
+C
+grouping
+D
+web cluster
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+The Email server in a network ensures that
+A
+you are connected to the internet
+B
+emails reach the right people
+C
+documents are saved correctly
+D
+emails are printed correctly
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+Which device driver is key to the performance of your system speakers?
+A
+Sound driver
+B
+Network driver
+C
+Graphic driver
+D
+Kernel driver
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+The main benefit of ergonomics in a workstation setup is to
+A
+increase storage capacity
+B
+reduce discomfort and injury
+C
+enhance internet speed
+D
+improve software performance
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+The purpose of a flowchart in an algorithm design is to
+A
+write code directly
+B
+represent steps visually
+C
+store data
+D
+connect to a network
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+Which of the following is a negative effect of using smartphones?
+A
+Improved communication
+B
+Distracted driving
+C
+Access to information
+D
+Job creation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+The component of the motherboard that connects the CPU to other internal components is the
+A
+RAM slot
+B
+BIOS
+C
+Bus
+D
+PCI slot
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+Which of the following statements is not true of an algorithm?
+A
+It is a plan to solve a problem
+B
+It sets out the steps in order
+C
+You can use it as a program plan
+D
+It sets out plans in disorderly style
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+Which storage device is primarily used for backups due to its large capacity and sequential access?
+A
+Hard disk
+B
+Magnetic tape
+C
+USB flash drive
+D
+CD-ROM
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+A prominent feature of quantum computing is that it
+A
+uses vacuum tubes
+B
+uses qubits for multidimensional data
+C
+relies on integrated circuits
+D
+requires large physical space
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+Which device is used to authenticate a user’s identity through biometric data?
+A
+Barcode reader
+B
+Fingerprint scanner
+C
+Microphone
+D
+Touchpad
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+The main issue with e-paper displays is
+A
+high power consumption
+B
+slow update speed
+C
+low resolution
+D
+heavy weight
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers & mocks
+Computing topics

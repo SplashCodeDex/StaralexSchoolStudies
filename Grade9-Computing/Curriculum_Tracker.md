@@ -1,9 +1,11 @@
 # Grade 9 Computing: Master Curriculum Roadmap and Progress Tracker
 
+**Master Plan & Tracker:** [`Computing-Lesson-Plan-B7-B9.md`](../Computing-Lesson-Plan-B7-B9.md) · [`Computing-Lesson-Tracker-B7-B9.md`](../Computing-Lesson-Tracker-B7-B9.md) (Lessons 01–21: **5 delivered, 16 pending — 23.8%**)
+
 ## Syllabus Overview
 - **Curriculum**: Ministry of Education / NaCCA Computing Curriculum (Basic 9 / Grade 9)
 - **Standard**: International British English conventions (spelling, grammar, terminology)
-- **Duration**: 2 Months (8 Weeks, 40 Study Days)
+- **Duration**: 2 Months (8 Weeks, 40 Study Days) mapping to 21 canonical lesson packages (Strand 1: 01–05 [5/5 Complete]; Strand 2: 06–11 [0/6]; Strand 3: 12–16 [0/5]; Strand 4: 17–21 [0/5])
 - **Pacing**: 1 to 2 Sub-strands per 2 to 3 Days, split into digestible parts with deep conceptual explanations
 - **Assessment Policy**: 7 to 10 distinct exercises per sub-strand (5 questions each), including 10% to 20% cumulative review questions from prior strands
 - **Visuals**: Clean text-based structural diagrams and high-resolution generated illustration figures embedded in each study module and compiled PDF lesson
@@ -18,36 +20,31 @@ The repository will be structured as follows:
 Grade9-Computing/
 ├── Rules.md
 ├── Curriculum_Tracker.md
-├── Grade9-Computing.pdf
-├── Strand_1_Introduction_to_Computing/
-│   ├── Substrand_1_Components_of_Computers/
-│   │   ├── Lessons/
-│   │   ├── Diagrams/
-│   │   ├── Exercises/
-│   │   └── PDFs/
-│   ├── Substrand_2_Technology_in_the_Community/
-│   │   ├── Lessons/
-│   │   ├── Projects/
-│   │   └── PDFs/
-│   └── Substrand_3_Health_and_Safety/
-│       ├── Lessons/
-│       ├── Exercises/
-│       └── PDFs/
-├── Strand_2_Productivity_Software/
-│   ├── Substrand_1_Word_Processing/
-│   ├── Substrand_2_Presentation/
-│   ├── Substrand_3_Desktop_Publishing/
-│   └── Substrand_4_Electronic_Spreadsheet/
-├── Strand_3_Communication_Networks/
-│   ├── Substrand_1_Computer_Networks/
-│   ├── Substrand_2_Internet_and_Social_Media/
-│   ├── Substrand_3_Information_Security/
-│   └── Substrand_4_Web_Technologies/
-└── Strand_4_Computational_Thinking/
-    ├── Substrand_1_Introduction_to_Programming/
-    ├── Substrand_2_Algorithm/
-    ├── Substrand_3_Robotics/
-    └── Substrand_4_Artificial_Intelligence/
+├── Strand-1-Introduction-To-Computing/
+│   ├── Lesson-01-Next-Generation-Computers-And-Supercomputing/
+│   ├── Lesson-02-Storage-Direct-Data-Entry-Printers-And-File-Management/
+│   ├── Lesson-03-Assistive-And-Adaptive-Technology-Portable-Devices-And-The-Environment/
+│   ├── Lesson-04-Perceptual-Computing-Novel-Output-Devices-And-Personalisation/
+│   └── Lesson-05-Community-Problem-Solving-Workstation-Auditing/
+├── Strand-2-Productivity-Software/
+│   ├── Lesson-06-Word-Processing-SmartArt-Multimedia/
+│   ├── Lesson-07-Presentation-Animations-Delivery/
+│   ├── Lesson-08-Desktop-Publishing-Brochures-Critique/
+│   ├── Lesson-09-Spreadsheet-Sorting-Filtering-Validation/
+│   ├── Lesson-10-Spreadsheet-Conditional-Formatting/
+│   └── Lesson-11-Spreadsheet-Charts-Pivot-Tables/
+├── Strand-3-Communication-Networks/
+│   ├── Lesson-12-E-Commerce-Cashless-Society/
+│   ├── Lesson-13-E-Learning-LMS-Systems/
+│   ├── Lesson-14-Social-Media-Hazards-Cyber-Safety/
+│   ├── Lesson-15-Cyberbullying-Ten-Hacking-Techniques/
+│   └── Lesson-16-Blog-Development-Publishing/
+└── Strand-4-Computational-Thinking/
+    ├── Lesson-17-Binary-Data-Representation/
+    ├── Lesson-18-IDEs-Text-Based-Programming/
+    ├── Lesson-19-Flowcharts-Pseudocode-Translation/
+    ├── Lesson-20-Robot-Fabrication-Programming/
+    └── Lesson-21-Expert-Systems-AI-Ethics/
 ```
 
 ---
@@ -93,11 +90,15 @@ Grade9-Computing/
     - Exercises: 5 sections × 5 questions + marking scheme (embedded in lesson).
   - Status: [x] Completed
   - Note: B9-level community problem-solving indicators (B9.1.2.1.1–3: community problem evaluation, solution proposals, project design and presentation) still to deliver as a project/case-study lesson.
-- **Day 5**: Strand 1, Sub-strand 3 - Health and Safety at Workstations
-  - Indicators: B9.1.3.1.1, B9.1.3.1.2
-  - Key Topics: Ergonomic setups (keyboards, document holders, monitor positioning), lighting considerations, thermal dissipation and heat reduction.
-  - Deliverable: Sub-strand 3 Exercise Battery + Strand 1 Cumulative Review (incorporating 15% Sub-strand 1 questions).
-  - Status: [ ] Not Started
+- **Day 5**: Strand 1, Sub-strand 2 & 3 — Community Problem Solving & Workstation Health Compliance Auditing
+  - Indicators: B9.1.2.1.1–3 (evaluating community problems, proposing tech solutions, designing solution project) + B9.1.3.1.1–2 (workstation ergonomics, lighting, thermal dissipation & risk reduction)
+  - Key Topics: Community needs analysis, SMS/USSD/app feasibility, Input-Process-Output (IPO) architecture, wireframing, ergonomic keyboards & document holders, CVS/RSI prevention, 20-20-20 rule, processor heat dissipation, cooling fans/heat sinks, lab compliance audit checklists.
+  - Deliverables:
+    - Notes: `Lesson_05_Community_Problem_Solving_Workstation_Auditing.md`
+    - PDF: `Lesson_05_Community_Problem_Solving_Workstation_Auditing.pdf` (14 pages, clean glyphs)
+    - Diagrams: `diagrams/figure_01_ergonomic_workstation.png`, `diagrams/figure_02_community_solution_flow.png` (TikZ 300 DPI)
+    - Exercises: Section A (10 Objective MCQs) + Section B (5 Structured Theory questions with marking scheme, including 15% cumulative spiral review from Lessons 01–04).
+  - Status: [x] Completed — **Strand 1 (Introduction to Computing) is now 100% complete for Grade 9!**
 
 ---
 

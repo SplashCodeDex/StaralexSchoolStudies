@@ -1,6 +1,7 @@
 # Grade 9 Computing — Subject Rules
 
-**The lesson pattern lives in [`RULES-BECE-PATTERN.md`](../../RULES-BECE-PATTERN.md).**  
+**Master Plan & Tracker:** [`Computing-Lesson-Plan-B7-B9.md`](../Computing-Lesson-Plan-B7-B9.md) · [`Computing-Lesson-Tracker-B7-B9.md`](../Computing-Lesson-Tracker-B7-B9.md)  
+**The lesson pattern lives in [`RULES-BECE-PATTERN.md`](../RULES-BECE-PATTERN.md).**
 Read it first. It defines the Theory Q&A body, the Paper 1 / Paper 2 exercise shape, mark allocations, contextual diagrams, and the folder tree. This file only adds subject notes.
 
 ## Subject notes (Computing / ICT)
@@ -15,17 +16,16 @@ Read it first. It defines the Theory Q&A body, the Paper 1 / Paper 2 exercise sh
 
 ## Folder structure
 
-```
+```text
 Strand-<n>-<Name>/
-`-- Substrand-<n>-<Name>/
-    `-- Lesson-<nn>-<Name>/
-        |-- Lesson_<nn>_<Name>.md
-        |-- Lesson_<nn>_<Name>.pdf
-        `-- diagrams/
-            |-- figure_01_<slug>.png
-            `-- ...
+`-- Lesson-<nn>-<Name>/
+    |-- Lesson_<nn>_<Name>.md
+    |-- Lesson_<nn>_<Name>.pdf
+    `-- diagrams/
+        |-- figure_01_<slug>.png
+        `-- ...
 ```
 
 ## Tracker
 
-Create/update `Curriculum_Tracker.md` before teaching. Mark a sub-strand delivered only after the lesson + exercises + answers are actually done.
+Update [`Curriculum_Tracker.md`](Curriculum_Tracker.md) and [`../Computing-Lesson-Tracker-B7-B9.md`](../Computing-Lesson-Tracker-B7-B9.md) before teaching. Mark a lesson delivered only after the lesson + exercises + answers are actually done.

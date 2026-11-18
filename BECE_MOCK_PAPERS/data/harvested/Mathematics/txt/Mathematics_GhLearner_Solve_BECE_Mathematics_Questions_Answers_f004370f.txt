@@ -1,0 +1,609 @@
+SOURCE URL: https://ghlearner.com/bece/mathematics/exams/palm-cedar-march-2026-mathematics
+TITLE: Solve BECE Mathematics Questions & Answers - Palm & Cedar March 2026
+SUBJECT: Mathematics
+============================================================
+
+Solve BECE Mathematics Questions & Answers - Palm & Cedar March 2026
+1.
+[1]
+BECE mock · Mathematics
+The Venn diagram below shows two sets P and Q formed from universal set U. If n(Q) = 3n(P), use it to answer this question. What is the value of x?
+A
+A. 2
+B
+B. 3
+C
+C. 4
+D
+D. 5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Mathematics
+The Venn diagram below shows two sets P and Q formed from universal set U. If n(Q) = 3n(P), use it to answer this question. Find n(PUQ).
+A
+A. 30
+B
+B. 29
+C
+C. 27
+D
+D. 25
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Mathematics
+What is the value of 7 in the sum of 22349 and 5564?
+A
+A. 70
+B
+B. 700
+C
+C. 7000
+D
+D. 70000
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Mathematics
+Mrs. Adu has an amount of GH¢ 468527.00 in his bank account. The bank decides to round all customers account balances to the nearest thousand Ghana cedis. What is Mrs. Adu's new balance?
+A
+A. GH¢ 468000.00
+B
+B. GH¢ 470000.00
+C
+C. GH¢ 469000.00
+D
+D. GH¢ 460000.00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Mathematics
+Express the product of 0.06 and 0.09 in standard form.
+A
+A. \(5.4 \times 10^{4}\)
+B
+B. \(5.4 \times 10^{-4}\)
+C
+C. \(5.4 \times 10^{3}\)
+D
+D. \(5.4 \times 10^{-3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Mathematics
+By how much is \(\dfrac{5}{7}\) more than \(\dfrac{3}{5}\)?
+A
+A. \(\dfrac{4}{35}\)
+B
+B. \(\dfrac{4}{15}\)
+C
+C. \(\dfrac{4}{45}\)
+D
+D. \(\dfrac{4}{25}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Mathematics
+Given that N = {x : x is a factor of 18} and M = {x : x is a multiple of 12}. Find N ∩ M.
+A
+A. {1 2 3 6}
+B
+B. {1 2 3 6 12}
+C
+C. {2 3 6 12 18}
+D
+D. {}
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Mathematics
+Solve for \(x\) if \(\dfrac{x-1}{3} - \dfrac{2-x}{5} = 3\).
+A
+A. \(x = -9\)
+B
+B. \(x = -7\)
+C
+C. \(x = 7\)
+D
+D. \(x = 9\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Mathematics
+Express 250° as a compass bearing.
+A
+A. S 70°E
+B
+B. S 70°W
+C
+C. S 20°E
+D
+D. N 20°E
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Mathematics
+Given that \(\dfrac{5 \times 10^3}{8 \times 10^{-2}} = 6.25 \times 10^n\), find the value of \(n\).
+A
+A. 1
+B
+B. 3
+C
+C. 4
+D
+D. 5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Mathematics
+Simplify: \(\dfrac{1}{2}\left(1\dfrac{1}{2} + \dfrac{3}{4} \div \dfrac{1}{4}\right)\).
+A
+A. \(1\dfrac{1}{2}\)
+B
+B. \(2\dfrac{1}{4}\)
+C
+C. \(2\dfrac{3}{4}\)
+D
+D. \(4\dfrac{1}{4}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Mathematics
+What is the rule of the mapping below?
+A
+A. \(x \to 3x - 1\)
+B
+B. \(x \to 1 - 3x\)
+C
+C. \(x \to -3x - 1\)
+D
+D. \(x \to 3x + 1\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Mathematics
+Simplify \(\sqrt{27} - 3\sqrt{3} + \sqrt{3}\).
+A
+A. \(2\sqrt{3}\)
+B
+B. \(3\sqrt{3}\)
+C
+C. \(\sqrt{3}\)
+D
+D. 0
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Mathematics
+The equation of a straight line given as \(4y + 12x = 16\). Find the gradient of the line.
+A
+A. 3
+B
+B. -3
+C
+C. 12
+D
+D. -12
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Mathematics
+The VAT of a country is charged at a rate of 12½%. Calculate the VAT on an article sold for GH¢ 500.00.
+A
+A. GH¢ 60.00
+B
+B. GH¢ 65.00
+C
+C. GH¢ 62.50
+D
+D. GH¢ 55.50
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Mathematics
+The diagonal of a square room is 8m long. Find the length of the room.
+A
+A. \(4\sqrt{2}\) m
+B
+B. 4 m
+C
+C. \(2\sqrt{2}\) m
+D
+D. 2 m
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Mathematics
+Make \(p\) the subject of the relation \(y = \dfrac{r + p}{r - p}\).
+A
+A. \(\dfrac{2r - y}{r + y}\)
+B
+B. \(\dfrac{ry - 1}{y + 1}\)
+C
+C. \(\dfrac{r(y-1)}{y+1}\)
+D
+D. \(\dfrac{ry}{y+1}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Mathematics
+Factorize completely \(5x^2 - 18x - 8\).
+A
+A. \((x+4)(5x+2)\)
+B
+B. \((x+4)(5x-2)\)
+C
+C. \((x-4)(5x-2)\)
+D
+D. \((x-4)(5x+2)\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Mathematics
+Which of the following is not true of a regular polygon?
+A
+A. All exterior angles add up to 360°
+B
+B. All angles are equal
+C
+C. All sides have equal length
+D
+D. All sides are parallel.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Mathematics
+A number is chosen at random from the set where x is an integer and 1 ≤ x ≤ 9. Find the probability that it is a multiple of 3 or a prime number.
+A
+A. \(\dfrac{4}{9}\)
+B
+B. \(\dfrac{1}{3}\)
+C
+C. \(\dfrac{7}{9}\)
+D
+D. \(\dfrac{8}{9}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Mathematics
+The bearing of Tema from Kumasi is 045°. What is the bearing of Kumasi from Tema?
+A
+A. 315°
+B
+B. 225°
+C
+C. 135°
+D
+D. 105°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Mathematics
+Find the range of the numbers 15, 7, 4, 9, 2, 5, 18, 33, 10 and 5.
+A
+A. 31
+B
+B. 30
+C
+C. 18
+D
+D. 10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Mathematics
+Find the gradient of the line joining the points M(-4, 0) and N(0, 6).
+A
+A. -2
+B
+B. -1.5
+C
+C. 1.2
+D
+D. 1.5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Mathematics
+The cost of a freezer is GH¢3600.00. If a woman decides to pay GH¢800.00 monthly, how long will it take to complete the payment?
+A
+A. 3.5 years
+B
+B. 3 years
+C
+C. 4.5 years
+D
+D. 2 years
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Mathematics
+Adu is y years old now. Five years ago, he was half as old as he is now. Find his age now.
+A
+A. 15
+B
+B. 5
+C
+C. 20
+D
+D. 10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Mathematics
+The exterior angle of a regular polygon is 45°. Find the sum of its interior angles.
+A
+A. 1260°
+B
+B. 1080°
+C
+C. 720°
+D
+D. 400°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Mathematics
+In the diagram below, ST//QR, /PS/=6cm, /SQ/=3cm and /PT/=8cm. Find /TR/.
+A
+A. 12 cm
+B
+B. 6 cm
+C
+C. 4 cm
+D
+D. 1 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Mathematics
+A long wooden bar is cut into three parts in the ratio 5 : 3 : 7. If the longest part is 98 cm long, find the length of the wooden bar.
+A
+A. 200 cm
+B
+B. 210 cm
+C
+C. 250 cm
+D
+D. 218 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Mathematics
+To inscribe a triangle, one needs to:
+A
+A. bisect and measure two sides
+B
+B. bisect any one side and one interior angle
+C
+C. bisect all three sides
+D
+D. bisect at least two interior angles
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Mathematics
+An insurance company issues fire insurance at a premium of 5.5% of the insured value. If a customer pays a premium of GH¢330.00, find the value of the customer's shop.
+A
+A. GH¢ 600.00
+B
+B. GH¢ 6000.00
+C
+C. GH¢ 60000.00
+D
+D. GH¢ 60.00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Mathematics
+The outcomes obtained when a die is rolled 250 times are shown in the table below. Use the information to answer this question. Find the value of x.
+A
+A. 8
+B
+B. 7
+C
+C. 5
+D
+D. 4
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Mathematics
+The outcomes obtained when a die is rolled 250 times are shown in the table below. Use the information to answer this question. Find the probability of obtaining a prime number.
+A
+A. \(\dfrac{4}{250}\)
+B
+B. \(\dfrac{3}{250}\)
+C
+C. \(\dfrac{3}{25}\)
+D
+D. \(\dfrac{2}{25}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Mathematics
+The outcomes obtained when a die is rolled 250 times are shown in the table below. Use the information to answer this question. What is the sum of the outcome greater than 3?
+A
+A. 158
+B
+B. 120
+C
+C. 150
+D
+D. 110
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Mathematics
+A box contains 40 identical balls of which 10 are red and 12 are blue. If a ball is selected at random from the box, what is the probability that it is neither red nor blue?
+A
+A. \(\dfrac{11}{20}\)
+B
+B. \(\dfrac{9}{20}\)
+C
+C. \(\dfrac{3}{10}\)
+D
+D. \(\dfrac{1}{4}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Mathematics
+Given that n(K) = 10, n(Y) = 8 and n(K∩Y) = 3. Find n(K∪Y).
+A
+A. 18
+B
+B. 15
+C
+C. 21
+D
+D. 13
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Mathematics
+15 boys painted a house in 10 days. How many days would 25 boys use to paint the house if they work at the same rate?
+A
+A. 16 days
+B
+B. 12 days
+C
+C. 6 days
+D
+D. 37 days
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Mathematics
+The difference between two numbers is 5. If the ratio of the two numbers is 3:2, find the two numbers.
+A
+A. 10 and 5
+B
+B. 15 and 10
+C
+C. 20 and 25
+D
+D. 16 and 11
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Mathematics
+Find the magnitude of the vector \(\overrightarrow{AB} = \begin{pmatrix} -3 \\ 4 \end{pmatrix}\).
+A
+A. 7 units
+B
+B. 12 units
+C
+C. 5 units
+D
+D. 25 units
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Mathematics
+A map shows a scale of 1:5000. What is the actual distance between two towns that are 8cm on the map?
+A
+A. 40000 cm
+B
+B. 4000 cm
+C
+C. 400 cm
+D
+D. 40 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Mathematics
+A set of playing cards is numbered 1 to 20. Find the probability that a card drawn at random has a number within the interval \(5 < x < 12\).
+A
+A. 27
+B
+B. \(\dfrac{3}{10}\)
+C
+C. 510
+D
+D. \(\dfrac{9}{10}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[15]
+BECE mock · Mathematics
+P and Q are two sets and their number of elements are shown in the diagram below; Given that n(P)=n(Q), calculate: (i) n(P∩Q) (ii) n(Q) (iii) n(P∪Q)
+42.
+[5]
+BECE mock · Mathematics
+1. (b) A tank can hold 240 liters of water. How much water is in the tank when it is 1/5 empty?
+43.
+[10]
+BECE mock · Mathematics
+2. (a) A ladder which is 17m high is placed against a vertical wall. If the distance separating the foot of the ladder and the wall is 8m, (i) Make a sketch to illustrate the information. (ii) Find the height of the wall?
+44.
+[5]
+BECE mock · Mathematics
+2. (b) In a hall, there are 175 persons. 12% are children, 56 are men and the rest are women. How many women are in the hall?
+45.
+[10]
+BECE mock · Mathematics
+3. (a) A rectangular tank of sides 4m by 8m by 11m has the same volume as a cylindrical tank of height 7m with both ends opened. Find the radius of the cylindrical tank. [Take π = 22/7]
+46.
+[10]
+BECE mock · Mathematics
+3. (b) The probabilities that John and James will pass an examination are 3/4 and 1/4 respectively. Find the probability that both will fail the examination.
+47.
+[10]
+BECE mock · Mathematics
+4. (a) The interior angles of a triangle are (y + 10)°, (2y - 40)°, (3y - 90)°. (i) Find the value of y (ii) What type of triangle is it?
+48.
+[10]
+BECE mock · Mathematics
+Find the value of x° in the diagram below.
+49.
+[20]
+BECE mock · Mathematics
+The table below shows the monthly contributions and expenditure pattern of Mr Ali in 2025. (a) Draw a pie chart to illustrate the data. (b) If the income tax was deducted from the gross monthly salary of GH¢ 2800.00, find his take home pay
+50.
+[20]
+BECE mock · Mathematics
+6. Using a scale of 2cm to 2 units on each axes, draw on a graph sheet of paper two perpendicular line Ox and Oy for the interval -8 ≤ x ≤ 12 and -12 ≤ y ≤ 12 (a) Draw ΔABC with coordinates A(5, 7), B(3, 4) and C(7, 3) (b) Draw the image ΔA1B1C1 of ΔABC under translation by the vector (4, -2) such that A → A1, B → B1 and C → C1 (c) Draw the image ΔA2B2C2 of ΔABC under reflection in the line y = 0, such that A → A2, B → B2 and C → C2 (d) Draw ΔA3B3C3 of ΔABC the image under rotation through 90° anticlockwise about the origin, such that A → A3, B → B3 and C → C3
+More Mathematics
+All Mathematics papers & mocks
+Mathematics topics

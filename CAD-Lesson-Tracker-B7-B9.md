@@ -1,0 +1,283 @@
+# Creative Arts & Design — Master Curriculum Roadmap & Lesson Tracker (Grades 7–9)
+
+*Based on the NaCCA Creative Arts and Design Common Core Programme (CCP) Curriculum for JHS1 (B7) – JHS3 (B9).*
+
+- **Source of Truth:** [`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md) (`101` canonical NaCCA indicators across `27` Content Standards, `2` Main Strands — **Strand 1: Design** and **Strand 2: Creative Arts** — organised into `3` Instructional Groups: **Visual Arts** [carrying Design], **Music**, and **Dance Drama**).
+- **Existing Grade Trackers Reconciled:** [`curriculum/Grade7-CAD/LESSON_TRACKER.md`](curriculum/Grade7-CAD/LESSON_TRACKER.md) (`18/33` delivered), [`Grade8-CAD/LESSON_TRACKER.md`](Grade8-CAD/LESSON_TRACKER.md) (`18/33` delivered), and [`Grade9-CAD/LESSON_TRACKER.md`](Grade9-CAD/LESSON_TRACKER.md) (`18/33` delivered).
+- **Master Visual Arts Compendium:** [`CAD-Visual-Arts-Lessons-B7-B9.md`](CAD-Visual-Arts-Lessons-B7-B9.md) ([`CAD-Visual-Arts-Lessons-B7-B9.pdf`](CAD-Visual-Arts-Lessons-B7-B9.pdf)) — consolidated theory Q&A, worked exam exemplars, and Paper 1/Paper 2 exercises with marking schemes across all `54` Visual Arts & Design lessons (`B7–B9`).
+- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`1,786` total Creative Arts & Design items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `1,089` Paper 1 Objective MCQs, `394` Paper 2 Theory/Practical items, and `303` Marking Scheme entries; `1,563` items at high confidence `>= 0.70`).
+- **Standard:** International British English conventions (*colour*, *modelling*, *organise*, *centre*, *analyse*, *programme*, *artefact*, *jewellery*); strict adherence to [`RULES-BECE-PATTERN.md`](RULES-BECE-PATTERN.md) and NaCCA CCP practical-first assessment standards.
+- **Pedagogical Model & Time Allocation:** `4 periods × 50 minutes/week` (`200 minutes/week`): **Design** — `1 period/week` (`50 min`); **Visual Arts** — `2 periods/week` (`100 min`); **Music** and **Dance Drama** — alternate fortnightly on the remaining `1 period/week` (`50 min`). Every lesson unpacks technical vocabulary first, teaches through structured **Theory Questions and Answers**, demonstrates compulsory sketches/diagrams, walks through authentic BECE/mock exemplars, and concludes with Paper 1 Objective and Paper 2 Theory exercises plus full marking schemes.
+
+---
+
+## High-Level Delivery Summary
+
+| Grade | Level | Indicators | Total Lessons | Delivered | Pending | Completion |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Grade 7** | Basic 7 / JHS 1 | 33 | 33 | 18 | 15 | 54.5% |
+| **Grade 8** | Basic 8 / JHS 2 | 34 | 33 | 18 | 15 | 54.5% |
+| **Grade 9** | Basic 9 / JHS 3 | 34 | 33 | 18 | 15 | 54.5% |
+| **Total** | **JHS 1–3 Cycle** | **101** | **99** | **54** | **45** | **54.5%** |
+
+### Rollup by Discipline Group, Sub-strand & BECE Bank Weighting
+
+| Discipline Group & Sub-strand | B7 | B8 | B9 | Total | Delivered | BECE Tagged | Share | Status |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **1A. Design — SS1: Design in Nature & Manmade Environment** | 3 | 3 | 3 | 9 | 9 | 198 | 11.1% | 100.0% Complete |
+| **1A. Design — SS2: Drawing, Shading, Colouring & Modelling** | 3 | 3 | 3 | 9 | 9 | 210 | 11.8% | 100.0% Complete |
+| **1A. Design — SS3: Creativity, Innovation & Design Process** | 3 | 3 | 3 | 9 | 9 | 65 | 3.6% | 100.0% Complete |
+| **1B. Visual Arts — SS1: Media and Techniques** | 4 | 4 | 4 | 12 | 12 | 211 | 11.8% | 100.0% Complete |
+| **1B. Visual Arts — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 9 | 126 | 7.1% | 100.0% Complete |
+| **1B. Visual Arts — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 6 | 34 | 1.9% | 100.0% Complete |
+| *Subtotal — Visual Arts (incl. Design) [Lessons 01–18]* | *18* | *18* | *18* | *54* | *54* | *844* | *47.3%* | *100.0% Complete* |
+| **2. Music — SS1: Media and Techniques** | 3 | 3 | 2 | 8 | 0 | 223 | 12.5% | 0.0% Pending |
+| **2. Music — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 0 | 142 | 8.0% | 0.0% Pending |
+| **2. Music — SS3: Connections in Local & Global Cultures** | 2 | 2 | 3 | 7 | 0 | 129 | 7.2% | 0.0% Pending |
+| *Subtotal — Music [Lessons 19–26]* | *8* | *8* | *8* | *24* | *0* | *494* | *27.7%* | *0.0% Pending* |
+| **3. Dance Drama — SS1: Media and Techniques** | 2 | 2 | 3 | 7 | 0 | 340 | 19.0% | 0.0% Pending |
+| **3. Dance Drama — SS2: Creative & Aesthetic Expression** | 3 | 3 | 2 | 8 | 0 | 58 | 3.2% | 0.0% Pending |
+| **3. Dance Drama — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 0 | 50 | 2.8% | 0.0% Pending |
+| *Subtotal — Dance Drama [Lessons 27–33]* | *7* | *7* | *7* | *21* | *0* | *448* | *25.1%* | *0.0% Pending* |
+| **Curriculum Total** | **33** | **33** | **33** | **99** | **54** | **1,786** | **100.0%** | **54.5% Complete** |
+
+### Sub-strand BECE Exam Weighting Breakdown (`BECE_MOCK_PAPERS`)
+
+| Discipline & Sub-strand | Paper 1 (Obj) | Paper 2 (Theory) | Marking Scheme | Total Tagged | Share of Bank | Priority Tier |
+| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
+| **1A.1 Design in Nature & Manmade Environment** | 124 | 34 | 40 | 198 | 11.1% | High (100% Built) |
+| **1A.2 Drawing, Shading, Colouring & Modelling** | 144 | 31 | 35 | 210 | 11.8% | High (100% Built) |
+| **1A.3 Creativity, Innovation & Design Process** | 44 | 13 | 8 | 65 | 3.6% | Standard (100% Built) |
+| **1B.1 Visual Arts: Media & Techniques** | 121 | 32 | 58 | 211 | 11.8% | High (100% Built) |
+| **1B.2 Visual Arts: Creative & Aesthetic Expression** | 78 | 21 | 27 | 126 | 7.1% | Moderate-High (100% Built) |
+| **1B.3 Visual Arts: Connections in Local/Global Cultures** | 22 | 5 | 7 | 34 | 1.9% | Standard (100% Built) |
+| **2.1 Music: Media & Techniques** | 133 | 54 | 36 | 223 | 12.5% | **Critical (#2 — Pending)** |
+| **2.2 Music: Creative & Aesthetic Expression** | 112 | 18 | 12 | 142 | 8.0% | **High (Pending)** |
+| **2.3 Music: Connections in Local/Global Cultures** | 56 | 40 | 33 | 129 | 7.2% | **High — Paper 2 Heavy (Pending)** |
+| **3.1 Dance Drama: Media & Techniques** | 205 | 105 | 30 | 340 | 19.0% | **Critical (#1 — Pending)** |
+| **3.2 Dance Drama: Creative & Aesthetic Expression** | 26 | 18 | 14 | 58 | 3.2% | Standard (Pending) |
+| **3.3 Dance Drama: Connections in Local/Global Cultures** | 24 | 23 | 3 | 50 | 2.8% | Standard — Paper 2 Heavy (Pending) |
+| **Total Tagged CAD Bank** | **1,089** | **394** | **303** | **1,786** | **100.0%** | **47.3% Built / 52.7% Pending** |
+
+---
+
+## Academic Term Schedule Matrix (Terms 1–3 across B7–B9)
+
+Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2 periods/week; Music & Dance Drama: alternating 1 period/week):
+
+| Term | Grade 7 (JHS 1) | Grade 8 (JHS 2) | Grade 9 (JHS 3) |
+| :--- | :--- | :--- | :--- |
+| **Term 1** *(Design Foundations, Media & Techniques I)* | **Design L01–L06 + Visual Arts L10–L11 + Music L19–L21 + Dance L27–L28:** Biomimicry, Dots/lines/shapes, Balance/rhythm/repetition, Manual & digital outline tools, Simple shape models; Still-life safety & shading; Major scale (Curwen), Note values, Simple time; Ghanaian dance & performance space. | **Design L01–L06 + Visual Arts L10–L11 + Music L19–L21 + Dance L27–L28:** Design expression, Texture & colour, Unity & variety, Manual & digital 2-D tools, 2-D model making; Observation/print/weaving safety, Printmaking; Tempo, Dynamics, Binary/ternary forms; Ghanaian dance categories, Rhythm & dynamics. | **Design L01–L06 + Visual Arts L10–L11 + Music L19–L20 + Dance L27–L29:** Deeper design concepts, Form & value, Variety & proportion, Manual & digital 3-D tools, 3-D models; Casting/folding/construction safety, Casting (filled-in, hump, hollow); Scale triads/arpeggios, Ostinato melody (I–VI–IV–V); Topical one-act play, Improvisation & stage blocking (DR, UL, DC). |
+| **Term 2** *(Design Process, Studio Production & Expression)* | **Design L07–L09 + Visual Arts L12–L15 + Music L22–L24 + Dance L29–L31:** Creativity vs innovation, 8-stage design process, Community artefacts; Clay & papier-mâché modelling, Pattern making (batik, marbling), Local cultural artworks, Exhibition planning; Community music composition, Class concert, Music appraisal; Dance skit production, Venue rehearsal & appraisal. | **Design L07–L09 + Visual Arts L12–L15 + Music L22–L24 + Dance L29–L31:** Creativity vs innovation, Product evaluation, Community design solutions; Observational/memory/imagination drawing, Weaving (plain, twill, satin), Cross-cultural artworks, Exhibition roles; Cross-cultural music genre, Recorded concert, Music appraisal; Cultural dance drama rehearsal, Performance & appraisal. | **Design L07–L09 + Visual Arts L12–L15 + Music L21–L23 + Dance L30–L31:** Energy conservation innovation, Product modification, Community prototypes; Folding (creasing, pleating, knotting), Found-object construction, Philosophical artworks, Full exhibition management; African topical music composition, Topical concert display, Continental music appraisal; Socio-cultural play performance & post-performance analysis. |
+| **Term 3** *(Appraisal, Cultural Connections & Exhibitions)* | **Visual Arts L16–L18 + Music L25–L26 + Dance L32–L33 + Portfolio Review:** Art appreciation & appraisal using art language, Community history/landmarks narratives, Local visual crafts (pottery, kente, carving, basketry); Community indigenous/art musicians (Koo Nimo, Kakraba Lobi, E. T. Mensah), Neo-traditional ensemble appraisal; Community dance/drama artistes & video analysis. | **Visual Arts L16–L18 + Music L25–L26 + Dance L32–L33 + Portfolio Review:** Critical appraisal of community artworks, Prominent Ghanaian visual artists (Antobam, Okoh, Glover, Boateng), Waste-to-art design processes (Clottey); Ghanaian art composers (Ephraim Amu, J. H. K. Nketia), Three indigenous/neo-traditional groups; Dance/drama artiste documentation & cross-cultural seminar. | **Visual Arts L16–L18 + Music L24–L26 + Dance L32–L33 + BECE Mock Prep:** Exhibition self/peer-review, African visual artists (El Anatsui, Ibrahim Mahama, Saka Aquaye, Dorothy Amenuke), Cross-disciplinary art connections; African art composers (Akin Euba, Nketia), African dance/pop genres, African movie report; African creative work adaptation, Performance review & BECE Paper 1/2 mocks. |
+
+---
+
+<!-- pagebreak -->
+
+# GRADE 7 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
+
+*Individual lesson packages reside in [`curriculum/Grade7-CAD/`](curriculum/Grade7-CAD/LESSON_TRACKER.md).*
+
+## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **01** | Design in Nature and the Manmade Environment | Design in Nature and Manmade Environment | B7.1.1.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-01-Design-in-Nature-and-Manmade-Environment/` | [x] Delivered — PDF + exercises + solutions |
+| **02** | Elements of Design — Dots, Lines and Shapes | Design in Nature and Manmade Environment | B7.1.1.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-02-Elements-of-Design/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **03** | Principles of Design — Balance, Rhythm and Repetition | Design in Nature and Manmade Environment | B7.1.1.1.3 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-03-Principles-of-Design/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **04** | Manual Tools and Materials for Outline Drawing, Shading and Colouring | Drawing, Shading, Colouring and Modelling for Design | B7.1.2.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-04-Manual-Drawing-Tools/` | [x] Delivered — PDF + exercises + solutions |
+| **05** | Digital Tools for Drawing, Shading and Colouring — Portfolio | Drawing, Shading, Colouring and Modelling for Design | B7.1.2.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-05-Digital-Drawing-Tools/` | [x] Delivered — PDF + exercises + solutions |
+| **06** | Models of Simple Shapes and Forms (Cardboard, Styrofoam, Clay, Pulp Paper) | Drawing, Shading, Colouring and Modelling for Design | B7.1.2.1.3 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-06-Simple-Shapes-Models/` | [x] Delivered — PDF + exercises + solutions |
+| **07** | Creativity versus Innovation | Creativity, Innovation and the Design Process | B7.1.3.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-07-Creativity-vs-Innovation/` | [x] Delivered — PDF + exercises + solutions |
+| **08** | The Design Process — Define, Brief, Research, Ideation, Invent, Prototype, Test, Refine | Creativity, Innovation and the Design Process | B7.1.3.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-08-Design-Process/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **09** | Applying the Design Process to Artefacts that Solve Community Problems | Creativity, Innovation and the Design Process | B7.1.3.1.3 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-09-Design-Process-Artefacts/` | [x] Delivered — PDF + exercises + solutions |
+
+## Group 1B: Strand 2 — Creative Arts: Visual Arts *(2 periods/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **10** | Tools, Materials and Techniques for Still-Life Drawing, Pattern Making and Modelling — Safe Use, Cleaning, Storage | Media and Techniques | B7.2.1.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-10-Still-Life-Tools-Materials/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **11** | Still-Life Drawing and Shading Techniques (Hatching, Cross-Hatching, Smoothing, Mass Shading, Stippling) | Media and Techniques | B7.2.1.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-11-Still-Life-Shading/` | [x] Delivered — PDF + 2 PNGs + exercises + solutions |
+| **12** | Preparing and Modelling with Clay and Paper Pulp (Papier-Mâché) | Media and Techniques | B7.2.1.1.3 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-12-Clay-and-Pulp-Modelling/` | [x] Delivered — PDF + 2 PNGs + exercises + solutions |
+| **13** | Pattern Making Techniques (Dabbing, Sponging, Spraying, Wax-Resist, Marbling) | Media and Techniques | B7.2.1.1.4 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-13-Pattern-Making/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **14** | Design and Produce Own Artworks Reflecting Local History and Culture | Creative and Aesthetic Expression | B7.2.2.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-14-Artworks-Local-Culture/` | [x] Delivered — PDF + exercises + solutions |
+| **15** | Planning a Display of Artworks — Portfolio, Class/School/Community Exhibition | Creative and Aesthetic Expression | B7.2.2.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-15-Displays-and-Exhibitions/` | [x] Delivered — PDF + exercises + solutions |
+| **16** | Appreciation and Appraisal of Own and Others' Artworks Using Art Language | Creative and Aesthetic Expression | B7.2.2.1.3 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-16-Appreciation-Appraisal/` | [x] Delivered — PDF + exercises + solutions |
+| **17** | Narrating Views of the Community's History, Culture, Environment and Topical Issues | Connections in Local and Global Cultures | B7.2.3.1.1 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-17-Community-Narratives/` | [x] Delivered — PDF + exercises + solutions |
+| **18** | Identifying Local Visual Artworks that Reflect History and Culture | Connections in Local and Global Cultures | B7.2.3.1.2 | `curriculum/Grade7-CAD/Visual-Arts/Lesson-18-Local-Visual-Artworks/` | [x] Delivered — PDF + exercises + solutions |
+
+## Group 2: Strand 2 — Creative Arts: Music *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **19** | Singing the Diatonic Major Scale (Solfège, John Curwen's Hand Signs & Treble Staff Letter Names A–G) | Media and Techniques | B7.2.1.2.5 | `curriculum/Grade7-CAD/Music/Lesson-19-Major-Scale-Singing/` | [ ] Pending |
+| **20** | Note Durational Values — Symbols and Performing Values Against the Semibreve by Clapping | Media and Techniques | B7.2.1.2.6 | `curriculum/Grade7-CAD/Music/Lesson-20-Note-Values/` | [ ] Pending |
+| **21** | Conducting Songs in Simple Duple, Triple and Quadruple Time | Media and Techniques | B7.2.1.2.7 | `curriculum/Grade7-CAD/Music/Lesson-21-Conducting-Simple-Time/` | [ ] Pending |
+| **22** | Creating and Producing Own Musical Works Reflecting Community History and Culture | Creative and Aesthetic Expression | B7.2.2.2.4 | `curriculum/Grade7-CAD/Music/Lesson-22-Create-Community-Music/` | [ ] Pending |
+| **23** | Planning a Display — Recorded Class Concert with Style and Context Presentation | Creative and Aesthetic Expression | B7.2.2.2.5 | `curriculum/Grade7-CAD/Music/Lesson-23-Class-Concert/` | [ ] Pending |
+| **24** | Appreciation and Appraisal of Own and Others' Musical Works | Creative and Aesthetic Expression | B7.2.2.2.6 | `curriculum/Grade7-CAD/Music/Lesson-24-Music-Appraisal/` | [ ] Pending |
+| **25** | Identifying Indigenous and Art Musicians in the Community (Koo Nimo, Kakraba Lobi, E. T. Mensah, Kojo Antwi) | Connections in Local and Global Cultures | B7.2.3.2.3 | `curriculum/Grade7-CAD/Music/Lesson-25-Community-Musicians/` | [ ] Pending |
+| **26** | Appreciating and Appraising an Indigenous and a Neo-Traditional Group | Connections in Local and Global Cultures | B7.2.3.2.4 | `curriculum/Grade7-CAD/Music/Lesson-26-Indigenous-Neo-Traditional/` | [ ] Pending |
+
+## Group 3: Strand 2 — Creative Arts: Dance and Drama *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **27** | Ghanaian Dance and Body Movements, Positions and Voice Projection Patterns | Media and Techniques | B7.2.1.3.8 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-27-Dance-Movements-Voice/` | [ ] Pending |
+| **28** | Techniques of Dance, Body Movement and Voice Projection in the Performance Space | Media and Techniques | B7.2.1.3.9 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-28-Performance-Space/` | [ ] Pending |
+| **29** | Designing and Producing Own Dance Piece and Drama Skit Reflecting Community Culture | Creative and Aesthetic Expression | B7.2.2.3.7 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-29-Dance-Piece-Skit/` | [ ] Pending |
+| **30** | Planning a Performance — Venue Selection, Publicity, Rehearsal and Recording | Creative and Aesthetic Expression | B7.2.2.3.8 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-30-Performance-Planning/` | [ ] Pending |
+| **31** | Appreciation and Appraisal of Own and Others' Performances | Creative and Aesthetic Expression | B7.2.2.3.9 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-31-Performance-Appraisal/` | [ ] Pending |
+| **32** | Selecting Artworks of Dance and Drama Artistes in the Community | Connections in Local and Global Cultures | B7.2.3.3.5 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-32-Community-Artistes/` | [ ] Pending |
+| **33** | Analysing Works of Other Dance and Drama Artistes from Video Clips | Connections in Local and Global Cultures | B7.2.3.3.6 | `curriculum/Grade7-CAD/Dance-Drama/Lesson-33-Analysing-Artistes/` | [ ] Pending |
+
+---
+
+<!-- pagebreak -->
+
+# GRADE 8 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
+
+*Individual lesson packages reside in [`Grade8-CAD/`](Grade8-CAD/LESSON_TRACKER.md).*
+
+## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **01** | Using the Elements and Principles of Design as a Medium of Creative Expression | Design in Nature and Manmade Environment | B8.1.1.1.1 | `Grade8-CAD/Visual-Arts/Lesson-01-Design-in-the-Environment/` | [x] Delivered — PDF + exercises + solutions |
+| **02** | Elements of Design — Texture and Colour | Design in Nature and Manmade Environment | B8.1.1.1.2 | `Grade8-CAD/Visual-Arts/Lesson-02-Elements-Texture-Colour/` | [x] Delivered — PDF + 2 PNGs + exercises + solutions |
+| **03** | Principles of Design — Unity and Variety | Design in Nature and Manmade Environment | B8.1.1.1.3 | `Grade8-CAD/Visual-Arts/Lesson-03-Principles-Unity-Variety/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **04** | Manual Tools, Materials and Techniques for 2-D Drawing, Shading and Colouring | Drawing, Shading, Colouring and Modelling for Design | B8.1.2.1.1 | `Grade8-CAD/Visual-Arts/Lesson-04-Manual-2D-Drawing-Tools/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **05** | Digital Tools for 2-D Drawing, Shading and Colouring — Portfolio | Drawing, Shading, Colouring and Modelling for Design | B8.1.2.1.2 | `Grade8-CAD/Visual-Arts/Lesson-05-Digital-2D-Drawing-Tools/` | [x] Delivered — PDF + exercises + solutions |
+| **06** | Design Ideas and Model-Making from 2-D Drawings (Templates, Cardboard, Styrofoam, Pulp Paper, Clay) | Drawing, Shading, Colouring and Modelling for Design | B8.1.2.1.3 | `Grade8-CAD/Visual-Arts/Lesson-06-Model-Making-2D-Drawings/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **07** | Creativity versus Innovation | Creativity, Innovation and the Design Process | B8.1.3.1.1 | `Grade8-CAD/Visual-Arts/Lesson-07-Creativity-vs-Innovation/` | [x] Delivered — PDF + exercises + solutions |
+| **08** | The Design Process and Evaluating Products | Creativity, Innovation and the Design Process | B8.1.3.1.2 | `Grade8-CAD/Visual-Arts/Lesson-08-Design-Process-Evaluating/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **09** | Applying the Design Process to Solve Community Problems | Creativity, Innovation and the Design Process | B8.1.3.1.3 | `Grade8-CAD/Visual-Arts/Lesson-09-Design-Process-Community/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+
+## Group 1B: Strand 2 — Creative Arts: Visual Arts *(2 periods/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **10** | Media and Techniques for Observation, Memory and Imagination Drawing, Print Making and Weaving — Safe Use, Maintenance and Storage | Media and Techniques | B8.2.1.1.1 | `Grade8-CAD/Visual-Arts/Lesson-10-Observation-Printmaking-Weaving-Safety/` | [x] Delivered — PDF + exercises + solutions |
+| **11** | Print Making — Relief, Direct, Stencil and Block Printing | Media and Techniques | B8.2.1.1.2 | `Grade8-CAD/Visual-Arts/Lesson-11-Printmaking-Techniques/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **12** | Drawing from Direct Observation, Memory and Imagination | Media and Techniques | B8.2.1.1.3 | `Grade8-CAD/Visual-Arts/Lesson-12-Observation-Memory-Imagination/` | [x] Delivered — PDF + exercises + solutions |
+| **13** | Weaving — Plain Weave, Twill and Satin Using Cane, Raffia, Yarns and Reeds | Media and Techniques | B8.2.1.1.4 | `Grade8-CAD/Visual-Arts/Lesson-13-Weaving-Techniques/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **14** | Design and Produce Artworks Reflecting Different Times and Cultures — History, Topical Issues, Environment | Creative and Aesthetic Expression | B8.2.2.1.1 | `Grade8-CAD/Visual-Arts/Lesson-14-Artworks-Different-Times-Cultures/` | [x] Delivered — PDF + exercises + solutions |
+| **15** | Plan and Display Own and Others' Artworks — Roles and Responsibilities for an Exhibition | Creative and Aesthetic Expression | B8.2.2.1.2 | `Grade8-CAD/Visual-Arts/Lesson-15-Exhibition-Planning-Roles/` | [x] Delivered — PDF + exercises + solutions |
+| **16** | Appreciation and Appraisal of Artworks of the Community's History, Culture and Environment | Creative and Aesthetic Expression | B8.2.2.1.3 | `Grade8-CAD/Visual-Arts/Lesson-16-Art-Appreciation-Appraisal/` | [x] Delivered — PDF + exercises + solutions |
+| **17** | Identifying, Discussing and Comparing Visual Artists Whose Works Reflect the Community (Antobam, Okoh, Glover, Boateng) | Connections in Local and Global Cultures | B8.2.3.1.1–2 | `Grade8-CAD/Visual-Arts/Lesson-17-Prominent-Ghanaian-Artists/` | [x] Delivered — PDF + exercises + solutions |
+| **18** | Determining Design Approaches and Processes Used by Visual Artists (Serge Attukwei Clottey) | Connections in Local and Global Cultures | B8.2.3.1.3 | `Grade8-CAD/Visual-Arts/Lesson-18-Design-Approaches-and-Processes/` | [x] Delivered — PDF + exercises + solutions |
+
+## Group 2: Strand 2 — Creative Arts: Music *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **19** | Tempo — How Fast or Slow Music is Heard (Allegro, Poco a Poco, Largo) and Occasion Suitability | Media and Techniques | B8.2.1.2.5 | `Grade8-CAD/Music/Lesson-19-Tempo/` | [ ] Pending |
+| **20** | Dynamics — Benefits of Soft and Loud Music (Piano, Forte, Crescendo, Diminuendo) | Media and Techniques | B8.2.1.2.6 | `Grade8-CAD/Music/Lesson-20-Dynamics/` | [ ] Pending |
+| **21** | Simple Musical Forms Heard Aurally — AB, ABA, AA, AABA, ABAB and ABC (Binary, Ternary, Through-Composed) | Media and Techniques | B8.2.1.2.7 | `Grade8-CAD/Music/Lesson-21-Simple-Musical-Forms/` | [ ] Pending |
+| **22** | Designing and Producing Own Musical Genre Reflecting Different Times, Cultures and Environment | Creative and Aesthetic Expression | B8.2.2.2.4 | `Grade8-CAD/Music/Lesson-22-Musical-Genre-Production/` | [ ] Pending |
+| **23** | Planning and Displaying Own and Others' Musical Works — Recorded Class Concert | Creative and Aesthetic Expression | B8.2.2.2.5 | `Grade8-CAD/Music/Lesson-23-Recorded-Class-Concert/` | [ ] Pending |
+| **24** | Appreciation and Appraisal of Own and Others' Musical Works | Creative and Aesthetic Expression | B8.2.2.2.6 | `Grade8-CAD/Music/Lesson-24-Music-Appraisal/` | [ ] Pending |
+| **25** | Distinguishing How Musical Works of Ghanaian Art Composers Reflect History and Culture (Ephraim Amu & J. H. K. Nketia) | Connections in Local and Global Cultures | B8.2.3.2.4 | `Grade8-CAD/Music/Lesson-25-Ghanaian-Art-Composers/` | [ ] Pending |
+| **26** | Appreciating and Appraising Three Indigenous and Neo-Traditional Groups Within Ghana | Connections in Local and Global Cultures | B8.2.3.2.5 | `Grade8-CAD/Music/Lesson-26-Indigenous-Neo-Traditional-Groups/` | [ ] Pending |
+
+## Group 3: Strand 2 — Creative Arts: Dance and Drama *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **27** | Identifying Ghanaian Dance Types and Their Context of Performance — Religious, War and Socio-Cultural Categories | Media and Techniques | B8.2.1.3.8 | `Grade8-CAD/Dance-Drama/Lesson-27-Ghanaian-Dance-Types/` | [ ] Pending |
+| **28** | Rhythm (Beat, Tempo, Intensity) and Dynamics (Fast, Slow, Smooth, Flow) in Dance and Drama Choreography | Media and Techniques | B8.2.1.3.9 | `Grade8-CAD/Dance-Drama/Lesson-28-Rhythm-and-Dynamics/` | [ ] Pending |
+| **29** | Designing and Producing Own Dance and Drama Reflecting Different Times and Cultures | Creative and Aesthetic Expression | B8.2.2.3.7 | `Grade8-CAD/Dance-Drama/Lesson-29-Dance-Drama-Production/` | [ ] Pending |
+| **30** | Planning and Displaying Own and Others' Dance and Drama Pieces — Venue Preparation and Performance | Creative and Aesthetic Expression | B8.2.2.3.8 | `Grade8-CAD/Dance-Drama/Lesson-30-Venue-Preparation-Performance/` | [ ] Pending |
+| **31** | Appreciation and Appraisal of Dance and Drama Artworks | Creative and Aesthetic Expression | B8.2.2.3.9 | `Grade8-CAD/Dance-Drama/Lesson-31-Performance-Appraisal/` | [ ] Pending |
+| **32** | Selecting and Analysing Creative Artworks of Dance and Drama Artistes for Documentation | Connections in Local and Global Cultures | B8.2.3.3.6 | `Grade8-CAD/Dance-Drama/Lesson-32-Dance-Drama-Artistes/` | [ ] Pending |
+| **33** | Organising a Group Discussion to Appreciate Dances and Plays of Own and Other Cultures | Connections in Local and Global Cultures | B8.2.3.3.7 | `Grade8-CAD/Dance-Drama/Lesson-33-Group-Appreciation-Discussion/` | [ ] Pending |
+
+---
+
+<!-- pagebreak -->
+
+# GRADE 9 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
+
+*Individual lesson packages reside in [`Grade9-CAD/`](Grade9-CAD/LESSON_TRACKER.md).*
+
+## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **01** | Design as a Concept — Elements and Principles at the Deeper Level | Design in Nature and Manmade Environment | B9.1.1.1.1 | `Grade9-CAD/Visual-Arts/Lesson-01-Design-as-a-Concept/` | [x] Delivered — PDF + exercises + solutions |
+| **02** | Elements of Design — Form and Value | Design in Nature and Manmade Environment | B9.1.1.1.2 | `Grade9-CAD/Visual-Arts/Lesson-02-Elements-Form-and-Value/` | [x] Delivered — PDF + 2 PNGs + exercises + solutions |
+| **03** | Principles of Design — Variety and Proportion | Design in Nature and Manmade Environment | B9.1.1.1.3 | `Grade9-CAD/Visual-Arts/Lesson-03-Principles-Variety-Proportion/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **04** | Manual Tools, Materials and Techniques for 3-D Drawing, Shading and Colouring | Drawing, Shading, Colouring and Modelling for Design | B9.1.2.1.1 | `Grade9-CAD/Visual-Arts/Lesson-04-Manual-3D-Drawing-Tools/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **05** | Digital Tools for 3-D Drawing, Shading and Colouring — Portfolio | Drawing, Shading, Colouring and Modelling for Design | B9.1.2.1.2 | `Grade9-CAD/Visual-Arts/Lesson-05-Digital-3D-Drawing-Tools/` | [x] Delivered — PDF + exercises + solutions |
+| **06** | Design Ideas and Models from 3-D Drawings (Templates, Cardboard, Styrofoam, Pulp Paper, Clay) | Drawing, Shading, Colouring and Modelling for Design | B9.1.2.1.3 | `Grade9-CAD/Visual-Arts/Lesson-06-Model-Making-3D-Drawings/` | [x] Delivered — PDF + exercises + solutions |
+| **07** | Creativity versus Innovation (Energy Conservation and Energy Efficiency) | Creativity, Innovation and the Design Process | B9.1.3.1.1 | `Grade9-CAD/Visual-Arts/Lesson-07-Creativity-vs-Innovation-Energy/` | [x] Delivered — PDF + exercises + solutions |
+| **08** | The Design Process and Modifying Products | Creativity, Innovation and the Design Process | B9.1.3.1.2 | `Grade9-CAD/Visual-Arts/Lesson-08-Design-Process-Modifying/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **09** | Applying the Design Process — Making Prototypes for Community Problems | Creativity, Innovation and the Design Process | B9.1.3.1.3 | `Grade9-CAD/Visual-Arts/Lesson-09-Design-Process-Prototypes/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+
+## Group 1B: Strand 2 — Creative Arts: Visual Arts *(2 periods/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **10** | Media and Techniques for Casting, Assemblage, Folding and Construction — Safe Use, Maintenance and Storage | Media and Techniques | B9.2.1.1.1 | `Grade9-CAD/Visual-Arts/Lesson-10-Casting-Assemblage-Folding-Construction/` | [x] Delivered — PDF + exercises + solutions |
+| **11** | Casting — Filled-In, Hump and Hollow Techniques | Media and Techniques | B9.2.1.1.2 | `Grade9-CAD/Visual-Arts/Lesson-11-Casting-Techniques/` | [x] Delivered — PDF + exercises + solutions |
+| **12** | Folding — Creasing, Pleating, Knotting (Paper, Fabric, Ribbons) | Media and Techniques | B9.2.1.1.3 | `Grade9-CAD/Visual-Arts/Lesson-12-Folding-Creasing-Pleating/` | [x] Delivered — PDF + exercises + solutions |
+| **13** | Construction with Found Objects — Stitching, Gluing, Stapling | Media and Techniques | B9.2.1.1.4 | `Grade9-CAD/Visual-Arts/Lesson-13-Construction-Found-Objects/` | [x] Delivered — PDF + exercises + solutions |
+| **14** | Design and Produce Artworks from the Philosophies of Different Times and Cultures | Creative and Aesthetic Expression | B9.2.2.1.1 | `Grade9-CAD/Visual-Arts/Lesson-14-Philosophies-Different-Times-Cultures/` | [x] Delivered — PDF + 1 PNG + exercises + solutions |
+| **15** | Planning a Full Exhibition — Audience, Venue, Finance, Publicity | Creative and Aesthetic Expression | B9.2.2.1.2 | `Grade9-CAD/Visual-Arts/Lesson-15-Organising-Full-Exhibition/` | [x] Delivered — PDF + exercises + solutions |
+| **16** | Appreciation and Appraisal with Class Exhibition and Self- and Peer-Review | Creative and Aesthetic Expression | B9.2.2.1.3 | `Grade9-CAD/Visual-Arts/Lesson-16-Exhibition-Appraisal-Peer-Review/` | [x] Delivered — PDF + exercises + solutions |
+| **17** | Creative Artworks of African Visual Artists — Background, Influence, Solving Continental Issues (Ablade Glover, Dorothy Amenuke, Saka Aquaye) | Connections in Local and Global Cultures | B9.2.3.1.1 | `Grade9-CAD/Visual-Arts/Lesson-17-African-Visual-Artists/` | [x] Delivered — PDF + exercises + solutions |
+| **18** | Examining How African Visual Artists Connect with Other Creative Arts and Subjects | Connections in Local and Global Cultures | B9.2.3.1.2 | `Grade9-CAD/Visual-Arts/Lesson-18-Connecting-Visual-Art-Other-Arts/` | [x] Delivered — PDF + exercises + solutions |
+
+## Group 2: Strand 2 — Creative Arts: Music *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **19** | Singing Triads on All Seven Degrees of the Scale (Horizontally as Arpeggios and Vertically in Harmony) | Media and Techniques | B9.2.1.2.5 | `Grade9-CAD/Music/Lesson-19-Triads-Arpeggios-Harmony/` | [ ] Pending |
+| **20** | Creating and Improvising a Melody Over the I, VI, IV and V Ostinato Bass Line | Media and Techniques | B9.2.1.2.6 | `Grade9-CAD/Music/Lesson-20-Melody-Ostinato-Bass/` | [ ] Pending |
+| **21** | Designing and Producing Own Musical Work on Emerging Topical Issues Across Africa | Creative and Aesthetic Expression | B9.2.2.2.4 | `Grade9-CAD/Music/Lesson-21-African-Topical-Music/` | [ ] Pending |
+| **22** | Planning and Displaying Musical Works — Concert on Topical Issues (Climate Change, Sanitation, Pension) | Creative and Aesthetic Expression | B9.2.2.2.5 | `Grade9-CAD/Music/Lesson-22-Topical-Concert-Display/` | [ ] Pending |
+| **23** | Appreciation and Appraisal of Own and Others' Musical Works Across Africa | Creative and Aesthetic Expression | B9.2.2.2.6 | `Grade9-CAD/Music/Lesson-23-African-Music-Appraisal/` | [ ] Pending |
+| **24** | Distinguishing How Musical Works of African Art Composers Reflect History and Culture (Akin Euba & J. H. K. Nketia) | Connections in Local and Global Cultures | B9.2.3.2.3 | `Grade9-CAD/Music/Lesson-24-African-Art-Composers/` | [ ] Pending |
+| **25** | Appreciating and Appraising Three African Indigenous Dance Genres and Three Popular Musical Genres | Connections in Local and Global Cultures | B9.2.3.2.4 *(Part 1)* | `Grade9-CAD/Music/Lesson-25-African-Genres-Appraisal/` | [ ] Pending |
+| **26** | Writing an Appreciation Report on an African Movie (Acting, Drama, Music and Dance Scenes) | Connections in Local and Global Cultures | B9.2.3.2.4 *(Part 2)* | `Grade9-CAD/Music/Lesson-26-African-Movie-Report/` | [ ] Pending |
+
+## Group 3: Strand 2 — Creative Arts: Dance and Drama *(Alternating 1 period/week)*
+
+| # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
+| :---: | :--- | :--- | :---: | :--- | :--- |
+| **27** | Creating a Simple Dance Drama and/or One-Act Play on a Topical Issue | Media and Techniques | B9.2.1.3.7 | `Grade9-CAD/Dance-Drama/Lesson-27-Dance-Drama-Topical-Play/` | [ ] Pending |
+| **28** | Approaches to Improvisation, Harmony/Balance and Blocking in the Performance Space | Media and Techniques | B9.2.1.3.8 | `Grade9-CAD/Dance-Drama/Lesson-28-Improvisation-Blocking-Space/` | [ ] Pending |
+| **29** | Practising Improvisation and Blocking — Stage Movements (DR, UL, DC) and Stage Positions (Profiles & Positions 1st–4th) | Media and Techniques | B9.2.1.3.9 | `Grade9-CAD/Dance-Drama/Lesson-29-Stage-Movements-Positions/` | [ ] Pending |
+| **30** | Performing an Original Dance Drama and/or One-Act Play on Socio-Cultural Issues (Sanitation, Energy, Pension) | Creative and Aesthetic Expression | B9.2.2.3.7 | `Grade9-CAD/Dance-Drama/Lesson-30-Perform-Socio-Cultural-Drama/` | [ ] Pending |
+| **31** | Post-Performance Analysis and Appraisal of Own and Others' Dance Drama Artworks | Creative and Aesthetic Expression | B9.2.2.3.8–9 | `Grade9-CAD/Dance-Drama/Lesson-31-Post-Performance-Analysis/` | [ ] Pending |
+| **32** | Reflecting on a Selected African Creative Work (Dance and/or Drama) and Appreciating Embedded Ideas | Connections in Local and Global Cultures | B9.2.3.3.5 | `Grade9-CAD/Dance-Drama/Lesson-32-African-Creative-Work-Ideas/` | [ ] Pending |
+| **33** | Creating and Performing a One-Act Play or Dance Based on the Selected Work, and Conducting a Performance Review | Connections in Local and Global Cultures | B9.2.3.3.6–7 | `Grade9-CAD/Dance-Drama/Lesson-33-Perform-Review-African-Work/` | [ ] Pending |
+
+---
+
+<!-- pagebreak -->
+
+# Execution Playbook & Delivery Protocol
+
+1. **Standard CAD Lesson Package Architecture:**
+   Every lesson package lives in its designated discipline folder (`Visual-Arts/`, `Music/`, or `Dance-Drama/`) and ships with:
+   - `Lesson_<nn>_<Topic>.md` — Plain British English preamble, "Words to know first" glossary, structured **Theory Questions and Answers** (`Q1. …? Ans. …`), comparison tables, numbered procedural steps, worked exam exemplars (`(bank)` / `(mock)` with mark allocations), and BECE-shaped exercises (Paper 1 Objective MCQs with reason-backed keys + Paper 2 Theory questions with complete marking schemes).
+   - `Lesson_<nn>_<Topic>.pdf` — Compiled via `tools/build_lesson_pdf.py` (Cambria body font, clean typography, zero tofu glyphs).
+   - `diagrams/` — Contextual high-resolution PNG illustrations generated via `tools/build_va_figures.py` (`va-figures/`) or TikZ/Python figure builders (elements/principles of design, colour wheel, shading spheres, clay/weaving/printmaking diagrams, treble staff/solfège charts, and stage-blocking grids).
+
+2. **Priority Closure Sequence (Highest BECE Weight First — Remaining 45 Performing Arts Lessons, 52.7% of Bank):**
+   - **Phase 1 — Visual Arts & Design Consolidation (`54/54` lessons — `844` bank items, `47.3%` share — 100% Complete):** All Design (`01–09`) and Visual Arts (`10–18`) lessons across Grades 7, 8, and 9 are delivered both as individual lesson packages and in the master compendium [`CAD-Visual-Arts-Lessons-B7-B9.pdf`](CAD-Visual-Arts-Lessons-B7-B9.pdf).
+   - **Phase 2 — Grade 9 Performing Arts (`15` pending B9 lessons — `392` B9 Performing Arts bank items):** Start with the two highest-weighted sub-strands in the entire CAD question bank: **Dance & Drama SS1 Media & Techniques (`340` items, `19.0%` bank share; `B9.2.1.3.7–9` = `125` items)** and **Music SS1 Media & Techniques (`223` items, `12.5%` bank share; `B9.2.1.2.5–6` = `87` items)**, followed by B9 Music SS2–SS3 (`B9.2.2.2.4–6` = `117` items, `B9.2.3.2.3–4` = `52` items) and B9 Dance Drama SS2–SS3 (`B9.2.2.3.7–9` = `38` items, `B9.2.3.3.5–7` = `23` items).
+   - **Phase 3 — Grade 7 Performing Arts (`15` pending B7 lessons — `203` B7 Performing Arts bank items):** Build foundational Music (`B7.2.1.2.5–7` Curwen hand signs, treble clef A–G, note durational values, simple time = `45` items; `B7.2.3.2.3–4` community musicians & ensembles = `34` items) and Dance Drama (`B7.2.1.3.8–9` Ghanaian dance movements, voice projection & performance space = `99` items).
+   - **Phase 4 — Grade 8 Performing Arts (`15` pending B8 lessons — `296` B8 Performing Arts bank items):** Build intermediate Music (`B8.2.1.2.5–7` tempo, dynamics, binary/ternary forms = `91` items; `B8.2.2.2.4–6` = `24` items; `B8.2.3.2.4–5` Amu & Nketia = `43` items) and Dance Drama (`B8.2.1.3.8–9` religious/war/socio-cultural dance categories, rhythm & dynamics = `116` items).
+
+3. **Bank Query & PDF Build Workflow:**
+   - Before authoring any pending Performing Arts lesson, pull all authentic bank questions tagged to its indicator(s):
+     ```powershell
+     .\.venv\Scripts\python.exe BECE_MOCK_PAPERS/src/bece_cli.py query --indicator <code> --subject CAD --limit 50 --format markdown
+     ```
+   - Compile any updated tracker or lesson markdown to PDF with strict glyph verification:
+     ```powershell
+     .\.venv\Scripts\python.exe tools/build_lesson_pdf.py CAD-Lesson-Tracker-B7-B9.md --title "Creative Arts & Design — Lesson Tracker (B7–B9)" --footer "Staralex · CAD Lesson Tracker · B7–B9" --strict
+     ```

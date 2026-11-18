@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/mathematics/2022/paper-1
+TITLE: Download 2022 BECE Mathematics Questions & Answers (PDF)
+SUBJECT: Mathematics
+============================================================
+
+Download 2022 BECE Mathematics Questions & Answers (PDF)
+1.
+[1]
+BECE 2022 · Paper 1
+Express 108 as a product of prime factors.
+A
+2^3 × 3
+B
+2^2 × 3^3
+C
+2 × 3^4
+D
+2^3 × 3^2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2022 · Paper 1
+A football match starts at 2.20 p.m. and lasts for 1 hour 50 minutes. At what time will the game end?
+A
+4.10 p.m.
+B
+3.10 p.m.
+C
+6.10 p.m.
+D
+5.10 p.m.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2022 · Paper 1
+Which of the following is not a quadrilateral?
+A
+Rhombus
+B
+Parallelogram
+C
+Triangle
+D
+Rectangle
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2022 · Paper 1
+Solve: \(5x - (7x - 3) \le 9\).
+A
+x ≥ -6
+B
+x ≤ 3
+C
+x ≤ -3
+D
+x ≥ -3
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2022 · Paper 1
+Simplify 1\frac{1}{5} \div 2\frac{1}{10}.
+A
+\(2\tfrac{13}{25}\)
+B
+\(\frac{4}{7}\)
+C
+\(\frac{12}{63}\)
+D
+\(\frac{25}{63}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2022 · Paper 1
+Given that \(\overrightarrow{PQ}=\begin{pmatrix}-3\\8\end{pmatrix}\) find, \(\overrightarrow{QP}\).
+A
+(-3, -8)
+B
+(3, -8)
+C
+(8, -3)
+D
+(-3, -8)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2022 · Paper 1
+The point S(4, 3) is reflected in the y-axis, Find the coordinates of the image of S.
+A
+(3,-4)
+B
+(-4,3)
+C
+(4,-3)
+D
+(-3,4)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2022 · Paper 1
+Solve: \((x-1)=\dfrac{1}{2}(x+2)\).
+A
+0
+B
+\(1\tfrac{1}{2}\)
+C
+4
+D
+\(1\tfrac{1}{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2022 · Paper 1
+The longest chord of a circle is the
+A
+segment
+B
+sector
+C
+circumference
+D
+diameter
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2022 · Paper 1
+Factorize completely xy - xm - my + m^2.
+A
+(m-y)(x-m)
+B
+(x-m)(y-m)
+C
+(m-y)(m-x)
+D
+(y-m)(m-x)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2022 · Paper 1
+Given that P(3,-2) and Q(-2,4) are points in a plane, find the gradient of the line joining P to Q.
+A
+\(-\frac{5}{6}\)
+B
+\(\frac{5}{6}\)
+C
+\(\frac{6}{5}\)
+D
+\(-\frac{6}{5}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2022 · Paper 1
+If \(\dfrac{n}{100}=10.5\), find the value of n.
+A
+0.0105
+B
+1050
+C
+105
+D
+0.105
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2022 · Paper 1
+The rule of mapping is x → 2x^2 - 1. What number does x = 2 map to?
+A
+7
+B
+9
+C
+8
+D
+3
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2022 · Paper 1
+If \(x=\dfrac{b^2-4ac}{2a}\), find x when a = 2, b = -4 and c = -2.
+A
+8
+B
+0
+C
+4
+D
+16
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2022 · Paper 1
+Arrange the following fractions from the lowest to the highest: \(\dfrac{3}{5},\ \dfrac{1}{4},\ \dfrac{2}{3}\).
+A
+\(\frac{2}{3}\) , \(\frac{3}{5}\) , \(\frac{1}{4}\)
+B
+\(\frac{1}{4}\) , \(\frac{3}{5}\) , \(\frac{2}{3}\)
+C
+\(\frac{3}{5}\) , \(\frac{1}{4}\) , \(\frac{2}{3}\)
+D
+\(\frac{2}{3}\) , \(\frac{1}{4}\) , \(\frac{3}{5}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2022 · Paper 1
+A shop is rented at GH₵ 9.00 per month. How much money is paid in 1½ years?
+A
+GH₵ 6.00
+B
+GH₵ 162.00
+C
+GH₵ 135.00
+D
+GH₵ 13.00
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2022 · Paper 1
+A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.
+A
+4
+B
+6
+C
+5
+D
+8
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2022 · Paper 1
+**Diagram will be provided** In the diagram, AB is parallel to DE, angle ABC = 81° and angle DCE = 20°. What is the value of x?
+A
+61°
+B
+20°
+C
+101°
+D
+81°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2022 · Paper 1
+**Diagram will be provided** In the diagram, AB is parallel to DE, angle ABC = 81° and angle DCE = 20°. Find the value of y.
+A
+79°
+B
+101°
+C
+81°
+D
+20°
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2022 · Paper 1
+Adjoa travelled 12km due north and 5km due east. How much far was she from her starting point?
+A
+60km
+B
+7km
+C
+13km
+D
+17km
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2022 · Paper 1
+Which of the following is the largest set?
+A
+{Whole numbers}
+B
+{Composite}
+C
+{Natural numbers}
+D
+{Integers}
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2022 · Paper 1
+Write 1930.54 in standard form.
+A
+1.93054 × 10^3
+B
+1.93054 × 10^-3
+C
+1.93054 × 10^-2
+D
+1.93054 × 10^2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2022 · Paper 1
+Expand: \((2a-b)(a-b)\)
+A
+2a^2 + 3ab - b
+B
+2a^2 - 3ab + b^2
+C
+2a^2 + 3ab + b
+D
+2a^2 - 3ab - b^2
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2022 · Paper 1
+How many bags of cocoa were weighed in the week (using the given stem-and-leaf plot)?
+A
+41
+B
+35
+C
+29
+D
+6
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2022 · Paper 1
+What is the median weight of the bags of cocoa (using the given stem-and-leaf plot)?
+A
+68 kg
+B
+62 kg
+C
+65 kg
+D
+61 kg
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2022 · Paper 1
+What is the modal weight of the bags of cocoa (using the given stem-and-leaf plot)?
+A
+65 kg
+B
+68 kg
+C
+60 kg
+D
+64 kg
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2022 · Paper 1
+If \(a=\begin{pmatrix}2\\-3\end{pmatrix}\) and \(b=\begin{pmatrix}-2\\3\end{pmatrix}\), find \(a+b\)
+A
+(0,6)
+B
+(4,0)
+C
+(2,3)
+D
+(0,0)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2022 · Paper 1
+For what value of x is 3^x = 81?
+A
+4
+B
+2
+C
+9
+D
+27
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2022 · Paper 1
+Simplify: -15 - (-20) + (-10).
+A
+-25
+B
+5
+C
+-45
+D
+-5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2022 · Paper 1
+Express 3/8 as a decimal fraction.
+A
+0.429
+B
+0.375
+C
+0.365
+D
+0.625
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2022 · Paper 1
+What is the length of the side of a square of area 225 cm^2?
+A
+15.00cm
+B
+56.25cm
+C
+112.50cm
+D
+12.00cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2022 · Paper 1
+What is the probability that a number greater than 5 shows up when a die is thrown?
+A
+\(\frac{5}{6}\)
+B
+\(\frac{1}{3}\)
+C
+\(\frac{1}{6}\)
+D
+\(\frac{2}{3}\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2022 · Paper 1
+Given that 117(12+18) = 117(15+k), find the value of k
+A
+- 15
+B
+15
+C
+30
+D
+-30
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2022 · Paper 1
+A mother has GH₵ 5.00 and gives each of her 3 children GH₵ 1.50 as pocket money. How much is left for her?
+A
+GH₵ 0.50
+B
+GH₵ 4.5
+C
+GH₵ 3.50
+D
+GH₵ 0.15
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2022 · Paper 1
+A car travels 36 kilometres in an hour. Find its speed in metres per second.
+A
+100 ms-1
+B
+20 ms-1
+C
+10 ms-1
+D
+200 ms-1
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2022 · Paper 1
+Peter had GH₵ 200.00 and spent GH₵ 83.00. What percentage of the money is left?
+A
+29.06%
+B
+70.94%
+C
+58.50%
+D
+41.50%
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2022 · Paper 1
+If a trader made a profit of 10% in selling a shirt for GH₵ 44.00, find the cost price
+A
+GH₵ 40.00
+B
+GH₵ 39.60
+C
+GH₵ 38.50
+D
+GH₵ 48.40
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2022 · Paper 1
+Express 15 : 12 in the form 1 : n.
+A
+\(1:12\)
+B
+\(1:0.8\)
+C
+\(1:15\)
+D
+\(1:1.2\)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2022 · Paper 1
+The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?
+A
+169
+B
+264
+C
+143
+D
+48
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2022 · Paper 1
+The volume of a cylinder is 40Π cm^3. If the height of the cylinder is 10 cm, find the base radius
+A
+4 cm
+B
+3 cm
+C
+2 cm
+D
+1 cm
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Mathematics
+All Mathematics papers
+Mathematics topics
+All BECE subjects

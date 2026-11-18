@@ -391,6 +391,27 @@
       "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/diagrams/distributive_area_model.png",
       "caption": "The distributive property as one rectangle 7 x (10 + 3) cut into 70 and 21",
       "lesson": "Grade9-Maths Lesson-02-Number-Properties-And-Operational-Laws"
+    },
+    {
+      "id": "surd_number_line_spiral",
+      "tex": "templates/surd_number_line_spiral.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_number_line_spiral.png",
+      "caption": "Locating exact surds sqrt(2) and sqrt(5) on a number line using right triangles and compass arcs",
+      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
+    },
+    {
+      "id": "surd_area_simplification_18",
+      "tex": "templates/surd_area_simplification_18.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_area_simplification_18.png",
+      "caption": "Geometric area proof showing why sqrt(18) equals 3 sqrt(2)",
+      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
+    },
+    {
+      "id": "surd_bounding_ladder",
+      "tex": "templates/surd_bounding_ladder.tex",
+      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_bounding_ladder.png",
+      "caption": "Bounding non-perfect square roots sqrt(2), sqrt(5), sqrt(12), and sqrt(30) between consecutive integers",
+      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
     }
   ]
 }

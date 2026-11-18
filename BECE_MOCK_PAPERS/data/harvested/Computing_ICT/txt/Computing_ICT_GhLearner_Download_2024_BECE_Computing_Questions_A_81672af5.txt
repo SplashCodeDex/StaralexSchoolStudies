@@ -1,0 +1,570 @@
+SOURCE URL: https://ghlearner.com/bece/computing/2024/paper-1
+TITLE: Download 2024 BECE Computing Questions & Answers (PDF)
+SUBJECT: Computing_ICT
+============================================================
+
+Download 2024 BECE Computing Questions & Answers (PDF)
+1.
+[1]
+BECE 2024 · Paper 1
+A student in the computer laboratory wants to change the style, size and colour of a typeface in Microsoft Word application. The appropriate tool to be used is
+A
+font
+B
+paragraph
+C
+clipboard
+D
+styles
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE 2024 · Paper 1
+A quiz master asked participants to complete the statement: whiles the Internet Explorer is used to access information from the internet, Windows File Explorer is used to
+A
+browse the internet using explorer
+B
+Manage and organize music and videos
+C
+Manage and organize files and folders
+D
+edit files in the explorer window
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE 2024 · Paper 1
+The concept of Artificial Intelligence's ability to suggest related information to a user who regularly surfs the internet is referred to as
+A
+logical reasoning
+B
+neural network
+C
+computer vision
+D
+deep learning
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE 2024 · Paper 1
+A blog has many sections. The purpose of the comment section is to
+A
+share personal information with readers
+B
+sell products and services to readers and friends
+C
+engage with readers and encourage discussion
+D
+promote other blogs on the same platform
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE 2024 · Paper 1
+In a printing industry, the device that uses the mechanism of laying down a transparent dye and melting dots of wax-based ink to produce an output is a
+A
+wax heater
+B
+thermal printer
+C
+thermal heater
+D
+wax printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE 2024 · Paper 1
+Collaborative robot is a category of robots that
+A
+dances to audience for entertainment
+B
+works alongside humans
+C
+paints pictures for commercial sake
+D
+makes both fast and slow movements
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE 2024 · Paper 1
+A student inserted a picture into a Microsoft PowerPoint presentation and needed to work on the picture to adjust the brightness and contrast to make it more clearer. The best tool to help the student achieve the task is
+A
+Picture Effects
+B
+Picture Size
+C
+Format Picture
+D
+Picture Layout
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE 2024 · Paper 1
+A student is watching video from a pen drive using a computer. The process the computer uses to access the video from the pen drive is known as
+A
+burning
+B
+caching
+C
+reading
+D
+writing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE 2024 · Paper 1
+What does the formula = IF(A1>10,"Pass","Fail") do in a Spreadsheet application?
+A
+Checks if the value in cell A1 is greater than 10 and returns Pass
+B
+Checks if the value in cell A1 is equal to 10 and returns Fail
+C
+Checks if the value in cell A1 is less than 10 and returns Pass
+D
+Checks if the value in cell A1 is greater than 10 and returns Fail
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE 2024 · Paper 1
+A teacher tasked students to demonstrate an activity using a flowchart diagram. The appropriate symbol to use at the processing stage of the activity is
+A
+oval
+B
+rhombus
+C
+rectangle
+D
+parallelogram
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE 2024 · Paper 1
+Settings and permissions that are specific to a user and determines the activities the user can perform on windows environment on the computer is known as
+A
+configuration
+B
+log
+C
+account
+D
+customization
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE 2024 · Paper 1
+Good health practice suggests that we take intermittent breaks while working. The importance of taking breaks during prolonged computer use is to
+A
+increase screen time when working
+B
+increase productivity in users
+C
+conserve energy in the computer
+D
+avoid eye strain and muscle fatigue
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE 2024 · Paper 1
+Four students in a class wrote the following function in Microsoft Excel. Which of the functions written by the students will return an output?
+A
+=SUM(A10:17A)
+B
+=SUM(10A:17A)
+C
+=SUM(A10:A17)
+D
+=SUM(10A:A17)
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE 2024 · Paper 1
+To demonstrate to a class, the steps to be taken to create a PivotTable from a set of data in Microsoft Excel worksheet, click on
+A
+Home Tab, then PivotTable
+B
+Insert Tab, then PivotTable
+C
+Data Tab, then PivotTable
+D
+View Tab, then PivotTable
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE 2024 · Paper 1
+In a computer shop, the attendant advised a customer to buy the fifth generation computer due to its feature that uses
+A
+artificial intelligence
+B
+microprocessors
+C
+vacuum tubes
+D
+transistors
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE 2024 · Paper 1
+The social media platform that allows members to post questions, start a discussion or contribute to various discussions is
+A
+Forums
+B
+Facebook
+C
+Messenger
+D
+WhatsApp
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE 2024 · Paper 1
+The introduction of Artificial Intelligence as come with its related ethical concerns such as
+A
+job creation
+B
+bias algorithm
+C
+improved healthcare
+D
+increased productivity
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE 2024 · Paper 1
+A user who selected 4 x 3 in the insert table grid in a Word document will insert
+A
+4 tables
+B
+a table of 4 columns and 3 rows
+C
+a table of 4 rows and 3 columns
+D
+12 tables
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE 2024 · Paper 1
+The Screenshot feature under the Insert Tab of a Microsoft PowerPoint application allows a user to insert a screenshot of
+A
+downloaded applications
+B
+active application
+C
+foreground applications
+D
+opened applications
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE 2024 · Paper 1
+The examination scores in Computing of a class was entered into a Microsoft Excel worksheet. The appropriate function for finding the largest score in the class is
+A
+MAX
+B
+MIN
+C
+SUM
+D
+AVG
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE 2024 · Paper 1
+In pseudocode, the keyword FOR indicates
+A
+loop with fixed number of iterations in the code
+B
+variables or constants in the code
+C
+input or output structure in the code
+D
+decision control structure in the code
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE 2024 · Paper 1
+The central device that communicates with other network devices and manages resources is a
+A
+hub
+B
+client
+C
+server
+D
+switch
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE 2024 · Paper 1
+A user is to apply predefined formatting styles to texts in Microsoft PowerPoint application. The best features to use is
+A
+WordArt
+B
+Quick Styles
+C
+Font Colour
+D
+Text Effects
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE 2024 · Paper 1
+The robotic club of a school is to construct a robot to be able to detect objects around it. The most appropriate sensor to be used is
+A
+proximity sensor
+B
+light sensor
+C
+tactile sensor
+D
+torque sensor
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE 2024 · Paper 1
+A teacher tasked her students to create a date with year, month and day format. The most appropriate Microsoft Excel function to achieve the date format is
+A
+DATEDIF()
+B
+CURDATE()
+C
+DATEVALUE()
+D
+DATE()
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE 2024 · Paper 1
+cybercriminals can obstruct data in transmission to and from a device or a network using a data threat attack technique called
+A
+modification
+B
+interception
+C
+interruption
+D
+fabrication
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE 2024 · Paper 1
+A teacher sends class assignment to his students using an e-mail. The protocol used by the e-mail to send the assignment over the internet is
+A
+SMTP
+B
+TCP
+C
+HTTP
+D
+FTP
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE 2024 · Paper 1
+The Merge & Centre button in a Spreadsheet application is used to
+A
+combine and center the content of the worksheet
+B
+select multiple cells and center the content
+C
+create a new worksheet and center the content
+D
+combine and center the content of selected cells
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE 2024 · Paper 1
+Arku entered 20 into a computer as quantity of pencils bought. How will the figure be represented in the computer for processing?
+A
+10011
+B
+10010
+C
+11001
+D
+10100
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE 2024 · Paper 1
+Cindy was trying to access information from the WAEC website but whenever she enters the URL, it takes her to a different website. Her friend advised that she must ensure the URL entered is correct because it identifies
+A
+ads in the web resource
+B
+graphics used in the web resource
+C
+the address of the web resource
+D
+the texts of the web resource
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE 2024 · Paper 1
+In Desktop Publishing, a user can create a new document through the following ways except for
+A
+print publication
+B
+built-in template
+C
+blank publication
+D
+featured template
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE 2024 · Paper 1
+The Desktop Publishing feature that best helps a user to align objects, texts and elements in a publication is called
+A
+guides
+B
+layout
+C
+margins
+D
+ruler
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE 2024 · Paper 1
+One of your classmates continuously sends threat messages through social media platforms to you. This act is known as
+A
+cybersecurity
+B
+cyberattack
+C
+cyberstalking
+D
+cyberbullying
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE 2024 · Paper 1
+A computing project work requires students to design a blog for a school. The best item to be used for customizing the blog is the school's
+A
+flag
+B
+uniform
+C
+crest
+D
+logo
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE 2024 · Paper 1
+Computer manufacturing went through series of developmental stages with each stage characterized by a unique technological advancement. The use of integrated circuits is a characteristics of the
+A
+first generation
+B
+third generation
+C
+second generation
+D
+fourth generation
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE 2024 · Paper 1
+In computer programming, debugging is a technique used to
+A
+fix errors in the code
+B
+write code to play games
+C
+create bugs intentionally
+D
+test the code
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE 2024 · Paper 1
+Which of the following services best describes an entrepreneurial opportunity in computer networking?
+A
+Setting up Wi-Fi networks for cafes and schools
+B
+Designing websites for businesses and schools
+C
+Developing game applications for schools
+D
+Teaching desktop publishing in schools
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE 2024 · Paper 1
+The peripheral device shown in Figure 1 is used to capture
+A
+textual data
+B
+audio data
+C
+video data
+D
+image data
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE 2024 · Paper 1
+The practice of the use of computers and related electronic resources in an environmentally responsible manner is termed
+A
+environmental friendliness
+B
+safety precautions
+C
+green computing
+D
+ergonomics
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE 2024 · Paper 1
+Social media users can regulate the type of information they share on their pages. Privacy setting which is one of such activities they can regulate is to
+A
+control who can see one's posts and information
+B
+make posts visible to everyone
+C
+prevent one from using the platform
+D
+automatically share posts with everyone
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers
+Computing topics
+All BECE subjects

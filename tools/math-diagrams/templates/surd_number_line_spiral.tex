@@ -1,0 +1,48 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{mathdiagrams}
+% surd_number_line_spiral — locating exact surds sqrt(2) and sqrt(5) on a number line
+\begin{document}
+\begin{tikzpicture}[md]
+  % ---- Top panel: sqrt(2) from 1x1 square ----
+  \draw[md axis] (-0.6, 3.8) -- (6.2, 3.8);
+  \foreach \x/\lbl in {0/0, 2.4/1, 4.8/2} {
+    \draw[md tick] (\x, 3.72) -- (\x, 3.88);
+    \node[md label] at (\x, 3.42) {$\lbl$};
+  }
+  % 1x1 unit square
+  \fill[mdFill] (0, 3.8) rectangle (2.4, 6.2);
+  \draw[md thick] (0, 3.8) rectangle (2.4, 6.2);
+  % right-angle mark at (2.4, 3.8)
+  \draw[md right angle] (2.15, 3.8) -- (2.15, 4.05) -- (2.4, 4.05);
+  % side labels
+  \node[md label muted] at (1.2, 6.45) {$1$};
+  \node[md label muted] at (2.68, 5.0) {$1$};
+  % diagonal sqrt(2)
+  \draw[md accent] (0, 3.8) -- (2.4, 6.2) node[midway, above left=2pt, md label accent] {$\sqrt{2}$};
+  % compass arc from (2.4, 6.2) down to (3.3941, 3.8)
+  \draw[md dashed, color=mdAccent] (2.4, 6.2) arc[start angle=45, end angle=0, radius=3.3941];
+  \node[md accent point] at (3.3941, 3.8) {};
+  \node[md label accent, anchor=south west] at (3.52, 3.92) {$\sqrt{2} \approx 1.41$};
+
+  % ---- Bottom panel: sqrt(5) from 2x1 rectangle ----
+  \draw[md axis] (-0.6, 0) -- (7.9, 0);
+  \foreach \x/\lbl in {0/0, 2.4/1, 4.8/2, 7.2/3} {
+    \draw[md tick] (\x, -0.08) -- (\x, 0.08);
+    \node[md label] at (\x, -0.38) {$\lbl$};
+  }
+  % 2x1 rectangle
+  \fill[mdFill] (0, 0) rectangle (4.8, 2.4);
+  \draw[md thick] (0, 0) rectangle (4.8, 2.4);
+  % right-angle mark at (4.8, 0)
+  \draw[md right angle] (4.55, 0) -- (4.55, 0.25) -- (4.8, 0.25);
+  % side labels
+  \node[md label muted] at (2.4, 2.65) {$2$};
+  \node[md label muted] at (4.55, 1.2) {$1$};
+  % diagonal sqrt(5)
+  \draw[md accent] (0, 0) -- (4.8, 2.4) node[midway, above left=2pt, md label accent] {$\sqrt{5}$};
+  % compass arc from (4.8, 2.4) down to (5.3666, 0), atan2(1,2)=26.5651 deg
+  \draw[md dashed, color=mdAccent] (4.8, 2.4) arc[start angle=26.5651, end angle=0, radius=5.3666];
+  \node[md accent point] at (5.3666, 0) {};
+  \node[md label accent, anchor=south west] at (5.48, 0.12) {$\sqrt{5} \approx 2.24$};
+\end{tikzpicture}
+\end{document}

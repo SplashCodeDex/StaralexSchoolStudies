@@ -1,0 +1,659 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/fast-printing-super-mock-april-2026-computing
+TITLE: Solve BECE Computing Questions & Answers - Fast Printing Super Mock
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Fast Printing Super Mock
+1.
+[1]
+BECE mock · Computing
+1. Register is one of the components of the computer processor that stores information whereas control unit performs all the operations on
+A
+data in the processor.
+B
+checks the timing of operations within the processor.
+C
+coordinates and manages the activities within the processor.
+D
+performs logical operations.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+2. Cell address that is locked so that it won't change when copied is referred to as
+A
+absolute cell reference.
+B
+passive cell reference.
+C
+active cell reference.
+D
+relative cell reference.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+3. A computing student was able to modify an existing device to assist a person with disability. What type of technology did the student applied?
+A
+Assistive Technology
+B
+Adaptive Technology
+C
+Artificial Intelligence
+D
+Automatic Technology
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+4. A software component that moves through the internet to gather the needed information to be sent to the one searching is termed as
+A
+search engine.
+B
+database.
+C
+web resource.
+D
+web crawler.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+5. Ama wants to narrow her search result in order to get the best search. Which of the following operator would you recommend to her?
+A
+NOR
+B
+PLUS
+C
+AND
+D
+OR
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+6. Precious was asked to identify her credentials before receiving information requested for. In computing, this method is referred to as
+A
+encryption.
+B
+authentication.
+C
+decryption.
+D
+modification.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+7. In programming, a set of rules that define how to structure code so that the computer can read and execute it is referred to as
+A
+keyword.
+B
+comment.
+C
+syntax.
+D
+function.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+8. In computing environment, calculations are done with the use of operators and precedence. Solve 7 + 3 * 4/2.
+A
+13
+B
+12
+C
+20
+D
+10
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+9. A student wants to add comment in her coding in order to explain a certain line of code and also instruct the compiler to ignore that part during execution. Which of these symbols would you recommend to her?
+A
+()
+B
+//
+C
+[]
+D
+*
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+10. Gears is one of the vital components of robot, which is used to
+A
+sense the surrounding information.
+B
+hold object.
+C
+process information.
+D
+control speed.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+11. An input device used with video games or entertainment system to provide input to his video game is generally termed as
+A
+carpod.
+B
+sensor.
+C
+game controller.
+D
+ergonomic.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+12. In computing environment, the ability of the digital computer to perform tasks commonly associated with human intelligent is known as
+A
+Robotics
+B
+Artificial Intelligence.
+C
+Deep Learning.
+D
+Virtual Reality
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+13. Auntie Esther has opened her own shop has employed AI application that enables her to recognize the workers faces with accuracy before entering her shop. What appropriate name is given to that AI application?
+A
+Gaming
+B
+Strong AI
+C
+Artificial Neural Network
+D
+Augmented Reality
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+14. A student used step-by-step process to design and develop program to accomplish his complex task. In computing, this process is termed as
+A
+programing.
+B
+analysis.
+C
+coding.
+D
+algorithm.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+15. The concept of variable in programming is referred to as
+A
+the order of steps.
+B
+a fixed value.
+C
+a memory location.
+D
+a value that can change.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+16. Abba uses an advance algorithm to accomplish her complex task that does not involve the full range of human cognitive abilities. In computing environment, which technology did Abba use?
+A
+Strong AI
+B
+Weak AI
+C
+Robotics
+D
+Flowchart
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+17. A student in PowerPoint environment wants to show all his slides as small thumb nails for him to easily organize and edit the presentation. Which of these would you recommend to her?
+A
+Normal view
+B
+Slide show view
+C
+Slide sorter view
+D
+Slide master view
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+18. Amina was able to decode human voice with the help of a software. What is the appropriate name given to the software Amina used?
+A
+Voice decoding software
+B
+Encryption software
+C
+Decoding software
+D
+Voice recognition software
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+19. An emerging technology that uses sensor to make it possible for computers to detect and respond to humans and environment more effectively or naturally is known as
+A
+parallel computing.
+B
+perceptual computing.
+C
+artificial neural computing.
+D
+autonomic computing.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+20. Lordina has a voice and motion controlled android device that displays information directly in her field of vision. What appropriate name is given to Lordina's device?
+A
+Google glass
+B
+Kindle
+C
+E-book
+D
+E-paper
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+21. Mr. Amoateng has plastic card with an embedded microchip that he uses to securely stores and process information. What appropriate name is given to Mr. Amoateng's card?
+A
+Smart card
+B
+Smart watch
+C
+Blu-ray disc
+D
+Storage card
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+22. A student uses three-dimensional storage system that uses laser to store his images. What name is given to this storage system the student used?
+A
+Cloud storage
+B
+Storage device
+C
+Storage medium
+D
+Holographic storage
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+23. Auntie Mansa long staring at her new television may affect her
+A
+cars.
+B
+wrist.
+C
+eyes.
+D
+hand.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+24. A program or software that allows computer system to convert digital code into graphics, pictures and videos is referred to as
+A
+BIOS drivers.
+B
+plug-and-play drivers.
+C
+sound drivers.
+D
+video graphic drivers.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+25. Kofi's computer is a self-contained system that operates independently without needing to be connected to a network. Kofi's computer is referred to as
+A
+Standalone computer.
+B
+Networked computer.
+C
+Dependent computer.
+D
+Muting computer.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+26. A global network of computers that allows users to share network resources is referred to as
+A
+Intranet.
+B
+Internet.
+C
+Extranet.
+D
+Network.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+27. A student was able to design and create her complex resume with the text-based application known as
+A
+MS Access.
+B
+MS Excel.
+C
+MS Word.
+D
+MS PowerPoint
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+28. Nana Kwame wants to insert a link into his word document. What he has to do?
+A
+Click on Home tab
+B
+Click on Hyperlink tab
+C
+Click on Insert tab
+D
+Click on Mailings
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+29. A student creating a table in Ms Excel want to add cells together. What Excel feature would enable her to achieve this task?
+A
+Auto text
+B
+Merge
+C
+Split
+D
+Wrap
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+30. Precious used a function to find the smallest number in a range of cells in Excel. What function is given to that function?
+A
+COUNT
+B
+MAX
+C
+MIN
+D
+SUM
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+31. Bernard wants to access educational videos on the internet. Which of the following social media websites would enable him achieve his task?
+A
+WhatsApp
+B
+Skype
+C
+Linkedin
+D
+YouTube
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+32. Bernice your friend wants to instruct MS Excel application to perform mathematical calculation. What is the task she has to do to achieve the task?
+A
+Insert equal to sign
+B
+Type dollar sign
+C
+Type SUM
+D
+Type formula
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+33. Ahnan's computer was able to break complex tasks into smaller ones and executing them at the same time with multiple processors. What technology was she using?
+A
+Virtual Reality
+B
+Artificial Intelligence
+C
+Parallel Operation
+D
+Parallel Processing
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+34. A student in desktop publishing application removes unwanted parts of his image to make it smaller to suit the publication. What appropriate name is given to this process?
+A
+Cropping
+B
+Resizing
+C
+Refining
+D
+Flipping
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+35. Convert the binary number 11011 to its decimal equivalence.
+A
+21
+B
+27
+C
+20
+D
+18
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[1]
+BECE mock · Computing
+36. In desktop publishing environment, temporary are designed to receive users content like text or image is referred to as
+A
+template.
+B
+drawing canvas.
+C
+placeholder.
+D
+design canvas.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+37.
+[1]
+BECE mock · Computing
+37. A technology that integrates game elements with an Artificial Intelligence to assist students needs is termed as
+A
+machine learning.
+B
+augmented reality.
+C
+deep learning.
+D
+gamification.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+38.
+[1]
+BECE mock · Computing
+38. Mr. Osafo, a business man made transaction to his business partner through decentralized, peer-to-peer network payment system. What appropriate name is given to this payment system?
+A
+Bitcoin
+B
+Mobile money
+C
+QR code
+D
+Master card and visa card
+Sign in to check your answer
+Free — see the marking scheme for every question.
+39.
+[1]
+BECE mock · Computing
+39. A cyber attack that makes computer network, service or website unavailable to its intended users is known as
+A
+eavesdropping.
+B
+phishing.
+C
+denial of service attack.
+D
+spamming.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+40.
+[1]
+BECE mock · Computing
+40. Akua a web designer, creates the visual layout and users experience of websites using computer language known as
+A
+HTTP.
+B
+HTML.
+C
+Java.
+D
+SMTP.
+Sign in to check your answer
+Free — see the marking scheme for every question.
+41.
+[6]
+BECE mock · Computing
+You have been assigned by the Electoral Commission of Ghana to write an algorithm to check if the person is eligible to vote (18 or above) during the upcoming general election.
+42.
+[7]
+BECE mock · Computing
+[image in question] Study the diagrams below carefully and use them to answer the questions that follow: (i) Suggest an appropriate name for diagrams A and B above. (ii) Which of the above diagrams is used to store high quality three-dimensional images? (iii) State two uses of the above diagrams A and B.
+43.
+[3]
+BECE mock · Computing
+Information storage is very important in computing environment. Briefly describe media server which is one of the information storage systems.
+44.
+[4]
+BECE mock · Computing
+Mention four information that can be shared with media server.
+45.
+[2]
+BECE mock · Computing
+With your knowledge gained in Web Technologies, state any two merits of Virtual Learning Environment (VLE);
+46.
+[2]
+BECE mock · Computing
+demerits of Virtual Learning Environment (VLE).
+47.
+[3]
+BECE mock · Computing
+Explain the difference between e-paper and kindle to your friend in class.
+48.
+[3]
+BECE mock · Computing
+List any three wearable devices you have learnt.
+49.
+[3]
+BECE mock · Computing
+Assist your friend to list the three main components of perceptual computer.
+50.
+[3]
+BECE mock · Computing
+Cloud storage is an online storage system for businesses and individuals to save data securely. Mention any three of this storage system.
+51.
+[2]
+BECE mock · Computing
+Explain the term word processor in computing environment.
+52.
+[3]
+BECE mock · Computing
+A student wants to defrag his hard disk. Suggest any three benefits the student would derive.
+53.
+[2]
+BECE mock · Computing
+Edna using MS Word application in the computer laboratory wants to store her edited file with a different name and location. (i) Which MS Word feature would she use?
+54.
+[3]
+BECE mock · Computing
+Suggest the steps (in right order) to achieve the task/feature selected in 3(c)(i) above.
+55.
+[3]
+BECE mock · Computing
+Rita finds it difficult to understand blogging and blog. Explain them to her.
+56.
+[3]
+BECE mock · Computing
+Suggest any three benefits of creating blogs.
+57.
+[3]
+BECE mock · Computing
+Ama in writing her project work using the internet wants to get the best search results. Suggest any three techniques she would apply to achieve this task.
+58.
+[3]
+BECE mock · Computing
+Convert the decimal number 246 to its hexadecimal equivalent.
+59.
+[3]
+BECE mock · Computing
+QR Code payment system is one of the widely used cashless payment systems due to its several benefits. Suggest any three of the benefits to your study group members.
+60.
+[3]
+BECE mock · Computing
+Isaac wants to add a new slide to his presentation. Assist him by suggesting the steps to add the new slide in PowerPoint environment.
+61.
+[3]
+BECE mock · Computing
+Study the diagram below and use it to answer questions 
+(i) Name the diagram above. 
+(ii) State two uses of the diagram above.
+62.
+[3]
+BECE mock · Computing
+In computing environment, the term robotics and robot confuse students. Kindly explain them.
+More Computing
+All Computing papers & mocks
+Computing topics

@@ -1,0 +1,113 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/fast-computing
+TITLE: Solve BECE Computing Questions & Answers - Fast Computing
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Fast Computing
+1.
+BECE mock · Computing
+A student in the computer laboratory wants to change the style, size and colour of a typeface in Microsoft Word. The appropriate tool to be used is
+A
+Font
+B
+Styles
+C
+Clipboard
+D
+Paragraph
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+BECE mock · Computing
+Which tool in Microsoft Word is used to adjust line spacing and indents?
+A
+Paragraph
+B
+Font
+C
+Styles
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+BECE mock · Computing
+To apply a preset collection of heading and body fonts throughout a Word document, you should use
+A
+Styles
+B
+Font
+C
+Paragraph
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+BECE mock · Computing
+Which command copies the formatting of selected text so you can apply it elsewhere in Word?
+A
+Format Painter
+B
+Clipboard
+C
+Styles
+D
+Paragraph
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+BECE mock · Computing
+Where in Word would you increase the character spacing (tracking) of selected text?
+A
+Font dialog (Advanced)
+B
+Paragraph
+C
+Styles
+D
+Track Changes
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+BECE mock · Computing
+Which feature lets you replace every instance of one font with another across a document?
+A
+Replace Font
+B
+Styles
+C
+Clipboard
+D
+Thesaurus
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+BECE mock · Computing
+To ensure a heading always stays with the next paragraph, which Word setting is used?
+A
+Keep with next (Paragraph option)
+B
+Font
+C
+Styles
+D
+Clipboard
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+BECE mock · Computing
+While Internet Explorer is used to access information from the Internet, Windows File Explorer is used to
+A
+Browse the internet using Explorer
+B
+Edit files in the Explorer window
+C
+Manage and organise files and folders
+D
+Manage and organise music and videos
+Sign in to check your answer
+Free — see the marking scheme for every question.
+More Computing
+All Computing papers & mocks
+Computing topics

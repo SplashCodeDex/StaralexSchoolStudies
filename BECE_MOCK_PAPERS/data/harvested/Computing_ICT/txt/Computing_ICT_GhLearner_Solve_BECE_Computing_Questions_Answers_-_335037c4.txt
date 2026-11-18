@@ -1,0 +1,579 @@
+SOURCE URL: https://ghlearner.com/bece/computing/exams/palm-cedar-feb2026
+TITLE: Solve BECE Computing Questions & Answers - Palm & Cedar Feb2026
+SUBJECT: Computing_ICT
+============================================================
+
+Solve BECE Computing Questions & Answers - Palm & Cedar Feb2026
+1.
+[1]
+BECE mock · Computing
+Which of the following input devices is used to translate drawings, photos and even text into digital form?
+A
+MICR
+B
+OCR
+C
+Scanner
+D
+OMR
+Sign in to check your answer
+Free — see the marking scheme for every question.
+2.
+[1]
+BECE mock · Computing
+A document on which data is first recorded before it is entered into the computer is known as
+A
+Primary document
+B
+Secondary document
+C
+Source document
+D
+Main document
+Sign in to check your answer
+Free — see the marking scheme for every question.
+3.
+[1]
+BECE mock · Computing
+One device that reads data directly from the source is a:
+A
+Keyboard
+B
+Barcode reader
+C
+Touch screen
+D
+Light pen
+Sign in to check your answer
+Free — see the marking scheme for every question.
+4.
+[1]
+BECE mock · Computing
+Which of the following printers would allow a user to print a multi-part form?
+A
+A laser printer
+B
+A thermal printer
+C
+A dot matrix printer
+D
+An inkjet printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+5.
+[1]
+BECE mock · Computing
+Which of the following performs both input and output functions?
+A
+A headset
+B
+A multimedia projector
+C
+A speech-generating device
+D
+A 3D printer
+Sign in to check your answer
+Free — see the marking scheme for every question.
+6.
+[1]
+BECE mock · Computing
+Primary storage holds:
+A
+The programs needed to start up the computer
+B
+The software applications are not being processed
+C
+Data and instructions temporarily while processing takes place
+D
+None of the above
+Sign in to check your answer
+Free — see the marking scheme for every question.
+7.
+[1]
+BECE mock · Computing
+RAM is volatile, which means:
+A
+that the data and instructions held in RAM are permanent
+B
+that if the computer is rebooted all the data and instructions held in RAM are lost
+C
+that RAM holds data that can be quickly accessed by the control unit
+D
+all of the above
+Sign in to check your answer
+Free — see the marking scheme for every question.
+8.
+[1]
+BECE mock · Computing
+When the decimal number 15 is converted to binary, the answer is:
+A
+1101
+B
+1110
+C
+0111
+D
+1111
+Sign in to check your answer
+Free — see the marking scheme for every question.
+9.
+[1]
+BECE mock · Computing
+011₂ + 010₂ is equal to:
+A
+101₂
+B
+011₂
+C
+110₂
+D
+111₂
+Sign in to check your answer
+Free — see the marking scheme for every question.
+10.
+[1]
+BECE mock · Computing
+Subtract 10₂ from 11₂. The result is:
+A
+00₂
+B
+10₂
+C
+01₂
+D
+11₂
+Sign in to check your answer
+Free — see the marking scheme for every question.
+11.
+[1]
+BECE mock · Computing
+Premier Programming is a software development company that writes programs that perform specific tasks. Which of the following software is most likely to be written by this company?
+A
+General-purpose software
+B
+Integrated software
+C
+Customized software
+D
+Custom-written software
+Sign in to check your answer
+Free — see the marking scheme for every question.
+12.
+[1]
+BECE mock · Computing
+In a cabled LAN, which of these cables provides the fastest transmission speed?
+A
+Unshielded twisted pair cable
+B
+Shielded twisted pair cable
+C
+Coaxial cable
+D
+Fibre optic cable
+Sign in to check your answer
+Free — see the marking scheme for every question.
+13.
+[1]
+BECE mock · Computing
+A network that involves a computer, smartphone, printer and other devices set up for personal use is called a:
+A
+MAN
+B
+PAN
+C
+LAN
+D
+WAN
+Sign in to check your answer
+Free — see the marking scheme for every question.
+14.
+[1]
+BECE mock · Computing
+Which one is not a pane in the Normal view in presentation software?
+A
+Outline pane
+B
+Slide Development pane
+C
+Slide Show pane
+D
+Notes pane
+Sign in to check your answer
+Free — see the marking scheme for every question.
+15.
+[1]
+BECE mock · Computing
+Moving slides can take place in:
+A
+Normal view
+B
+Slide Sorter view
+C
+Outline view
+D
+All of the above
+Sign in to check your answer
+Free — see the marking scheme for every question.
+16.
+[1]
+BECE mock · Computing
+Which of the following is a special effect in presentation software?
+A
+Fly in
+B
+Notes
+C
+Frame
+D
+Outline
+Sign in to check your answer
+Free — see the marking scheme for every question.
+17.
+[1]
+BECE mock · Computing
+Which of the following happens when a document is left-aligned?
+A
+Text at the right margin is uneven
+B
+Text at the left margin is uneven
+C
+Text at both margins is even
+D
+Text at both margins is uneven
+Sign in to check your answer
+Free — see the marking scheme for every question.
+18.
+[1]
+BECE mock · Computing
+What happens to a piece of text that is cut from a document?
+A
+It is deleted forever
+B
+It is placed on the clipboard
+C
+It is moved to a section of the document
+D
+It is placed in a blank document
+Sign in to check your answer
+Free — see the marking scheme for every question.
+19.
+[1]
+BECE mock · Computing
+The space allotted for binding is known as the:
+A
+left margin
+B
+right margin
+C
+gutter margin
+D
+top margin
+Sign in to check your answer
+Free — see the marking scheme for every question.
+20.
+[1]
+BECE mock · Computing
+Borders can be placed around:
+A
+a page
+B
+a paragraph
+C
+a graphic
+D
+all of the above
+Sign in to check your answer
+Free — see the marking scheme for every question.
+21.
+[1]
+BECE mock · Computing
+Two files are needed to perform a mail merge. The file that contains the letter or other document that is meant for each recipient process is known as the:
+A
+primary file
+B
+secondary file
+C
+merged file
+D
+original file
+Sign in to check your answer
+Free — see the marking scheme for every question.
+22.
+[1]
+BECE mock · Computing
+Four numbers are stored in cells A1, B1, C1 and D1 of an Excel spreadsheet. Which of the following formulae would not calculate the average of the numbers?
+A
+=(A1+B1+C1+D1)/4
+B
+=AVERAGE(A1:D1)
+C
+=A1+B1+C1+D1/4
+D
+SUM(A1:D1)/4
+Sign in to check your answer
+Free — see the marking scheme for every question.
+23.
+[1]
+BECE mock · Computing
+Which of the following means that the column is not wide enough to display the value?
+A
+#####
+B
+#NAME?
+C
+#NUM!
+D
+#VALUE!
+Sign in to check your answer
+Free — see the marking scheme for every question.
+24.
+[1]
+BECE mock · Computing
+Which of the following is not true about sorting data in Excel?
+A
+Data can be sorted in ascending and descending order
+B
+Rows with blank cells are placed at the bottom of the sorted list
+C
+Hidden rows are not moved
+D
+Numbers used as text are sorted after text alone
+Sign in to check your answer
+Free — see the marking scheme for every question.
+25.
+[1]
+BECE mock · Computing
+Which one of the following is a formatting feature in Excel?
+A
+Editing and deleting the contents of cells
+B
+Inserting and deleting rows and columns
+C
+Copying and moving data within a worksheet
+D
+Changing the alignment of cells
+Sign in to check your answer
+Free — see the marking scheme for every question.
+26.
+[1]
+BECE mock · Computing
+Which of the following default justifications is applied when textual data is entered in a spreadsheet?
+A
+Right
+B
+Left
+C
+Centre
+D
+Justified
+Sign in to check your answer
+Free — see the marking scheme for every question.
+27.
+[1]
+BECE mock · Computing
+Which of the following represents a cell that is used in absolute cell referencing?
+A
+A5
+B
+$A$5
+C
+1A5
+D
+AI5
+Sign in to check your answer
+Free — see the marking scheme for every question.
+28.
+[1]
+BECE mock · Computing
+Digital citizenship means learning how to use technology in ways that are:
+A
+Appropriate responsible and intelligent
+B
+Appropriate efficient and entrepreneurial
+C
+Investigative entrepreneurial and friendly
+D
+None of the above
+Sign in to check your answer
+Free — see the marking scheme for every question.
+29.
+[1]
+BECE mock · Computing
+Which option is an example of good netiquette (internet etiquette)?
+A
+Typing your comments in ALL CAPS
+B
+Posting any videos you receive to all your friends without their permission
+C
+Forwarding chain letters to your friends
+D
+Staying on-topic in a forum
+Sign in to check your answer
+Free — see the marking scheme for every question.
+30.
+[1]
+BECE mock · Computing
+A special set of characters that verifies the identity of a user during the authentication process when accessing a device is referred to as
+A
+bar code
+B
+password
+C
+dump code
+D
+username
+Sign in to check your answer
+Free — see the marking scheme for every question.
+31.
+[1]
+BECE mock · Computing
+The horizontal width of a table in HTML can be specified in
+A
+percentage and pixel
+B
+pixel and centimetre
+C
+percentage and centimetre
+D
+percentage pixel and centimetre
+Sign in to check your answer
+Free — see the marking scheme for every question.
+32.
+[1]
+BECE mock · Computing
+Which of the following software is not an example of a network operating system?
+A
+Netware
+B
+Unix
+C
+Windows 10
+D
+Windows Server
+Sign in to check your answer
+Free — see the marking scheme for every question.
+33.
+[1]
+BECE mock · Computing
+The following factors are to be considered when selecting a computer networking type for an organization except
+A
+size of the organization
+B
+amount of the network traffic
+C
+volume of data in the organization
+D
+level of administrative support
+Sign in to check your answer
+Free — see the marking scheme for every question.
+34.
+[1]
+BECE mock · Computing
+A similarity between user programs and packages is that they are
+A
+meant for sale
+B
+highly standardized
+C
+both written by computer users
+D
+meant to be used by a computer end-user
+Sign in to check your answer
+Free — see the marking scheme for every question.
+35.
+[1]
+BECE mock · Computing
+All the following are the importance of playing Scrabble except
+A
+Learning mathematics
+B
+improve creativity
+C
+Improve vocabulary
+D
+Learn programming
+Sign in to check your answer
+Free — see the marking scheme for every question.
+36.
+[2]
+BECE mock · Computing
+Explain what is meant by correct sitting posture when using a computer. Describe the key elements of proper ergonomic positioning.
+37.
+[2]
+BECE mock · Computing
+State TWO health-related problems that can result from prolonged computer usage without proper ergonomics.
+38.
+[2]
+BECE mock · Computing
+A student complained of eye strain due to prolonged use of the computer. Suggest TWO possible ways to prevent this problem.
+39.
+[1]
+BECE mock · Computing
+Provide the keyboard shortcut key combination for 'Find and Replace' as used in proprietary software applications.
+40.
+[1]
+BECE mock · Computing
+Provide the keyboard shortcut key combination for 'Paste' as used in proprietary software applications.
+41.
+[2]
+BECE mock · Computing
+Explain what a 'Mailing list' is in the context of word processing applications.
+42.
+[2]
+BECE mock · Computing
+Explain what 'Clip art' is in word processing and document creation.
+43.
+[2]
+BECE mock · Computing
+Explain what 'Print Screen' does and how it is used in computing.
+44.
+[2]
+BECE mock · Computing
+List FOUR examples of SmartArt graphics that can be used in Microsoft Office applications.
+45.
+[2]
+BECE mock · Computing
+List THREE negative impacts of computers on our society.
+46.
+[2]
+BECE mock · Computing
+Explain the term 'Computer ethics' and what it encompasses.
+47.
+[4]
+BECE mock · Computing
+Give TWO examples of unethical behavior related to computer use and explain why they are unethical.
+48.
+[3]
+BECE mock · Computing
+What are 'Plug and Play' devices? Provide TWO examples of such devices.
+49.
+[2]
+BECE mock · Computing
+Define what a 'blog' is in the context of internet and web publishing.
+50.
+[3]
+BECE mock · Computing
+A computing instructor has assigned students to design a personal blog. List THREE design features that should be included when creating an effective blog.
+51.
+[3]
+BECE mock · Computing
+List THREE software tools or platforms that can be used to design and create a blog.
+52.
+[4]
+BECE mock · Computing
+State TWO features of Microsoft Publisher that make it useful for desktop publishing.
+53.
+[2]
+BECE mock · Computing
+Define what a 'Flyer' is and explain its purpose in communication and marketing.
+54.
+[4]
+BECE mock · Computing
+Suggest TWO ways that flyers can be effectively used in schools for communication or educational purposes.
+55.
+[6]
+BECE mock · Computing
+Outline the step-by-step procedure to change the desktop background/wallpaper on a Windows computer.
+More Computing
+All Computing papers & mocks
+Computing topics
