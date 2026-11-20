@@ -44,7 +44,7 @@
 
 | # | Lesson | Sub-strand | Folder | Status |
 |---|--------|------------|--------|--------|
-| 19 | Singing triads on all seven degrees of the scale (horizontally as arpeggios and vertically in harmony) | Media and Techniques | `Music/Lesson-19-Triads-Arpeggios-Harmony/` | ☐ Not built |
+| 19 | Singing triads on all seven degrees of the scale (horizontally as arpeggios and vertically in harmony) | Media and Techniques | `Music/Lesson-19-Triads-Arpeggios-Harmony/` | [x] Delivered — PDF + 3 PNGs + 40 exercises + solutions |
 | 20 | Creating and improvising a melody over the I, VI, IV and V ostinato bass line | Media and Techniques | `Music/Lesson-20-Melody-Ostinato-Bass/` | ☐ Not built |
 | 21 | Designing and producing own musical work on emerging topical issues across Africa | Creative and Aesthetic Expression | `Music/Lesson-21-African-Topical-Music/` | ☐ Not built |
 | 22 | Planning and displaying musical works — concert on topical issues (climate change, sanitation, pension) | Creative and Aesthetic Expression | `Music/Lesson-22-Topical-Concert-Display/` | ☐ Not built |
@@ -59,7 +59,7 @@
 
 | # | Lesson | Sub-strand | Folder | Status |
 |---|--------|------------|--------|--------|
-| 27 | Creating a simple Dance Drama and/or a one-act play on a topical issue | Media and Techniques | `Dance-Drama/Lesson-27-Dance-Drama-Topical-Play/` | ☐ Not built |
+| 27 | Creating a simple Dance Drama and/or a one-act play on a topical issue | Media and Techniques | `Dance-Drama/Lesson-27-Dance-Drama-Topical-Play/` | [x] Delivered — PDF + 2 PNGs + 40 exercises + solutions |
 | 28 | Approaches to improvisation, harmony/balance and blocking in performance space | Media and Techniques | `Dance-Drama/Lesson-28-Improvisation-Blocking-Space/` | ☐ Not built |
 | 29 | Practising improvisation and blocking — stage movements (DR, UL, DC) and stage positions (profiles and positions 1st–4th) | Media and Techniques | `Dance-Drama/Lesson-29-Stage-Movements-Positions/` | ☐ Not built |
 | 30 | Performing an original dance drama and/or one-act play on socio-cultural issues (sanitation, energy, pension) | Creative and Aesthetic Expression | `Dance-Drama/Lesson-30-Perform-Socio-Cultural-Drama/` | ☐ Not built |
@@ -76,6 +76,6 @@
 | Group | Lessons | Built | Remaining |
 |-------|---------|-------|-----------|
 | Visual Arts (incl. Design) | 01–18 | 18 | 0 |
-| Music | 19–26 | 0 | 8 |
-| Dance Drama | 27–33 | 0 | 7 |
-| **Total** | **33** | **18** | **15** |
+| Music | 19–26 | 1 | 7 |
+| Dance Drama | 27–33 | 1 | 6 |
+| **Total** | **33** | **20** | **13** |

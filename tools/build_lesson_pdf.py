@@ -78,6 +78,20 @@ def register_fonts() -> None:
     pdfmetrics.registerFont(TTFont("BoldItalic", str(FONTS_DIR / "cambriaz.ttf")))
     pdfmetrics.registerFont(TTFont("Mono", str(FONTS_DIR / "consola.ttf")))
     pdfmetrics.registerFont(TTFont("MonoBold", str(FONTS_DIR / "consolab.ttf")))
+    pdfmetrics.registerFontFamily(
+        "Body",
+        normal="Body",
+        bold="Bold",
+        italic="Italic",
+        boldItalic="BoldItalic",
+    )
+    pdfmetrics.registerFontFamily(
+        "Mono",
+        normal="Mono",
+        bold="MonoBold",
+        italic="Mono",
+        boldItalic="MonoBold",
+    )
     register_names.update(
         {
             "Body": "Cambria",
@@ -370,18 +384,19 @@ S: dict[str, ParagraphStyle] = {}
 
 
 def build_styles() -> None:
-    S["h1"] = ParagraphStyle("h1", fontName="Bold", fontSize=15, leading=19, textColor=ACCENT, spaceBefore=8, spaceAfter=7)
-    S["h2"] = ParagraphStyle("h2", fontName="Bold", fontSize=12.5, leading=16, textColor=ACCENT, spaceBefore=11, spaceAfter=5)
-    S["h3"] = ParagraphStyle("h3", fontName="Bold", fontSize=10.5, leading=14, textColor=INK, spaceBefore=8, spaceAfter=3)
-    S["h4"] = ParagraphStyle("h4", fontName="Bold", fontSize=10, leading=13, textColor=INK, spaceBefore=6, spaceAfter=2)
+    S["h1"] = ParagraphStyle("h1", fontName="Bold", fontSize=15, leading=19, textColor=ACCENT, spaceBefore=8, spaceAfter=7, keepWithNext=True)
+    S["h2"] = ParagraphStyle("h2", fontName="Bold", fontSize=12.5, leading=16, textColor=ACCENT, spaceBefore=11, spaceAfter=5, keepWithNext=True)
+    S["h3"] = ParagraphStyle("h3", fontName="Bold", fontSize=10.5, leading=14, textColor=INK, spaceBefore=8, spaceAfter=3, keepWithNext=True)
+    S["h4"] = ParagraphStyle("h4", fontName="Bold", fontSize=10, leading=13, textColor=INK, spaceBefore=6, spaceAfter=2, keepWithNext=True)
     S["body"] = ParagraphStyle("body", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.35, textColor=INK, spaceBefore=1.5, spaceAfter=3, alignment=TA_LEFT)
     S["bullet"] = ParagraphStyle("bullet", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, leftIndent=12, spaceBefore=0.5, spaceAfter=0.5)
     S["num"] = ParagraphStyle("num", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, leftIndent=14, spaceBefore=0.5, spaceAfter=0.5)
+    S["sub"] = ParagraphStyle("sub", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, leftIndent=24, spaceBefore=0.5, spaceAfter=1.5)
     S["code"] = ParagraphStyle("code", fontName="Mono", fontSize=8, leading=11, textColor=INK, backColor=BG_SOFT, leftIndent=8, rightIndent=8, spaceBefore=3, spaceAfter=5, borderPadding=5)
     S["meta"] = ParagraphStyle("meta", fontName="Italic", fontSize=8.5, leading=11.5, textColor=colors.HexColor("#555555"), spaceAfter=5)
     S["th"] = ParagraphStyle("th", fontName="Bold", fontSize=8.5, leading=11, textColor=colors.white)
     S["td"] = ParagraphStyle("td", fontName="Body", fontSize=8.5, leading=11, textColor=INK)
-    S["qa_q"] = ParagraphStyle("qa_q", fontName="Bold", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, spaceBefore=3, spaceAfter=1)
+    S["qa_q"] = ParagraphStyle("qa_q", fontName="Bold", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, spaceBefore=4, spaceAfter=1, keepWithNext=True)
     S["qa_a"] = ParagraphStyle("qa_a", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.3, textColor=INK, leftIndent=14, spaceBefore=1, spaceAfter=3)
     S["opt"] = ParagraphStyle("opt", fontName="Body", fontSize=BODY_PT, leading=BODY_PT * 1.25, textColor=INK, leftIndent=28, spaceBefore=0.5, spaceAfter=0.5)
 
@@ -514,7 +529,7 @@ def parse_md(text: str, problems: list) -> list:
                 while len(r) < ncols:
                     r.append(Paragraph("", S["td"]))
             col_w = (A4[0] - 32 * mm) / ncols
-            tbl = Table(rows, colWidths=[col_w] * ncols, hAlign="LEFT")
+            tbl = Table(rows, colWidths=[col_w] * ncols, hAlign="LEFT", repeatRows=1)
             tbl.setStyle(
                 TableStyle(
                     [
@@ -549,15 +564,25 @@ def parse_md(text: str, problems: list) -> list:
             i += 1
             continue
 
-        # Q&A
-        m = re.match(r"^\*\*(Q\d+[a-z]?\.)\*\*\s*(.*)$", line)
+        # Q&A (supports both bold **Q1.**/**Ans.** and plain Q1./Ans.)
+        m = re.match(r"^(?:\*\*)?(Q\d+[a-z]?\.)(?:\*\*)?\s+(.*)$", line)
         if m:
             flow.append(Paragraph(f"<b>{m.group(1)}</b> {clean_inline(m.group(2), problems, 'q')}", S["qa_q"]))
             i += 1
             continue
-        m = re.match(r"^\*\*(Ans\.?)\*\*\s*(.*)$", line)
+        m = re.match(r"^(?:\*\*)?(Ans\.?)(?:\*\*)?\s*(.*)$", line)
         if m:
-            flow.append(Paragraph(clean_inline(f"{m.group(1)} {m.group(2)}", problems, "ans"), S["qa_a"]))
+            rest = m.group(2).strip()
+            if rest:
+                flow.append(Paragraph(f"<b>{m.group(1)}</b> {clean_inline(rest, problems, 'ans')}", S["qa_a"]))
+            else:
+                flow.append(Paragraph(f"<b>{m.group(1)}</b>", S["qa_a"]))
+            i += 1
+            continue
+
+        # Sub-part lines: "(a) ..." / "(i) ..." / "**(a)** ..." / "**(a) Label:** ..."
+        if re.match(r"^\s*(?:\*\*)?(?:\([a-z]+\)|\([ivx]+\))(?:\*\*)?\s+", line):
+            flow.append(Paragraph(clean_inline(line.strip(), problems, "sub"), S["sub"]))
             i += 1
             continue
 
@@ -589,9 +614,10 @@ def parse_md(text: str, problems: list) -> list:
                 or re.match(r"^\s*\d+\.\s+", nxt)
                 or nxt.strip().startswith("$$")
                 or re.match(r"^!\[", nxt.strip())
-                or re.match(r"^\*\*Q\d+", nxt.strip())
-                or re.match(r"^\*\*Ans", nxt.strip())
+                or re.match(r"^(?:\*\*)?Q\d+[a-z]?\.", nxt.strip())
+                or re.match(r"^(?:\*\*)?Ans\.?(?:\*\*)?(?:\s|$)", nxt.strip())
                 or re.match(r"^\s*[A-E][.)]\s+", nxt)
+                or re.match(r"^\s*(?:\*\*)?(?:\([a-z]+\)|\([ivx]+\))(?:\*\*)?\s+", nxt)
             ):
                 break
             buf.append(nxt.strip())

@@ -185,3 +185,50 @@ def test_parse_pdf_questions(temp_extractor, tmp_path):
     assert questions[1]["option_c"] == "Printer"
 
 
+def test_sanitize_question_text_strips_scraped_html_and_footers():
+    from src.question_extractor import sanitize_question_text
+
+    dirty_pq = (
+        'In designing, texture can be described as '
+        'public-quiz#select" data-public-quiz-target="option" > '
+        'public-quiz#select" data-public-quiz-target="option" > '
+        'More Creative Arts and Design All Creative Arts and Design papers & mocks '
+        'GhLearner. Past questions, mock exams © 2026 GhLearner. All rights reserved.'
+    )
+    assert sanitize_question_text(dirty_pq) == "In designing, texture can be described as"
+
+    dirty_kuul = (
+        "A bridge connects the verse to the chorus. "
+        "SponsoredAdvertise Kuulchat Media Get a professional website kodevibe.com"
+    )
+    assert sanitize_question_text(dirty_kuul) == "A bridge connects the verse to the chorus."
+
+    dirty_coleman = (
+        "Which medium is best? Acrylic paint Crayons Visit www.colemanpublication.com for more Oil pastels"
+    )
+    assert sanitize_question_text(dirty_coleman) == "Which medium is best? Acrylic paint Crayons Oil pastels"
+
+    clean_math = "Evaluate 2x + 3 = 11.\n| x | 1 | 2 |\n|---|---|---|"
+    assert sanitize_question_text(clean_math) == clean_math
+
+
+def test_parse_txt_strips_ghlearner_quiz_bleed(temp_extractor, tmp_path):
+    txt_content = (
+        "1. Which colour is complementary to red?\n"
+        'public-quiz#select" data-public-quiz-target="option" >\n'
+        "A. Blue\n"
+        "B. Green\n"
+        "C. Yellow\n"
+        "D. Orange\n"
+        "More Creative Arts and Design All Creative Arts and Design papers & mocks GhLearner.\n"
+    )
+    exam_file = tmp_path / "CDT_CAD_GhLearner_Mock.txt"
+    exam_file.write_text(txt_content, encoding="utf-8")
+
+    questions = temp_extractor.parse_txt(exam_file, "CAD")
+    assert len(questions) == 1
+    assert questions[0]["question_text"] == "Which colour is complementary to red?"
+    assert "public-quiz" not in questions[0]["question_text"]
+    assert "GhLearner" not in questions[0]["question_text"]
+
+

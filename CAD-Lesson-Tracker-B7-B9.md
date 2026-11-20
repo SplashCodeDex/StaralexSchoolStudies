@@ -3,7 +3,7 @@
 *Based on the NaCCA Creative Arts and Design Common Core Programme (CCP) Curriculum for JHS1 (B7) – JHS3 (B9).*
 
 - **Source of Truth:** [`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md) (`101` canonical NaCCA indicators across `27` Content Standards, `2` Main Strands — **Strand 1: Design** and **Strand 2: Creative Arts** — organised into `3` Instructional Groups: **Visual Arts** [carrying Design], **Music**, and **Dance Drama**).
-- **Existing Grade Trackers Reconciled:** [`curriculum/Grade7-CAD/LESSON_TRACKER.md`](curriculum/Grade7-CAD/LESSON_TRACKER.md) (`18/33` delivered), [`Grade8-CAD/LESSON_TRACKER.md`](Grade8-CAD/LESSON_TRACKER.md) (`18/33` delivered), and [`Grade9-CAD/LESSON_TRACKER.md`](Grade9-CAD/LESSON_TRACKER.md) (`18/33` delivered).
+- **Existing Grade Trackers Reconciled:** [`curriculum/Grade7-CAD/LESSON_TRACKER.md`](curriculum/Grade7-CAD/LESSON_TRACKER.md) (`18/33` delivered), [`Grade8-CAD/LESSON_TRACKER.md`](Grade8-CAD/LESSON_TRACKER.md) (`18/33` delivered), and [`Grade9-CAD/LESSON_TRACKER.md`](Grade9-CAD/LESSON_TRACKER.md) (`20/33` delivered).
 - **Master Visual Arts Compendium:** [`CAD-Visual-Arts-Lessons-B7-B9.md`](CAD-Visual-Arts-Lessons-B7-B9.md) ([`CAD-Visual-Arts-Lessons-B7-B9.pdf`](CAD-Visual-Arts-Lessons-B7-B9.pdf)) — consolidated theory Q&A, worked exam exemplars, and Paper 1/Paper 2 exercises with marking schemes across all `54` Visual Arts & Design lessons (`B7–B9`).
 - **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`1,786` total Creative Arts & Design items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `1,089` Paper 1 Objective MCQs, `394` Paper 2 Theory/Practical items, and `303` Marking Scheme entries; `1,563` items at high confidence `>= 0.70`).
 - **Standard:** International British English conventions (*colour*, *modelling*, *organise*, *centre*, *analyse*, *programme*, *artefact*, *jewellery*); strict adherence to [`RULES-BECE-PATTERN.md`](RULES-BECE-PATTERN.md) and NaCCA CCP practical-first assessment standards.
@@ -17,8 +17,8 @@
 | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Grade 7** | Basic 7 / JHS 1 | 33 | 33 | 18 | 15 | 54.5% |
 | **Grade 8** | Basic 8 / JHS 2 | 34 | 33 | 18 | 15 | 54.5% |
-| **Grade 9** | Basic 9 / JHS 3 | 34 | 33 | 18 | 15 | 54.5% |
-| **Total** | **JHS 1–3 Cycle** | **101** | **99** | **54** | **45** | **54.5%** |
+| **Grade 9** | Basic 9 / JHS 3 | 34 | 33 | 20 | 13 | 60.6% |
+| **Total** | **JHS 1–3 Cycle** | **101** | **99** | **56** | **43** | **56.6%** |
 
 ### Rollup by Discipline Group, Sub-strand & BECE Bank Weighting
 
@@ -31,15 +31,15 @@
 | **1B. Visual Arts — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 9 | 126 | 7.1% | 100.0% Complete |
 | **1B. Visual Arts — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 6 | 34 | 1.9% | 100.0% Complete |
 | *Subtotal — Visual Arts (incl. Design) [Lessons 01–18]* | *18* | *18* | *18* | *54* | *54* | *844* | *47.3%* | *100.0% Complete* |
-| **2. Music — SS1: Media and Techniques** | 3 | 3 | 2 | 8 | 0 | 223 | 12.5% | 0.0% Pending |
+| **2. Music — SS1: Media and Techniques** | 3 | 3 | 2 | 8 | 1 | 223 | 12.5% | 12.5% In Progress |
 | **2. Music — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 0 | 142 | 8.0% | 0.0% Pending |
 | **2. Music — SS3: Connections in Local & Global Cultures** | 2 | 2 | 3 | 7 | 0 | 129 | 7.2% | 0.0% Pending |
-| *Subtotal — Music [Lessons 19–26]* | *8* | *8* | *8* | *24* | *0* | *494* | *27.7%* | *0.0% Pending* |
-| **3. Dance Drama — SS1: Media and Techniques** | 2 | 2 | 3 | 7 | 0 | 340 | 19.0% | 0.0% Pending |
+| *Subtotal — Music [Lessons 19–26]* | *8* | *8* | *8* | *24* | *1* | *494* | *27.7%* | *4.2% In Progress* |
+| **3. Dance Drama — SS1: Media and Techniques** | 2 | 2 | 3 | 7 | 1 | 340 | 19.0% | 14.3% In Progress |
 | **3. Dance Drama — SS2: Creative & Aesthetic Expression** | 3 | 3 | 2 | 8 | 0 | 58 | 3.2% | 0.0% Pending |
 | **3. Dance Drama — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 0 | 50 | 2.8% | 0.0% Pending |
-| *Subtotal — Dance Drama [Lessons 27–33]* | *7* | *7* | *7* | *21* | *0* | *448* | *25.1%* | *0.0% Pending* |
-| **Curriculum Total** | **33** | **33** | **33** | **99** | **54** | **1,786** | **100.0%** | **54.5% Complete** |
+| *Subtotal — Dance Drama [Lessons 27–33]* | *7* | *7* | *7* | *21* | *1* | *448* | *25.1%* | *4.8% In Progress* |
+| **Curriculum Total** | **33** | **33** | **33** | **99** | **56** | **1,786** | **100.0%** | **56.6% Complete** |
 
 ### Sub-strand BECE Exam Weighting Breakdown (`BECE_MOCK_PAPERS`)
 
@@ -51,10 +51,10 @@
 | **1B.1 Visual Arts: Media & Techniques** | 121 | 32 | 58 | 211 | 11.8% | High (100% Built) |
 | **1B.2 Visual Arts: Creative & Aesthetic Expression** | 78 | 21 | 27 | 126 | 7.1% | Moderate-High (100% Built) |
 | **1B.3 Visual Arts: Connections in Local/Global Cultures** | 22 | 5 | 7 | 34 | 1.9% | Standard (100% Built) |
-| **2.1 Music: Media & Techniques** | 133 | 54 | 36 | 223 | 12.5% | **Critical (#2 — Pending)** |
+| **2.1 Music: Media & Techniques** | 133 | 54 | 36 | 223 | 12.5% | **Critical (#2 — 1/8 Built)** |
 | **2.2 Music: Creative & Aesthetic Expression** | 112 | 18 | 12 | 142 | 8.0% | **High (Pending)** |
 | **2.3 Music: Connections in Local/Global Cultures** | 56 | 40 | 33 | 129 | 7.2% | **High — Paper 2 Heavy (Pending)** |
-| **3.1 Dance Drama: Media & Techniques** | 205 | 105 | 30 | 340 | 19.0% | **Critical (#1 — Pending)** |
+| **3.1 Dance Drama: Media & Techniques** | 205 | 105 | 30 | 340 | 19.0% | **Critical (#1 — 1/7 Built)** |
 | **3.2 Dance Drama: Creative & Aesthetic Expression** | 26 | 18 | 14 | 58 | 3.2% | Standard (Pending) |
 | **3.3 Dance Drama: Connections in Local/Global Cultures** | 24 | 23 | 3 | 50 | 2.8% | Standard — Paper 2 Heavy (Pending) |
 | **Total Tagged CAD Bank** | **1,089** | **394** | **303** | **1,786** | **100.0%** | **47.3% Built / 52.7% Pending** |
@@ -233,7 +233,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 | # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
 | :---: | :--- | :--- | :---: | :--- | :--- |
-| **19** | Singing Triads on All Seven Degrees of the Scale (Horizontally as Arpeggios and Vertically in Harmony) | Media and Techniques | B9.2.1.2.5 | `Grade9-CAD/Music/Lesson-19-Triads-Arpeggios-Harmony/` | [ ] Pending |
+| **19** | Singing Triads on All Seven Degrees of the Scale (Horizontally as Arpeggios and Vertically in Harmony) | Media and Techniques | B9.2.1.2.5 | `Grade9-CAD/Music/Lesson-19-Triads-Arpeggios-Harmony/` | [x] Delivered — PDF + 3 PNGs + 40 exercises + solutions |
 | **20** | Creating and Improvising a Melody Over the I, VI, IV and V Ostinato Bass Line | Media and Techniques | B9.2.1.2.6 | `Grade9-CAD/Music/Lesson-20-Melody-Ostinato-Bass/` | [ ] Pending |
 | **21** | Designing and Producing Own Musical Work on Emerging Topical Issues Across Africa | Creative and Aesthetic Expression | B9.2.2.2.4 | `Grade9-CAD/Music/Lesson-21-African-Topical-Music/` | [ ] Pending |
 | **22** | Planning and Displaying Musical Works — Concert on Topical Issues (Climate Change, Sanitation, Pension) | Creative and Aesthetic Expression | B9.2.2.2.5 | `Grade9-CAD/Music/Lesson-22-Topical-Concert-Display/` | [ ] Pending |
@@ -246,7 +246,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 | # | Lesson Title | Sub-strand | Indicators | Target Package Path | Status |
 | :---: | :--- | :--- | :---: | :--- | :--- |
-| **27** | Creating a Simple Dance Drama and/or One-Act Play on a Topical Issue | Media and Techniques | B9.2.1.3.7 | `Grade9-CAD/Dance-Drama/Lesson-27-Dance-Drama-Topical-Play/` | [ ] Pending |
+| **27** | Creating a Simple Dance Drama and/or One-Act Play on a Topical Issue | Media and Techniques | B9.2.1.3.7 | `Grade9-CAD/Dance-Drama/Lesson-27-Dance-Drama-Topical-Play/` | [x] Delivered — PDF + 2 PNGs + 40 exercises + solutions |
 | **28** | Approaches to Improvisation, Harmony/Balance and Blocking in the Performance Space | Media and Techniques | B9.2.1.3.8 | `Grade9-CAD/Dance-Drama/Lesson-28-Improvisation-Blocking-Space/` | [ ] Pending |
 | **29** | Practising Improvisation and Blocking — Stage Movements (DR, UL, DC) and Stage Positions (Profiles & Positions 1st–4th) | Media and Techniques | B9.2.1.3.9 | `Grade9-CAD/Dance-Drama/Lesson-29-Stage-Movements-Positions/` | [ ] Pending |
 | **30** | Performing an Original Dance Drama and/or One-Act Play on Socio-Cultural Issues (Sanitation, Energy, Pension) | Creative and Aesthetic Expression | B9.2.2.3.7 | `Grade9-CAD/Dance-Drama/Lesson-30-Perform-Socio-Cultural-Drama/` | [ ] Pending |
@@ -272,7 +272,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 | Rotation Round | Focus Tier | Section B: Music *[15-mark BECE Schema]* | Section C: Dance & Drama *[15-mark BECE Schema]* |
 | :---: | :--- | :--- | :--- |
-| **Round 1** | **B9 Core I** *(SS1 Media & Tech)* | **G9 L19:** Scale Triads & Arpeggios (`B9.2.1.2.5`) | **G9 L27:** Topical One-Act Play & Dance Drama (`B9.2.1.3.7`) |
+| **Round 1** *(Complete)* | **B9 Core I** *(SS1 Media & Tech)* | [x] **G9 L19:** Scale Triads & Arpeggios (`B9.2.1.2.5`) | [x] **G9 L27:** Topical One-Act Play & Dance Drama (`B9.2.1.3.7`) |
 | **Round 2** | **B9 Core II** *(SS2 Expression)* | **G9 L21:** African Topical Music (`B9.2.2.2.4`) | **G9 L30:** Socio-Cultural Play Performance (`B9.2.2.3.7`) |
 | **Round 3** | **B9 Core III** *(SS3 Connections)* | **G9 L24:** African Art Composers — Akin Euba & Nketia (`B9.2.3.2.3`) | **G9 L32:** African Creative Work Ideas (`B9.2.3.3.5`) |
 | **Round 4** | **B9 Core IV** *(SS1 Media & Tech)* | **G9 L20:** Melody Over I–VI–IV–V Ostinato (`B9.2.1.2.6`) | **G9 L28:** Improvisation, Balance & Stage Blocking (`B9.2.1.3.8`) |

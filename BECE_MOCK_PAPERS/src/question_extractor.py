@@ -66,6 +66,38 @@ def decode_symbol_pua(text: Optional[str]) -> str:
     return text.translate(_SYMBOL_PUA_TRANS)
 
 
+_SCRAPED_NOISE_PATTERNS = (
+    # GhLearner Stimulus HTML button attribute bleed (from naive `<[^>]+>` stopping at `click->`)
+    re.compile(r'(?:click->)?public-quiz#select"\s*data-public-quiz-target="option"\s*>', re.I),
+    # GhLearner page footer appended to final item
+    re.compile(
+        r"\s*(?:More\s+Creative\s+Arts\s+and\s+Design\s+All\s+Creative\s+Arts\s+and\s+Design\s+papers[\s\S]*$"
+        r"|GhLearner\.\s+Past\s+questions,\s+mock\s+exams[\s\S]*$)",
+        re.I,
+    ),
+    # KuulChat sponsored ad footer appended to final item
+    re.compile(r"\s*Sponsored\s*Advertise\s+Kuulchat\s+Media[\s\S]*$", re.I),
+    # Coleman Publications inline PDF page watermark
+    re.compile(r"\s*Visit\s+www\.colemanpublication\.com\s+for\s+more\b", re.I),
+)
+
+
+def sanitize_question_text(text: Optional[str]) -> str:
+    """Strip raw scraped HTML fragments, portal footers, and PDF watermarks without altering clean text."""
+    if not text:
+        return ""
+    cleaned = text
+    changed = False
+    for pattern in _SCRAPED_NOISE_PATTERNS:
+        updated = pattern.sub("", cleaned)
+        if updated != cleaned:
+            cleaned = updated
+            changed = True
+    if changed:
+        cleaned = re.sub(r"[ \t]{2,}", " ", cleaned).strip()
+    return cleaned
+
+
 class QuestionExtractor:
     """Extracts itemized Paper 1 (Objective) and Paper 2 (Theory) questions, marking schemes, and diagrams."""
 
@@ -233,11 +265,11 @@ class QuestionExtractor:
                     "year": year,
                     "paper_type": current_paper_type,
                     "question_number": current_q_num,
-                    "question_text": " ".join(current_q_text).strip(),
-                    "option_a": current_options["A"],
-                    "option_b": current_options["B"],
-                    "option_c": current_options["C"],
-                    "option_d": current_options["D"],
+                    "question_text": sanitize_question_text(" ".join(current_q_text).strip()),
+                    "option_a": sanitize_question_text(current_options["A"]),
+                    "option_b": sanitize_question_text(current_options["B"]),
+                    "option_c": sanitize_question_text(current_options["C"]),
+                    "option_d": sanitize_question_text(current_options["D"]),
                     "correct_answer": answer_key.get(current_q_num, "") if "Paper 1" in current_paper_type else "",
                     "has_diagram": 1 if current_diagram else 0,
                     "diagram_path": current_diagram,
@@ -432,6 +464,7 @@ class QuestionExtractor:
             "skip to content", "sign in to check your answer",
             "free — see the marking scheme for every question",
             "free — see the marking scheme",
+            "public-quiz#select",
             "the west african examinations council",
             "basic education certificate examination",
             "follow the education news consult",
@@ -466,11 +499,11 @@ class QuestionExtractor:
                     "year": year,
                     "paper_type": current_paper_type,
                     "question_number": current_q_num,
-                    "question_text": " ".join(current_q_text).strip(),
-                    "option_a": current_options["A"],
-                    "option_b": current_options["B"],
-                    "option_c": current_options["C"],
-                    "option_d": current_options["D"],
+                    "question_text": sanitize_question_text(" ".join(current_q_text).strip()),
+                    "option_a": sanitize_question_text(current_options["A"]),
+                    "option_b": sanitize_question_text(current_options["B"]),
+                    "option_c": sanitize_question_text(current_options["C"]),
+                    "option_d": sanitize_question_text(current_options["D"]),
                     "correct_answer": ans,
                     "has_diagram": 0,
                     "diagram_path": None,
@@ -622,7 +655,7 @@ class QuestionExtractor:
                     q_id = f"{orig_id}_{counter}"
                 seen_ids.add(q_id)
 
-                full_text = " ".join(current_q_text).strip()
+                full_text = sanitize_question_text(" ".join(current_q_text).strip())
 
                 diag_to_attach = None
                 if active_stimulus and current_q_num in active_stimulus["targets"]:
