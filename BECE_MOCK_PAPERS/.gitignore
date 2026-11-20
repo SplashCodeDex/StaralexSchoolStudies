@@ -12,7 +12,8 @@ env/
 venv/
 .pytest_cache/
 
-# OS specific files
+# OS & Office lock files
 .DS_Store
 Thumbs.db
 desktop.ini
+~$*

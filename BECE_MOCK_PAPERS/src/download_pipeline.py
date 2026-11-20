@@ -233,7 +233,31 @@ class DownloadPipeline:
             )
             return None
 
+        if FileClassifier.is_non_bece_level(f"{url} {title} {context_text}"):
+            self.db.record_rejected_content(
+                sha256=sha256,
+                reason="non_bece_level",
+                original_url=url,
+                file_name=title or "",
+                file_type=".txt",
+                details=f"Non-BECE/SHS level HTML article; {(title or '')[:180]}",
+            )
+            self.db.record_url_visited(url, 200)
+            return None
+
         subject = FileClassifier.detect_subject(f"{url} {title} {context_text} {main_text[:2000]}")
+        if subject == "General_Unclassified":
+            self.db.record_rejected_content(
+                sha256=sha256,
+                reason="unclassified_wrong_subject",
+                original_url=url,
+                file_name=title or "",
+                file_type=".txt",
+                details=f"subject={subject}; {(title or '')[:180]}",
+            )
+            self.db.record_url_visited(url, 200)
+            return None
+
         clean_filename = FileClassifier.sanitize_filename(
             raw_name=title or "exam_questions",
             subject=subject,

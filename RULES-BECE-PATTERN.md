@@ -281,8 +281,16 @@ This rule exists because bare Type-1 `Helvetica`/`Courier` (WinAnsiEncoding) tur
 
 ---
 
-## 6. Pacing and delivery
+## 6. Pacing, section-rotation and BECE Paper 2 schema
 
+- **Never deliver lessons sequentially down a single strand/section.** Instead, **rotate round-robin across the grouped sections / main strands** of the lesson plan so every delivery round mirrors a complete BECE Paper 2 sitting:
+  - **CAD (Creative Arts & Design — 3 BECE Paper 2 Sections):** Rotate **Section A: Visual Arts (incl. Design)** *[30 marks]* → **Section B: Music** *[15 marks]* → **Section C: Dance & Drama** *[15 marks]* (and within each section, rotate across `Sub-strand 1: Media & Techniques` → `Sub-strand 2: Creative & Aesthetic Expression` → `Sub-strand 3: Connections in Local & Global Cultures`).
+  - **Computing (4 Main Strands matching BECE Paper 2 Q1–Q5):** Rotate **Strand 1: Introduction to Computing** → **Strand 2: Productivity Software** *(Word, Presentation, DTP, Spreadsheets)* → **Strand 3: Communication Networks** *(Networks, Internet/Social Media, Info Security, Web/Blogs)* → **Strand 4: Computational Thinking** *(Programming, Algorithms/Flowcharts/Pseudocode, Robotics, AI)*.
+  - **Mathematics (4 Main Strands matching BECE Paper 2 Q1–Q6):** Rotate **Strand 1: Number** → **Strand 2: Algebra** → **Strand 3: Geometry & Measurement** → **Strand 4: Handling Data**.
+- **Strict BECE Paper 2 / Essay / Theory Schema per Section:**
+  - **CAD Paper 2:** Section A Visual Arts (`[30 marks]` — 2 questions; design brief/scenario + drawing/shading in printed `Box A`); Section B Music (`[15 marks]` — treble/bass staff notation, Curwen hand signs, time signatures, triads/ostinato, Ghanaian/African art composers); Section C Dance & Drama (`[15 marks]` — script excerpt with `"In not more than four words, suggest a suitable title..."`, stage-blocking positions `DR/UL/DC` & profiles `1st–4th`, and Ghanaian dance classification tables `Religious / War / Royal / Recreational`).
+  - **Computing Paper 2:** Compulsory `24-mark` practical/workstation/school-event scenario `Q1` + `12-mark` structured theory questions `Q2–Q5` with `(a)(b)(c)`, `(i)(ii)`, `(α)(β)` sub-parts and explicit mark tags (`3+3+3+3` or `5+4+3`).
+  - **Mathematics Paper 2:** `6` equal `15-mark` `(a)(b)(c)` / `(i)(ii)` / `(α)(β)` questions (answer `4` for `60 marks`; calculators not allowed; `GH₵` 2 d.p.; bracketed constants `[Take π = 22/7]`; `NOT DRAWN TO SCALE` diagram stamps).
 - Structure the learning curve over **2 months**, 1–2 sub-strands per day/two days depending on depth.
 - **Never rush.** A long sub-strand continues the next day. Split across days and let the user say *continue* / *proceed*.
 - Always give **preambles and pre-lessons** — do not assume the learner already knows the basics.

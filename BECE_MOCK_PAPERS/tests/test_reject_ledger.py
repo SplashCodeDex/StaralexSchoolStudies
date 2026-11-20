@@ -56,3 +56,81 @@ def test_reject_reason_lesson_notes_vs_exam_paper():
 
     assert FileClassifier.reject_reason(notes, ".txt", "lesson notes scheme of work") == "not_exam_paper"
     assert FileClassifier.reject_reason(exam, ".txt", "BECE mock paper 1") is None
+
+
+def test_reject_reason_blocks_non_target_subject_even_with_exam_signals():
+    english_paper = b"BECE 2026 English Language Paper 1 Objective questions and answers"
+    subject = FileClassifier.detect_subject_from_bytes(
+        english_paper, ".txt", "2026-BECE-English-Language-1-2.pdf"
+    )
+    assert subject == "General_Unclassified"
+    assert (
+        FileClassifier.reject_reason(
+            english_paper,
+            ".txt",
+            "2026-BECE-English-Language-1-2.pdf BECE exam paper",
+            subject=subject,
+        )
+        == "unclassified_wrong_subject"
+    )
+
+
+def test_html_article_rejects_and_tombstones_non_target_subject(tmp_path: Path):
+    from src.download_pipeline import DownloadPipeline
+
+    db = CatalogDatabase(db_path=tmp_path / "cat.db")
+    pipeline = DownloadPipeline(database=db)
+    html = (
+        "<html><body><article><h1>2026 BECE Integrated Science Paper 1 &amp; 2</h1>"
+        "<p>Section A Objective Question 1: " + ("Integrated Science exam answer marks. " * 20)
+        + "</p></article></body></html>"
+    )
+    res = pipeline.save_html_article_as_txt(
+        url="https://example.com/bece-integrated-science-2026",
+        title="2026 BECE Integrated Science Questions and Answers",
+        html_content=html,
+    )
+    assert res is None
+    assert db.is_url_visited("https://example.com/bece-integrated-science-2026") is True
+    rejected = db.list_rejected_content(reason="unclassified_wrong_subject")
+    assert len(rejected) == 1
+
+
+def test_non_bece_level_wassce_shs_rejected_while_bece_allowed(tmp_path: Path):
+    from src.download_pipeline import DownloadPipeline
+
+    wassce_bytes = b"WASSCE Core Mathematics Paper 1 Objective Mock Questions and Answers"
+    assert (
+        FileClassifier.reject_reason(
+            wassce_bytes,
+            ".txt",
+            "https://ghlearner.com/wassce/core-mathematics/exams/wassce-maths-mock",
+            subject="Mathematics",
+        )
+        == "non_bece_level"
+    )
+    bece_bytes = b"BECE Mathematics Paper 1 Objective Mock Questions and Answers 2026"
+    assert (
+        FileClassifier.reject_reason(
+            bece_bytes,
+            ".txt",
+            "https://ghlearner.com/bece/mathematics/2026/paper-1",
+            subject="Mathematics",
+        )
+        is None
+    )
+
+    db = CatalogDatabase(db_path=tmp_path / "cat.db")
+    pipeline = DownloadPipeline(database=db)
+    html = (
+        "<html><body><article><h1>Solve WASSCE Core Mathematics Questions &amp; Answers</h1>"
+        "<p>Section A Objective Question 1: " + ("WASSCE Core Mathematics mock answer marks. " * 20)
+        + "</p></article></body></html>"
+    )
+    res = pipeline.save_html_article_as_txt(
+        url="https://ghlearner.com/wassce/core-mathematics/exams/wassce-maths-mock",
+        title="Solve WASSCE Core Mathematics Questions & Answers",
+        html_content=html,
+    )
+    assert res is None
+    assert len(db.list_rejected_content(reason="non_bece_level")) == 1

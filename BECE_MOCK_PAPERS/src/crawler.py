@@ -58,6 +58,8 @@ class BECEMockCrawler:
 
     def _is_relevant_link(self, url: str, anchor_text: str = "") -> bool:
         combined = f"{url} {anchor_text}".lower()
+        if FileClassifier.is_non_bece_level(combined):
+            return False
         # Direct document matches are always relevant
         if any(combined.endswith(ext) or ext in combined for ext in TARGET_EXTENSIONS):
             return True

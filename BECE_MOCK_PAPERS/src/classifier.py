@@ -28,10 +28,28 @@ class FileClassifier:
         "questions and answers", "question paper",
     )
 
+    NON_BECE_LEVEL_PATTERNS = (
+        r"\bwassce\b",
+        r"\bssce\b",
+        r"\bnov/?dec\b",
+        r"\bshs\b",
+        r"\bsenior high\b",
+        r"\belective\s+math(?:s|ematics)?\b",
+    )
+    BECE_LEVEL_PATTERNS = (r"\bbece\b", r"\bjhs\b", r"\bbasic\s+[789]\b")
+
     @classmethod
     def looks_like_exam_content(cls, text: str) -> bool:
         t = (text or "").lower()
         return any(s in t for s in cls.EXAM_SIGNALS)
+
+    @classmethod
+    def is_non_bece_level(cls, text_context: str) -> bool:
+        """True when URL/title/filename explicitly targets SHS/WASSCE/NovDec without BECE/JHS signals."""
+        t = (text_context or "").lower()
+        has_non_bece = any(re.search(p, t) for p in cls.NON_BECE_LEVEL_PATTERNS)
+        has_bece = any(re.search(p, t) for p in cls.BECE_LEVEL_PATTERNS)
+        return has_non_bece and not has_bece
 
     @classmethod
     def reject_reason(
@@ -79,7 +97,10 @@ class FileClassifier:
         if not cls.looks_like_exam_content(sample):
             return "no_exam_signals"
 
-        if subject == "General_Unclassified" and not cls.looks_like_exam_content(text_context):
+        if cls.is_non_bece_level(text_context):
+            return "non_bece_level"
+
+        if subject == "General_Unclassified":
             return "unclassified_wrong_subject"
 
         return None

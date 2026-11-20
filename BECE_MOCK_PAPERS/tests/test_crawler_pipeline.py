@@ -17,6 +17,18 @@ def test_crawler_allowed_domains():
     assert crawler._is_allowed_domain("https://shopping.co.uk/promo") is False
 
 
+def test_crawler_skips_wassce_shs_links():
+    crawler = BECEMockCrawler()
+    assert crawler._is_relevant_link(
+        "https://ghlearner.com/wassce/core-mathematics/exams/wassce-maths-mock",
+        "WASSCE Core Mathematics Mock",
+    ) is False
+    assert crawler._is_relevant_link(
+        "https://ghlearner.com/bece/mathematics/exams/bece-maths-mock",
+        "BECE Mathematics Mock",
+    ) is True
+
+
 def test_resolve_external_storage_url():
     # Google Drive view link -> direct uc download
     gdrive_view = "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view"
