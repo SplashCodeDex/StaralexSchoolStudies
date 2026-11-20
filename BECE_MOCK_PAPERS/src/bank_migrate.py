@@ -14,8 +14,9 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-from src.bank_schema import init_bank_schema
+from src.bank_schema import fts_rebuild, init_bank_schema
 from src.config import DATABASE_PATH
+from src.question_extractor import sanitize_question_text
 
 # Source classification by domain: official bodies first, then known teacher hubs.
 OFFICIAL_DOMAINS = {"waecgh.org", "ghana.waecdirect.org"}
@@ -32,15 +33,15 @@ def _classify_domain(domain: str) -> str:
     return "mock_compilation"
 
 
-def normalize_for_dedup(row: sqlite3.Row) -> str:
+def normalize_for_dedup(row: Any) -> str:
     """Canonical form of a question for duplicate detection.
 
-    Lowercased, whitespace/punctuation-collapsed text; for MCQs the options
+    Lowercased, sanitized, whitespace/punctuation-collapsed text; for MCQs the options
     are included so identical stems with different options stay distinct.
     """
-    parts = [row["question_text"] or ""]
+    parts = [sanitize_question_text(row["question_text"] or "")]
     if row["paper_type"] and "objective" in row["paper_type"].lower():
-        parts += [row[f"option_{c}"] or "" for c in "abcd"]
+        parts += [sanitize_question_text(row[f"option_{c}"] or "") for c in "abcd"]
     joined = " ".join(parts).lower()
     joined = re.sub(r"[^a-z0-9]+", " ", joined)
     return re.sub(r"\s+", " ", joined).strip()
@@ -196,3 +197,107 @@ def migrate(db_path: Path = DATABASE_PATH, dry_run: bool = False) -> Dict[str, i
         conn.close()
 
     return stats
+
+
+def deduplicate_subject_questions(
+    db_path: Path = DATABASE_PATH,
+    subject: str = "CAD",
+) -> Dict[str, int]:
+    """Collapse duplicate canonical rows within a subject (e.g., after CDT_CAD -> CAD rename or sanitization).
+
+    Re-points question_occurrences, tag_review_queue, and solutions to the canonical winner,
+    backfills any non-null metadata from retired rows, and rebuilds FTS5.
+    """
+    conn = sqlite3.connect(str(db_path))
+    conn.row_factory = sqlite3.Row
+    conn.execute("PRAGMA foreign_keys=ON;")
+    try:
+        rows = [
+            dict(r)
+            for r in conn.execute(
+                "SELECT * FROM questions WHERE subject = ?;",
+                (subject,),
+            ).fetchall()
+        ]
+        by_norm: Dict[str, List[Dict[str, Any]]] = {}
+        for r in rows:
+            by_norm.setdefault(normalize_for_dedup(r), []).append(r)
+
+        subj_norm = subject.lower().strip()
+        groups_merged = 0
+        duplicates_removed = 0
+
+        with conn:
+            for norm, grp in by_norm.items():
+                if len(grp) <= 1:
+                    continue
+                groups_merged += 1
+                exp_h = hashlib.sha256(f"{subj_norm}|{norm}".encode("utf-8")).hexdigest()
+                exp_id = f"Q_{exp_h[:12]}"
+                grp_sorted = sorted(
+                    grp,
+                    key=lambda x: (
+                        x["id"] == exp_id,
+                        str(x.get("created_at") or ""),
+                        bool((x.get("correct_answer") or "").strip()),
+                        bool(x.get("year")),
+                        float(x.get("confidence") or 0.0),
+                    ),
+                    reverse=True,
+                )
+                winner = dict(grp_sorted[0])
+                losers = grp_sorted[1:]
+
+                updated_fields: Dict[str, Any] = {}
+                for loser in losers:
+                    for key in (
+                        "correct_answer",
+                        "year",
+                        "has_diagram",
+                        "diagram_path",
+                        "indicator_code",
+                        "tag_method",
+                        "embedding",
+                    ):
+                        if not winner.get(key) and loser.get(key):
+                            winner[key] = loser[key]
+                            updated_fields[key] = loser[key]
+                    if float(loser.get("confidence") or 0.0) > float(winner.get("confidence") or 0.0):
+                        winner["confidence"] = loser["confidence"]
+                        updated_fields["confidence"] = loser["confidence"]
+
+                if updated_fields:
+                    set_clause = ", ".join(f"{k} = ?" for k in updated_fields)
+                    conn.execute(
+                        f"UPDATE questions SET {set_clause} WHERE id = ?;",
+                        (*updated_fields.values(), winner["id"]),
+                    )
+
+                for loser in losers:
+                    lid = loser["id"]
+                    for child_tbl in ("question_occurrences", "tag_review_queue", "solutions"):
+                        conn.execute(
+                            f"UPDATE OR IGNORE {child_tbl} SET question_id = ? WHERE question_id = ?;",
+                            (winner["id"], lid),
+                        )
+                        conn.execute(
+                            f"DELETE FROM {child_tbl} WHERE question_id = ?;",
+                            (lid,),
+                        )
+                    conn.execute("DELETE FROM questions WHERE id = ?;", (lid,))
+                    duplicates_removed += 1
+
+            fts_rebuild(conn)
+
+        after = conn.execute(
+            "SELECT COUNT(*) FROM questions WHERE subject = ?;",
+            (subject,),
+        ).fetchone()[0]
+        return {
+            "before": len(rows),
+            "after": after,
+            "groups_merged": groups_merged,
+            "duplicates_removed": duplicates_removed,
+        }
+    finally:
+        conn.close()

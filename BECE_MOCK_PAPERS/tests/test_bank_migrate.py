@@ -147,3 +147,53 @@ def test_dry_run_leaves_no_rows(seeded_legacy_db):
     conn = sqlite3.connect(str(seeded_legacy_db))
     assert conn.execute("SELECT COUNT(*) FROM questions;").fetchone()[0] == 0
     assert conn.execute("SELECT COUNT(*) FROM question_occurrences;").fetchone()[0] == 0
+
+
+def test_deduplicate_subject_questions_merges_renamed_subject_duplicates(seeded_legacy_db):
+    import hashlib
+    from src.bank_migrate import deduplicate_subject_questions
+
+    migrate(db_path=seeded_legacy_db)
+    conn = sqlite3.connect(str(seeded_legacy_db))
+    conn.row_factory = sqlite3.Row
+    norm = "which colour is complementary to red blue green yellow orange"
+    old_h = hashlib.sha256(f"cdt_cad|{norm}".encode("utf-8")).hexdigest()
+    new_h = hashlib.sha256(f"cad|{norm}".encode("utf-8")).hexdigest()
+    old_id, new_id = f"Q_{old_h[:12]}", f"Q_{new_h[:12]}"
+
+    conn.execute(
+        "INSERT INTO questions (id, subject, question_text, option_a, option_b, option_c, option_d,"
+        " correct_answer, year, paper_type, dedup_hash, created_at)"
+        " VALUES (?, 'CAD', 'Which colour is complementary to red?', 'Blue', 'Green', 'Yellow', 'Orange',"
+        " 'B', 2025, 'Paper 1 - Objective', ?, '2026-10-28T00:00:00Z');",
+        (old_id, old_h),
+    )
+    conn.execute(
+        "INSERT INTO questions (id, subject, question_text, option_a, option_b, option_c, option_d,"
+        " correct_answer, year, paper_type, dedup_hash, created_at)"
+        " VALUES (?, 'CAD', 'Which colour is complementary to red?', 'Blue', 'Green', 'Yellow', 'Orange',"
+        " '', NULL, 'Paper 1 - Objective', ?, '2026-11-05T00:00:00Z');",
+        (new_id, new_h),
+    )
+    conn.execute(
+        "INSERT INTO question_occurrences (question_id, original_id, source_file, paper_type, question_number)"
+        " VALUES (?, 'CAD_q1', 'cad1.txt', 'Paper 1 - Objective', 1),"
+        "        (?, 'CAD_q1', 'cad1.txt', 'Paper 1 - Objective', 1),"
+        "        (?, 'CAD_q2', 'cad2.txt', 'Paper 1 - Objective', 1);",
+        (old_id, new_id, old_id),
+    )
+    conn.commit()
+    conn.close()
+
+    res = deduplicate_subject_questions(db_path=seeded_legacy_db, subject="CAD")
+    assert res == {"before": 2, "after": 1, "groups_merged": 1, "duplicates_removed": 1}
+
+    conn = sqlite3.connect(str(seeded_legacy_db))
+    conn.row_factory = sqlite3.Row
+    kept = conn.execute("SELECT * FROM questions WHERE subject = 'CAD';").fetchone()
+    assert kept["id"] == new_id
+    assert kept["correct_answer"] == "B"
+    assert kept["year"] == 2025
+    occs = conn.execute("SELECT original_id FROM question_occurrences WHERE question_id = ? ORDER BY original_id;", (new_id,)).fetchall()
+    assert [r[0] for r in occs] == ["CAD_q1", "CAD_q2"]
+    conn.close()
