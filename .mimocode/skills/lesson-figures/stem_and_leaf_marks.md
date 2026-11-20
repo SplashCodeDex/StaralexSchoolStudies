@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/stem_and_leaf_marks.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Data-Statistics-And-Representations/diagrams/stem_and_leaf_marks.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Data-Statistics-And-Representations/diagrams/stem_and_leaf_marks.png`
 
 ## Build
 ```powershell

@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/vector_position_op.tex`  
-**Output:** `Grade9-Maths/.../Lesson-02-Vectors/diagrams/vector_position_op.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-02-Vectors/diagrams/vector_position_op.png`
 
 ## Build
 ```powershell

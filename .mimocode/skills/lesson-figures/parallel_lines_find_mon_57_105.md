@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/parallel_lines_find_mon_57_105.tex`  
-**Output:** `Grade9-Maths/.../Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_find_mon_57_105.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_find_mon_57_105.png`
 
 ## Build
 ```powershell

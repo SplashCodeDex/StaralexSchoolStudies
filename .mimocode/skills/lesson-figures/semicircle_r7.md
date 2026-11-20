@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/semicircle_r7.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/semicircle_r7.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/semicircle_r7.png`
 
 ## Build
 ```powershell

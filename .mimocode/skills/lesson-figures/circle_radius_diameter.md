@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/circle_radius_diameter.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/circle_radius_diameter.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/circle_radius_diameter.png`
 
 ## Build
 ```powershell

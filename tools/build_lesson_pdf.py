@@ -53,7 +53,7 @@ TOFU_CHARS = {
 
 # Symbols we will use in body text and expect Cambria to have.
 SYMBOL_ALLOWLIST = set(
-    "×÷±−→←↔≤≥≠≈∞∅∈∉∪∩θαβγπΣ°′″"  # math
+    "×÷±−→←↔≤≥≠≈∞∅∈∉∪∩θαβγπΣ°′″∥"  # math
     "₦¢£€¥$"  # currency
     "▪●○◆■□"  # filled/hollow markers used deliberately
     "½⅓¼¾⅕⅙⅛⅔⅗¾⅚⅞"  # vulgar fractions
@@ -247,6 +247,11 @@ _LATEX_TO_UNI = [
     (r"\\mu", "μ"),
     (r"\\sigma", "σ"),
     (r"\\cdot", "·"),
+    (r"\\dfrac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),
+    (r"\\tfrac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),
+    (r"\\ldots", "..."),
+    (r"\\cdots", "..."),
+    (r"\\dots", "..."),
     (r"\\times", "×"),
     (r"\\;", " "),
     (r"\\,", " "),
@@ -263,6 +268,10 @@ _LATEX_TO_UNI = [
     (r"\\subset", "⊂"),
     (r"\\leq", "≤"),
     (r"\\geq", "≥"),
+    (r"\\parallel", "∥"),
+    (r"\^\{\\circ\}", "°"),
+    (r"\^\\circ", "°"),
+    (r"\\circ", "°"),
     (r"\\sqrt\{([^{}]*)\}", r"√(\1)"),
     (r"\\sqrt", "√"),
     (r"\\frac\{([^{}]*)\}\{([^{}]*)\}", lambda m: _frac(m.group(1), m.group(2))),

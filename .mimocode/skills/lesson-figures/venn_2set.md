@@ -2,7 +2,7 @@
 
 **Skill id:** `venn_2set`  
 **Status:** PERFECT (verified by PNG observation, 2026-10-20)  
-**Output:** `Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_2set.png`  
+**Output:** `Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_2set.png`  
 **Source:** `tools/math-diagrams/templates/venn_2set.tex`
 
 ## What this figure shows

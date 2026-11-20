@@ -22,10 +22,7 @@ DEFAULT_TARGET = "10.79.49.188:5555"
 DEFAULT_REMOTE_ROOT = "/sdcard/StaralexSchoolStudies"
 SKIP_DIRS = {".venv", ".git", "__pycache__", "node_modules"}
 
-DUPLICATE_CURRICULUM = {
-    "curriculum/CCP-JHS/CCP_Computing_JHS.pdf": "BECE_MOCK_PAPERS/data/curriculum/NACCA_COMPUTING_B7-B9.pdf",
-    "curriculum/CCP-JHS/CCP_Mathematics_JHS.pdf": "BECE_MOCK_PAPERS/data/curriculum/NACCA_MATHEMATICS_B7-B9.pdf",
-}
+DUPLICATE_CURRICULUM: dict[str, str] = {}
 
 HARVESTED_SUBJ_MAP = {
     "Mathematics": "Mathematics",
@@ -53,33 +50,30 @@ def map_dest(rel: pathlib.Path) -> pathlib.Path | None:
     """Map a repo-relative PDF path to its organized destination under remote root."""
     parts = rel.parts
     name = rel.name
-    if len(parts) == 1:
-        folder = "05-CAD-Lessons" if name == "CAD-Visual-Arts-Lessons-B7-B9.pdf" else "01-Lesson-Plans-and-Trackers"
-        return pathlib.Path(folder) / name
-    if parts[0] in ("Basic4", "Basic5", "Basic6") and name.upper() == "MATHS-UPPER-PRIMARY-B4-B6.PDF":
-        return pathlib.Path("02-Curriculum-NaCCA/Upper-Primary-Maths") / f"{parts[0]}-Mathematics-Curriculum.pdf"
-    if parts[0] == "Basic4" and "Lessons" in parts:
-        return pathlib.Path("03-Mathematics-Lessons/Basic4") / name
+    if len(parts) == 2 and parts[0] in ("CAD", "Computing", "Mathematics"):
+        if name == "CAD-Visual-Arts-Lessons-B7-B9.pdf":
+            return pathlib.Path("05-CAD-Lessons/Visual-Arts") / name
+        return pathlib.Path("01-Lesson-Plans-and-Trackers") / name
+    if parts[:2] == ("curriculum", "Upper-Primary"):
+        return pathlib.Path("02-Curriculum-NaCCA/Upper-Primary-Maths") / name
+    if parts[:2] == ("curriculum", "JHS-B7-B9"):
+        return pathlib.Path("02-Curriculum-NaCCA/JHS-B7-B9") / name
     if parts[:3] == ("BECE_MOCK_PAPERS", "data", "curriculum"):
         return pathlib.Path("02-Curriculum-NaCCA/JHS-B7-B9") / name
-    if parts == ("Grade9-Computing", "Grade9-Computing.pdf"):
-        return pathlib.Path("02-Curriculum-NaCCA/JHS-B7-B9/Grade9-Computing-Curriculum.pdf")
-    if parts == ("Grade9-Maths", "Grade9-Mathematics.pdf"):
-        return pathlib.Path("02-Curriculum-NaCCA/JHS-B7-B9/Grade9-Mathematics-Curriculum.pdf")
-    if parts[:2] == ("curriculum", "CCP-JHS"):
-        return None
-    if parts[0] == "Grade7-Maths":
-        return pathlib.Path("03-Mathematics-Lessons/Grade7") / parts[2] / name
-    if parts[0] == "Grade9-Maths":
-        return pathlib.Path("03-Mathematics-Lessons/Grade9") / parts[1] / parts[2] / name
-    if parts[0] == "Grade7-Computing":
-        return pathlib.Path("04-Computing-Lessons/Grade7") / name
-    if parts[0] == "Grade9-Computing":
-        return pathlib.Path("04-Computing-Lessons/Grade9") / name
-    if parts[:2] == ("curriculum", "Grade7-CAD"):
-        return pathlib.Path("05-CAD-Lessons/Grade7-Visual-Arts") / name
-    if parts[0] in ("Grade8-CAD", "Grade9-CAD"):
-        return pathlib.Path(f"05-CAD-Lessons/{parts[0].replace('-CAD', '')}-Visual-Arts") / name
+    if parts[0] == "Upper-Primary" and "Lessons" in parts:
+        return pathlib.Path("03-Mathematics-Lessons/Upper-Primary") / parts[1] / name
+    if parts[0] == "Mathematics" and len(parts) >= 5:
+        # Mathematics/<Strand>/Grade<7|8|9>/<Substrand>/<Lesson>/<file>.pdf
+        strand, grade, substrand = parts[1], parts[2], parts[3]
+        return pathlib.Path("03-Mathematics-Lessons") / strand / grade / substrand / name
+    if parts[0] == "Computing" and len(parts) >= 4:
+        # Computing/<Strand>/Grade<7|8|9>/<Lesson>/<file>.pdf
+        strand, grade = parts[1], parts[2]
+        return pathlib.Path("04-Computing-Lessons") / strand / grade / name
+    if parts[0] == "CAD" and len(parts) >= 4:
+        # CAD/<Section>/Grade<7|8|9>/<Lesson>/<file>.pdf
+        section, grade = parts[1], parts[2]
+        return pathlib.Path("05-CAD-Lessons") / section / grade / name
     if parts[:3] == ("BECE_MOCK_PAPERS", "data", "sample_mock_paper"):
         return pathlib.Path("06-BECE-and-Mock-Exams/Staralex-Sample-Mock") / name
     if parts[:3] == ("BECE_MOCK_PAPERS", "data", "harvested"):

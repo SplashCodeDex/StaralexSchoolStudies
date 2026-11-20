@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/number_system_hierarchy.tex`  
-**Output:** `Grade9-Maths/.../Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/number_system_hierarchy.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/number_system_hierarchy.png`
 
 ## Build
 ```powershell

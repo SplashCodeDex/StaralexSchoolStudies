@@ -11,8 +11,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 WORKSPACE_DIR = Path(__file__).resolve().parent.parent
-GRADE9_MATHS_DIR = WORKSPACE_DIR.parent / "Grade9-Maths"
-GRADE9_COMP_DIR = WORKSPACE_DIR.parent / "Grade9-Computing"
+MATHS_DIR = WORKSPACE_DIR.parent / "Mathematics"
+COMP_DIR = WORKSPACE_DIR.parent / "Computing"
 
 
 # Core Taxonomy Structure: Strands, Substrands, and Indicators
@@ -688,7 +688,7 @@ CURRICULUM_DATA: List[Dict[str, Any]] = [
 
 
 def extract_b9_maths_from_tracker(tracker_path: Path) -> List[Dict[str, Any]]:
-    """Extracts all B9 Mathematics indicators, standards, and topics from Grade9-Maths/LESSON_TRACKER.md."""
+    """Extracts all B9 Mathematics indicators, standards, and topics from Mathematics/trackers/Grade9-Lesson-Tracker.md."""
     if not tracker_path.exists():
         return []
 
@@ -788,7 +788,7 @@ def extract_b9_maths_from_tracker(tracker_path: Path) -> List[Dict[str, Any]]:
 
 
 def extract_b9_computing_from_tracker(tracker_path: Path) -> List[Dict[str, Any]]:
-    """Extracts all B9 Computing indicators, strands, and topics from Grade9-Computing/Curriculum_Tracker.md."""
+    """Extracts all B9 Computing indicators, strands, and topics from Computing/trackers/Grade9-Curriculum-Tracker.md."""
     if not tracker_path.exists():
         return []
 
@@ -883,12 +883,12 @@ def build_full_curriculum_taxonomy() -> List[Dict[str, Any]]:
     all_indicators = list(CURRICULUM_DATA)
 
     # Enrich from Grade 9 Maths tracker
-    math_tracker = GRADE9_MATHS_DIR / "LESSON_TRACKER.md"
+    math_tracker = MATHS_DIR / "trackers" / "Grade9-Lesson-Tracker.md"
     b9_math = extract_b9_maths_from_tracker(math_tracker)
     all_indicators.extend(b9_math)
 
     # Enrich from Grade 9 Computing tracker
-    comp_tracker = GRADE9_COMP_DIR / "Curriculum_Tracker.md"
+    comp_tracker = COMP_DIR / "trackers" / "Grade9-Curriculum-Tracker.md"
     b9_comp = extract_b9_computing_from_tracker(comp_tracker)
     all_indicators.extend(b9_comp)
 

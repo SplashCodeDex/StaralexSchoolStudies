@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/triangle_exterior_angle_diagram.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Polygons-And-Angle-Properties/diagrams/triangle_exterior_angle_diagram.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Polygons-And-Angle-Properties/diagrams/triangle_exterior_angle_diagram.png`
 
 ## Build
 ```powershell

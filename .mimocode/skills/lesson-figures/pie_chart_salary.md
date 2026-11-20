@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/pie_chart_salary.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Data-Statistics-And-Representations/diagrams/pie_chart_salary.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Data-Statistics-And-Representations/diagrams/pie_chart_salary.png`
 
 ## Build
 ```powershell

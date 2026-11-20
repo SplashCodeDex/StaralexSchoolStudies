@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/place_value_chart.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Place-Value-And-Standard-Form/diagrams/place_value_chart.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Place-Value-And-Standard-Form/diagrams/place_value_chart.png`
 
 ## Build
 ```powershell

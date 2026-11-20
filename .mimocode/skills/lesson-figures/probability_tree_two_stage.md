@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/probability_tree_two_stage.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Probability/diagrams/probability_tree_two_stage.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Probability/diagrams/probability_tree_two_stage.png`
 
 ## Build
 ```powershell

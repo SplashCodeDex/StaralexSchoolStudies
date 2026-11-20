@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/vector_triangle_law.tex`  
-**Output:** `Grade9-Maths/.../Lesson-02-Vectors/diagrams/vector_triangle_law.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-02-Vectors/diagrams/vector_triangle_law.png`
 
 ## Build
 ```powershell

@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/algebra_length_from_diagram.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_length_from_diagram.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_length_from_diagram.png`
 
 ## Build
 ```powershell

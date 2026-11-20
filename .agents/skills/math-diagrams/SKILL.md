@@ -72,7 +72,7 @@ Requirements already on this machine: MiKTeX (`pdflatex`), Python with
    {
      "id": "<id>",
      "tex": "templates/<id>.tex",
-     "out": "Grade9-Maths/.../Lesson-.../diagrams/<id>.png",
+     "out": "Mathematics (Grade 9)/.../Lesson-.../diagrams/<id>.png",
      "caption": "Figure description used in the lesson",
      "lesson": "path without /diagrams"
    }
@@ -234,6 +234,6 @@ Update `catalog.json` so `build.py --check` keeps figures in sync with sources.
 
 ## Related rules
 
-- `Grade9-Maths/Rules.md` — M1 notation (LaTeX maths), M2 contextual figures,
+- `Mathematics/Rules.md` — M1 notation (LaTeX maths), M2 contextual figures,
   M3 BECE-shaped drills.
 - `RULES-BECE-PATTERN.md` — figure standards for all subjects.

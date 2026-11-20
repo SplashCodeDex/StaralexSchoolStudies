@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/scale_drawing_20m_10cm.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/scale_drawing_20m_10cm.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Measurement-Circles-And-Scale/diagrams/scale_drawing_20m_10cm.png`
 
 ## Build
 ```powershell

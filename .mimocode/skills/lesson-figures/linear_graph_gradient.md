@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/linear_graph_gradient.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Linear-Relations-And-Gradient/diagrams/linear_graph_gradient.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Linear-Relations-And-Gradient/diagrams/linear_graph_gradient.png`
 
 ## Build
 ```powershell

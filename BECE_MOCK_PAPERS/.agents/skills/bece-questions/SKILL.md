@@ -1,6 +1,6 @@
 ---
 name: bece-questions
-description: Run the Staralex teaching loop as any agent — follow the learning roadmap, teach a topic, pull every BECE/Mock question for that topic, top up to the exercise quota with generated questions and worked answers, or teach only topics that already have bank questions. Use whenever the user says continue the roadmap / teach me / set questions / practice / revision, or when preparing a lesson in Grade9-Maths, Grade9-Computing, Grade9-CAD, or BECE_MOCK_PAPERS.
+description: Run the Staralex teaching loop as any agent — follow the learning roadmap, teach a topic, pull every BECE/Mock question for that topic, top up to the exercise quota with generated questions and worked answers, or teach only topics that already have bank questions. Use whenever the user says continue the roadmap / teach me / set questions / practice / revision, or when preparing a lesson in Mathematics, Computing, CAD, or BECE_MOCK_PAPERS.
 ---
 
 # Teaching Loop — Roadmap + BECE Question Bank
@@ -22,9 +22,9 @@ You are the tutor agent. The user spins you up and expects this loop to run with
 ### Mode A — `continue our roadmap` / `continue` / next lesson
 
 1. **Read the tracker** in the active learning repo:
-   - `Grade9-Maths/LESSON_TRACKER.md`
-   - `Grade9-Computing/Curriculum_Tracker.md`
-   - `Grade9-CAD` tracker if present
+   - `Mathematics/Mathematics-Lesson-Tracker-B7-B9.md` (plus `Mathematics/trackers/Grade{7,9}-Lesson-Tracker.md`)
+   - `Computing/Computing-Lesson-Tracker-B7-B9.md` (plus `Computing/trackers/Grade{7,8,9}-Curriculum-Tracker.md`)
+   - `CAD/CAD-Lesson-Tracker-B7-B9.md` (plus `CAD/trackers/Grade{7,8,9}-Lesson-Tracker.md`)
 2. Find the **first** entry with `Status: [ ] Not Started` (or equivalent empty checkbox). That is today’s topic. Note its **Content Standard** and **Indicator codes**.
 3. **Check the bank before teaching:**
    ```powershell

@@ -92,4 +92,4 @@ python tools/math-diagrams/build.py --only number_line_double_inequality_1_5
 
 - Skill copy: `.mimocode/skills/lesson-figures/SKILL.md` (this file).
 - PDF builder: `tools/build_lesson_pdf.py --strict` fails on tofu glyphs.
-- Lesson rules: `RULES-BECE-PATTERN.md` §4, `Grade9-Maths/Rules.md` M2.
+- Lesson rules: `RULES-BECE-PATTERN.md` §4, `Mathematics/Rules.md` M2.

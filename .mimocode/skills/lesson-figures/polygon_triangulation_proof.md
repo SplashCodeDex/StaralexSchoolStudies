@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/polygon_triangulation_proof.tex`  
-**Output:** `Grade9-Maths/.../Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_triangulation_proof.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_triangulation_proof.png`
 
 ## Build
 ```powershell

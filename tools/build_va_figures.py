@@ -3,8 +3,8 @@ from PIL import Image, ImageDraw, ImageFont
 import math
 from pathlib import Path
 
-OUT = Path(r"W:\StaralexSchoolStudies\va-figures")
-OUT.mkdir(exist_ok=True)
+OUT = Path(__file__).resolve().parent.parent / "CAD" / "va-figures"
+OUT.mkdir(parents=True, exist_ok=True)
 
 FONT = ImageFont.truetype(r"C:\Windows\Fonts\segoeui.ttf", 26)
 FONT_S = ImageFont.truetype(r"C:\Windows\Fonts\segoeui.ttf", 20)

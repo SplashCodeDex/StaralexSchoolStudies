@@ -3,212 +3,212 @@
     {
       "id": "number_line_x_gt_4",
       "tex": "templates/number_line_x_gt_4.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_gt_4.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_gt_4.png",
       "caption": "Solution of x > 4 on a number line — open circle at 4, arrow to the right",
-      "lesson": "Grade9-Maths Lesson-01-Equations-And-Inequalities"
+      "lesson": "Mathematics/Grade9 Lesson-01-Equations-And-Inequalities"
     },
     {
       "id": "number_line_x_ge_minus_4_3",
       "tex": "templates/number_line_x_ge_minus_4_3.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_ge_minus_4_3.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_x_ge_minus_4_3.png",
       "caption": "Solution of 6 ≥ 2 − 3x on a number line — solid dot at −4/3, arrow to the right",
-      "lesson": "Grade9-Maths Lesson-01-Equations-And-Inequalities"
+      "lesson": "Mathematics/Grade9 Lesson-01-Equations-And-Inequalities"
     },
     {
       "id": "hexagon_angles_diagram",
       "tex": "templates/hexagon_angles_diagram.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/hexagon_angles_diagram.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/hexagon_angles_diagram.png",
       "caption": "Irregular hexagon with interior angles 120°, (5x−6)°, (4x+14)°, 7x°, (8x−8)°, 6x°",
-      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+      "lesson": "Mathematics/Grade9 Lesson-01-Polygons-And-Angle-Properties"
     },
     {
       "id": "triangle_exterior_angle_diagram",
       "tex": "templates/triangle_exterior_angle_diagram.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/triangle_exterior_angle_diagram.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/triangle_exterior_angle_diagram.png",
       "caption": "Triangle exterior angle theorem — exterior (3x−10)° equals sum of remote interiors 25° and (x+15)°",
-      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+      "lesson": "Mathematics/Grade9 Lesson-01-Polygons-And-Angle-Properties"
     },
     {
       "id": "polygon_exterior_angle_concept",
       "tex": "templates/polygon_exterior_angle_concept.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_exterior_angle_concept.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_exterior_angle_concept.png",
       "caption": "Exterior angle of a polygon formed by extending one side; interior + exterior = 180°",
-      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+      "lesson": "Mathematics/Grade9 Lesson-01-Polygons-And-Angle-Properties"
     },
     {
       "id": "polygon_triangulation_proof",
       "tex": "templates/polygon_triangulation_proof.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_triangulation_proof.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/diagrams/polygon_triangulation_proof.png",
       "caption": "Triangulation from one vertex: (n−3) diagonals create (n−2) triangles",
-      "lesson": "Grade9-Maths Lesson-01-Polygons-And-Angle-Properties"
+      "lesson": "Mathematics/Grade9 Lesson-01-Polygons-And-Angle-Properties"
     },
     {
       "id": "congruent_triangles_schema",
       "tex": "templates/congruent_triangles_schema.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/congruent_triangles_schema.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/congruent_triangles_schema.png",
       "caption": "Congruent triangles △ABC ≅ △DEF with equal corresponding sides and angles",
-      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+      "lesson": "Mathematics/Grade9 Lesson-02-Congruence-And-Similarity"
     },
     {
       "id": "similar_triangles_schema",
       "tex": "templates/similar_triangles_schema.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similar_triangles_schema.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similar_triangles_schema.png",
       "caption": "Similar triangles via parallel intercept — △PST ∼ △PQR with ST ∥ QR",
-      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+      "lesson": "Mathematics/Grade9 Lesson-02-Congruence-And-Similarity"
     },
     {
       "id": "similarity_compound_shape_diagram",
       "tex": "templates/similarity_compound_shape_diagram.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similarity_compound_shape_diagram.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/diagrams/similarity_compound_shape_diagram.png",
       "caption": "Similar trapezoids PQRS and WXYZ with linear scale factor k = 1.5",
-      "lesson": "Grade9-Maths Lesson-02-Congruence-And-Similarity"
+      "lesson": "Mathematics/Grade9 Lesson-02-Congruence-And-Similarity"
     },
     {
       "id": "parallel_lines_alternate_mon_pmo",
       "tex": "templates/parallel_lines_alternate_mon_pmo.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_alternate_mon_pmo.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_alternate_mon_pmo.png",
       "caption": "Alternate angles in the Z-configuration — ∠PMO and ∠MON",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
     },
     {
       "id": "parallel_lines_find_mon_57_105",
       "tex": "templates/parallel_lines_find_mon_57_105.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_find_mon_57_105.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_find_mon_57_105.png",
       "caption": "Find ∠MON from the given 57° and 105°",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
     },
     {
       "id": "isosceles_triangle_xyz_42",
       "tex": "templates/isosceles_triangle_xyz_42.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/isosceles_triangle_xyz_42.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/isosceles_triangle_xyz_42.png",
       "caption": "Isosceles △XYZ with XY=YZ and vertex angle 42°",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
     },
     {
       "id": "right_triangle_qpr_6_8",
       "tex": "templates/right_triangle_qpr_6_8.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/right_triangle_qpr_6_8.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/right_triangle_qpr_6_8.png",
       "caption": "Right triangle QPR with QR=6 cm, PR=8 cm, θ at Q",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry"
     },
     {
       "id": "venn_2set",
       "tex": "templates/venn_2set.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_2set.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_2set.png",
       "caption": "Two-set Venn diagram in universal set U",
-      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+      "lesson": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
     },
     {
       "id": "venn_3set",
       "tex": "templates/venn_3set.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_3set.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/venn_3set.png",
       "caption": "Three-set Venn diagram (fill from the centre outwards)",
-      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+      "lesson": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
     },
     {
       "id": "number_system_hierarchy",
       "tex": "templates/number_system_hierarchy.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/number_system_hierarchy.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/diagrams/number_system_hierarchy.png",
       "caption": "Real number system hierarchy N ⊂ W ⊂ Z ⊂ Q ⊂ R",
-      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
+      "lesson": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams"
     },
     {
       "id": "place_value_chart",
       "tex": "templates/place_value_chart.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/diagrams/place_value_chart.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/diagrams/place_value_chart.png",
       "caption": "Place-value chart for a large number",
-      "lesson": "Grade9-Maths/Strand-1-Number/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form"
+      "lesson": "Mathematics/Strand-1-Number/Grade9/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form"
     },
     {
       "id": "circle_radius_diameter",
       "tex": "templates/circle_radius_diameter.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/circle_radius_diameter.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/circle_radius_diameter.png",
       "caption": "Circle with centre O, radius r and diameter d",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
     },
     {
       "id": "semicircle_r7",
       "tex": "templates/semicircle_r7.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/semicircle_r7.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/semicircle_r7.png",
       "caption": "Semicircle with radius 7 cm",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
     },
     {
       "id": "scale_drawing_20m_10cm",
       "tex": "templates/scale_drawing_20m_10cm.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/scale_drawing_20m_10cm.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/diagrams/scale_drawing_20m_10cm.png",
       "caption": "Scale drawing: 20 m hall drawn as 10 cm",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale"
     },
     {
       "id": "vector_position_op",
       "tex": "templates/vector_position_op.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_position_op.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_position_op.png",
       "caption": "Position vector OP of P(4,3)",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
     },
     {
       "id": "vector_triangle_law",
       "tex": "templates/vector_triangle_law.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_triangle_law.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_triangle_law.png",
       "caption": "Triangle law of vector addition",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
     },
     {
       "id": "vector_parallelogram_law",
       "tex": "templates/vector_parallelogram_law.tex",
-      "out": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_parallelogram_law.png",
+      "out": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/diagrams/vector_parallelogram_law.png",
       "caption": "Parallelogram law of vector addition",
-      "lesson": "Grade9-Maths/Strand-3-Geometry-And-Measurement/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
+      "lesson": "Mathematics/Strand-3-Geometry-And-Measurement/Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors"
     },
     {
       "id": "linear_graph_gradient",
       "tex": "templates/linear_graph_gradient.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient/diagrams/linear_graph_gradient.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient/diagrams/linear_graph_gradient.png",
       "caption": "Gradient as rise/run on Cartesian axes",
-      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient"
+      "lesson": "Mathematics/Strand-2-Algebra/Grade9/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient"
     },
     {
       "id": "algebra_shaded_region",
       "tex": "templates/algebra_shaded_region.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_shaded_region.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_shaded_region.png",
       "caption": "Shaded region between outer and inner rectangles",
-      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
+      "lesson": "Mathematics/Strand-2-Algebra/Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
     },
     {
       "id": "algebra_length_from_diagram",
       "tex": "templates/algebra_length_from_diagram.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_length_from_diagram.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/diagrams/algebra_length_from_diagram.png",
       "caption": "Rectangle length 9.7 split into 2.1 + x + 3.4",
-      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
+      "lesson": "Mathematics/Strand-2-Algebra/Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling"
     },
     {
       "id": "number_line_double_inequality_1_5",
       "tex": "templates/number_line_double_inequality_1_5.tex",
-      "out": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_double_inequality_1_5.png",
+      "out": "Mathematics/Strand-2-Algebra/Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/diagrams/number_line_double_inequality_1_5.png",
       "caption": "Solution of 1 < x ≤ 5 on a number line",
-      "lesson": "Grade9-Maths/Strand-2-Algebra/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities"
+      "lesson": "Mathematics/Strand-2-Algebra/Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities"
     },
     {
       "id": "pie_chart_salary",
       "tex": "templates/pie_chart_salary.tex",
-      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/pie_chart_salary.png",
+      "out": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/pie_chart_salary.png",
       "caption": "Pie chart of monthly salary spending",
-      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
+      "lesson": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
     },
     {
       "id": "stem_and_leaf_marks",
       "tex": "templates/stem_and_leaf_marks.tex",
-      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/stem_and_leaf_marks.png",
+      "out": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/diagrams/stem_and_leaf_marks.png",
       "caption": "Stem-and-leaf plot of examination marks",
-      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
+      "lesson": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations"
     },
     {
       "id": "probability_tree_two_stage",
       "tex": "templates/probability_tree_two_stage.tex",
-      "out": "Grade9-Maths/Strand-4-Handling-Data/Substrand-2-Chance-And-Probability/Lesson-01-Probability/diagrams/probability_tree_two_stage.png",
+      "out": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-2-Chance-And-Probability/Lesson-01-Probability/diagrams/probability_tree_two_stage.png",
       "caption": "Two-stage probability tree (without replacement)",
-      "lesson": "Grade9-Maths/Strand-4-Handling-Data/Substrand-2-Chance-And-Probability/Lesson-01-Probability"
+      "lesson": "Mathematics/Strand-4-Handling-Data/Grade9/Substrand-2-Chance-And-Probability/Lesson-01-Probability"
     },
     {
       "id": "bece_number_line_x_le_minus_3",
@@ -388,30 +388,30 @@
     {
       "id": "distributive_area_model",
       "tex": "templates/distributive_area_model.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/diagrams/distributive_area_model.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/diagrams/distributive_area_model.png",
       "caption": "The distributive property as one rectangle 7 x (10 + 3) cut into 70 and 21",
-      "lesson": "Grade9-Maths Lesson-02-Number-Properties-And-Operational-Laws"
+      "lesson": "Mathematics/Grade9 Lesson-02-Number-Properties-And-Operational-Laws"
     },
     {
       "id": "surd_number_line_spiral",
       "tex": "templates/surd_number_line_spiral.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_number_line_spiral.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_number_line_spiral.png",
       "caption": "Locating exact surds sqrt(2) and sqrt(5) on a number line using right triangles and compass arcs",
-      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
+      "lesson": "Mathematics/Grade9 Lesson-04-Surds-And-Irrational-Roots"
     },
     {
       "id": "surd_area_simplification_18",
       "tex": "templates/surd_area_simplification_18.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_area_simplification_18.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_area_simplification_18.png",
       "caption": "Geometric area proof showing why sqrt(18) equals 3 sqrt(2)",
-      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
+      "lesson": "Mathematics/Grade9 Lesson-04-Surds-And-Irrational-Roots"
     },
     {
       "id": "surd_bounding_ladder",
       "tex": "templates/surd_bounding_ladder.tex",
-      "out": "Grade9-Maths/Strand-1-Number/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_bounding_ladder.png",
+      "out": "Mathematics/Strand-1-Number/Grade9/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/diagrams/surd_bounding_ladder.png",
       "caption": "Bounding non-perfect square roots sqrt(2), sqrt(5), sqrt(12), and sqrt(30) between consecutive integers",
-      "lesson": "Grade9-Maths Lesson-04-Surds-And-Irrational-Roots"
+      "lesson": "Mathematics/Grade9 Lesson-04-Surds-And-Irrational-Roots"
     }
   ]
 }

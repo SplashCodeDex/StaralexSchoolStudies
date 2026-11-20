@@ -2,7 +2,7 @@
 
 **Status:** PERFECT (2026-10-20)  
 **Source:** `tools/math-diagrams/templates/parallel_lines_alternate_mon_pmo.tex`  
-**Output:** `Grade9-Maths/.../Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_alternate_mon_pmo.png`
+**Output:** `Mathematics (Grade 9)/.../Lesson-03-Angles-Parallel-Lines-And-Trigonometry/diagrams/parallel_lines_alternate_mon_pmo.png`
 
 ## Build
 ```powershell

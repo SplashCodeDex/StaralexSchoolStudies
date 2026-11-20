@@ -1,6 +1,6 @@
 """Cross-Repo BECE Question Bank CLI (`src/bece_cli.py`).
 
-Designed to be invoked by AI tutor agents in `Grade9-Maths` and `Grade9-Computing`
+Designed to be invoked by AI tutor agents in `Mathematics`, `Computing`, and `CAD`
 (or directly from any terminal) with zero background daemon overhead.
 
 Examples:
