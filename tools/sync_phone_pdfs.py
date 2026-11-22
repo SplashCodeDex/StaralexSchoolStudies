@@ -139,12 +139,26 @@ try {
     }
 
 
-def ensure_connected(target: str) -> None:
-    if ":" in target:
-        subprocess.run(["adb", "connect", target], check=True, capture_output=True, text=True)
-    r = subprocess.run(["adb", "-s", target, "get-state"], capture_output=True, text=True)
-    if r.returncode != 0 or r.stdout.strip() != "device":
-        raise RuntimeError(f"ADB target {target} not ready: {r.stderr.strip() or r.stdout.strip()}")
+def ensure_connected(target: str | None) -> str:
+    r_devs = subprocess.run(["adb", "devices"], check=True, capture_output=True, text=True)
+    online = [
+        line.split("\t", 1)[0].strip()
+        for line in r_devs.stdout.splitlines()[1:]
+        if "\tdevice" in line
+    ]
+    if target and target in online:
+        return target
+    if not target and online:
+        return online[0]
+    cand = target or DEFAULT_TARGET
+    if ":" in cand:
+        subprocess.run(["adb", "connect", cand], capture_output=True, text=True, timeout=8)
+    r = subprocess.run(["adb", "-s", cand, "get-state"], capture_output=True, text=True)
+    if r.returncode == 0 and r.stdout.strip() == "device":
+        return cand
+    if online:
+        return online[0]
+    raise RuntimeError(f"ADB target {cand} not ready: {r.stderr.strip() or r.stdout.strip()}")
 
 
 def fetch_phone_hashes(target: str, remote_root: str) -> dict[str, str]:
@@ -160,48 +174,105 @@ def fetch_phone_hashes(target: str, remote_root: str) -> dict[str, str]:
 
 def main() -> None:
     p = argparse.ArgumentParser(description="Sync StaralexSchoolStudies PDFs incrementally over ADB.")
-    p.add_argument("--target", default=DEFAULT_TARGET, help=f"ADB serial or IP:port (default: {DEFAULT_TARGET})")
+    p.add_argument("--target", default=None, help=f"ADB serial or IP:port (auto-detects active device, fallback: {DEFAULT_TARGET})")
     p.add_argument("--remote-root", default=DEFAULT_REMOTE_ROOT, help=f"Remote folder (default: {DEFAULT_REMOTE_ROOT})")
     p.add_argument("--export-mocks", action="store_true", help="Also export and sync the 3 Staralex mock .docx papers via Word")
-    p.add_argument("--dry-run", action="store_true", help="Print pending pushes without modifying the phone")
+    p.add_argument("--no-prune", action="store_true", help="Do not delete stale remote files or empty directories")
+    p.add_argument("--dry-run", action="store_true", help="Print pending relocations, pushes, and prunes without modifying the phone")
     args = p.parse_args()
 
     manifest = build_manifest(REPO_ROOT, args.remote_root)
+    preserved_mocks = {
+        f"{args.remote_root.rstrip('/')}/06-BECE-and-Mock-Exams/Staralex-Sample-Mock/{pathlib.Path(s).stem}.pdf"
+        for s in MOCK_DOCX_SOURCES
+    }
 
     with tempfile.TemporaryDirectory(prefix="staralex_mocks_") as tmp:
         if args.export_mocks:
             manifest.update(export_mocks_via_word(REPO_ROOT, pathlib.Path(tmp), args.remote_root))
 
-        ensure_connected(args.target)
-        phone_hashes = fetch_phone_hashes(args.target, args.remote_root)
+        target = ensure_connected(args.target)
+        phone_hashes = fetch_phone_hashes(target, args.remote_root)
+        hash_to_existing: dict[str, str] = {}
+        for rpath, rhash in phone_hashes.items():
+            hash_to_existing.setdefault(rhash, rpath)
 
+        to_relocate: list[tuple[str, str, str]] = []
         to_push: list[tuple[pathlib.Path, str, str]] = []
         for remote_path, local_path in sorted(manifest.items()):
             local_hash = sha256_file(local_path)
-            if phone_hashes.get(remote_path) != local_hash:
+            if phone_hashes.get(remote_path) == local_hash:
+                continue
+            existing_remote = hash_to_existing.get(local_hash)
+            if existing_remote and existing_remote != remote_path:
+                to_relocate.append((existing_remote, remote_path, local_hash))
+            else:
                 to_push.append((local_path, remote_path, local_hash))
 
-        print(f"Manifest: {len(manifest)} PDFs | Up-to-date: {len(manifest) - len(to_push)} | To push: {len(to_push)}")
-        if args.dry_run or not to_push:
+        allowed_remote = set(manifest.keys()) | preserved_mocks
+        to_prune = [] if args.no_prune else sorted(rp for rp in phone_hashes if rp not in allowed_remote)
+
+        up_to_date = len(manifest) - len(to_relocate) - len(to_push)
+        print(
+            f"Target: {target} | Manifest: {len(manifest)} PDFs | Up-to-date: {up_to_date} | "
+            f"On-device relocate: {len(to_relocate)} | To push: {len(to_push)} | To prune: {len(to_prune)}"
+        )
+        if args.dry_run:
+            for src_rp, dst_rp, _ in to_relocate:
+                print(f"  [RELOCATE] {src_rp} -> {dst_rp}")
             for local_path, remote_path, _ in to_push:
-                print(f"  [PENDING] {local_path} -> {remote_path}")
+                print(f"  [PUSH] {local_path} -> {remote_path}")
+            for rp in to_prune:
+                print(f"  [PRUNE] {rp}")
             return
 
-        dirs = sorted({rp.rsplit("/", 1)[0] for _, rp, _ in to_push})
-        subprocess.run(["adb", "-s", args.target, "shell", "mkdir -p " + " ".join(shlex.quote(d) for d in dirs)], check=True)
+        all_target_dirs = sorted(
+            {rp.rsplit("/", 1)[0] for _, rp, _ in to_relocate}
+            | {rp.rsplit("/", 1)[0] for _, rp, _ in to_push}
+        )
+        if all_target_dirs:
+            subprocess.run(
+                ["adb", "-s", target, "shell", "mkdir -p " + " ".join(shlex.quote(d) for d in all_target_dirs)],
+                check=True,
+            )
+
+        if to_relocate:
+            cp_cmds = " && ".join(f"cp -f {shlex.quote(src)} {shlex.quote(dst)}" for src, dst, _ in to_relocate)
+            subprocess.run(["adb", "-s", target, "shell", cp_cmds], check=True)
+            for _, dst_rp, _ in to_relocate:
+                print(f"  [RELOCATED] {dst_rp}")
 
         for local_path, remote_path, _ in to_push:
             rel_arg = os.path.relpath(local_path, REPO_ROOT) if local_path.is_relative_to(REPO_ROOT) else str(local_path)
-            r = subprocess.run(["adb", "-s", args.target, "push", rel_arg, remote_path], cwd=REPO_ROOT, capture_output=True, text=True)
+            r = subprocess.run(["adb", "-s", target, "push", rel_arg, remote_path], cwd=REPO_ROOT, capture_output=True, text=True)
             if r.returncode != 0:
                 raise RuntimeError(f"Push failed for {local_path}: {r.stderr.strip() or r.stdout.strip()}")
             print(f"  [PUSHED] {remote_path}")
 
-        updated_hashes = fetch_phone_hashes(args.target, args.remote_root)
-        mismatched = [rp for _, rp, lh in to_push if updated_hashes.get(rp) != lh]
-        if mismatched:
-            raise RuntimeError(f"Checksum mismatch after push: {mismatched}")
-        print(f"Verified {len(to_push)} pushed file(s) by SHA-256.")
+        if to_prune:
+            rm_cmd = "rm -f " + " ".join(shlex.quote(rp) for rp in to_prune)
+            subprocess.run(["adb", "-s", target, "shell", rm_cmd], check=True)
+            for rp in to_prune:
+                print(f"  [PRUNED] {rp}")
+
+        # Always sweep empty directories inside remote_root when pruning is enabled
+        if not args.no_prune:
+            empty_cmd = f"find {shlex.quote(args.remote_root)} -depth -type d -empty -delete"
+            subprocess.run(["adb", "-s", target, "shell", empty_cmd], check=True)
+
+        if to_relocate or to_push or to_prune:
+            updated_hashes = fetch_phone_hashes(target, args.remote_root)
+            mismatched = [
+                rp
+                for _, rp, lh in ([(None, d, h) for _, d, h in to_relocate] + to_push)
+                if updated_hashes.get(rp) != lh
+            ]
+            if mismatched:
+                raise RuntimeError(f"Checksum mismatch after sync: {mismatched}")
+            print(
+                f"Verified {len(to_relocate)} relocated + {len(to_push)} pushed file(s) by SHA-256 "
+                f"(pruned {len(to_prune)} stale file(s))."
+            )
 
 
 if __name__ == "__main__":
