@@ -5,7 +5,7 @@ High-performance, production-grade focused crawler and document harvesting archi
 ## Target Curriculum Subjects
 1. **Mathematics** (Core Maths, JHS 1-3, WAEC Past Papers & Mock Exams)
 2. **Computing / ICT** (Information and Communication Technology, New Curriculum Computing, WAEC Sample & Mock Sets)
-3. **CDT / CAD / BDT** (Career Technology, Creative Arts and Design, Craft & Design, Pre-Technical Skills, Home Economics)
+3. **Creative Arts and Design (CAD)** (Visual Arts, Music, Dance & Drama — NaCCA B7–B9 & WAEC BECE)
 
 ---
 
@@ -27,7 +27,7 @@ w:\StaralexSchoolStudies\BECE_MOCK_PAPERS\
 │   │   │   ├── docx/
 │   │   │   ├── doc/
 │   │   │   └── txt/
-│   │   ├── CDT_CAD/
+│   │   ├── CAD/
 │   │   │   ├── pdf/
 │   │   │   ├── docx/
 │   │   │   └── txt/
@@ -91,7 +91,7 @@ python run_harvester.py --mode dork
 # Target a specific subject
 python run_harvester.py --mode dork --subject Computing_ICT
 python run_harvester.py --mode dork --subject Mathematics
-python run_harvester.py --mode dork --subject CDT_CAD
+python run_harvester.py --mode dork --subject CAD
 ```
 
 ### 4. Full Pipeline (Dork Discovery + Deep Crawl)

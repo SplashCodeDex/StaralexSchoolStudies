@@ -30,7 +30,7 @@ def print_banner() -> None:
     banner = """
     +================================================================+
     |       BECE & MOCK EXAMINATION PAPER HARVESTING SYSTEM          |
-    |       Curriculum: Mathematics | Computing/ICT | CDT/CAD        |
+    |       Curriculum: Mathematics | Computing/ICT | CAD            |
     |       Targets: WAEC, GHSyllabus, GhLearner, Passco & Hubs      |
     |       Formats: PDF | DOCX | TXT                                |
     +================================================================+
@@ -119,7 +119,7 @@ async def main() -> None:
     )
     parser.add_argument(
         "--subject",
-        choices=["Mathematics", "Computing_ICT", "CDT_CAD", "all"],
+        choices=["Mathematics", "Computing_ICT", "CAD", "all"],
         default="all",
         help="Filter specific target subject",
     )

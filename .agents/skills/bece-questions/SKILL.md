@@ -28,7 +28,7 @@ You are the tutor agent. The user spins you up and expects this loop to run with
 2. Find the **first** entry with `Status: [ ] Not Started` (or equivalent empty checkbox). That is today’s topic. Note its **Content Standard** and **Indicator codes**.
 3. **Check the bank before teaching:**
    ```powershell
-   .venv\Scripts\python.exe w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/src/bece_cli.py coverage --topic "<substrand title>" --subject <Mathematics|Computing_ICT|CDT_CAD>
+   .venv\Scripts\python.exe w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/src/bece_cli.py coverage --topic "<substrand title>" --subject <Mathematics|Computing_ICT|CAD>
    ```
    Use the official substrand name (e.g. `Algebraic Expressions`, `INTRODUCTION TO PRESENTATION SOFTWARE`).
 4. **Teach** the Core Topics from the tracker: preambles first, then concept, then worked examples, then diagrams where they help.

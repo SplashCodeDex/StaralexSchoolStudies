@@ -1,4 +1,4 @@
-# Creative Arts and Design (CAD / CDT) — Subject Rules (Grades 7–9)
+# Creative Arts and Design (CAD) — Subject Rules (Grades 7–9)
 
 **Master Plan & Tracker:** [`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md) · [`CAD-Lesson-Tracker-B7-B9.md`](CAD-Lesson-Tracker-B7-B9.md)  
 **Source of truth:** [`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md) (rendered PDF alongside it) — the three-group NaCCA plan: **Visual Arts** (incl. Design), **Music**, **Dance Drama**.  

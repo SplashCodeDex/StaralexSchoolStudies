@@ -1,8 +1,8 @@
 # BECE / Mock / Exam Lesson Pattern Rules
-## Non-mathematical subjects (Computing / ICT, CDT / CAD / Creative Arts and Design)
+## Non-mathematical subjects (Computing / ICT, CAD / Creative Arts and Design)
 
 **Scope:** every grade and every subject that is **not** Mathematics (JHS 1–3 / B7–B9).  
-**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (587 Computing_ICT + 667 CDT_CAD questions, plus marking schemes) and, per subject: the official NaCCA CCP PDFs for Computing; **[`CAD/CAD-Lesson-Plan-B7-B9.md`](CAD/CAD-Lesson-Plan-B7-B9.md)** for Creative Arts & Design (the NaCCA CAD curriculum files were purged — the plan, grouped as Visual Arts incl. Design, Music, Dance Drama, is authoritative).
+**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (1,276 Computing_ICT + 930 CAD canonical questions, plus marking schemes) and, per subject: the official NaCCA CCP PDFs for Computing; **[`CAD/CAD-Lesson-Plan-B7-B9.md`](CAD/CAD-Lesson-Plan-B7-B9.md)** for Creative Arts & Design (the NaCCA CAD curriculum files were purged — the plan, grouped as Visual Arts incl. Design, Music, Dance Drama, is authoritative).
 
 Subject folders keep their own short `Rules.md` that **links here** and adds only subject-specific notes. Do not duplicate this file.
 
@@ -194,7 +194,7 @@ Rules that apply across the blocks:
 Query the bank like this:
 
 ```powershell
-.venv\Scripts\python.exe w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/src/bece_cli.py query --indicator <code> --subject <Computing_ICT|CDT_CAD> --limit 40 --format markdown
+.venv\Scripts\python.exe w:/StaralexSchoolStudies/BECE_MOCK_PAPERS/src/bece_cli.py query --indicator <code> --subject <Computing_ICT|CAD> --limit 40 --format markdown
 ```
 
 Always pass `--subject`. Codes collide across subjects.
@@ -212,7 +212,7 @@ Always pass `--subject`. Codes collide across subjects.
 | Subject | Topics that need a figure |
 | :--- | :--- |
 | Computing | computer components & ports; input/output/storage device identification; workstation & posture; network topologies; labelled hardware in "identify the parts" questions |
-| CAD / CDT | elements of design (dots/lines/shapes); colour wheel; shading on a form; joints & tools (lap joint, tenon, saws); orthographic/isometric sketches; design-process diagrams |
+| CAD | elements of design (dots/lines/shapes); colour wheel; shading on a form; joints & tools (lap joint, tenon, saws); orthographic/isometric sketches; design-process diagrams |
 | Any | any question the bank phrases as *the figure below shows…*, *the sketch shown above is a…*, *labelled A, B, C, D* |
 
 ### 4.2 How to draw them

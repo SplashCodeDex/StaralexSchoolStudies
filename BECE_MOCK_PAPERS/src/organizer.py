@@ -12,7 +12,7 @@ def reclassify_and_reorganize() -> int:
     """
     Scans files across HARVESTED_DIR, inspects their text content
     using PyMuPDF / python-docx, and places any detected Mathematics, Computing,
-    CDT/CAD, or non-target subjects into their proper directory while updating the database.
+    CAD, or non-target subjects into their proper directory while updating the database.
     """
     db = CatalogDatabase()
     if not HARVESTED_DIR.exists():

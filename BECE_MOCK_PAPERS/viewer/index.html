@@ -175,7 +175,7 @@
         }
         .badge-Mathematics { background: var(--tag-math); color: var(--tag-math-text); }
         .badge-Computing_ICT { background: var(--tag-comp); color: var(--tag-comp-text); }
-        .badge-CDT_CAD { background: var(--tag-cdt); color: var(--tag-cdt-text); }
+        .badge-CAD, .badge-CDT_CAD { background: var(--tag-cdt); color: var(--tag-cdt-text); }
         .badge-General_Unclassified { background: var(--tag-gen); color: var(--tag-gen-text); }
 
         .format-badge {
@@ -268,7 +268,7 @@
         <header>
             <div>
                 <h1>BECE & Mock Examination Portal</h1>
-                <div class="subtitle">Complete Library & CBT Question Bank for Mathematics, Computing/ICT, and CDT/CAD</div>
+                <div class="subtitle">Complete Library & CBT Question Bank for Mathematics, Computing/ICT, and Creative Arts &amp; Design (CAD)</div>
             </div>
         </header>
 
@@ -291,8 +291,8 @@
                 <div class="stat-label">Computing / ICT Papers</div>
             </div>
             <div class="stat-card">
-                <div class="stat-value" id="statCDT">26</div>
-                <div class="stat-label">CDT / CAD Papers</div>
+                <div class="stat-value" id="statCDT">13</div>
+                <div class="stat-label">CAD Papers</div>
             </div>
             <div class="stat-card">
                 <div class="stat-value" id="statQuestions">886</div>
@@ -308,7 +308,7 @@
                 <button class="pill-btn active" onclick="setSubject('ALL', event)">All Subjects</button>
                 <button class="pill-btn" onclick="setSubject('Mathematics', event)">Mathematics</button>
                 <button class="pill-btn" onclick="setSubject('Computing_ICT', event)">Computing/ICT</button>
-                <button class="pill-btn" onclick="setSubject('CDT_CAD', event)">CDT / CAD</button>
+                <button class="pill-btn" onclick="setSubject('CAD', event)">CAD</button>
             </div>
             <div class="filter-group" id="paperTypeFilters" style="margin-top: 10px;">
                 <button class="pill-btn active" onclick="setPaperType('ALL', event)">All Papers</button>
@@ -349,7 +349,7 @@
                     document.getElementById('tabLibBtn').textContent = `Resource Library (${papersData.length} Papers & Schemes)`;
                     document.getElementById('statMaths').textContent = papersData.filter(p => p.subject === 'Mathematics').length;
                     document.getElementById('statComp').textContent = papersData.filter(p => p.subject === 'Computing_ICT').length;
-                    document.getElementById('statCDT').textContent = papersData.filter(p => p.subject === 'CDT_CAD').length;
+                    document.getElementById('statCDT').textContent = papersData.filter(p => p.subject === 'CAD').length;
                 }
             } catch(e) {
                 console.error("Could not load catalog.json", e);

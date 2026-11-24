@@ -1,8 +1,8 @@
 """One-shot harvest session runner (dork discovery -> sitemap harvest -> report).
 
-Focuses on the knowlede gaps flagged by the tutor loop:
+Focuses on the knowledge gaps flagged by the tutor loop:
   * Computing/ICT: real BECE 2023-2025 papers, 2026 school mocks & marking schemes
-  * CDT/CAD (Career Technology / Creative Arts & Design, Pre-Technical Skills):
+  * CAD (Creative Arts & Design):
     anything after 2022, 2026 mocks
   * General mock papers (classified in queue)
 
@@ -52,12 +52,11 @@ SESSION_QUERIES = [
     'filetype:pdf "2026" BECE "marking scheme" ("computing" OR "ICT")',
     'filetype:pdf "2026 mock" ("computing" OR "ICT") ghana junior high',
     'filetype:pdf ("computing" OR "ICT") "mock 1" OR "mock 2" "2026" BECE ghana',
-    # CDT / CAD / Pre-tech / Career Technology after 2022 + 2026 season
-    'filetype:pdf "BECE" "pre-technical skills" OR "pre technical" past questions',
-    'filetype:pdf "BECE" "career technology" mock 2020 OR 2021 OR 2022 OR 2023 OR 2024',
-    'filetype:pdf "BECE" "2026" ("career technology" OR "pre-technical" OR "CAD") mock questions',
-    'filetype:pdf "2026 mock" ("career technology" OR "creative arts and design") ghana',
-    'filetype:pdf "home economics" "BECE" past questions ghana',
+    # CAD (Creative Arts & Design) 2024-2026 season
+    'filetype:pdf "BECE" "creative arts and design" past questions OR mock 2024 OR 2025 OR 2026',
+    'filetype:pdf "BECE" "2026" ("creative arts and design" OR "creative arts" OR "CAD") mock questions',
+    'filetype:pdf "2026 mock" "creative arts and design" ghana',
+    'filetype:pdf "BECE" "creative arts" ("visual arts" OR "music" OR "dance") ghana',
     'filetype:pdf "BECE" "creative arts" mock questions ghana',
     # Generic 2026 mock season sweep (classifier will auto-sort subjects)
     'filetype:pdf "BECE" "first mock" OR "second mock" OR "third mock" 2026',
