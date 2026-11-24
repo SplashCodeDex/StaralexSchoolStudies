@@ -459,23 +459,37 @@
             });
 
             container.innerHTML = filtered.map(p => {
-                const kb = Math.round(p.file_size / 1024);
-                const relPath = '../data/harvested/' + p.subject + '/' + p.file_type + '/' + p.file_name;
+                const cleanType = (p.file_type || '').trim().toLowerCase().replace(/^\.+/, '');
+                const isUserPhotos = cleanType === 'image' || p.source_domain === 'local://user-supplied';
+                const kb = Math.round((p.file_size || 0) / 1024);
+                let relPath = '../data/harvested/' + p.subject + '/' + cleanType + '/' + p.file_name;
+                if (p.local_path) {
+                    const normPath = p.local_path.replace(/\\/g, '/');
+                    const marker = '/data/harvested/';
+                    const idx = normPath.toLowerCase().indexOf(marker);
+                    if (idx !== -1) {
+                        relPath = '../data/harvested/' + normPath.slice(idx + marker.length);
+                    }
+                }
                 const isScheme = p.is_marking_scheme === 1 || p.file_name.toLowerCase().includes('scheme') || p.file_name.toLowerCase().includes('marking');
+                const sizeLabel = isUserPhotos ? 'Transcribed Photos' : `${kb} KB`;
+                const actionHtml = isUserPhotos
+                    ? `<button type="button" onclick="switchView('cbt')" class="btn-download" style="border:none;cursor:pointer;font-family:inherit;">Open in Question Bank</button>`
+                    : `<a href="${relPath}" target="_blank" class="btn-download" style="${isScheme ? 'background:#16a34a;' : ''}">${isScheme ? 'View Scheme / Key' : 'Open / Download'}</a>`;
                 return `
                 <div class="paper-card">
                     <div>
                         <div class="card-top">
                             <span class="subject-badge badge-${p.subject}">${p.subject.replace('_', ' ')}</span>
-                            <span class="format-badge">${p.file_type}</span>
+                            <span class="format-badge">${cleanType}</span>
                             ${isScheme ? '<span style="font-size:11px;font-weight:700;padding:2px 6px;border-radius:4px;background:#dcfce7;color:#166534;margin-left:auto;">Marking Scheme</span>' : ''}
                         </div>
                         <div class="paper-title">${p.file_name}</div>
-                        <div class="paper-meta">${kb} KB &bull; Source: ${p.source_domain || 'WAEC / GES Hub'}</div>
+                        <div class="paper-meta">${sizeLabel} &bull; Source: ${p.source_domain || 'WAEC / GES Hub'}</div>
                     </div>
                     <div class="card-bottom">
                         <span style="font-size:12px;color:var(--text-muted);">${p.created_at ? p.created_at.split('T')[0] : ''}</span>
-                        <a href="${relPath}" target="_blank" class="btn-download" style="${isScheme ? 'background:#16a34a;' : ''}">${isScheme ? 'View Scheme / Key' : 'Open / Download'}</a>
+                        ${actionHtml}
                     </div>
                 </div>`;
             }).join('');

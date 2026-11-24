@@ -68,4 +68,51 @@ def test_export_catalog_json(temp_db, tmp_path):
     records = temp_db.export_catalog_json(export_path=json_path)
     assert len(records) == 1
     assert records[0]["subject"] == "Computing_ICT"
+    assert records[0]["file_type"] == "docx"
+    assert records[0]["is_marking_scheme"] == 0
     assert json_path.exists()
+
+
+def test_file_type_normalization_on_insert_and_startup_migration(tmp_path):
+    import sqlite3
+
+    db_file = tmp_path / "legacy_ft.db"
+    db = CatalogDatabase(db_path=db_file)
+
+    db.save_harvested_file(
+        sha256="1" * 64,
+        original_url="https://example.com/a.pdf",
+        file_name="CAD_Mock.pdf",
+        file_type=" ..PDF ",
+        subject="CAD",
+        file_size=512,
+        local_path="/tmp/CAD_Mock.pdf",
+        source_domain="example.com",
+    )
+    db.record_rejected_content(
+        sha256="2" * 64,
+        reason="not_exam_paper",
+        original_url="https://example.com/notes.txt",
+        file_name="notes.txt",
+        file_type=".TXT",
+    )
+    assert db.get_stats()["file_types"] == {"pdf": 1}
+    assert db.list_rejected_content()[0]["file_type"] == "txt"
+
+    # Simulate an ad-hoc raw SQL insert with a leading dot, then re-open CatalogDatabase
+    with sqlite3.connect(str(db_file)) as conn:
+        conn.execute(
+            "INSERT INTO harvested_files "
+            "(sha256, original_url, file_name, file_type, subject, file_size, local_path, source_domain) "
+            "VALUES (?, 'local://cad', 'raw.pdf', '.pdf', 'CAD', 100, '/tmp/raw.pdf', 'local');"
+            ,
+            ("3" * 64,),
+        )
+        conn.execute(
+            "UPDATE rejected_content SET file_type = '.txt' WHERE sha256 = ?;",
+            ("2" * 64,),
+        )
+
+    reopened = CatalogDatabase(db_path=db_file)
+    assert reopened.get_stats()["file_types"] == {"pdf": 2}
+    assert reopened.list_rejected_content()[0]["file_type"] == "txt"

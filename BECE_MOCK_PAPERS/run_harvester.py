@@ -53,7 +53,10 @@ def display_stats(db: CatalogDatabase) -> None:
     table.add_row("By Subject", "\n".join(subj_lines) if subj_lines else "None")
 
     # Format breakdown
-    type_lines = [f".{k}: {v}" for k, v in stats["file_types"].items()]
+    type_lines = [
+        f"{k}: {v}" if k == "image" else f".{k.lstrip('.')}: {v}"
+        for k, v in stats["file_types"].items()
+    ]
     table.add_row("By Format", "\n".join(type_lines) if type_lines else "None")
 
     console.print(table)

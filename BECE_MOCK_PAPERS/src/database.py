@@ -16,6 +16,11 @@ class CatalogDatabase:
         self._ensure_dir()
         self.init_db()
 
+    @staticmethod
+    def normalize_file_type(file_type: str) -> str:
+        """Canonicalizes file_type by trimming whitespace, lowercasing, and stripping leading dots."""
+        return (file_type or "").strip().lower().lstrip(".")
+
     def _ensure_dir(self) -> None:
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -86,6 +91,15 @@ class CatalogDatabase:
                 "CREATE INDEX IF NOT EXISTS idx_harvested_content_year ON harvested_files(content_year);"
             )
             conn.execute("CREATE INDEX IF NOT EXISTS idx_rejected_reason ON rejected_content(reason);")
+            conn.execute(
+                "UPDATE harvested_files SET file_type = LOWER(LTRIM(TRIM(file_type), '.')) "
+                "WHERE file_type LIKE '.%' OR file_type != LOWER(LTRIM(TRIM(file_type), '.'));"
+            )
+            conn.execute(
+                "UPDATE rejected_content SET file_type = LOWER(LTRIM(TRIM(file_type), '.')) "
+                "WHERE file_type IS NOT NULL "
+                "AND (file_type LIKE '.%' OR file_type != LOWER(LTRIM(TRIM(file_type), '.')));"
+            )
         init_bank_schema(self.db_path)
 
     def is_hash_rejected(self, sha256_hash: str) -> bool:
@@ -122,7 +136,7 @@ class CatalogDatabase:
                         sha256,
                         original_url,
                         file_name,
-                        file_type,
+                        self.normalize_file_type(file_type),
                         reason,
                         details,
                         datetime.now(timezone.utc).isoformat(),
@@ -227,7 +241,7 @@ class CatalogDatabase:
                         sha256,
                         original_url,
                         file_name,
-                        file_type.lower().replace(".", ""),
+                        self.normalize_file_type(file_type),
                         subject,
                         file_size,
                         str(local_path),
@@ -475,7 +489,7 @@ class CatalogDatabase:
             cur = conn.execute(
                 """
                 SELECT id, sha256, original_url, file_name, file_type,
-                       subject, file_size, local_path, source_domain, created_at
+                       subject, file_size, local_path, source_domain, created_at, is_marking_scheme
                 FROM harvested_files ORDER BY id ASC;
                 """
             )
