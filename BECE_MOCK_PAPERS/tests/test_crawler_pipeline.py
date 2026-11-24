@@ -1,11 +1,12 @@
 import pytest
 from src.crawler import BECEMockCrawler
+from src.database import CatalogDatabase
 from src.download_pipeline import DownloadPipeline
 from src.sitemap_harvester import SitemapHarvester
 
 
-def test_crawler_allowed_domains():
-    crawler = BECEMockCrawler()
+def test_crawler_allowed_domains(tmp_path):
+    crawler = BECEMockCrawler(database=CatalogDatabase(db_path=tmp_path / "test_crawler.db"))
     # Allowed domains
     assert crawler._is_allowed_domain("https://ghanaeducation.org/bece-mock") is True
     assert crawler._is_allowed_domain("https://passco.com.gh/math-past-questions") is True
@@ -17,8 +18,8 @@ def test_crawler_allowed_domains():
     assert crawler._is_allowed_domain("https://shopping.co.uk/promo") is False
 
 
-def test_crawler_skips_wassce_shs_links():
-    crawler = BECEMockCrawler()
+def test_crawler_skips_wassce_shs_links(tmp_path):
+    crawler = BECEMockCrawler(database=CatalogDatabase(db_path=tmp_path / "test_crawler.db"))
     assert crawler._is_relevant_link(
         "https://ghlearner.com/wassce/core-mathematics/exams/wassce-maths-mock",
         "WASSCE Core Mathematics Mock",
@@ -45,7 +46,7 @@ def test_resolve_external_storage_url():
 
 @pytest.mark.asyncio
 async def test_download_pipeline_inflight_deduplication(tmp_path):
-    pipeline = DownloadPipeline()
+    pipeline = DownloadPipeline(database=CatalogDatabase(db_path=tmp_path / "test_pipeline.db"))
     url = "https://example.com/test_paper.pdf"
 
     # Simulate URL being currently downloaded (in flight)
