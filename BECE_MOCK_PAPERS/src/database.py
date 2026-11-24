@@ -506,11 +506,9 @@ class CatalogDatabase:
         json_path: Optional[Path] = None,
         jsonl_path: Optional[Path] = None
     ) -> int:
-        """Exports all canonical questions to questions_bank.json and questions_bank.jsonl."""
+        """Exports all canonical questions to questions_bank.json (and optional jsonl_path if given)."""
         default_json = self.db_path.parent.parent / "extracted_questions" / "questions_bank.json"
-        default_jsonl = self.db_path.parent.parent / "extracted_questions" / "questions_bank.jsonl"
         out_json = Path(json_path) if json_path else default_json
-        out_jsonl = Path(jsonl_path) if jsonl_path else default_jsonl
 
         with self.get_connection() as conn:
             cur = conn.execute(
@@ -529,8 +527,11 @@ class CatalogDatabase:
         with open(out_json, "w", encoding="utf-8") as f:
             json.dump(rows, f, indent=2, ensure_ascii=False)
 
-        with open(out_jsonl, "w", encoding="utf-8") as f:
-            for item in rows:
-                f.write(json.dumps(item, ensure_ascii=False) + "\n")
+        if jsonl_path is not None:
+            out_jsonl = Path(jsonl_path)
+            out_jsonl.parent.mkdir(parents=True, exist_ok=True)
+            with open(out_jsonl, "w", encoding="utf-8") as f:
+                for item in rows:
+                    f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
         return len(rows)

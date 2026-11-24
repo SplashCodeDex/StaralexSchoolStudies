@@ -15,8 +15,7 @@ Do **not** decorate. `RULES-BECE-PATTERN.md` §4 lists the topics that require o
 
 | Figure type | Tool | Notes |
 | :--- | :--- | :--- |
-| Number lines, geometry, graphs, Venn, vectors | **`tools/math-diagrams/`** (TikZ → PNG) | preferred; shared style file |
-| Quick number lines only | `tools/draw_number_line.py` (Pillow) | fallback if TikZ is down |
+| Number lines, geometry, graphs, Venn, vectors | **`tools/math-diagrams/`** (TikZ → PNG) | canonical; shared style file |
 | Display maths (equations) | `tools/build_lesson_pdf.py` (LaTeX) | not figures — maths |
 
 Build:
@@ -80,7 +79,7 @@ python tools/math-diagrams/build.py --only number_line_double_inequality_1_5
 
 | Failure | Cause | Fix |
 | :--- | :--- | :--- |
-| `●━━━▶` ASCII number lines | text diagram in markdown | always PNG via TikZ/Pillow |
+| `●━━━▶` ASCII number lines | text diagram in markdown | always PNG via TikZ (`tools/math-diagrams/`) |
 | Dot at −1, prose said −1⅓ | eyeballed pixel offset | compute from the value |
 | Baked `1 < x ≤ 5` caption + duplicate `1`/`5` labels | old template used `md label accent` nodes | caption lives in markdown; tick numbers only |
 | Skeletal / hollow ticks (`fill-opacity=0`) | dvisvgm SVG used as the shipped PNG | ship the pdflatex→PNG output, not the dvisvgm SVG |
@@ -90,6 +89,6 @@ python tools/math-diagrams/build.py --only number_line_double_inequality_1_5
 
 ## Integration
 
-- Skill copy: `.mimocode/skills/lesson-figures/SKILL.md` (this file).
+- Skill spec: `.agents/skills/math-diagrams/SKILL.md`.
 - PDF builder: `tools/build_lesson_pdf.py --strict` fails on tofu glyphs.
 - Lesson rules: `RULES-BECE-PATTERN.md` §4, `Mathematics/Rules.md` M2.

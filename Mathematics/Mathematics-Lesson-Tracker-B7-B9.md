@@ -3,8 +3,7 @@
 *Based on the NaCCA Mathematics Common Core Programme (CCP) Curriculum for JHS1 (B7) – JHS3 (B9).*
 
 - **Source of Truth:** [`Mathematics-Lesson-Plan-B7-B9.md`](Mathematics-Lesson-Plan-B7-B9.md) (`181` canonical NaCCA indicators across `51` Content Standards, `4` Main Strands, and `12` Sub-strands).
-- **Existing Grade Trackers Reconciled:** [`trackers/Grade7-Lesson-Tracker.md`](trackers/Grade7-Lesson-Tracker.md) (`4/16` delivered) and [`trackers/Grade9-Lesson-Tracker.md`](trackers/Grade9-Lesson-Tracker.md) (`24/30` delivered).
-- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`3,480` total Mathematics items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `1,814` Paper 1 Objective, `451` Paper 2 Essay/Theory [`229` Essay + `222` Theory], and `1,215` Marking Scheme entries).
+- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`3,410` canonical Mathematics items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `1,744` Paper 1 Objective, `451` Paper 2 Essay/Theory [`229` Essay + `222` Theory], and `1,215` Marking Scheme entries; `2,389` items at high confidence `>= 0.70`).
 - **Standard:** International British English conventions (*factorise*, *organise*, *centre*, *trapezium*, *cuboid*, *BODMAS*); strict adherence to NaCCA CCP indicators and BECE marking standards.
 - **Pedagogical Model:** Plain-English preambles and unpacked technical terms before symbolic working; textbook-grade LaTeX display equations; contextual 300 DPI PNG figures built from TikZ sources via `tools/math-diagrams/`; and BECE-shaped exercise batteries (standard `8×5 = 40` questions or override `5×5 = 25` questions with `10–20%` spiral review) plus full marking-scheme solutions.
 
@@ -25,29 +24,29 @@
 
 | Main Strand | B7 | B8 | B9 | Total | Delivered | BECE Tagged | Share | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Strand 1: Number** | 4 | 7 | 9 | 20 | 12 | 1,809 | 52.0% | 60.0% (B7 100%; B9 Surds complete; SSNIT pending) |
-| **Strand 2: Algebra** | 3 | 4 | 5 | 12 | 3 | 564 | 16.2% | 25.0% (Simultaneous graphs & Formula/Factorisation pending) |
-| **Strand 3: Geometry & Measurement** | 6 | 6 | 13 | 25 | 11 | 733 | 21.1% | 44.0% (3D Nets/Vectors II & Enlargement pending) |
-| **Strand 4: Handling Data** | 3 | 3 | 3 | 9 | 2 | 374 | 10.7% | 22.2% (Histograms/Bias/Outliers pending) |
-| **Curriculum Total** | **16** | **20** | **30** | **66** | **28** | **3,480** | **100.0%** | **42.4%** |
+| **Strand 1: Number** | 4 | 7 | 9 | 20 | 12 | 1,769 | 51.9% | 60.0% (B7 100%; B9 Surds complete; SSNIT pending) |
+| **Strand 2: Algebra** | 3 | 4 | 5 | 12 | 3 | 560 | 16.4% | 25.0% (Simultaneous graphs & Formula/Factorisation pending) |
+| **Strand 3: Geometry & Measurement** | 6 | 6 | 13 | 25 | 11 | 719 | 21.1% | 44.0% (3D Nets/Vectors II & Enlargement pending) |
+| **Strand 4: Handling Data** | 3 | 3 | 3 | 9 | 2 | 362 | 10.6% | 22.2% (Histograms/Bias/Outliers pending) |
+| **Curriculum Total** | **16** | **20** | **30** | **66** | **28** | **3,410** | **100.0%** | **42.4%** |
 
 ### Sub-strand BECE Exam Weighting Breakdown (`BECE_MOCK_PAPERS`)
 
 | Strand & Sub-strand | Paper 1 (Obj) | Paper 2 (Essay/Theory) | Marking Scheme | Total Tagged | Share | Priority Tier |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **S1.1** Number & Numeration Systems | 179 | 59 | 50 | 288 | 8.3% | High |
-| **S1.2** Number Operations | 568 | 81 | 415 | 1,064 | 30.6% | **Critical (#1)** |
-| **S1.3** Fractions, Decimals & Percentages | 51 | 20 | 93 | 164 | 4.7% | Moderate |
-| **S1.4** Number: Ratios & Proportion | 195 | 32 | 66 | 293 | 8.4% | High |
+| **S1.1** Number & Numeration Systems | 177 | 59 | 50 | 286 | 8.4% | High |
+| **S1.2** Number Operations | 543 | 81 | 415 | 1,039 | 30.5% | **Critical (#1)** |
+| **S1.3** Fractions, Decimals & Percentages | 51 | 20 | 93 | 164 | 4.8% | Moderate |
+| **S1.4** Number: Ratios & Proportion | 182 | 32 | 66 | 280 | 8.2% | High |
 | **S2.1** Patterns & Relations | 55 | 33 | 53 | 141 | 4.1% | High (Paper 2 heavy) |
-| **S2.2** Algebraic Expressions | 123 | 41 | 101 | 265 | 7.6% | High |
-| **S2.3** Variables & Equations | 57 | 31 | 70 | 158 | 4.5% | Moderate-High |
-| **S3.1** Shape & Space | 154 | 42 | 92 | 288 | 8.3% | High |
-| **S3.2** Measurement | 167 | 47 | 131 | 345 | 9.9% | **Critical (#2)** |
-| **S3.3** Position & Transformation | 57 | 11 | 32 | 100 | 2.9% | Standard (Obj heavy) |
-| **S4.1** Data | 111 | 30 | 87 | 228 | 6.6% | High |
-| **S4.2** Chance or Probability | 97 | 24 | 25 | 146 | 4.2% | Standard |
-| **Total Tagged Mathematics Bank** | **1,814** | **451** | **1,215** | **3,480** | **100.0%** | **42.4% Lessons Built** |
+| **S2.2** Algebraic Expressions | 119 | 41 | 101 | 261 | 7.7% | High |
+| **S2.3** Variables & Equations | 57 | 31 | 70 | 158 | 4.6% | Moderate-High |
+| **S3.1** Shape & Space | 144 | 42 | 92 | 278 | 8.2% | High |
+| **S3.2** Measurement | 164 | 47 | 131 | 342 | 10.0% | **Critical (#2)** |
+| **S3.3** Position & Transformation | 56 | 11 | 32 | 99 | 2.9% | Standard (Obj heavy) |
+| **S4.1** Data | 110 | 30 | 87 | 227 | 6.7% | High |
+| **S4.2** Chance or Probability | 86 | 24 | 25 | 135 | 4.0% | Standard |
+| **Total Tagged Mathematics Bank** | **1,744** | **451** | **1,215** | **3,410** | **100.0%** | **42.4% Lessons Built** |
 
 ---
 
@@ -67,41 +66,41 @@ Paced at **4 periods × 50 minutes/week** (~12 instructional weeks per term = 48
 
 # GRADE 7 MATHEMATICS — LESSON DELIVERY SCHEDULE
 
-## Strand 1: Number *(Term 1 — 52.0% BECE Bank Weight)*
+## Strand 1: Number *(Term 1 — 51.9% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **01** | T1 | **Numeration and Big Numbers (Beyond Billions, Rounding & Significant Figures)** — *SS1 Number & Numeration Systems* | B7.1.1.1.1–5 *(incl. B7.1.1.2)* | 288 (8.3%) | `Mathematics/.../Grade7/Substrand-1-Numeration-Systems/Lesson-01-Numeration-and-Big-Numbers/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
-| **02** | T1 | **Number Operations, Decimals, Prime Factors & Index Notation** — *SS2 Number Operations* | B7.1.2.1.1–3, B7.1.2.2.1–3, B7.1.2.3.1–5 | 1,064 (30.6%) | `Mathematics/.../Grade7/Substrand-2-Number-Operations/Lesson-01-Number-Operations-and-Indices/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
-| **03** | T1 | **Fractions, Decimals and Percentages (Conversions & Operations)** — *SS3 Fractions, Decimals & Percentages* | B7.1.3.1.1–2, B7.1.3.2.1–2, B7.1.3.3.1–4 | 164 (4.7%) | `Mathematics/.../Grade7/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fractions-Decimals-Percentages/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
-| **04** | T1 | **Ratio, Unit Rates, Equivalent Tables & Percentage Rates** — *SS4 Ratios & Proportion* | B7.1.4.1.1–5 | 293 (8.4%) | `Mathematics/.../Grade7/Substrand-4-Ratios-And-Proportions/Lesson-01-Ratio-and-Proportion/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
+| **01** | T1 | **Numeration and Big Numbers (Beyond Billions, Rounding & Significant Figures)** — *SS1 Number & Numeration Systems* | B7.1.1.1.1–5 *(incl. B7.1.1.2)* | 286 (8.4%) | `Mathematics/.../Grade7/Substrand-1-Numeration-Systems/Lesson-01-Numeration-and-Big-Numbers/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
+| **02** | T1 | **Number Operations, Decimals, Prime Factors & Index Notation** — *SS2 Number Operations* | B7.1.2.1.1–3, B7.1.2.2.1–3, B7.1.2.3.1–5 | 1,039 (30.5%) | `Mathematics/.../Grade7/Substrand-2-Number-Operations/Lesson-01-Number-Operations-and-Indices/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
+| **03** | T1 | **Fractions, Decimals and Percentages (Conversions & Operations)** — *SS3 Fractions, Decimals & Percentages* | B7.1.3.1.1–2, B7.1.3.2.1–2, B7.1.3.3.1–4 | 164 (4.8%) | `Mathematics/.../Grade7/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fractions-Decimals-Percentages/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
+| **04** | T1 | **Ratio, Unit Rates, Equivalent Tables & Percentage Rates** — *SS4 Ratios & Proportion* | B7.1.4.1.1–5 | 280 (8.2%) | `Mathematics/.../Grade7/Substrand-4-Ratios-And-Proportions/Lesson-01-Ratio-and-Proportion/` — **[x] Delivered** (PDF + 8×5 exercises + solutions) |
 
-## Strand 2: Algebra *(Term 2 — 16.2% BECE Bank Weight)*
+## Strand 2: Algebra *(Term 2 — 16.4% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
 | **05** | T2 | **Patterns, Verbal Rules, Mappings & Tables of Values** — *SS1 Patterns & Relations* | B7.2.1.1.1–4 | 141 (4.1%) | `Mathematics/.../Grade7/Substrand-1-Patterns-And-Relations/Lesson-01-Patterns-Mappings-and-Graphs/` — **[ ] Pending** |
-| **06** | T2 | **Algebraic Expressions — Translation, Like Terms & Substitution** — *SS2 Algebraic Expressions* | B7.2.2.1.1–5 | 265 (7.6%) | `Mathematics/.../Grade7/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-and-Substitution/` — **[ ] Pending** |
-| **07** | T2 | **Linear Equations in One Variable — Balance Models & Algebra Tiles** — *SS3 Variables & Equations* | B7.2.3.1.1–4 | 158 (4.5%) | `Mathematics/.../Grade7/Substrand-3-Variables-And-Equations/Lesson-01-Linear-Equations-One-Variable/` — **[ ] Pending** |
+| **06** | T2 | **Algebraic Expressions — Translation, Like Terms & Substitution** — *SS2 Algebraic Expressions* | B7.2.2.1.1–5 | 261 (7.7%) | `Mathematics/.../Grade7/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-and-Substitution/` — **[ ] Pending** |
+| **07** | T2 | **Linear Equations in One Variable — Balance Models & Algebra Tiles** — *SS3 Variables & Equations* | B7.2.3.1.1–4 | 158 (4.6%) | `Mathematics/.../Grade7/Substrand-3-Variables-And-Equations/Lesson-01-Linear-Equations-One-Variable/` — **[ ] Pending** |
 
 ## Strand 3: Geometry and Measurement *(Terms 2–3 — 21.1% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **08** | T2 | **Angle Classification & Angle Pair Theorems (Complementary, Supplementary, Vertically Opposite)** — *SS1 Shape & Space* | B7.3.1.1.1–3 | 288 (8.3%) | `Mathematics/.../Grade7/Substrand-1-Shapes-And-Space/Lesson-01-Angle-Classification-and-Pairs/` — **[ ] Pending** |
-| **09** | T2 | **Fundamental Geometric Constructions — Perpendiculars, Line Bisectors & Angle Bisectors** — *SS1 Shape & Space* | B7.3.1.2.1–3, B7.3.1.2.7 | 288 (8.3%) | `Mathematics/.../Grade7/Substrand-1-Shapes-And-Space/Lesson-02-Perpendiculars-and-Bisectors/` — **[ ] Pending** |
-| **10** | T3 | **Compound-Unit Perimeter, Circle Circumference (π) & Grid Areas** — *SS2 Measurement* | B7.3.2.1.1–3 | 345 (9.9%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-01-Perimeter-Circumference-and-Grid-Areas/` — **[ ] Pending** |
-| **11** | T3 | **Area of Triangles, Parallelograms & Trapeziums** — *SS2 Measurement* | B7.3.2.2.1–2 | 345 (9.9%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-02-Area-of-Triangles-and-Quadrilaterals/` — **[ ] Pending** |
-| **12** | T3 | **Three-Digit Bearings, Back Bearings & 2D Column Vectors** — *SS2 Measurement* | B7.3.2.3.1–5 | 345 (9.9%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-03-Bearings-and-2D-Column-Vectors/` — **[ ] Pending** |
-| **13** | T3 | **Reflectional Symmetry, Coordinate Reflection & Vector Translation** — *SS3 Position & Transformation* | B7.3.3.1.1–4 | 100 (2.9%) | `Mathematics/.../Grade7/Substrand-3-Position-And-Transformation/Lesson-01-Reflection-and-Translation/` — **[ ] Pending** |
+| **08** | T2 | **Angle Classification & Angle Pair Theorems (Complementary, Supplementary, Vertically Opposite)** — *SS1 Shape & Space* | B7.3.1.1.1–3 | 278 (8.2%) | `Mathematics/.../Grade7/Substrand-1-Shapes-And-Space/Lesson-01-Angle-Classification-and-Pairs/` — **[ ] Pending** |
+| **09** | T2 | **Fundamental Geometric Constructions — Perpendiculars, Line Bisectors & Angle Bisectors** — *SS1 Shape & Space* | B7.3.1.2.1–3, B7.3.1.2.7 | 278 (8.2%) | `Mathematics/.../Grade7/Substrand-1-Shapes-And-Space/Lesson-02-Perpendiculars-and-Bisectors/` — **[ ] Pending** |
+| **10** | T3 | **Compound-Unit Perimeter, Circle Circumference (π) & Grid Areas** — *SS2 Measurement* | B7.3.2.1.1–3 | 342 (10.0%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-01-Perimeter-Circumference-and-Grid-Areas/` — **[ ] Pending** |
+| **11** | T3 | **Area of Triangles, Parallelograms & Trapeziums** — *SS2 Measurement* | B7.3.2.2.1–2 | 342 (10.0%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-02-Area-of-Triangles-and-Quadrilaterals/` — **[ ] Pending** |
+| **12** | T3 | **Three-Digit Bearings, Back Bearings & 2D Column Vectors** — *SS2 Measurement* | B7.3.2.3.1–5 | 342 (10.0%) | `Mathematics/.../Grade7/Substrand-2-Measurement/Lesson-03-Bearings-and-2D-Column-Vectors/` — **[ ] Pending** |
+| **13** | T3 | **Reflectional Symmetry, Coordinate Reflection & Vector Translation** — *SS3 Position & Transformation* | B7.3.3.1.1–4 | 99 (2.9%) | `Mathematics/.../Grade7/Substrand-3-Position-And-Transformation/Lesson-01-Reflection-and-Translation/` — **[ ] Pending** |
 
-## Strand 4: Handling Data *(Term 3 — 10.7% BECE Bank Weight)*
+## Strand 4: Handling Data *(Term 3 — 10.6% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **14** | T3 | **Qualitative vs Quantitative Data, Questionnaires, Tally Tables & Bar Charts** — *SS1 Data* | B7.4.1.1.1–3 | 228 (6.6%) | `Mathematics/.../Grade7/Substrand-1-Data/Lesson-01-Data-Collection-and-Charts/` — **[ ] Pending** |
-| **15** | T3 | **Measures of Central Tendency — Mean and Median of Ungrouped Data** — *SS1 Data* | B7.4.1.2.1–2 | 228 (6.6%) | `Mathematics/.../Grade7/Substrand-1-Data/Lesson-02-Mean-and-Median-Ungrouped/` — **[ ] Pending** |
-| **16** | T3 | **Chance & Single-Event Probability (Likelihood Scale, Sample Space & Forms)** — *SS2 Chance or Probability* | B7.4.2.1.1–3 | 146 (4.2%) | `Mathematics/.../Grade7/Substrand-2-Chance-And-Probability/Lesson-01-Single-Event-Probability/` — **[ ] Pending** |
+| **14** | T3 | **Qualitative vs Quantitative Data, Questionnaires, Tally Tables & Bar Charts** — *SS1 Data* | B7.4.1.1.1–3 | 227 (6.7%) | `Mathematics/.../Grade7/Substrand-1-Data/Lesson-01-Data-Collection-and-Charts/` — **[ ] Pending** |
+| **15** | T3 | **Measures of Central Tendency — Mean and Median of Ungrouped Data** — *SS1 Data* | B7.4.1.2.1–2 | 227 (6.7%) | `Mathematics/.../Grade7/Substrand-1-Data/Lesson-02-Mean-and-Median-Ungrouped/` — **[ ] Pending** |
+| **16** | T3 | **Chance & Single-Event Probability (Likelihood Scale, Sample Space & Forms)** — *SS2 Chance or Probability* | B7.4.2.1.1–3 | 135 (4.0%) | `Mathematics/.../Grade7/Substrand-2-Chance-And-Probability/Lesson-01-Single-Event-Probability/` — **[ ] Pending** |
 
 ---
 
@@ -109,45 +108,45 @@ Paced at **4 periods × 50 minutes/week** (~12 instructional weeks per term = 48
 
 # GRADE 8 MATHEMATICS — LESSON DELIVERY SCHEDULE
 
-## Strand 1: Number *(Term 1 — 52.0% BECE Bank Weight)*
+## Strand 1: Number *(Term 1 — 51.9% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **01** | T1 | **Large Numbers, Skip Counting, Standard Form ($A \times 10^n$) & Significant Rounding** — *SS1 Number & Numeration Systems* | B8.1.1.1.1–6 | 288 (8.3%) | `Mathematics/.../Grade8/Substrand-1-Numeration-Systems/Lesson-01-Standard-Form-and-Place-Value/` — **[ ] Pending** |
-| **02** | T1 | **Sets of Factors, Perfect Squares, Square Roots & Set Operations ($\cup, \cap$)** — *SS1 Number & Numeration Systems* | B8.1.1.2.1–2 | 288 (8.3%) | `Mathematics/.../Grade8/Substrand-1-Numeration-Systems/Lesson-02-Factor-Sets-and-Square-Roots/` — **[ ] Pending** |
-| **03** | T1 | **Mental Mathematics & Multi-Digit Four Operations (Whole Numbers & Decimals)** — *SS2 Number Operations* | B8.1.2.1.1–3, B8.1.2.2.1–3 | 1,064 (30.6%) | `Mathematics/.../Grade8/Substrand-2-Number-Operations/Lesson-01-Mental-Math-and-Multi-Digit-Ops/` — **[ ] Pending** |
-| **04** | T1 | **Laws of Indices, Order of Operations (BODMAS/PEMDAS) & Exponential Equations** — *SS2 Number Operations* | B8.1.2.3.1–4 | 1,064 (30.6%) | `Mathematics/.../Grade8/Substrand-2-Number-Operations/Lesson-02-Laws-of-Indices-and-Exponential-Equations/` — **[ ] Pending** |
-| **05** | T1 | **Mixed & Negative Fractions with BODMAS/PEMDAS & Financial Word Problems** — *SS3 Fractions, Decimals & Percentages* | B8.1.3.1.1–3 | 164 (4.7%) | `Mathematics/.../Grade8/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fraction-Operations-and-BODMAS/` — **[ ] Pending** |
-| **06** | T1 | **Unit Conversions, Unit Rates, Speed & Distance-Time Travel Graphs** — *SS4 Ratios & Proportion* | B8.1.4.1.1–3 | 293 (8.4%) | `Mathematics/.../Grade8/Substrand-4-Ratios-And-Proportions/Lesson-01-Unit-Rates-Speed-and-Travel-Graphs/` — **[ ] Pending** |
-| **07** | T1 | **Direct Proportion Verification & Constant of Proportionality ($y = kx$)** — *SS4 Ratios & Proportion* | B8.1.4.1.4–5 | 293 (8.4%) | `Mathematics/.../Grade8/Substrand-4-Ratios-And-Proportions/Lesson-02-Proportional-Relationships/` — **[ ] Pending** |
+| **01** | T1 | **Large Numbers, Skip Counting, Standard Form ($A \times 10^n$) & Significant Rounding** — *SS1 Number & Numeration Systems* | B8.1.1.1.1–6 | 286 (8.4%) | `Mathematics/.../Grade8/Substrand-1-Numeration-Systems/Lesson-01-Standard-Form-and-Place-Value/` — **[ ] Pending** |
+| **02** | T1 | **Sets of Factors, Perfect Squares, Square Roots & Set Operations ($\cup, \cap$)** — *SS1 Number & Numeration Systems* | B8.1.1.2.1–2 | 286 (8.4%) | `Mathematics/.../Grade8/Substrand-1-Numeration-Systems/Lesson-02-Factor-Sets-and-Square-Roots/` — **[ ] Pending** |
+| **03** | T1 | **Mental Mathematics & Multi-Digit Four Operations (Whole Numbers & Decimals)** — *SS2 Number Operations* | B8.1.2.1.1–3, B8.1.2.2.1–3 | 1,039 (30.5%) | `Mathematics/.../Grade8/Substrand-2-Number-Operations/Lesson-01-Mental-Math-and-Multi-Digit-Ops/` — **[ ] Pending** |
+| **04** | T1 | **Laws of Indices, Order of Operations (BODMAS/PEMDAS) & Exponential Equations** — *SS2 Number Operations* | B8.1.2.3.1–4 | 1,039 (30.5%) | `Mathematics/.../Grade8/Substrand-2-Number-Operations/Lesson-02-Laws-of-Indices-and-Exponential-Equations/` — **[ ] Pending** |
+| **05** | T1 | **Mixed & Negative Fractions with BODMAS/PEMDAS & Financial Word Problems** — *SS3 Fractions, Decimals & Percentages* | B8.1.3.1.1–3 | 164 (4.8%) | `Mathematics/.../Grade8/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fraction-Operations-and-BODMAS/` — **[ ] Pending** |
+| **06** | T1 | **Unit Conversions, Unit Rates, Speed & Distance-Time Travel Graphs** — *SS4 Ratios & Proportion* | B8.1.4.1.1–3 | 280 (8.2%) | `Mathematics/.../Grade8/Substrand-4-Ratios-And-Proportions/Lesson-01-Unit-Rates-Speed-and-Travel-Graphs/` — **[ ] Pending** |
+| **07** | T1 | **Direct Proportion Verification & Constant of Proportionality ($y = kx$)** — *SS4 Ratios & Proportion* | B8.1.4.1.4–5 | 280 (8.2%) | `Mathematics/.../Grade8/Substrand-4-Ratios-And-Proportions/Lesson-02-Proportional-Relationships/` — **[ ] Pending** |
 
-## Strand 2: Algebra *(Term 2 — 16.2% BECE Bank Weight)*
+## Strand 2: Algebra *(Term 2 — 16.4% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
 | **08** | T2 | **Linear Relations — Gradient ($m$) & Straight-Line Equations ($y = mx + c$)** — *SS1 Patterns & Relations* | B8.2.1.1.1–3 | 141 (4.1%) | `Mathematics/.../Grade8/Substrand-1-Patterns-And-Relations/Lesson-01-Gradient-and-Linear-Equations/` — **[ ] Pending** |
-| **09** | T2 | **Expanding Binomials $(ax+b)(cx+d)$ & Operations on Algebraic Fractions** — *SS2 Algebraic Expressions* | B8.2.2.1.1–2 | 265 (7.6%) | `Mathematics/.../Grade8/Substrand-2-Algebraic-Expressions/Lesson-01-Binomial-Expansion-and-Algebraic-Fractions/` — **[ ] Pending** |
-| **10** | T2 | **Substitution with Fractions/Negatives & Factorisation (Common Factors & Grouping)** — *SS2 Algebraic Expressions* | B8.2.2.1.3–4 | 265 (7.6%) | `Mathematics/.../Grade8/Substrand-2-Algebraic-Expressions/Lesson-02-Substitution-and-Factorisation/` — **[ ] Pending** |
-| **11** | T2 | **Linear Inequalities in One Variable & Solution Sets over Domains** — *SS3 Variables & Equations* | B8.2.3.1.1–3 | 158 (4.5%) | `Mathematics/.../Grade8/Substrand-3-Variables-And-Equations/Lesson-01-Linear-Inequalities-and-Domains/` — **[ ] Pending** |
+| **09** | T2 | **Expanding Binomials $(ax+b)(cx+d)$ & Operations on Algebraic Fractions** — *SS2 Algebraic Expressions* | B8.2.2.1.1–2 | 261 (7.7%) | `Mathematics/.../Grade8/Substrand-2-Algebraic-Expressions/Lesson-01-Binomial-Expansion-and-Algebraic-Fractions/` — **[ ] Pending** |
+| **10** | T2 | **Substitution with Fractions/Negatives & Factorisation (Common Factors & Grouping)** — *SS2 Algebraic Expressions* | B8.2.2.1.3–4 | 261 (7.7%) | `Mathematics/.../Grade8/Substrand-2-Algebraic-Expressions/Lesson-02-Substitution-and-Factorisation/` — **[ ] Pending** |
+| **11** | T2 | **Linear Inequalities in One Variable & Solution Sets over Domains** — *SS3 Variables & Equations* | B8.2.3.1.1–3 | 158 (4.6%) | `Mathematics/.../Grade8/Substrand-3-Variables-And-Equations/Lesson-01-Linear-Inequalities-and-Domains/` — **[ ] Pending** |
 
 ## Strand 3: Geometry and Measurement *(Terms 2–3 — 21.1% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **12** | T2 | **Parallel Lines Cut by a Transversal & Interior/Exterior Angles of Triangles** — *SS1 Shape & Space* | B8.3.1.1.1–2 | 288 (8.3%) | `Mathematics/.../Grade8/Substrand-1-Shapes-And-Space/Lesson-01-Parallel-Lines-and-Triangle-Angles/` — **[ ] Pending** |
-| **13** | T2 | **Construction of Standard Angles (60°–150°), Triangles & Classic Loci** — *SS1 Shape & Space* | B8.3.1.2.1–3 | 288 (8.3%) | `Mathematics/.../Grade8/Substrand-1-Shapes-And-Space/Lesson-02-Constructions-Triangles-and-Loci/` — **[ ] Pending** |
-| **14** | T3 | **Area of a Circle ($A = \pi r^2$), Pythagoras' Theorem & Triangle Heights** — *SS2 Measurement* | B8.3.2.1.1–4 | 345 (9.9%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-01-Circle-Area-and-Pythagoras-Theorem/` — **[ ] Pending** |
-| **15** | T3 | **Basic Right-Triangle Trigonometric Ratios ($\sin\theta, \cos\theta, \tan\theta$)** — *SS2 Measurement* | B8.3.2.1.5 | 345 (9.9%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-02-Basic-Trigonometric-Ratios/` — **[ ] Pending** |
-| **16** | T3 | **2D Vector Arithmetic — Addition, Subtraction, Scalar Multiplication & Equality** — *SS2 Measurement* | B8.3.2.2.1–2 | 345 (9.9%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-03-Vector-Arithmetic-and-Equality/` — **[ ] Pending** |
-| **17** | T3 | **Geometric Rotation in the Coordinate Plane & Rotational Congruence** — *SS3 Position & Transformation* | B8.3.3.1.1–3 | 100 (2.9%) | `Mathematics/.../Grade8/Substrand-3-Position-And-Transformation/Lesson-01-Rotation-and-Congruence/` — **[ ] Pending** |
+| **12** | T2 | **Parallel Lines Cut by a Transversal & Interior/Exterior Angles of Triangles** — *SS1 Shape & Space* | B8.3.1.1.1–2 | 278 (8.2%) | `Mathematics/.../Grade8/Substrand-1-Shapes-And-Space/Lesson-01-Parallel-Lines-and-Triangle-Angles/` — **[ ] Pending** |
+| **13** | T2 | **Construction of Standard Angles (60°–150°), Triangles & Classic Loci** — *SS1 Shape & Space* | B8.3.1.2.1–3 | 278 (8.2%) | `Mathematics/.../Grade8/Substrand-1-Shapes-And-Space/Lesson-02-Constructions-Triangles-and-Loci/` — **[ ] Pending** |
+| **14** | T3 | **Area of a Circle ($A = \pi r^2$), Pythagoras' Theorem & Triangle Heights** — *SS2 Measurement* | B8.3.2.1.1–4 | 342 (10.0%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-01-Circle-Area-and-Pythagoras-Theorem/` — **[ ] Pending** |
+| **15** | T3 | **Basic Right-Triangle Trigonometric Ratios ($\sin\theta, \cos\theta, \tan\theta$)** — *SS2 Measurement* | B8.3.2.1.5 | 342 (10.0%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-02-Basic-Trigonometric-Ratios/` — **[ ] Pending** |
+| **16** | T3 | **2D Vector Arithmetic — Addition, Subtraction, Scalar Multiplication & Equality** — *SS2 Measurement* | B8.3.2.2.1–2 | 342 (10.0%) | `Mathematics/.../Grade8/Substrand-2-Measurement/Lesson-03-Vector-Arithmetic-and-Equality/` — **[ ] Pending** |
+| **17** | T3 | **Geometric Rotation in the Coordinate Plane & Rotational Congruence** — *SS3 Position & Transformation* | B8.3.3.1.1–3 | 99 (2.9%) | `Mathematics/.../Grade8/Substrand-3-Position-And-Transformation/Lesson-01-Rotation-and-Congruence/` — **[ ] Pending** |
 
-## Strand 4: Handling Data *(Term 3 — 10.7% BECE Bank Weight)*
+## Strand 4: Handling Data *(Term 3 — 10.6% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Target Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **18** | T3 | **Data Types & Statistical Charts (Pie, Line, Stem-and-Leaf, Waffle & Box Plots)** — *SS1 Data* | B8.4.1.1.1–3 | 228 (6.6%) | `Mathematics/.../Grade8/Substrand-1-Data/Lesson-01-Data-Types-and-Visual-Representations/` — **[ ] Pending** |
-| **19** | T3 | **Mean, Median & Mode of Ungrouped Data — Comparison & Context Justification** — *SS1 Data* | B8.4.1.2.1–2 | 228 (6.6%) | `Mathematics/.../Grade8/Substrand-1-Data/Lesson-02-Central-Tendency-Comparison/` — **[ ] Pending** |
-| **20** | T3 | **Compound Independent Probability (With Replacement, Outcome Grids & Tree Diagrams)** — *SS2 Chance or Probability* | B8.4.2.1.1–2 | 146 (4.2%) | `Mathematics/.../Grade8/Substrand-2-Chance-And-Probability/Lesson-01-Compound-Independent-Probability/` — **[ ] Pending** |
+| **18** | T3 | **Data Types & Statistical Charts (Pie, Line, Stem-and-Leaf, Waffle & Box Plots)** — *SS1 Data* | B8.4.1.1.1–3 | 227 (6.7%) | `Mathematics/.../Grade8/Substrand-1-Data/Lesson-01-Data-Types-and-Visual-Representations/` — **[ ] Pending** |
+| **19** | T3 | **Mean, Median & Mode of Ungrouped Data — Comparison & Context Justification** — *SS1 Data* | B8.4.1.2.1–2 | 227 (6.7%) | `Mathematics/.../Grade8/Substrand-1-Data/Lesson-02-Central-Tendency-Comparison/` — **[ ] Pending** |
+| **20** | T3 | **Compound Independent Probability (With Replacement, Outcome Grids & Tree Diagrams)** — *SS2 Chance or Probability* | B8.4.2.1.1–2 | 135 (4.0%) | `Mathematics/.../Grade8/Substrand-2-Chance-And-Probability/Lesson-01-Compound-Independent-Probability/` — **[ ] Pending** |
 
 ---
 
@@ -155,57 +154,57 @@ Paced at **4 periods × 50 minutes/week** (~12 instructional weeks per term = 48
 
 # GRADE 9 MATHEMATICS — LESSON DELIVERY SCHEDULE
 
-*Tracks all B9 syllabus modules plus the cross-grade Geometry Foundation Bridges (`[Bridge]`) housed inside `Mathematics/Strand-*/Grade9/`. See [`trackers/Grade9-Lesson-Tracker.md`](trackers/Grade9-Lesson-Tracker.md) for the day-by-day 60-day schedule.*
+*Tracks all B9 syllabus modules plus the cross-grade Geometry Foundation Bridges (`[Bridge]`) housed inside `Mathematics/Strand-*/Grade9/`.*
 
-## Strand 1: Number *(Term 1 — 52.0% BECE Bank Weight)*
+## Strand 1: Number *(Term 1 — 51.9% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **01** | T1 | **Place Value, Large Numbers, Rounding & Standard Form** — *SS1 Numeration Systems* | B9.1.1.1.1–2 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 1 PNG) |
-| **02** | T1 | **Real Number System Hierarchy ($\mathbb{N}\subset\mathbb{W}\subset\mathbb{Z}\subset\mathbb{Q}$) & Venn Diagrams** — *SS1 Numeration Systems* | B9.1.1.2.1–2 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
-| **03** | T1 | **Indices, Powers of 10 & Multi-Step Operations** — *SS2 Number Operations* | B9.1.2.1.1, B9.1.2.1.4, B9.1.2.2.1–2 | 1,064 (30.6%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-01-Indices-Decimals-And-Number-Operations/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
-| **04** | T1 | **Number Properties & Operational Laws (Commutative, Associative, Distributive)** — *SS2 Number Operations* | B9.1.2.1.2–4 | 1,064 (30.6%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 1 PNG) |
-| **05** | T1 | **Decimal Operations & Multi-Step Word Problems** — *SS2 Number Operations* | B9.1.2.2.1–2 | 1,064 (30.6%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-03-Decimal-Operations-And-Word-Problems/` — **[x] Delivered** (PDF + 15 worked + 5×5) |
-| **06** | T1 | **Surds (Simple/Compound, Identities, Simplification, Rationalisation & Non-Perfect Roots)** — *SS2 Number Operations* | B9.1.2.4.1–4 *(incl. B9.1.2.3.4)* | 1,064 (30.6%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/` — **[x] Delivered** (PDF + 15 worked + 8×5 + 3 PNGs) |
-| **07** | T1 | **Fraction Arithmetic, Order of Operations (BODMAS/PEMDAS) & Percentages** — *SS3 FDP* | B9.1.3.1.1–3 | 164 (4.7%) | `Mathematics/.../Grade9/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fractions-Decimals-And-Percentages/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
-| **08** | T1 | **Ratio, Proportion, Rates, Wages & Commercial Financial Maths** — *SS4 Ratios & Proportions* | B9.1.4.1.1–2 *(partial)* | 293 (8.4%) | `Mathematics/.../Grade9/Substrand-4-Ratios-And-Proportions/Lesson-01-Ratios-Proportion-And-Financial-Maths/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
-| **09** | T1 | **Taxes (VAT/NHIL), Asset Depreciation, Insurance & SSNIT Contributions/Benefits (Act 766 & PNDCL 247)** — *SS4 Ratios & Proportions* | B9.1.4.1.2–3 | 293 (8.4%) | `Mathematics/.../Grade9/Substrand-4-Ratios-And-Proportions/Lesson-02-Taxes-Depreciation-And-SSNIT/` — **[ ] Pending (Gap: NHIL, Depreciation & SSNIT)** |
+| **01** | T1 | **Place Value, Large Numbers, Rounding & Standard Form** — *SS1 Numeration Systems* | B9.1.1.1.1–2 | 286 (8.4%) | `Mathematics/.../Grade9/Substrand-1-Numeration-Systems/Lesson-01-Place-Value-And-Standard-Form/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 1 PNG) |
+| **02** | T1 | **Real Number System Hierarchy ($\mathbb{N}\subset\mathbb{W}\subset\mathbb{Z}\subset\mathbb{Q}$) & Venn Diagrams** — *SS1 Numeration Systems* | B9.1.1.2.1–2 | 286 (8.4%) | `Mathematics/.../Grade9/Substrand-1-Numeration-Systems/Lesson-02-Number-Systems-And-Venn-Diagrams/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
+| **03** | T1 | **Indices, Powers of 10 & Multi-Step Operations** — *SS2 Number Operations* | B9.1.2.1.1, B9.1.2.1.4, B9.1.2.2.1–2 | 1,039 (30.5%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-01-Indices-Decimals-And-Number-Operations/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
+| **04** | T1 | **Number Properties & Operational Laws (Commutative, Associative, Distributive)** — *SS2 Number Operations* | B9.1.2.1.2–4 | 1,039 (30.5%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-02-Number-Properties-And-Operational-Laws/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 1 PNG) |
+| **05** | T1 | **Decimal Operations & Multi-Step Word Problems** — *SS2 Number Operations* | B9.1.2.2.1–2 | 1,039 (30.5%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-03-Decimal-Operations-And-Word-Problems/` — **[x] Delivered** (PDF + 15 worked + 5×5) |
+| **06** | T1 | **Surds (Simple/Compound, Identities, Simplification, Rationalisation & Non-Perfect Roots)** — *SS2 Number Operations* | B9.1.2.4.1–4 *(incl. B9.1.2.3.4)* | 1,039 (30.5%) | `Mathematics/.../Grade9/Substrand-2-Number-Operations/Lesson-04-Surds-And-Irrational-Roots/` — **[x] Delivered** (PDF + 15 worked + 8×5 + 3 PNGs) |
+| **07** | T1 | **Fraction Arithmetic, Order of Operations (BODMAS/PEMDAS) & Percentages** — *SS3 FDP* | B9.1.3.1.1–3 | 164 (4.8%) | `Mathematics/.../Grade9/Substrand-3-Fractions-Decimals-Percentages/Lesson-01-Fractions-Decimals-And-Percentages/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
+| **08** | T1 | **Ratio, Proportion, Rates, Wages & Commercial Financial Maths** — *SS4 Ratios & Proportions* | B9.1.4.1.1–2 *(partial)* | 280 (8.2%) | `Mathematics/.../Grade9/Substrand-4-Ratios-And-Proportions/Lesson-01-Ratios-Proportion-And-Financial-Maths/` — **[x] Delivered** (PDF + 20 worked + 8×5) |
+| **09** | T1 | **Taxes (VAT/NHIL), Asset Depreciation, Insurance & SSNIT Contributions/Benefits (Act 766 & PNDCL 247)** — *SS4 Ratios & Proportions* | B9.1.4.1.2–3 | 280 (8.2%) | `Mathematics/.../Grade9/Substrand-4-Ratios-And-Proportions/Lesson-02-Taxes-Depreciation-And-SSNIT/` — **[ ] Pending (Gap: NHIL, Depreciation & SSNIT)** |
 
-## Strand 2: Algebra *(Term 2 — 16.2% BECE Bank Weight)*
+## Strand 2: Algebra *(Term 2 — 16.4% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
 | **10** | T2 | **Linear Relations, Gradient & Unit Rate as Slope** — *SS1 Patterns & Relations* | B9.1.4.1.4, B9.2.1.1.1 | 141 (4.1%) | `Mathematics/.../Grade9/Substrand-1-Patterns-And-Relations/Lesson-01-Linear-Relations-And-Gradient/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 1 PNG) |
 | **11** | T2 | **Simultaneous Linear Relations & Graphical Solution by Intersection** — *SS1 Patterns & Relations* | B9.2.1.1.2–3 | 141 (4.1%) | `Mathematics/.../Grade9/Substrand-1-Patterns-And-Relations/Lesson-02-Simultaneous-Linear-Graphs/` — **[ ] Pending (Gap: Simultaneous Graphs)** |
-| **12** | T2 | **Substitution, Simplification & Real-Life Algebraic Modelling** — *SS2 Algebraic Expressions* | B9.2.2.1.2, B9.2.2.1.4 | 265 (7.6%) | `Mathematics/.../Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 2 PNGs) |
-| **13** | T2 | **Change of Subject of Formulae & Quadratic Factorisation (Difference of Squares & Trinomials)** — *SS2 Algebraic Expressions* | B9.2.2.1.1, B9.2.2.1.3 | 265 (7.6%) | `Mathematics/.../Grade9/Substrand-2-Algebraic-Expressions/Lesson-02-Change-Of-Subject-And-Factorisation/` — **[ ] Pending (Gap: Change of Subject & Quadratics)** |
-| **14** | T2 | **Linear Equations, Rational-Coefficient Inequalities & Number-Line Solutions** — *SS3 Variables & Equations* | B9.2.3.1.1–3 | 158 (4.5%) | `Mathematics/.../Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/` — **[x] Delivered** (PDF + 21 worked + 8×5 + 4 PNGs) |
+| **12** | T2 | **Substitution, Simplification & Real-Life Algebraic Modelling** — *SS2 Algebraic Expressions* | B9.2.2.1.2, B9.2.2.1.4 | 261 (7.7%) | `Mathematics/.../Grade9/Substrand-2-Algebraic-Expressions/Lesson-01-Algebraic-Expressions-And-Modelling/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 2 PNGs) |
+| **13** | T2 | **Change of Subject of Formulae & Quadratic Factorisation (Difference of Squares & Trinomials)** — *SS2 Algebraic Expressions* | B9.2.2.1.1, B9.2.2.1.3 | 261 (7.7%) | `Mathematics/.../Grade9/Substrand-2-Algebraic-Expressions/Lesson-02-Change-Of-Subject-And-Factorisation/` — **[ ] Pending (Gap: Change of Subject & Quadratics)** |
+| **14** | T2 | **Linear Equations, Rational-Coefficient Inequalities & Number-Line Solutions** — *SS3 Variables & Equations* | B9.2.3.1.1–3 | 158 (4.6%) | `Mathematics/.../Grade9/Substrand-3-Variables-And-Equations/Lesson-01-Equations-And-Inequalities/` — **[x] Delivered** (PDF + 21 worked + 8×5 + 4 PNGs) |
 
 ## Strand 3: Geometry and Measurement *(Terms 2–3 — 21.1% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **15** | T2 | **Polygons & Angle Sum Formulas ($S = (n-2)\times 180°$)** — *SS1 Shapes & Space* | B9.3.1.1.1 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/` — **[x] Delivered** (PDF + 8×5 + 4 PNGs + Python playground) |
-| **16** | T2 | **Congruence and Similarity in Triangles** — *SS1 Shapes & Space* | B9.3.1.1.2 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/` — **[x] Delivered** (PDF + 8×5 + 5 PNGs + Python playground) |
-| **17** | T2 | **Angles, Parallel Lines & Basic Trigonometry** *(Mock Bridge)* — *SS1 Shapes & Space* | B9.3.1.1.1–2, B8.3.1.1, B8.3.2.1.5 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 4 PNGs) |
-| **18** | T2 | **[Bridge B] Triangle Types, Angle Properties & Pythagoras' Theorem** — *SS1 Shapes & Space* | B8.3.1.1.2, B8.3.2.1.2–4 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-04-Triangle-Types-And-Angles/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 5 PNGs) |
-| **19** | T2 | **[Bridge E] Geometric Constructions I — Perpendiculars, Bisectors, 60°–105° & Loci** — *SS1 Shapes & Space* | B7.3.1.2.1–2, B8.3.1.2.1, B8.3.1.2.3 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-05-Geometric-Constructions-I/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 8 PNGs) |
-| **20** | T2 | **Geometric Constructions II — Triangles (SSS/SAS/ASA), Quadrilaterals, Incircles & Circumcircles** — *SS1 Shapes & Space* | B8.3.1.2.2, B9.3.1.2.1–2 | 288 (8.3%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-06-Geometric-Constructions-II/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 5 PNGs) |
-| **21** | T3 | **Circles, Semicircles, Scale Drawings & Measurement** — *SS2 Measurement & Vectors* | B9.3.2.1.1 *(intro)* + mock | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
-| **22** | T3 | **Position Vectors, Triangle Law & Component Arithmetic** — *SS2 Measurement & Vectors* | B9.3.2.1.4, B9.3.2.2.2 *(previews B9.3.2.2.1)* | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
-| **23** | T3 | **[Bridge A] Perimeter & Area Basics — Squares, Rectangles & Rectilinear Shapes** — *SS2 Measurement & Vectors* | B7.3.2.1.1, B7.3.2.1.3 | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-03-Perimeter-And-Area-Basics/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 3 PNGs) |
-| **24** | T3 | **[Bridge C] Area of Polygons — Parallelogram, Triangle, Trapezium, Rhombus & Kite** — *SS2 Measurement & Vectors* | B7.3.2.2.1–2, B8.3.2.1.4 | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-04-Area-Of-Polygons/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 3 PNGs) |
-| **25** | T3 | **[Bridge D] Circle Parts, Circumference & Area Measures** — *SS2 Measurement & Vectors* | B7.3.2.1.2, B8.3.2.1.1 | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-05-Circle-Parts-And-Measures/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 6 PNGs) |
-| **26** | T3 | **3D Nets & Surface Area (Cuboids & Triangular Prisms), Parallel/Perpendicular Vectors & Parallelogram Law** — *SS2 Measurement & Vectors* | B9.3.2.1.1–3, B9.3.2.2.1–2 | 345 (9.9%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-06-3D-Nets-Surface-Area-And-Vectors/` — **[ ] Pending (Gap: 3D Nets/Surface Area & Orthogonal Vectors)** |
-| **27** | T3 | **Geometric Enlargement, Scale Factors ($k > 0, 0 < k < 1, k < 0$), Area Scale ($k^2$) & Similarity** — *SS3 Position & Transformation* | B9.3.3.1.1–3 | 100 (2.9%) | `Mathematics/.../Grade9/Substrand-3-Position-And-Transformation/Lesson-01-Enlargement-And-Similarity/` — **[ ] Pending (Gap: Entire B9 Enlargement unit)** |
+| **15** | T2 | **Polygons & Angle Sum Formulas ($S = (n-2)\times 180°$)** — *SS1 Shapes & Space* | B9.3.1.1.1 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-01-Polygons-And-Angle-Properties/` — **[x] Delivered** (PDF + 8×5 + 4 PNGs + Python playground) |
+| **16** | T2 | **Congruence and Similarity in Triangles** — *SS1 Shapes & Space* | B9.3.1.1.2 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-02-Congruence-And-Similarity/` — **[x] Delivered** (PDF + 8×5 + 5 PNGs + Python playground) |
+| **17** | T2 | **Angles, Parallel Lines & Basic Trigonometry** *(Mock Bridge)* — *SS1 Shapes & Space* | B9.3.1.1.1–2, B8.3.1.1, B8.3.2.1.5 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-03-Angles-Parallel-Lines-And-Trigonometry/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 4 PNGs) |
+| **18** | T2 | **[Bridge B] Triangle Types, Angle Properties & Pythagoras' Theorem** — *SS1 Shapes & Space* | B8.3.1.1.2, B8.3.2.1.2–4 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-04-Triangle-Types-And-Angles/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 5 PNGs) |
+| **19** | T2 | **[Bridge E] Geometric Constructions I — Perpendiculars, Bisectors, 60°–105° & Loci** — *SS1 Shapes & Space* | B7.3.1.2.1–2, B8.3.1.2.1, B8.3.1.2.3 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-05-Geometric-Constructions-I/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 8 PNGs) |
+| **20** | T2 | **Geometric Constructions II — Triangles (SSS/SAS/ASA), Quadrilaterals, Incircles & Circumcircles** — *SS1 Shapes & Space* | B8.3.1.2.2, B9.3.1.2.1–2 | 278 (8.2%) | `Mathematics/.../Grade9/Substrand-1-Shapes-And-Space/Lesson-06-Geometric-Constructions-II/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 5 PNGs) |
+| **21** | T3 | **Circles, Semicircles, Scale Drawings & Measurement** — *SS2 Measurement & Vectors* | B9.3.2.1.1 *(intro)* + mock | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-01-Measurement-Circles-And-Scale/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
+| **22** | T3 | **Position Vectors, Triangle Law & Component Arithmetic** — *SS2 Measurement & Vectors* | B9.3.2.1.4, B9.3.2.2.2 *(previews B9.3.2.2.1)* | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-02-Vectors/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 3 PNGs) |
+| **23** | T3 | **[Bridge A] Perimeter & Area Basics — Squares, Rectangles & Rectilinear Shapes** — *SS2 Measurement & Vectors* | B7.3.2.1.1, B7.3.2.1.3 | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-03-Perimeter-And-Area-Basics/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 3 PNGs) |
+| **24** | T3 | **[Bridge C] Area of Polygons — Parallelogram, Triangle, Trapezium, Rhombus & Kite** — *SS2 Measurement & Vectors* | B7.3.2.2.1–2, B8.3.2.1.4 | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-04-Area-Of-Polygons/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 3 PNGs) |
+| **25** | T3 | **[Bridge D] Circle Parts, Circumference & Area Measures** — *SS2 Measurement & Vectors* | B7.3.2.1.2, B8.3.2.1.1 | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-05-Circle-Parts-And-Measures/` — **[x] Delivered** (PDF + 15 worked + 5×5 + 6 PNGs) |
+| **26** | T3 | **3D Nets & Surface Area (Cuboids & Triangular Prisms), Parallel/Perpendicular Vectors & Parallelogram Law** — *SS2 Measurement & Vectors* | B9.3.2.1.1–3, B9.3.2.2.1–2 | 342 (10.0%) | `Mathematics/.../Grade9/Substrand-2-Measurement-And-Vectors/Lesson-06-3D-Nets-Surface-Area-And-Vectors/` — **[ ] Pending (Gap: 3D Nets/Surface Area & Orthogonal Vectors)** |
+| **27** | T3 | **Geometric Enlargement, Scale Factors ($k > 0, 0 < k < 1, k < 0$), Area Scale ($k^2$) & Similarity** — *SS3 Position & Transformation* | B9.3.3.1.1–3 | 99 (2.9%) | `Mathematics/.../Grade9/Substrand-3-Position-And-Transformation/Lesson-01-Enlargement-And-Similarity/` — **[ ] Pending (Gap: Entire B9 Enlargement unit)** |
 
-## Strand 4: Handling Data *(Term 3 — 10.7% BECE Bank Weight)*
+## Strand 4: Handling Data *(Term 3 — 10.6% BECE Bank Weight)*
 
 | # | Term | Lesson Title & Sub-strand | Indicators | BECE Weight | Folder & Status |
 | :---: | :---: | :--- | :--- | :---: | :--- |
-| **28** | T3 | **Data Types, Frequency Tables, Stem-and-Leaf & Descriptive Statistics** — *SS1 Data & Statistics* | B9.4.1.1.1–2, B9.4.1.2.2 | 228 (6.6%) | `Mathematics/.../Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 2 PNGs) |
-| **29** | T3 | **Survey Bias & Ethics, Continuous Grouped Histograms, Modal Estimation & Outlier Effects** — *SS1 Data & Statistics* | B9.4.1.1.3, B9.4.1.2.1, B9.4.1.2.3 | 228 (6.6%) | `Mathematics/.../Grade9/Substrand-1-Data-And-Statistics/Lesson-02-Histograms-Survey-Bias-And-Outliers/` — **[ ] Pending (Gap: Histograms, Survey Ethics & Outliers)** |
-| **30** | T3 | **Probability, Sample Spaces & Dependent Two-Stage Events** — *SS2 Chance & Probability* | B9.4.2.1.1–2 | 146 (4.2%) | `Mathematics/.../Grade9/Substrand-2-Chance-And-Probability/Lesson-01-Probability/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 1 PNG) |
+| **28** | T3 | **Data Types, Frequency Tables, Stem-and-Leaf & Descriptive Statistics** — *SS1 Data & Statistics* | B9.4.1.1.1–2, B9.4.1.2.2 | 227 (6.7%) | `Mathematics/.../Grade9/Substrand-1-Data-And-Statistics/Lesson-01-Data-Statistics-And-Representations/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 2 PNGs) |
+| **29** | T3 | **Survey Bias & Ethics, Continuous Grouped Histograms, Modal Estimation & Outlier Effects** — *SS1 Data & Statistics* | B9.4.1.1.3, B9.4.1.2.1, B9.4.1.2.3 | 227 (6.7%) | `Mathematics/.../Grade9/Substrand-1-Data-And-Statistics/Lesson-02-Histograms-Survey-Bias-And-Outliers/` — **[ ] Pending (Gap: Histograms, Survey Ethics & Outliers)** |
+| **30** | T3 | **Probability, Sample Spaces & Dependent Two-Stage Events** — *SS2 Chance & Probability* | B9.4.2.1.1–2 | 135 (4.0%) | `Mathematics/.../Grade9/Substrand-2-Chance-And-Probability/Lesson-01-Probability/` — **[x] Delivered** (PDF + 20 worked + 8×5 + 1 PNG) |
 
 ---
 

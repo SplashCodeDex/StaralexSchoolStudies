@@ -28,7 +28,6 @@ HARVESTED_SUBJ_MAP = {
     "Mathematics": "Mathematics",
     "Computing_ICT": "Computing-ICT",
     "CAD": "CAD",
-    "General_Unclassified": "Other-Subjects-2026-BECE",
 }
 
 MOCK_DOCX_SOURCES = [
@@ -51,8 +50,6 @@ def map_dest(rel: pathlib.Path) -> pathlib.Path | None:
     parts = rel.parts
     name = rel.name
     if len(parts) == 2 and parts[0] in ("CAD", "Computing", "Mathematics"):
-        if name == "CAD-Visual-Arts-Lessons-B7-B9.pdf":
-            return pathlib.Path("05-CAD-Lessons/Visual-Arts") / name
         return pathlib.Path("01-Lesson-Plans-and-Trackers") / name
     if parts[:2] == ("curriculum", "Upper-Primary"):
         return pathlib.Path("02-Curriculum-NaCCA/Upper-Primary-Maths") / name

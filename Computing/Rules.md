@@ -24,10 +24,6 @@ Computing/
 ├── Computing-Lesson-Plan-B7-B9.md (.pdf)
 ├── Computing-Lesson-Tracker-B7-B9.md (.pdf)
 ├── Rules.md
-├── trackers/
-│   ├── Grade7-Curriculum-Tracker.md
-│   ├── Grade8-Curriculum-Tracker.md
-│   └── Grade9-Curriculum-Tracker.md
 ├── Strand-1-Introduction-To-Computing/
 │   ├── Grade7/Lesson-<nn>-<Name>/
 │   ├── Grade8/Lesson-<nn>-<Name>/
@@ -48,4 +44,4 @@ Computing/
 
 ## Tracker
 
-Update [`Computing-Lesson-Tracker-B7-B9.md`](Computing-Lesson-Tracker-B7-B9.md) and the corresponding grade tracker in [`trackers/`](trackers/) before teaching. Mark a lesson delivered only after the lesson + exercises + answers are actually done.
+Update [`Computing-Lesson-Tracker-B7-B9.md`](Computing-Lesson-Tracker-B7-B9.md) before teaching. Mark a lesson delivered only after the lesson + exercises + answers are actually done.

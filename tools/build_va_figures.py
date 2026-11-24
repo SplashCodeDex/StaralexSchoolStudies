@@ -3,8 +3,76 @@ from PIL import Image, ImageDraw, ImageFont
 import math
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "CAD" / "va-figures"
-OUT.mkdir(parents=True, exist_ok=True)
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
+DESTINATIONS = {
+    "colour-wheel.png": [
+        "CAD/Visual-Arts/Grade8/Lesson-02-Elements-Texture-Colour/diagrams/colour-wheel.png",
+        "CAD/Visual-Arts/Grade9/Lesson-14-Philosophies-Different-Times-Cultures/diagrams/colour-wheel.png",
+    ],
+    "design-elements.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-02-Elements-of-Design/diagrams/design-elements.png",
+        "CAD/Visual-Arts/Grade8/Lesson-02-Elements-Texture-Colour/diagrams/design-elements.png",
+        "CAD/Visual-Arts/Grade9/Lesson-02-Elements-Form-and-Value/diagrams/design-elements.png",
+    ],
+    "design-principles.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-03-Principles-of-Design/diagrams/design-principles.png",
+        "CAD/Visual-Arts/Grade8/Lesson-03-Principles-Unity-Variety/diagrams/design-principles.png",
+        "CAD/Visual-Arts/Grade9/Lesson-03-Principles-Variety-Proportion/diagrams/design-principles.png",
+    ],
+    "design-process.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-08-Design-Process/diagrams/design-process.png",
+        "CAD/Visual-Arts/Grade8/Lesson-08-Design-Process-Evaluating/diagrams/design-process.png",
+        "CAD/Visual-Arts/Grade8/Lesson-09-Design-Process-Community/diagrams/design-process.png",
+        "CAD/Visual-Arts/Grade9/Lesson-08-Design-Process-Modifying/diagrams/design-process.png",
+        "CAD/Visual-Arts/Grade9/Lesson-09-Design-Process-Prototypes/diagrams/design-process.png",
+    ],
+    "shading-techniques.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-11-Still-Life-Shading/diagrams/shading-techniques.png",
+        "CAD/Visual-Arts/Grade8/Lesson-04-Manual-2D-Drawing-Tools/diagrams/shading-techniques.png",
+        "CAD/Visual-Arts/Grade9/Lesson-04-Manual-3D-Drawing-Tools/diagrams/shading-techniques.png",
+    ],
+    "shading-sphere.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-11-Still-Life-Shading/diagrams/shading-sphere.png",
+        "CAD/Visual-Arts/Grade9/Lesson-02-Elements-Form-and-Value/diagrams/shading-sphere.png",
+    ],
+    "still-life-setup.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-10-Still-Life-Tools-Materials/diagrams/still-life-setup.png",
+    ],
+    "hand-building.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-12-Clay-and-Pulp-Modelling/diagrams/hand-building.png",
+        "CAD/Visual-Arts/Grade8/Lesson-06-Model-Making-2D-Drawings/diagrams/hand-building.png",
+    ],
+    "pattern-techniques.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-13-Pattern-Making/diagrams/pattern-techniques.png",
+        "CAD/Visual-Arts/Grade8/Lesson-11-Printmaking-Techniques/diagrams/pattern-techniques.png",
+    ],
+    "weave-plain.png": [
+        "CAD/Visual-Arts/Grade8/Lesson-13-Weaving-Techniques/diagrams/weave-plain.png",
+    ],
+    "clay-pulp-prep.png": [
+        "CAD/Visual-Arts/Grade7/Lesson-12-Clay-and-Pulp-Modelling/diagrams/clay-pulp-prep.png",
+    ],
+    "colour-warm-cool.png": [],
+    "caf-techniques.png": [],
+}
+
+
+class _LessonDestRouter:
+    """Routes `OUT / 'name.png'` or `save_fig(im, 'name.png')` to all consuming lesson diagrams/ dirs."""
+
+    def __truediv__(self, name: str) -> str:
+        return name
+
+
+OUT = _LessonDestRouter()
+
+
+def save_fig(im: Image.Image, name: str) -> None:
+    for rel in DESTINATIONS.get(name, []):
+        dst = REPO_ROOT / rel
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        im.save(dst)
 
 FONT = ImageFont.truetype(r"C:\Windows\Fonts\segoeui.ttf", 26)
 FONT_S = ImageFont.truetype(r"C:\Windows\Fonts\segoeui.ttf", 20)
@@ -66,7 +134,7 @@ def colour_wheel():
     label(dr, (x + 30, 470), "Tertiary: primary + next-door", font=FONT_S, anchor="lm")
     label(dr, (x + 30, 498), "secondary mix", font=FONT_S, anchor="lm")
     dr.rectangle([x - 20, 60, x + 265, 530], outline="#CCCCCC", width=2)
-    im.save(OUT / "colour-wheel.png")
+    save_fig(im, OUT / "colour-wheel.png")
 
 
 # ---------------- design elements ----------------
@@ -107,7 +175,7 @@ def design_elements():
     dr.ellipse([960, 260, 1040, 330], fill=(90, 160, 90))
     dr.polygon([(1080, 330), (1120, 260), (1160, 330), (1120, 245)], fill=(170, 90, 110))
     label(dr, ((u[0] + u[2]) / 2, u[3] + 25), "Free shapes made of lines and curves", font=FONT_S)
-    im.save(OUT / "design-elements.png")
+    save_fig(im, OUT / "design-elements.png")
 
 
 # ---------------- design principles ----------------
@@ -142,7 +210,7 @@ def design_principles():
             yy = u[1] + 90 + r_ * 56
             dr.ellipse([x, yy, x + 34, yy + 34], fill=(250, 200, 25) if (r_ + c_) % 2 else (60, 110, 170),
                        outline="#666666", width=2)
-    im.save(OUT / "design-principles.png")
+    save_fig(im, OUT / "design-principles.png")
 
 
 # ---------------- design process ----------------
@@ -181,7 +249,7 @@ def design_process():
     label(dr, (cx, cy - 26), "Start at Define,", font=FONT_S)
     label(dr, (cx, cy + 2), "walk the circle,", font=FONT_S)
     label(dr, (cx, cy + 30), "stop when testing passes", font=FONT_S)
-    im.save(OUT / "design-process.png")
+    save_fig(im, OUT / "design-process.png")
 
 
 # ---------------- shading techniques ----------------
@@ -242,7 +310,7 @@ def shading_techniques():
                 for j in range(3):
                     xx = inner[0] + k * 3 + j
                     dr.line([(xx, inner[1]), (xx, inner[3])], fill=(shade, shade, shade))
-    im.save(OUT / "shading-techniques.png")
+    save_fig(im, OUT / "shading-techniques.png")
 
 
 # ---------------- shading sphere ----------------
@@ -280,7 +348,7 @@ def shading_sphere():
         label(dr, (xtext, ytext + i * 46), t, font=FONT_S, anchor="lm")
     label(dr, (xtext, ytext + 46 * 5 + 20), "Value = how light or dark an area is.", font=FONT_S, fill="#555555")
     label(dr, (cx, cy + r + 120), "The circle becomes a ball only when the tone is graded from light to dark.", font=FONT_S)
-    im.save(OUT / "shading-sphere.png")
+    save_fig(im, OUT / "shading-sphere.png")
 
 
 # ---------------- still life setup ----------------
@@ -311,7 +379,7 @@ def still_life_setup():
     label(dr, (160, 140), "from one side", font=FONT_S, fill=(200, 90, 20))
     label(dr, (600, 560), "Objects are arranged third-back-to-front: jug (tallest), bowl, fruits — overlap them for depth, then match tones.", font=FONT_S)
     label(dr, (600, 592), "Objects look solid only where tone shifts from light (top-left) to dark (bottom-right).", font=FONT_S, fill="#666666")
-    im.save(OUT / "still-life-setup.png")
+    save_fig(im, OUT / "still-life-setup.png")
 
 
 # ---------------- hand building ----------------
@@ -338,7 +406,7 @@ def hand_building():
     dr.line([(x0 + 200, 250), (x0 + 200, 380)], fill="#7a5a45", width=3)
     dr.rectangle([x0 + 120, 210, x0 + 280, 250], fill=(225, 190, 160), outline="#7a5a45", width=3)
     label(dr, (x0 + 200, 165), "flat sheets joined at edges", font=FONT_S)
-    im.save(OUT / "hand-building.png")
+    save_fig(im, OUT / "hand-building.png")
 
 
 # ---------------- pattern techniques ----------------
@@ -400,7 +468,7 @@ def pattern_techniques():
                 y2 = y_ + random.randint(-8, 8)
                 col = random.choice([(70, 40, 140), (200, 60, 130), (255, 170, 0)])
                 dr.arc([min(x_, x2), min(y_, y2), max(x_, x2), max(y_, y2) + 10], 200, 320, fill=col, width=3)
-    im.save(OUT / "pattern-techniques.png")
+    save_fig(im, OUT / "pattern-techniques.png")
 
 
 # ---------------- plain weave ----------------
@@ -426,7 +494,7 @@ def weave_plain():
     label(dr, (x0 + w + 40, y0 + h / 2 + 14), "vertical threads", font=FONT_S, anchor="lm")
     label(dr, ((x0 + w / 2), y0 - 30), "WEFT = horizontal threads", font=FONT_S)
     label(dr, (600, 560), "Over one, under one — plain weave. Twill and satin change the counting pattern (2/2, 4/1) to make diagonal or lustrous faces.", font=FONT_S)
-    im.save(OUT / "weave-plain.png")
+    save_fig(im, OUT / "weave-plain.png")
 
 
 # ---------------- colour warm cool ----------------
@@ -444,7 +512,7 @@ def colour_warm_cool():
     label(dr, (140, 185), "Warm:", font=FONT_S, anchor="rm")
     label(dr, (140, 325), "Cool:", font=FONT_S, anchor="rm")
     label(dr, (600, 415), "Warm colours advance (come forward); cool colours recede (fall back).", font=FONT_S)
-    im.save(OUT / "colour-warm-cool.png")
+    save_fig(im, OUT / "colour-warm-cool.png")
 
 
 # ---------------- clay and pulp prep ----------------
@@ -477,7 +545,7 @@ def clay_pulp_prep():
     mid.ellipse([x + 120, 230, x + 320, 380], fill=(160, 130, 110), outline="#6a4a35", width=3)
     label(dr, (x + 220, 300), "build over a form, dry,", font=FONT_S)
     label(dr, (x + 220, 330), "then paint", font=FONT_S)
-    im.save(OUT / "clay-pulp-prep.png")
+    save_fig(im, OUT / "clay-pulp-prep.png")
 
 
 # ---------------- assemblage / casting / folding ----------------
@@ -509,7 +577,7 @@ def caf_techniques():
         rw = random.randint(18, 40)
         dr.ellipse([xx, yy, xx + rw, yy + 14], fill=random.choice([(70, 130, 180), (200, 60, 60), (240, 190, 40)]))
     label(dr, (x + 230, 175), "found objects stitched, glued, stapled", font=FONT_S)
-    im.save(OUT / "caf-techniques.png")
+    save_fig(im, OUT / "caf-techniques.png")
 
 
 if __name__ == "__main__":
@@ -526,5 +594,8 @@ if __name__ == "__main__":
     colour_warm_cool()
     clay_pulp_prep()
     caf_techniques()
-    for f in sorted(OUT.glob("*.png")):
-        print(f.name, f.stat().st_size)
+    for name, rels in sorted(DESTINATIONS.items()):
+        for rel in rels:
+            p = REPO_ROOT / rel
+            if p.exists():
+                print(rel, p.stat().st_size)

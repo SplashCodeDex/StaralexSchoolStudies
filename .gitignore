@@ -1,6 +1,10 @@
 # Build / tooling junk
 __pycache__/
+*.py[cod]
+*$py.class
 .venv/
+env/
+venv/
 .pytest_cache/
 *.log
 *.aux
@@ -8,8 +12,16 @@ __pycache__/
 *.db-shm
 *.db-wal
 
-# Scratch / temp assets
+# Crawler runtime & scratch caches
+BECE_MOCK_PAPERS/storage/
+BECE_MOCK_PAPERS/data/crawlee_storage/
 /_diag_shade.png
+
+# OS & Office lock files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
 
 # Strict diagram asset policy: figures are .tex + 300 DPI .png ONLY
 # (no .svg, .jpg, .jpeg, or retained .pdf diagram assets, except harvested question crops in BECE_MOCK_PAPERS)
@@ -18,6 +30,3 @@ __pycache__/
 *.jpeg
 !/BECE_MOCK_PAPERS/data/extracted_questions/images/*.jpg
 !/BECE_MOCK_PAPERS/data/extracted_questions/images/*.jpeg
-
-# Lock files
-.mimocode/.cron-lock

@@ -1,7 +1,7 @@
 """
 GES Common Core Programme (CCP) Curriculum Taxonomy for B7, B8, and B9.
 Covers Mathematics, Computing / ICT, and Creative Arts and Design (CAD).
-Enriches B9 indicators from local lesson trackers and links lower-grade prerequisites.
+Enriches indicators from official NaCCA B7–B9 taxonomy JSON and links lower-grade prerequisites.
 """
 
 import json
@@ -11,12 +11,11 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 WORKSPACE_DIR = Path(__file__).resolve().parent.parent
-MATHS_DIR = WORKSPACE_DIR.parent / "Mathematics"
-COMP_DIR = WORKSPACE_DIR.parent / "Computing"
+NACCA_TAXONOMY_PATH = WORKSPACE_DIR / "data" / "taxonomy" / "nacca_b7_b9_indicators.json"
 
 
 # Core Taxonomy Structure: Strands, Substrands, and Indicators
-# Covers B7 and B8 foundations + CAD. B9 items are enriched directly from workspace trackers.
+# Static keyword-enriched entries merged with full NaCCA B7-B9 taxonomy JSON.
 
 CURRICULUM_DATA: List[Dict[str, Any]] = [
     # =========================================================================
@@ -687,215 +686,35 @@ CURRICULUM_DATA: List[Dict[str, Any]] = [
 ]
 
 
-def extract_b9_maths_from_tracker(tracker_path: Path) -> List[Dict[str, Any]]:
-    """Extracts all B9 Mathematics indicators, standards, and topics from Mathematics/trackers/Grade9-Lesson-Tracker.md."""
-    if not tracker_path.exists():
-        return []
-
-    text = tracker_path.read_text(encoding="utf-8")
-    indicators: List[Dict[str, Any]] = []
-
-    # Map Day blocks
-    # e.g.:
-    # - **Day 1: Strand 1, Sub-strand 1 (Part 1) - Place Value, Large Numbers, and Standard Form**
-    #   - Content Standard: B9.1.1.1
-    #   - Indicators: B9.1.1.1.1, B9.1.1.1.2
-    #   - Core Topics: ...
-    day_pattern = re.compile(
-        r"-\s+\*\*Day\s+\d+:\s+Strand\s+(\d+),\s+Sub-strand\s+(\d+)[^\-]*-\s+([^\*]+)\*\*\s*"
-        r"(?:-\s+Content\s+Standard:\s*([^\n\r]+)\s*)?"
-        r"(?:-\s+Indicators?:\s*([^\n\r]+)\s*)?"
-        r"(?:-\s+Core\s+Topics:\s*([\s\S]*?)(?=-\s+Status:|-\s+\*\*Day|\n\n##|\Z))",
-        re.MULTILINE
-    )
-
-    strand_titles = {
-        1: "Number",
-        2: "Algebra",
-        3: "Geometry and Measurement",
-        4: "Handling Data"
-    }
-
-    substrand_titles = {
-        (1, 1): "Numeration Systems",
-        (1, 2): "Number Operations",
-        (1, 3): "Fractions, Decimals, Percentages",
-        (1, 4): "Ratios and Proportions",
-        (2, 1): "Patterns and Relations",
-        (2, 2): "Algebraic Expressions",
-        (2, 3): "Variables and Equations",
-        (3, 1): "Shapes and Space",
-        (3, 2): "Measurement and Vectors",
-        (3, 3): "Position and Transformation",
-        (4, 1): "Data and Statistics",
-        (4, 2): "Chance and Probability"
-    }
-
-    seen_codes = set()
-
-    for match in day_pattern.finditer(text):
-        s_num = int(match.group(1))
-        sub_num = int(match.group(2))
-        day_topic = match.group(3).strip()
-        cs_raw = match.group(4) or f"B9.{s_num}.{sub_num}.1"
-        cs = cs_raw.strip()
-        inds_raw = match.group(5)
-        core_topics_raw = match.group(6) or ""
-
-        # Extract topics
-        topic_lines = [
-            re.sub(r"^[\s\-\*]+", "", line).strip()
-            for line in core_topics_raw.splitlines()
-            if line.strip() and not line.strip().startswith("-")
-        ]
-        topic_summary = " ".join(topic_lines) if topic_lines else day_topic
-
-        # Extract keywords
-        clean_words = re.findall(r"\b[a-zA-Z]{3,}\b", (day_topic + " " + topic_summary).lower())
-        keywords = sorted(list(set([w for w in clean_words if w not in {"the", "and", "for", "with", "from", "part"}])))
-
-        if inds_raw:
-            codes = re.findall(r"B9\.\d+\.\d+\.\d+(?:\.\d+)?", inds_raw)
-            for code in codes:
-                if code in seen_codes:
-                    continue
-                seen_codes.add(code)
-
-                # Determine prerequisite codes (link to B8/B7 counterparts)
-                prereqs = []
-                parts = code.split(".")
-                if len(parts) >= 4:
-                    s_id, sub_id = parts[1], parts[2]
-                    b8_counterpart = f"B8.{s_id}.{sub_id}.1.1"
-                    b7_counterpart = f"B7.{s_id}.{sub_id}.1.1"
-                    prereqs.extend([b8_counterpart, b7_counterpart])
-
-                indicators.append({
-                    "code": code,
-                    "grade": "B9",
-                    "subject": "Mathematics",
-                    "strand_number": s_num,
-                    "strand_title": strand_titles.get(s_num, f"Strand {s_num}"),
-                    "substrand_number": sub_num,
-                    "substrand_title": substrand_titles.get((s_num, sub_num), f"Substrand {sub_num}"),
-                    "content_standard": cs,
-                    "indicator_text": f"{day_topic}: {topic_summary[:250]}",
-                    "prerequisite_codes": prereqs,
-                    "keywords": keywords[:15]
-                })
-
-    return indicators
-
-
-def extract_b9_computing_from_tracker(tracker_path: Path) -> List[Dict[str, Any]]:
-    """Extracts all B9 Computing indicators, strands, and topics from Computing/trackers/Grade9-Curriculum-Tracker.md."""
-    if not tracker_path.exists():
-        return []
-
-    text = tracker_path.read_text(encoding="utf-8")
-    indicators: List[Dict[str, Any]] = []
-
-    strand_titles = {
-        1: "Introduction to Computing",
-        2: "Productivity Software",
-        3: "Communication Networks",
-        4: "Computational Thinking"
-    }
-
-    substrand_titles = {
-        (1, 1): "Components of Computers and Computer Systems",
-        (1, 2): "Technology in the Community",
-        (1, 3): "Health and Safety at Workstations",
-        (2, 1): "Word Processing",
-        (2, 2): "Presentation",
-        (2, 3): "Desktop Publishing",
-        (2, 4): "Electronic Spreadsheet",
-        (3, 1): "Computer Networks",
-        (3, 2): "Internet and Social Media",
-        (3, 3): "Information Security",
-        (3, 4): "Web Technologies",
-        (4, 1): "Introduction to Programming",
-        (4, 2): "Algorithms",
-        (4, 3): "Robotics",
-        (4, 4): "Artificial Intelligence"
-    }
-
-    # Matches Day entries:
-    # - **Day 1**: Strand 1, Sub-strand 1 (Part 1) - Next-Generation Computing & Supercomputing
-    #   - Indicator: B9.1.1.1.1
-    #   - Key Topics: Trends in next-generation hardware...
-    day_pattern = re.compile(
-        r"-\s+\*\*Day\s+\d+\*\*:\s+Strand\s+(\d+),\s+Sub-strand\s+(\d+)[^\-]*-\s+([^\n\r]+)\s*"
-        r"(?:-\s+Indicators?:\s*([^\n\r]+)\s*)?"
-        r"(?:-\s+Key\s+Topics:\s*([^\n\r]+)\s*)?",
-        re.MULTILINE
-    )
-
-    seen_codes = set()
-
-    for match in day_pattern.finditer(text):
-        s_num = int(match.group(1))
-        sub_num = int(match.group(2))
-        day_topic = match.group(3).strip()
-        inds_raw = match.group(4) or ""
-        key_topics = match.group(5) or day_topic
-
-        clean_words = re.findall(r"\b[a-zA-Z]{3,}\b", (day_topic + " " + key_topics).lower())
-        keywords = sorted(list(set([w for w in clean_words if w not in {"the", "and", "for", "with", "from", "part"}])))
-
-        codes = re.findall(r"B9\.\d+\.\d+\.\d+(?:\.\d+)?", inds_raw)
-        if not codes:
-            # Generate default code if missing
-            codes = [f"B9.{s_num}.{sub_num}.1.1"]
-
-        for code in codes:
-            if code in seen_codes:
-                continue
-            seen_codes.add(code)
-
-            prereqs = []
-            parts = code.split(".")
-            if len(parts) >= 4:
-                s_id, sub_id = parts[1], parts[2]
-                prereqs.append(f"B8.{s_id}.{sub_id}.1.1")
-
-            cs = ".".join(code.split(".")[:4])
-
-            indicators.append({
-                "code": code,
-                "grade": "B9",
-                "subject": "Computing_ICT",
-                "strand_number": s_num,
-                "strand_title": strand_titles.get(s_num, f"Strand {s_num}"),
-                "substrand_number": sub_num,
-                "substrand_title": substrand_titles.get((s_num, sub_num), f"Substrand {sub_num}"),
-                "content_standard": cs,
-                "indicator_text": f"{day_topic}: {key_topics}",
-                "prerequisite_codes": prereqs,
-                "keywords": keywords[:15]
-            })
-
-    return indicators
-
-
 def build_full_curriculum_taxonomy() -> List[Dict[str, Any]]:
-    """Builds unified curriculum list combining static B7/B8/CAD items and parsed B9 indicators."""
-    all_indicators = list(CURRICULUM_DATA)
+    """Builds unified curriculum list combining official NaCCA B7-B9 indicators and static keyword metadata."""
+    static_by_key = {(item["subject"], item["code"]): item for item in CURRICULUM_DATA}
+    deduped: Dict[tuple, Dict[str, Any]] = dict(static_by_key)
 
-    # Enrich from Grade 9 Maths tracker
-    math_tracker = MATHS_DIR / "trackers" / "Grade9-Lesson-Tracker.md"
-    b9_math = extract_b9_maths_from_tracker(math_tracker)
-    all_indicators.extend(b9_math)
-
-    # Enrich from Grade 9 Computing tracker
-    comp_tracker = COMP_DIR / "trackers" / "Grade9-Curriculum-Tracker.md"
-    b9_comp = extract_b9_computing_from_tracker(comp_tracker)
-    all_indicators.extend(b9_comp)
-
-    # Deduplicate by code
-    deduped: Dict[str, Dict[str, Any]] = {}
-    for item in all_indicators:
-        deduped[item["code"]] = item
+    if NACCA_TAXONOMY_PATH.exists():
+        payload = json.loads(NACCA_TAXONOMY_PATH.read_text(encoding="utf-8"))
+        nacca_items = payload.get("indicators", payload) if isinstance(payload, dict) else payload
+        for ind in nacca_items:
+            key = (ind["subject"], ind["code"])
+            existing = static_by_key.get(key, {})
+            words = re.findall(
+                r"\b[a-zA-Z]{3,}\b",
+                f"{ind.get('substrand_title', '')} {ind.get('indicator_text', '')}".lower(),
+            )
+            auto_kw = sorted({w for w in words if w not in {"the", "and", "for", "with", "from", "using", "their"}})[:15]
+            deduped[key] = {
+                "code": ind["code"],
+                "grade": ind["grade"],
+                "subject": ind["subject"],
+                "strand_number": ind["strand_number"],
+                "strand_title": ind["strand_title"],
+                "substrand_number": ind["substrand_number"],
+                "substrand_title": ind["substrand_title"],
+                "content_standard": ind["content_standard"],
+                "indicator_text": ind["indicator_text"],
+                "prerequisite_codes": ind.get("prerequisite_codes") or existing.get("prerequisite_codes", []),
+                "keywords": existing.get("keywords") or auto_kw,
+            }
 
     return list(deduped.values())
 

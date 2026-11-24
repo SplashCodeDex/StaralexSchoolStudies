@@ -1,6 +1,6 @@
 # BECE Question Style & Format Analysis (2021–2026)
 
-*Compiled 27 Oct 2026 from `data/harvested/` papers + `data/extracted_questions/questions_bank.jsonl`.*
+*Compiled 27 Oct 2026 from `data/harvested/` papers + `data/extracted_questions/questions_bank.json`.*
 *Purpose: guide how questions should be set for Staralex BECE mock papers and lessons.*
 
 ---
@@ -112,5 +112,5 @@ Sub-part ladder: (a) (b) (c) → (i) (ii) (iii) → (α) (β).
 
 - Only the **2026 Maths scan** (`Mathematics_BECE-2026-MATHEMATICS-QUESTIONS_6f2a94b5.pdf`) and the 2026 CAD scans are faithful WAEC layouts. Website scrapes of 2021/2022/2023/2024 lose cover pages and mangle fractions/vectors — don't treat them as rubric evidence.
 - Several computing/math mocks exist only as passco.com.gh **landing-page stubs** (PalmCedar, SuperbMock, Best Brain Sept/Oct 2026, KuulChat) — underlying PDFs not OCR'd; re-harvest before modelling "mock voice".
-- `questions_bank.jsonl` schema: `id, subject, year, paper_type ("Paper 1 - Objective" | "Paper 2 - Theory" | "Marking Scheme / Solutions"), question_text, option_a..d, correct_answer, has_diagram, diagram_path, indicator_code (B7/B8/B9.*), confidence, tag_method, dedup_hash, migrated_from, created_at`. Coverage: `CAD` (930 canonical questions across legacy + 2024–2026 CCP), `Mathematics` (3,431), `Computing_ICT` (1,276).
+- `questions_bank.json` schema: `id, subject, year, paper_type ("Paper 1 - Objective" | "Paper 2 - Theory" | "Marking Scheme / Solutions"), question_text, option_a..d, correct_answer, has_diagram, diagram_path, indicator_code (B7/B8/B9.*), confidence, tag_method, dedup_hash, migrated_from, created_at`. Coverage: `CAD` (907 canonical questions across legacy + 2024–2026 CCP), `Mathematics` (3,410), `Computing_ICT` (1,243).
 - Bank conventions for answers: "(State any two of the following)" + "• bullet" alternatives + `[n marks]` tags.

@@ -3,9 +3,7 @@
 *Based on the NaCCA Creative Arts and Design Common Core Programme (CCP) Curriculum for JHS1 (B7) – JHS3 (B9).*
 
 - **Source of Truth:** [`CAD-Lesson-Plan-B7-B9.md`](CAD-Lesson-Plan-B7-B9.md) (`101` canonical NaCCA indicators across `27` Content Standards, `2` Main Strands — **Strand 1: Design** and **Strand 2: Creative Arts** — organised into `3` Instructional Groups: **Visual Arts** [carrying Design], **Music**, and **Dance Drama**).
-- **Existing Grade Trackers Reconciled:** [`trackers/Grade7-Lesson-Tracker.md`](trackers/Grade7-Lesson-Tracker.md) (`18/33` delivered), [`trackers/Grade8-Lesson-Tracker.md`](trackers/Grade8-Lesson-Tracker.md) (`18/33` delivered), and [`trackers/Grade9-Lesson-Tracker.md`](trackers/Grade9-Lesson-Tracker.md) (`20/33` delivered).
-- **Master Visual Arts Compendium:** [`CAD-Visual-Arts-Lessons-B7-B9.md`](CAD-Visual-Arts-Lessons-B7-B9.md) ([`CAD-Visual-Arts-Lessons-B7-B9.pdf`](CAD-Visual-Arts-Lessons-B7-B9.pdf)) — consolidated theory Q&A, worked exam exemplars, and Paper 1/Paper 2 exercises with marking schemes across all `54` Visual Arts & Design lessons (`B7–B9`).
-- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`1,786` total Creative Arts & Design items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `1,089` Paper 1 Objective MCQs, `394` Paper 2 Theory/Practical items, and `303` Marking Scheme entries; `1,563` items at high confidence `>= 0.70`).
+- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`907` canonical Creative Arts & Design items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `521` Paper 1 Objective MCQs, `213` Paper 2 Theory/Practical items, and `173` Marking Scheme entries; `793` items at high confidence `>= 0.70`).
 - **Standard:** International British English conventions (*colour*, *modelling*, *organise*, *centre*, *analyse*, *programme*, *artefact*, *jewellery*); strict adherence to [`RULES-BECE-PATTERN.md`](../RULES-BECE-PATTERN.md) and NaCCA CCP practical-first assessment standards.
 - **Pedagogical Model & Time Allocation:** `4 periods × 50 minutes/week` (`200 minutes/week`): **Design** — `1 period/week` (`50 min`); **Visual Arts** — `2 periods/week` (`100 min`); **Music** and **Dance Drama** — alternate fortnightly on the remaining `1 period/week` (`50 min`). Every lesson unpacks technical vocabulary first, teaches through structured **Theory Questions and Answers**, demonstrates compulsory sketches/diagrams, walks through authentic BECE/mock exemplars, and concludes with Paper 1 Objective and Paper 2 Theory exercises plus full marking schemes.
 
@@ -24,40 +22,40 @@
 
 | Discipline Group & Sub-strand | B7 | B8 | B9 | Total | Delivered | BECE Tagged | Share | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **1A. Design — SS1: Design in Nature & Manmade Environment** | 3 | 3 | 3 | 9 | 9 | 198 | 11.1% | 100.0% Complete |
-| **1A. Design — SS2: Drawing, Shading, Colouring & Modelling** | 3 | 3 | 3 | 9 | 9 | 210 | 11.8% | 100.0% Complete |
-| **1A. Design — SS3: Creativity, Innovation & Design Process** | 3 | 3 | 3 | 9 | 9 | 65 | 3.6% | 100.0% Complete |
-| **1B. Visual Arts — SS1: Media and Techniques** | 4 | 4 | 4 | 12 | 12 | 211 | 11.8% | 100.0% Complete |
-| **1B. Visual Arts — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 9 | 126 | 7.1% | 100.0% Complete |
-| **1B. Visual Arts — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 6 | 34 | 1.9% | 100.0% Complete |
-| *Subtotal — Visual Arts (incl. Design) [Lessons 01–18]* | *18* | *18* | *18* | *54* | *54* | *844* | *47.3%* | *100.0% Complete* |
-| **2. Music — SS1: Media and Techniques** | 3 | 3 | 2 | 8 | 1 | 223 | 12.5% | 12.5% In Progress |
-| **2. Music — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 0 | 142 | 8.0% | 0.0% Pending |
-| **2. Music — SS3: Connections in Local & Global Cultures** | 2 | 2 | 3 | 7 | 0 | 129 | 7.2% | 0.0% Pending |
-| *Subtotal — Music [Lessons 19–26]* | *8* | *8* | *8* | *24* | *1* | *494* | *27.7%* | *4.2% In Progress* |
-| **3. Dance Drama — SS1: Media and Techniques** | 2 | 2 | 3 | 7 | 1 | 340 | 19.0% | 14.3% In Progress |
-| **3. Dance Drama — SS2: Creative & Aesthetic Expression** | 3 | 3 | 2 | 8 | 0 | 58 | 3.2% | 0.0% Pending |
-| **3. Dance Drama — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 0 | 50 | 2.8% | 0.0% Pending |
-| *Subtotal — Dance Drama [Lessons 27–33]* | *7* | *7* | *7* | *21* | *1* | *448* | *25.1%* | *4.8% In Progress* |
-| **Curriculum Total** | **33** | **33** | **33** | **99** | **56** | **1,786** | **100.0%** | **56.6% Complete** |
+| **1A. Design — SS1: Design in Nature & Manmade Environment** | 3 | 3 | 3 | 9 | 9 | 100 | 11.0% | 100.0% Complete |
+| **1A. Design — SS2: Drawing, Shading, Colouring & Modelling** | 3 | 3 | 3 | 9 | 9 | 108 | 11.9% | 100.0% Complete |
+| **1A. Design — SS3: Creativity, Innovation & Design Process** | 3 | 3 | 3 | 9 | 9 | 31 | 3.4% | 100.0% Complete |
+| **1B. Visual Arts — SS1: Media and Techniques** | 4 | 4 | 4 | 12 | 12 | 111 | 12.2% | 100.0% Complete |
+| **1B. Visual Arts — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 9 | 64 | 7.1% | 100.0% Complete |
+| **1B. Visual Arts — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 6 | 18 | 2.0% | 100.0% Complete |
+| *Subtotal — Visual Arts (incl. Design) [Lessons 01–18]* | *18* | *18* | *18* | *54* | *54* | *432* | *47.6%* | *100.0% Complete* |
+| **2. Music — SS1: Media and Techniques** | 3 | 3 | 2 | 8 | 1 | 112 | 12.3% | 12.5% In Progress |
+| **2. Music — SS2: Creative & Aesthetic Expression** | 3 | 3 | 3 | 9 | 0 | 65 | 7.2% | 0.0% Pending |
+| **2. Music — SS3: Connections in Local & Global Cultures** | 2 | 2 | 3 | 7 | 0 | 67 | 7.4% | 0.0% Pending |
+| *Subtotal — Music [Lessons 19–26]* | *8* | *8* | *8* | *24* | *1* | *244* | *26.9%* | *4.2% In Progress* |
+| **3. Dance Drama — SS1: Media and Techniques** | 2 | 2 | 3 | 7 | 1 | 173 | 19.1% | 14.3% In Progress |
+| **3. Dance Drama — SS2: Creative & Aesthetic Expression** | 3 | 3 | 2 | 8 | 0 | 32 | 3.5% | 0.0% Pending |
+| **3. Dance Drama — SS3: Connections in Local & Global Cultures** | 2 | 2 | 2 | 6 | 0 | 26 | 2.9% | 0.0% Pending |
+| *Subtotal — Dance Drama [Lessons 27–33]* | *7* | *7* | *7* | *21* | *1* | *231* | *25.5%* | *4.8% In Progress* |
+| **Curriculum Total** | **33** | **33** | **33** | **99** | **56** | **907** | **100.0%** | **56.6% Complete** |
 
 ### Sub-strand BECE Exam Weighting Breakdown (`BECE_MOCK_PAPERS`)
 
 | Discipline & Sub-strand | Paper 1 (Obj) | Paper 2 (Theory) | Marking Scheme | Total Tagged | Share of Bank | Priority Tier |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **1A.1 Design in Nature & Manmade Environment** | 124 | 34 | 40 | 198 | 11.1% | High (100% Built) |
-| **1A.2 Drawing, Shading, Colouring & Modelling** | 144 | 31 | 35 | 210 | 11.8% | High (100% Built) |
-| **1A.3 Creativity, Innovation & Design Process** | 44 | 13 | 8 | 65 | 3.6% | Standard (100% Built) |
-| **1B.1 Visual Arts: Media & Techniques** | 121 | 32 | 58 | 211 | 11.8% | High (100% Built) |
-| **1B.2 Visual Arts: Creative & Aesthetic Expression** | 78 | 21 | 27 | 126 | 7.1% | Moderate-High (100% Built) |
-| **1B.3 Visual Arts: Connections in Local/Global Cultures** | 22 | 5 | 7 | 34 | 1.9% | Standard (100% Built) |
-| **2.1 Music: Media & Techniques** | 133 | 54 | 36 | 223 | 12.5% | **Critical (#2 — 1/8 Built)** |
-| **2.2 Music: Creative & Aesthetic Expression** | 112 | 18 | 12 | 142 | 8.0% | **High (Pending)** |
-| **2.3 Music: Connections in Local/Global Cultures** | 56 | 40 | 33 | 129 | 7.2% | **High — Paper 2 Heavy (Pending)** |
-| **3.1 Dance Drama: Media & Techniques** | 205 | 105 | 30 | 340 | 19.0% | **Critical (#1 — 1/7 Built)** |
-| **3.2 Dance Drama: Creative & Aesthetic Expression** | 26 | 18 | 14 | 58 | 3.2% | Standard (Pending) |
-| **3.3 Dance Drama: Connections in Local/Global Cultures** | 24 | 23 | 3 | 50 | 2.8% | Standard — Paper 2 Heavy (Pending) |
-| **Total Tagged CAD Bank** | **1,089** | **394** | **303** | **1,786** | **100.0%** | **47.3% Built / 52.7% Pending** |
+| **1A.1 Design in Nature & Manmade Environment** | 59 | 19 | 22 | 100 | 11.0% | High (100% Built) |
+| **1A.2 Drawing, Shading, Colouring & Modelling** | 69 | 18 | 21 | 108 | 11.9% | High (100% Built) |
+| **1A.3 Creativity, Innovation & Design Process** | 19 | 7 | 5 | 31 | 3.4% | Standard (100% Built) |
+| **1B.1 Visual Arts: Media & Techniques** | 61 | 18 | 32 | 111 | 12.2% | High (100% Built) |
+| **1B.2 Visual Arts: Creative & Aesthetic Expression** | 37 | 11 | 16 | 64 | 7.1% | Moderate-High (100% Built) |
+| **1B.3 Visual Arts: Connections in Local/Global Cultures** | 11 | 3 | 4 | 18 | 2.0% | Standard (100% Built) |
+| **2.1 Music: Media & Techniques** | 65 | 29 | 18 | 112 | 12.3% | **Critical (#2 — 1/8 Built)** |
+| **2.2 Music: Creative & Aesthetic Expression** | 49 | 10 | 6 | 65 | 7.2% | **High (Pending)** |
+| **2.3 Music: Connections in Local/Global Cultures** | 27 | 21 | 19 | 67 | 7.4% | **High — Paper 2 Heavy (Pending)** |
+| **3.1 Dance Drama: Media & Techniques** | 99 | 55 | 19 | 173 | 19.1% | **Critical (#1 — 1/7 Built)** |
+| **3.2 Dance Drama: Creative & Aesthetic Expression** | 13 | 10 | 9 | 32 | 3.5% | Standard (Pending) |
+| **3.3 Dance Drama: Connections in Local/Global Cultures** | 12 | 12 | 2 | 26 | 2.9% | Standard — Paper 2 Heavy (Pending) |
+| **Total Tagged CAD Bank** | **521** | **213** | **173** | **907** | **100.0%** | **56.6% Lessons Built** |
 
 ---
 
@@ -77,7 +75,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 # GRADE 7 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
 
-*Individual lesson packages reside in [`CAD/{Visual-Arts,Music,Dance-Drama}/Grade7/`](trackers/Grade7-Lesson-Tracker.md).*
+*Individual lesson packages reside in `CAD/{Visual-Arts,Music,Dance-Drama}/Grade7/`.*
 
 ## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
 
@@ -138,7 +136,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 # GRADE 8 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
 
-*Individual lesson packages reside in [`CAD/{Visual-Arts,Music,Dance-Drama}/Grade8/`](trackers/Grade8-Lesson-Tracker.md).*
+*Individual lesson packages reside in `CAD/{Visual-Arts,Music,Dance-Drama}/Grade8/`.*
 
 ## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
 
@@ -199,7 +197,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
 
 # GRADE 9 CREATIVE ARTS & DESIGN — LESSON DELIVERY SCHEDULE
 
-*Individual lesson packages reside in [`CAD/{Visual-Arts,Music,Dance-Drama}/Grade9/`](trackers/Grade9-Lesson-Tracker.md).*
+*Individual lesson packages reside in `CAD/{Visual-Arts,Music,Dance-Drama}/Grade9/`.*
 
 ## Group 1A: Strand 1 — Design *(Carried inside Visual Arts · 1 period/week)*
 
@@ -264,7 +262,7 @@ Paced at **4 periods × 50 minutes/week** (Design: 1 period/week; Visual Arts: 2
    Every lesson package lives in its designated discipline folder (`Visual-Arts/`, `Music/`, or `Dance-Drama/`) and ships with:
    - `Lesson_<nn>_<Topic>.md` — Plain British English preamble, "Words to know first" glossary, structured **Theory Questions and Answers** (`Q1. …? Ans. …`), comparison tables, numbered procedural steps, worked exam exemplars (`(bank)` / `(mock)` with mark allocations), and BECE-shaped exercises (Paper 1 Objective MCQs with reason-backed keys + Paper 2 Theory questions with complete marking schemes).
    - `Lesson_<nn>_<Topic>.pdf` — Compiled via `tools/build_lesson_pdf.py` (Cambria body font, clean typography, zero tofu glyphs).
-   - `diagrams/` — Contextual high-resolution PNG illustrations generated via `tools/build_va_figures.py` (`CAD/va-figures/`) or TikZ/Python figure builders (elements/principles of design, colour wheel, shading spheres, clay/weaving/printmaking diagrams, treble staff/solfège charts, and stage-blocking grids).
+   - `diagrams/` — Contextual high-resolution PNG illustrations generated via `tools/build_va_figures.py` or TikZ/Python figure builders (elements/principles of design, colour wheel, shading spheres, clay/weaving/printmaking diagrams, treble staff/solfège charts, and stage-blocking grids).
 
 2. **BECE Paper 2 Section-Rotation Delivery Rule (Round-Robin Across Sections — Never Sequential):**
    - **Why Section Rotation:** BECE Creative Arts & Design Paper 2 (`60 marks`) is divided into three sections: **Section A: Visual Arts** (`[30 marks]` — 2 questions; design brief + drawing/shading in `Box A`), **Section B: Music** (`[15 marks]` — staff notation, Curwen hand signs, time signatures, triads/ostinato, Ghanaian/African art composers), and **Section C: Dance & Drama** (`[15 marks]` — script excerpt with `"In not more than four words, suggest a suitable title..."`, stage-blocking positions `DR/UL/DC` & profiles `1st–4th`, and Ghanaian dance classification tables `Religious / War / Royal / Recreational`).

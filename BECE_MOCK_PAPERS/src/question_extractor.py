@@ -17,7 +17,6 @@ logger = logging.getLogger("QuestionExtractor")
 EXTRACTED_DIR = Path(__file__).resolve().parent.parent / "data" / "extracted_questions"
 IMAGES_DIR = EXTRACTED_DIR / "images"
 JSON_EXPORT_PATH = EXTRACTED_DIR / "questions_bank.json"
-JSONL_EXPORT_PATH = EXTRACTED_DIR / "questions_bank.jsonl"
 
 STIMULUS_PATTERNS = [
     re.compile(r"(?:figure|fig\.?|diagram|illustration|table|chart)\s*([ivx\d]+)?\s*.*?(?:answer\s+questions?\s+(\d{1,2})(?:\s*(?:and|to|-|,)\s*(\d{1,2}))?)", re.I),
@@ -930,9 +929,8 @@ class QuestionExtractor:
         self.save_questions_batch([q])
 
     def export_catalog(self, json_path: Optional[Path] = None, jsonl_path: Optional[Path] = None) -> None:
-        """Exports extracted questions to JSON and JSONL."""
+        """Exports extracted questions to JSON (and optional JSONL if jsonl_path is given)."""
         out_json = json_path or JSON_EXPORT_PATH
-        out_jsonl = jsonl_path or JSONL_EXPORT_PATH
         with sqlite3.connect(str(self.db_path)) as conn:
             conn.row_factory = sqlite3.Row
             # Check if questions table exists
@@ -950,9 +948,10 @@ class QuestionExtractor:
         with open(out_json, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
 
-        with open(out_jsonl, "w", encoding="utf-8") as f:
-            for item in data:
-                f.write(json.dumps(item, ensure_ascii=False) + "\n")
+        if jsonl_path is not None:
+            with open(jsonl_path, "w", encoding="utf-8") as f:
+                for item in data:
+                    f.write(json.dumps(item, ensure_ascii=False) + "\n")
 
 
 if __name__ == "__main__":

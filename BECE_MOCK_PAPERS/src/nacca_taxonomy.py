@@ -28,7 +28,7 @@ SUBSTRAND_RE = re.compile(r"^Sub-?\s*strand\s+(\d+)\s*:\s*(.+?)\s*$", re.I)
 EXEMPLAR_RE = re.compile(r"\bE\.?\s?g\.?\s*\d*", re.I)
 
 # Known NaCCA PDF errata: printed code is wrong, correct code per hierarchy
-# (verified against Mathematics/trackers/Grade9-Lesson-Tracker.md).
+# (verified against Mathematics/Mathematics-Lesson-Tracker-B7-B9.md).
 ERRATA = {
     # Printed as B9.1.2.3.4 but sits under content standard B9.1.2.4
     # ("Approximate square roots of non-perfect squares with calculators").

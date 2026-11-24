@@ -22,14 +22,7 @@
 CAD/
 ├── CAD-Lesson-Plan-B7-B9.md (.pdf)
 ├── CAD-Lesson-Tracker-B7-B9.md (.pdf)
-├── CAD-Visual-Arts-Lessons-B7-B9.md (.pdf)
 ├── Rules.md
-├── trackers/
-│   ├── Grade7-Lesson-Tracker.md
-│   ├── Grade8-Lesson-Tracker.md
-│   └── Grade9-Lesson-Tracker.md
-├── va-figures/
-├── drafts/
 ├── Visual-Arts/
 │   ├── Grade7/Lesson-<nn>-<Name>/
 │   ├── Grade8/Lesson-<nn>-<Name>/

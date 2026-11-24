@@ -2,7 +2,7 @@
 ## Non-mathematical subjects (Computing / ICT, CAD / Creative Arts and Design)
 
 **Scope:** every grade and every subject that is **not** Mathematics (JHS 1–3 / B7–B9).  
-**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (1,276 Computing_ICT + 930 CAD canonical questions, plus marking schemes) and, per subject: the official NaCCA CCP PDFs for Computing; **[`CAD/CAD-Lesson-Plan-B7-B9.md`](CAD/CAD-Lesson-Plan-B7-B9.md)** for Creative Arts & Design (the NaCCA CAD curriculum files were purged — the plan, grouped as Visual Arts incl. Design, Music, Dance Drama, is authoritative).
+**Source of truth:** the tagged question bank `BECE_MOCK_PAPERS` (1,243 Computing_ICT + 907 CAD canonical questions, plus marking schemes) and, per subject: the official NaCCA CCP PDFs for Computing; **[`CAD/CAD-Lesson-Plan-B7-B9.md`](CAD/CAD-Lesson-Plan-B7-B9.md)** for Creative Arts & Design (the NaCCA CAD curriculum files were purged — the plan, grouped as Visual Arts incl. Design, Music, Dance Drama, is authoritative).
 
 Subject folders keep their own short `Rules.md` that **links here** and adds only subject-specific notes. Do not duplicate this file.
 
@@ -220,7 +220,7 @@ Always pass `--subject`. Codes collide across subjects.
 Produce **real image files** (300 DPI `.png` only — never `.jpg` masters) and insert them into the PDF and the Markdown via `![Descriptive Caption](diagrams/filename.png)`.
 
 The authoring pipeline is the **TikZ `.tex` → `.png`** one proven in
-[`BECE_MOCK_PAPERS/data/diagrams/math_redrawn/`](../BECE_MOCK_PAPERS/data/diagrams/math_redrawn)
+[`BECE_MOCK_PAPERS/data/diagrams/math_redrawn/`](BECE_MOCK_PAPERS/data/diagrams/math_redrawn)
 (46 audited templates render via `pdflatex` + `pdftoppm`):
 
 1. Write a `standalone` LaTeX source `\documentclass[tikz,border=6pt]{standalone}` in the lesson's `diagrams/` folder (or in `BECE_MOCK_PAPERS/data/diagrams/math_redrawn/` when it generalises to a canonical template).

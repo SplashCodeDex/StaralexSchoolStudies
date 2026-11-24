@@ -3,7 +3,7 @@
 Usage:
     python run_phase1.py init                      # create v2 tables only
     python run_phase1.py migrate [--dry-run]       # migrate + dedup extracted_questions
-    python run_phase1.py seed-taxonomy --file data/taxonomy/b9_indicators.json
+    python run_phase1.py seed-taxonomy --file data/taxonomy/nacca_b7_b9_indicators.json
     python run_phase1.py report                    # bank quality overview
 """
 
@@ -178,7 +178,11 @@ def main() -> None:
     p_migrate.add_argument("--dry-run", action="store_true", help="Roll back after counting")
 
     p_seed = sub.add_parser("seed-taxonomy", help="Load curriculum indicators from JSON")
-    p_seed.add_argument("--file", required=True, help="Path to b9_indicators.json")
+    p_seed.add_argument(
+        "--file",
+        default="data/taxonomy/nacca_b7_b9_indicators.json",
+        help="Path to nacca_b7_b9_indicators.json",
+    )
 
     sub.add_parser("report", help="Bank quality overview")
 

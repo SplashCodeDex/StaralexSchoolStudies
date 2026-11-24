@@ -77,9 +77,6 @@ Mathematics/
 ├── Mathematics-Lesson-Plan-B7-B9.md (.pdf)
 ├── Mathematics-Lesson-Tracker-B7-B9.md (.pdf)
 ├── Rules.md
-├── trackers/
-│   ├── Grade7-Lesson-Tracker.md
-│   └── Grade9-Lesson-Tracker.md
 ├── Strand-1-Number/
 │   ├── Grade7/Substrand-<m>-<Name>/Lesson-<nn>-<Name>/
 │   ├── Grade8/Substrand-<m>-<Name>/Lesson-<nn>-<Name>/

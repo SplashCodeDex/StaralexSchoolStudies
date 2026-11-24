@@ -3,8 +3,7 @@
 *Based on the NaCCA Computing Common Core Programme (CCP) Curriculum for JHS1 (B7) – JHS3 (B9).*
 
 - **Source of Truth:** [`Computing-Lesson-Plan-B7-B9.md`](Computing-Lesson-Plan-B7-B9.md) (`125` canonical NaCCA indicators across `43` Content Standards, `4` Main Strands, and `14` Sub-strands).
-- **Existing Grade Trackers Reconciled:** [`trackers/Grade7-Curriculum-Tracker.md`](trackers/Grade7-Curriculum-Tracker.md) (`3/20` delivered) and [`trackers/Grade9-Curriculum-Tracker.md`](trackers/Grade9-Curriculum-Tracker.md) (`5/21` delivered).
-- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`1,276` total Computing/ICT items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `973` Paper 1 Objective MCQs, `173` Paper 2 Theory/Essay items [`145` Theory + `28` Essay], and `130` Marking Scheme entries; `1,255` items at high confidence `>= 0.70`).
+- **BECE Exam Weighting Source:** `BECE_MOCK_PAPERS` (`1,243` canonical Computing/ICT items in `catalog.db`, `100%` embedded with `google/embeddinggemma-2` and tagged to primary NaCCA indicators — `940` Paper 1 Objective MCQs, `173` Paper 2 Theory/Essay items [`145` Theory + `28` Essay], and `130` Marking Scheme entries; `1,222` items at high confidence `>= 0.70`).
 - **Standard:** International British English conventions (*organise*, *colour*, *programme*, *centre*); strict adherence to [`RULES-BECE-PATTERN.md`](../RULES-BECE-PATTERN.md), NaCCA CCP indicators, and BECE examinable standards.
 - **Pedagogical Model & Time Allocation:** `3–4 periods × 50 minutes/week` (`1–2` periods theory/concepts + `2` periods hands-on computer lab practicals). Every lesson combines structured **Theory Questions and Answers** (`Q1. …? Ans. …`), acronym/shortcut/formula tables, step-by-step GUI/lab procedures, contextual diagrams, worked exam exemplars, and an `8×5` or `5×5` exercise battery with complete marking schemes.
 
@@ -23,32 +22,32 @@
 
 | Main Strand | B7 | B8 | B9 | Total | Delivered | BECE Tagged | Share | Status |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Strand 1: Introduction to Computing** | 3 | 4 | 5 | 12 | 8 | 465 | 36.4% | 66.7% Active (G7 & G9 100% Complete) |
-| **Strand 2: Productivity Software** | 7 | 7 | 6 | 20 | 0 | 365 | 28.6% | 0.0% Pending (Word & Excel #2–#3 in Bank) |
-| **Strand 3: Communication Networks** | 5 | 4 | 5 | 14 | 0 | 279 | 21.9% | 0.0% Pending |
-| **Strand 4: Computational Thinking** | 5 | 4 | 5 | 14 | 0 | 167 | 13.1% | 0.0% Pending |
-| **Curriculum Total** | **20** | **19** | **21** | **60** | **8** | **1,276** | **100.0%** | **13.3% Complete** |
+| **Strand 1: Introduction to Computing** | 3 | 4 | 5 | 12 | 8 | 452 | 36.4% | 66.7% Active (G7 & G9 100% Complete) |
+| **Strand 2: Productivity Software** | 7 | 7 | 6 | 20 | 0 | 354 | 28.5% | 0.0% Pending (Word & Excel #2–#3 in Bank) |
+| **Strand 3: Communication Networks** | 5 | 4 | 5 | 14 | 0 | 271 | 21.8% | 0.0% Pending |
+| **Strand 4: Computational Thinking** | 5 | 4 | 5 | 14 | 0 | 166 | 13.4% | 0.0% Pending |
+| **Curriculum Total** | **20** | **19** | **21** | **60** | **8** | **1,243** | **100.0%** | **13.3% Complete** |
 
 ### Sub-strand BECE Exam Weighting Breakdown (`BECE_MOCK_PAPERS`)
 
 | Strand & Sub-strand | Paper 1 (Obj) | Paper 2 (Theory/Essay) | Marking Scheme | Total Tagged | Share of Bank | Priority Tier |
 | :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **S1.1 Components of Computers & Computer Systems** | 300 | 55 | 18 | 373 | 29.2% | **Critical (#1 — G7 & G9 Built)** |
+| **S1.1 Components of Computers & Computer Systems** | 293 | 55 | 18 | 366 | 29.4% | **Critical (#1 — G7 & G9 Built)** |
 | **S1.2 Technology in the Community** | 8 | 3 | 2 | 13 | 1.0% | Standard (G7 & G9 Built) |
-| **S1.3 Health & Safety in the Use of ICT Tools** | 52 | 10 | 17 | 79 | 6.2% | **High (G7 & G9 Built)** |
-| **S2.1 Introduction to Word Processing** | 98 | 27 | 4 | 129 | 10.1% | **Critical (#3 — Pending)** |
-| **S2.2 Introduction to Presentation Software** | 38 | 2 | 9 | 49 | 3.8% | Moderate (Pending) |
-| **S2.3 Introduction to Desktop Publishing** *(B8–B9)* | 35 | 10 | 4 | 49 | 3.8% | Moderate (Pending) |
-| **S2.4 Introduction to Electronic Spreadsheet** | 111 | 17 | 10 | 138 | 10.8% | **Critical (#2 — Pending)** |
-| **S3.1 Computer Networks** | 58 | 8 | 11 | 77 | 6.0% | **High (Pending)** |
-| **S3.2 Internet and Social Media** | 47 | 9 | 11 | 67 | 5.3% | Moderate-High (Pending) |
-| **S3.3 Information Security** | 43 | 11 | 11 | 65 | 5.1% | Moderate-High (Pending) |
-| **S3.4 Web Technologies** | 49 | 4 | 17 | 70 | 5.5% | Moderate-High (Pending) |
-| **S4.1 Introduction to Programming** | 46 | 7 | 6 | 59 | 4.6% | Moderate (Pending) |
-| **S4.2 Algorithm** | 51 | 6 | 5 | 62 | 4.9% | Moderate (Pending) |
-| **S4.3 Robotics** | 15 | 1 | 1 | 17 | 1.3% | Standard (Pending) |
-| **S4.4 Artificial Intelligence** | 22 | 3 | 4 | 29 | 2.3% | Standard (Pending) |
-| **Total Tagged Computing Bank** | **973** | **173** | **130** | **1,276** | **100.0%** | **36.4% Strand 1 Active** |
+| **S1.3 Health & Safety in the Use of ICT Tools** | 46 | 10 | 17 | 73 | 5.9% | **High (G7 & G9 Built)** |
+| **S2.1 Introduction to Word Processing** | 94 | 27 | 4 | 125 | 10.1% | **Critical (#3 — Pending)** |
+| **S2.2 Introduction to Presentation Software** | 38 | 2 | 9 | 49 | 3.9% | Moderate (Pending) |
+| **S2.3 Introduction to Desktop Publishing** *(B8–B9)* | 31 | 10 | 4 | 45 | 3.6% | Moderate (Pending) |
+| **S2.4 Introduction to Electronic Spreadsheet** | 108 | 17 | 10 | 135 | 10.9% | **Critical (#2 — Pending)** |
+| **S3.1 Computer Networks** | 57 | 8 | 11 | 76 | 6.1% | **High (Pending)** |
+| **S3.2 Internet and Social Media** | 46 | 9 | 11 | 66 | 5.3% | Moderate-High (Pending) |
+| **S3.3 Information Security** | 41 | 11 | 11 | 63 | 5.1% | Moderate-High (Pending) |
+| **S3.4 Web Technologies** | 45 | 4 | 17 | 66 | 5.3% | Moderate-High (Pending) |
+| **S4.1 Introduction to Programming** | 46 | 7 | 6 | 59 | 4.7% | Moderate (Pending) |
+| **S4.2 Algorithm** | 51 | 6 | 5 | 62 | 5.0% | Moderate (Pending) |
+| **S4.3 Robotics** | 15 | 1 | 1 | 17 | 1.4% | Standard (Pending) |
+| **S4.4 Artificial Intelligence** | 21 | 3 | 4 | 28 | 2.3% | Standard (Pending) |
+| **Total Tagged Computing Bank** | **940** | **173** | **130** | **1,243** | **100.0%** | **36.4% Strand 1 Active** |
 
 ---
 
