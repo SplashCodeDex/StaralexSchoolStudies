@@ -26,161 +26,48 @@ Style mix: 75% command-verb stems (define/what is/explain/highlight/list/state/s
 from __future__ import annotations
 
 import random
-import re
+import sys
+from collections import Counter
 from pathlib import Path
 
-from docx import Document
-from docx.enum.section import WD_SECTION
 from docx.enum.table import WD_TABLE_ALIGNMENT
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.shared import Cm, Pt
 
+TOOLS_DIR = Path(__file__).resolve().parents[4] / "tools"
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
+from waec_mock_docx import (  # noqa: E402
+    add_candidate_fields,
+    add_paper1_rubric,
+    add_runs,
+    add_staralex_letterhead,
+    centered,
+    dotted_line,
+    drawing_box,
+    footer_code,
+    line,
+    new_waec_doc,
+    page_break,
+    page_number_header,
+    render_balanced_objectives,
+    render_marking_scheme_p1_key,
+    render_marking_scheme_sections,
+    right_marks,
+    shaded_heading,
+)
+
 OUT = Path(__file__).with_name("CDT_CAD_Staralex_Mock_Oct2026_Paper1and2.docx")
 LOGO = Path(__file__).with_name("assets") / "logo_staralex.png"
-
-# ----------------------------------------------------------------------------- helpers
-BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
-WML = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
 
 VERBS = {'what', 'draw', 'draws', 'render', 'shade', 'shades', 'sketch', 'list', 'lists',
          'state', 'states', 'give', 'gives', 'identify', 'identifies', 'explain', 'explains',
          'enumerate', 'enumerates', 'describe', 'describes', 'define', 'defines', 'highlight',
          'highlights', 'name', 'names', 'suggest', 'suggests', 'group', 'notate', 'construct'}
 QTY = {'one', 'two', 'three', 'four', 'five', 'six'}
-
-
-def add_runs(par, text: str, italic=False):
-    """Bold only explicit **...** markers - like the approved Computing builder."""
-    pos = 0
-    for m in BOLD_RE.finditer(text):
-        if m.start() > pos:
-            r = par.add_run(text[pos:m.start()])
-            if italic:
-                r.italic = True
-        rb = par.add_run(m.group(1))
-        rb.bold = True
-        if italic:
-            rb.italic = True
-        pos = m.end()
-    if pos < len(text):
-        r = par.add_run(text[pos:])
-        if italic:
-            r.italic = True
-
-
-def line(doc, text="", bold=False, italic=False, align=None, indent=None,
-         space_before=0, space_after=2, size=None):
-    p = doc.add_paragraph()
-    if align:
-        p.alignment = align
-    pf = p.paragraph_format
-    pf.space_before = Pt(space_before)
-    pf.space_after = Pt(space_after)
-    if indent is not None:
-        pf.left_indent = Cm(indent)
-    if text:
-        if bold:
-            r = p.add_run(text)
-            r.bold = True
-            if italic:
-                r.italic = True
-        else:
-            add_runs(p, text, italic=italic)
-    if size:
-        for run in p.runs:
-            run.font.size = Pt(size)
-    return p
-
-
-def centered(doc, text, bold=True, italic=False, space_before=6, space_after=6, size=None, shaded=False):
-    p = line(doc, text, bold=bold, italic=italic, align=WD_ALIGN_PARAGRAPH.CENTER,
-             space_before=space_before, space_after=space_after, size=size)
-    if shaded:  # grey bar behind the heading, like the real mock cover
-        pPr = p._p.get_or_add_pPr()
-        shd = OxmlElement("w:shd")
-        shd.set(qn("w:val"), "clear")
-        shd.set(qn("w:fill"), "D9D9D9")
-        pPr.append(shd)
-    return p
-
-
-def dotted_line(doc, indent=1.4):
-    return line(doc, "." * 124, space_before=4, space_after=0, indent=indent, size=10.5)
-
-
-def right_marks(doc, text: str):
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    p.paragraph_format.space_before = Pt(1)
-    p.paragraph_format.space_after = Pt(4)
-    r = p.add_run(text)
-    r.bold = True
-    return p
-
-
-def set_cols(section, num):
-    sectPr = section._sectPr
-    cols = sectPr.find(qn("w:cols"))
-    if cols is None:
-        cols = OxmlElement("w:cols")
-        sectPr.append(cols)
-    cols.set(qn("w:num"), str(num))
-    cols.set(qn("w:space"), "480")
-
-
-def nil_borders(cell):
-    tcPr = cell._tc.get_or_add_tcPr()
-    borders = OxmlElement("w:tcBorders")
-    for edge in ("top", "left", "bottom", "right"):
-        el = OxmlElement(f"w:{edge}")
-        el.set(qn("w:val"), "nil")
-        borders.append(el)
-    tcPr.append(borders)
-
-
-def page_number_header(section):
-    p = section.header.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run()
-    b = OxmlElement("w:fldChar"); b.set(qn("w:fldCharType"), "begin")
-    instr = OxmlElement("w:instrText"); instr.set(qn("xml:space"), "preserve"); instr.text = " PAGE "
-    e = OxmlElement("w:fldChar"); e.set(qn("w:fldCharType"), "end")
-    run._r.append(b); run._r.append(instr); run._r.append(e)
-
-
-def footer_code(section, code="26/1001026/2&1/stx/oct/bece"):
-    p = section.footer.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    r = p.add_run(code)
-    r.font.size = Pt(9)
-
-
-def page_break(doc):
-    p = doc.add_paragraph()
-    p.add_run().add_break(WD_BREAK.PAGE)
-
-
-def shaded_heading(doc, text, space_before=6, space_after=6):
-    return centered(doc, text, size=13, shaded=True, space_before=space_before, space_after=space_after)
-
-
-def drawing_box(doc, label, width_cm=8.0, height_cm=6.0):
-    """Bordered empty drawing box with a label row, like real CAD papers."""
-    t = doc.add_table(rows=1, cols=1)
-    t.style = "Table Grid"
-    t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    cell = t.rows[0].cells[0]
-    cell.width = Cm(width_cm)
-    trPr = t.rows[0]._tr.get_or_add_trPr()
-    trHeight = OxmlElement("w:trHeight")
-    trHeight.set(qn("w:val"), str(int(height_cm * 567)))
-    trHeight.set(qn("w:hRule"), "atLeast")
-    trPr.append(trHeight)
-    lab = cell.paragraphs[0].add_run(label)
-    lab.bold = True
-    lab.font.size = Pt(10)
 
 
 # ----------------------------------------------------------------------------- essay data
@@ -411,55 +298,11 @@ OBJECTIVES = [
 rng = random.Random(20271028)
 p1_key: list[tuple[int, str]] = []
 
-doc = Document()
-normal = doc.styles["Normal"]
-normal.font.name = "Times New Roman"
-normal.font.size = Pt(11.5)
-for section in doc.sections:
-    section.page_width, section.page_height = Cm(21.0), Cm(29.7)
-    section.top_margin, section.bottom_margin = Cm(1.8), Cm(1.8)
-    section.left_margin, section.right_margin = Cm(2.0), Cm(2.0)
+doc = new_waec_doc()
 
 # ------------------------------------------------------------------ cover
-if LOGO.exists():
-    head = doc.add_table(rows=1, cols=2)
-    head.alignment = WD_TABLE_ALIGNMENT.CENTER
-    c_logo, c_school = head.rows[0].cells
-    c_logo.width, c_school.width = Cm(6.2), Cm(10.8)
-    nil_borders(c_school)
-    # bordered logo box, like the approved cover
-    tcPr = c_logo._tc.get_or_add_tcPr()
-    borders = OxmlElement("w:tcBorders")
-    for edge in ("top", "left", "bottom", "right"):
-        el = OxmlElement(f"w:{edge}")
-        el.set(qn("w:val"), "single")
-        el.set(qn("w:sz"), "6")
-        borders.append(el)
-    tcPr.append(borders)
-    pl = c_logo.paragraphs[0]
-    pl.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    pl.add_run().add_picture(str(LOGO), width=Cm(4.6))
-    pb = c_logo.add_paragraph()
-    pb.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    rb = pb.add_run("OCTOBER 2026  ·  MOCK")
-    rb.bold = True
-    rb.font.size = Pt(10)
-    t1 = c_school.paragraphs[0]
-    r1 = t1.add_run("STARALEX SCHOOL COMPLEX")
-    r1.bold = True
-    r1.font.size = Pt(20)
-    r1.font.name = "Old English Text MT"
-    for t in ("MOTTO: Education is Power. Slogan: Happy Parents Our Pride.",
-              "For more info. About the school, please call: 026-2535-502/054-8028-300"):
-        p_ = c_school.add_paragraph()
-        rr = p_.add_run(t)
-        rr.font.size = Pt(10.5)
-else:
-    centered(doc, "STARALEX SCHOOL COMPLEX", size=20)
-
-line(doc, "", space_after=4)
-for label in ["Full Name:", "Index Number:", "Signature:", "Date of Examination:"]:
-    line(doc, label + "  " + "." * (84 - len(label)), space_after=2)
+add_staralex_letterhead(doc, LOGO)
+add_candidate_fields(doc)
 
 shaded_heading(doc, "Basic Education Certificate Mock Examination", space_before=10, space_after=2)
 centered(doc, "CREATIVE ARTS AND DESIGN  2&1", space_after=2)
@@ -500,54 +343,14 @@ for q_idx, (intro, _is_a, groups) in enumerate(ESSAY, start=1):
 centered(doc, "END OF PAPER 2", bold=True, space_before=16)
 
 # ------------------------------------------------------------------ PAPER 1
-page_break(doc)
-centered(doc, "PAPER 1", space_after=0, size=13)
-centered(doc, "OBJECTIVE TEST  ·  [40 MARKS]  ·  45 MINUTES", space_after=10)
-line(doc, "**Answer all the questions.**", space_after=4)
-line(doc, "Each question is followed by **four** options lettered **A to D**. Find out the **correct "
-          "option** for **each** question and **shade in pencil** on your answer sheet the answer "
-          "space which bears the same letter as the option you have chosen. Give only **one** answer "
-          "to **each** question. An example is given below.", space_after=6)
-line(doc, "Which of the following is a technique of applying colour on a surface?", space_after=2)
-line(doc, "A. Painting       B. Weaving       C. Carving       D. Moulding", indent=1.0, space_after=2)
-line(doc, "The correct answer is **Painting**, which is lettered **A**, and therefore answer space "
-          "**A** would be shaded.", space_after=6)
-line(doc, "**Think carefully before you shade** the answer spaces. **Erase your first answer "
-          "completely** and shade the appropriate space for the new answer. **Do all rough work in "
-          "this paper.** **Now answer the following questions.**", space_after=12)
-
-letters = "ABCD"
-letter_pool = list(letters) * 10
-rng.shuffle(letter_pool)
-pattern = letter_pool
-sec_body = doc.add_section(WD_SECTION.CONTINUOUS)
-set_cols(sec_body, 2)
-for sec in doc.sections:
-    sec.page_width, sec.page_height = Cm(21.0), Cm(29.7)
-    sec.top_margin, sec.bottom_margin = Cm(1.8), Cm(1.8)
-    sec.left_margin, sec.right_margin = Cm(2.0), Cm(2.0)
-
-for i, (stem, opts) in enumerate(OBJECTIVES, start=1):
-    correct, others = opts[0], opts[1:]
-    full = [correct] + others
-    rng.shuffle(full)
-    t = letters.index(pattern[i - 1])
-    j = full.index(correct)
-    k = (j - t) % 4
-    full = full[k:] + full[:k]
-    key = letters[full.index(correct)]
-    p1_key.append((i, key))
-
-    stem_p = line(doc, "", space_before=8, space_after=2)
-    num_run = stem_p.add_run(f"{i}.")
-    num_run.bold = True
-    add_runs(stem_p, f"  {stem}")
-    for j2, opt in enumerate(full):
-        line(doc, f"{letters[j2]}. {opt}", indent=0.5, space_after=1, size=11)
-
-sec_end = doc.add_section(WD_SECTION.CONTINUOUS)
-set_cols(sec_end, 1)
-centered(doc, "END OF PAPER", space_before=16)
+add_paper1_rubric(
+    doc,
+    duration_label="45 MINUTES",
+    sample_stem="Which of the following is a technique of applying colour on a surface?",
+    sample_options="A. Painting       B. Weaving       C. Carving       D. Moulding",
+    sample_explanation="The correct answer is **Painting**, which is lettered **A**, and therefore answer space **A** would be shaded.",
+)
+render_balanced_objectives(doc, OBJECTIVES, rng, p1_key)
 
 # ------------------------------------------------------------------ header / footer
 page_number_header(doc.sections[0])
@@ -558,10 +361,7 @@ page_break(doc)
 centered(doc, "MARKING SCHEME — FOR TEACHERS / INVIGILATORS ONLY", space_after=2)
 centered(doc, "STARALEX BECE CREATIVE ARTS AND DESIGN MOCK, OCTOBER 2026", space_after=10)
 
-centered(doc, "PAPER 1 — OBJECTIVE TEST (one mark each = 40 marks)", space_after=6)
-for chunk_start in range(0, len(p1_key), 8):
-    chunk = p1_key[chunk_start:chunk_start + 8]
-    line(doc, "        ".join(f"{n}. {k}" for n, k in chunk), space_after=2)
+render_marking_scheme_p1_key(doc, p1_key)
 
 centered(doc, "PAPER 2 — ESSAY (Question 1 + any four of Questions 2–7 = 75 marks)", space_before=10, space_after=6)
 scheme = [
@@ -610,14 +410,9 @@ scheme = [
         "7(b) Any three @ 3 marks each (state and explain): good memory/retention of lines and steps; discipline and punctuality; expressiveness/creativity; confidence; teamwork/cooperation; good body posture and coordination — 9 marks",
     ]),
 ]
-for header, points in scheme:
-    line(doc, header, bold=True, space_before=8, space_after=2)
-    for pt_ in points:
-        p = line(doc, "", indent=0.8, space_after=1)
-        add_runs(p, "• " + pt_)
+render_marking_scheme_sections(doc, scheme)
 
 doc.save(OUT)
-from collections import Counter
 print("saved:", OUT)
 print("Paper 1 key:", " ".join(f"{n}{k}" for n, k in p1_key))
 print("key counts:", Counter(k for _, k in p1_key))

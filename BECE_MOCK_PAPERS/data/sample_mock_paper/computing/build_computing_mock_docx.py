@@ -20,137 +20,39 @@ files & folders, file names, word processing.
 from __future__ import annotations
 
 import random
-import re
+import sys
+from collections import Counter
 from pathlib import Path
 
-from docx import Document
 from docx.enum.section import WD_SECTION
 from docx.enum.table import WD_TABLE_ALIGNMENT
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Cm, Pt
 
+TOOLS_DIR = Path(__file__).resolve().parents[4] / "tools"
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
+from waec_mock_docx import (  # noqa: E402
+    add_paper1_rubric,
+    add_runs,
+    centered,
+    dotted_line,
+    dotted_rows as _dotted_rows,
+    footer_code,
+    line,
+    new_waec_doc,
+    nil_borders,
+    page_break,
+    page_number_header,
+    render_balanced_objectives,
+    render_marking_scheme_p1_key,
+    render_marking_scheme_sections,
+    right_marks,
+    set_cols,
+)
+
 OUT = Path(__file__).with_name("Staralex_Computing_Mock_2027_Paper1_and_2.docx")
-
-# ----------------------------------------------------------------------------- helpers
-BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
-WML = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
-
-
-def add_runs(par, text: str, italic=False):
-    """Render text with **bold** markers as alternating runs."""
-    pos = 0
-    for m in BOLD_RE.finditer(text):
-        if m.start() > pos:
-            r = par.add_run(text[pos : m.start()])
-            if italic:
-                r.italic = True
-        rb = par.add_run(m.group(1))
-        rb.bold = True
-        if italic:
-            rb.italic = True
-        pos = m.end()
-    if pos < len(text):
-        r = par.add_run(text[pos:])
-        if italic:
-            r.italic = True
-
-
-def line(doc, text="", bold=False, italic=False, align=None, indent=None,
-         space_before=0, space_after=2, size=None):
-    p = doc.add_paragraph()
-    if align:
-        p.alignment = align
-    pf = p.paragraph_format
-    pf.space_before = Pt(space_before)
-    pf.space_after = Pt(space_after)
-    if indent is not None:
-        pf.left_indent = Cm(indent)
-    if text:
-        if bold:
-            r = p.add_run(text)
-            r.bold = True
-            if italic:
-                r.italic = True
-        else:
-            add_runs(p, text, italic=italic)
-    if size:
-        for run in p.runs:
-            run.font.size = Pt(size)
-    return p
-
-
-def centered(doc, text, bold=True, italic=False, space_before=6, space_after=6, size=None):
-    return line(doc, text, bold=bold, italic=italic, align=WD_ALIGN_PARAGRAPH.CENTER,
-                space_before=space_before, space_after=space_after, size=size)
-
-
-def dotted_line(doc, indent=1.4):
-    """A printed dotted answer line, as on real WAEC essay pages."""
-    return line(doc, "." * 124, space_before=4, space_after=0, indent=indent, size=10.5)
-
-
-def right_marks(doc, text: str):
-    """Right-aligned bold '[n marks]' tag, like real WAEC essay pages."""
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.RIGHT
-    p.paragraph_format.space_before = Pt(1)
-    p.paragraph_format.space_after = Pt(4)
-    r = p.add_run(text)
-    r.bold = True
-    return p
-
-
-def set_cols(section, num):
-    sectPr = section._sectPr
-    cols = sectPr.find(qn("w:cols"))
-    if cols is None:
-        cols = OxmlElement("w:cols")
-        sectPr.append(cols)
-    cols.set(qn("w:num"), str(num))
-    cols.set(qn("w:space"), "480")
-
-
-def nil_borders(cell):
-    tcPr = cell._tc.get_or_add_tcPr()
-    borders = OxmlElement("w:tcBorders")
-    for edge in ("top", "left", "bottom", "right"):
-        el = OxmlElement(f"w:{edge}")
-        el.set(qn("w:val"), "nil")
-        borders.append(el)
-    tcPr.append(borders)
-
-
-def shade_cell(cell, gray="3F3F3F"):
-    tcPr = cell._tc.get_or_add_tcPr()
-    shd = OxmlElement("w:shd")
-    shd.set(qn("w:val"), "clear")
-    shd.set(qn("w:fill"), gray)
-    tcPr.append(shd)
-
-
-def page_number_header(section):
-    """Centered real PAGE field in the page header."""
-    p = section.header.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run()
-    b = OxmlElement("w:fldChar"); b.set(qn("w:fldCharType"), "begin")
-    instr = OxmlElement("w:instrText"); instr.set(qn("xml:space"), "preserve"); instr.text = " PAGE "
-    e = OxmlElement("w:fldChar"); e.set(qn("w:fldCharType"), "end")
-    run._r.append(b); run._r.append(instr); run._r.append(e)
-
-
-def footer_code(section, code="26/1001026/2&1/stx/oct/bece"):
-    p = section.footer.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    r = p.add_run(code)
-    r.font.size = Pt(9)
-
-
-def page_break(doc):
-    p = doc.add_paragraph()
-    p.add_run().add_break(WD_BREAK.PAGE)
 
 
 # ----------------------------------------------------------------------------- essay data
@@ -236,8 +138,7 @@ ESSAY = [
 
 
 def dotted_rows(n, indent=1.5):
-    for _ in range(n):
-        dotted_line(doc, indent=indent)
+    _dotted_rows(doc, n, indent=indent)
 
 
 SUB_ROWS = {1: 2, 2: 2, 3: 3, 4: 3}
@@ -398,14 +299,7 @@ OBJECTIVES = [
 # ----------------------------------------------------------------------------- build
 rng = random.Random(20271027)
 p1_key: list[tuple[int, str]] = []
-doc = Document()
-normal = doc.styles["Normal"]
-normal.font.name = "Times New Roman"
-normal.font.size = Pt(11.5)
-for section in doc.sections:
-    section.page_width, section.page_height = Cm(21.0), Cm(29.7)   # A4 like the real papers
-    section.top_margin, section.bottom_margin = Cm(1.8), Cm(1.8)
-    section.left_margin, section.right_margin = Cm(2.0), Cm(2.0)
+doc = new_waec_doc()
 
 # ------------------------------------------------------------------ cover
 box = doc.add_table(rows=1, cols=2)
@@ -485,52 +379,14 @@ for q_idx, (intro, intro_is_a, groups) in enumerate(ESSAY, start=1):
 centered(doc, "END OF SECTION B", bold=True, space_before=16)
 
 # ------------------------------------------------------------------ PAPER 1
-page_break(doc)
-centered(doc, "PAPER 1", space_after=0, size=13)
-centered(doc, "OBJECTIVE TEST  ·  [40 MARKS]  ·  45 MINUTES", space_after=10)
-line(doc, "**Answer all the questions.**", space_after=4)
-line(doc, "Each question is followed by **four** options lettered **A to D**. Find out the **correct "
-          "option** for **each** question and **shade in pencil** on your answer sheet the answer space "
-          "which bears the same letter as the option you have chosen. Give only **one** answer to "
-          "**each** question. An example is given below.", space_after=6)
-line(doc, "Which of the following is an example of an input device?", space_after=2)
-line(doc, "A. Monitor       B. Printer       C. Keyboard       D. Speaker", indent=1.0, space_after=2)
-line(doc, "The correct answer is **Keyboard**, which is lettered **C**, and therefore answer space "
-          "**C** would be shaded.", space_after=6)
-line(doc, "**Think carefully before you shade** the answer spaces. **Erase your first answer "
-          "completely** and shade the appropriate space for the new answer. **Do all rough work in "
-          "this paper.** **Now answer the following questions.**", space_after=12)
-
-letters = "ABCD"
-# Balanced answer pattern: 10 x A, B, C, D in shuffled order
-letter_pool = list(letters) * 10
-rng.shuffle(letter_pool)
-pattern = letter_pool
-# two-column newspaper body for the question run, like the real objective sections
-sec_body = doc.add_section(WD_SECTION.CONTINUOUS)
-set_cols(sec_body, 2)
-for i, (stem, opts) in enumerate(OBJECTIVES, start=1):
-    correct, others = opts[0], opts[1:]
-    full = [correct] + others
-    rng.shuffle(full)
-    t = letters.index(pattern[i - 1])          # target index for the correct option
-    j = full.index(correct)                    # where the shuffle left it
-    k = (j - t) % 4                            # rotate left so j -> t
-    full = full[k:] + full[:k]
-    key = letters[full.index(correct)]
-    p1_key.append((i, key))
-
-    stem_p = line(doc, "", space_before=8, space_after=2)
-    num_run = stem_p.add_run(f"{i}.")
-    num_run.bold = True
-    add_runs(stem_p, f"  {stem}")
-    for j2, opt in enumerate(full):
-        line(doc, f"{letters[j2]}. {opt}", indent=0.5, space_after=1, size=11)
-
-# back to single column for the closing banner
-sec_end = doc.add_section(WD_SECTION.CONTINUOUS)
-set_cols(sec_end, 1)
-centered(doc, "END OF PAPER", space_before=16)
+add_paper1_rubric(
+    doc,
+    duration_label="45 MINUTES",
+    sample_stem="Which of the following is an example of an input device?",
+    sample_options="A. Monitor       B. Printer       C. Keyboard       D. Speaker",
+    sample_explanation="The correct answer is **Keyboard**, which is lettered **C**, and therefore answer space **C** would be shaded.",
+)
+render_balanced_objectives(doc, OBJECTIVES, rng, p1_key)
 
 # ------------------------------------------------------------------ header / footer codes
 # Written ONCE on the first section — all later sections inherit (linked), so no
@@ -546,10 +402,7 @@ set_cols(sect_ms, 1)
 centered(doc, "MARKING SCHEME — FOR TEACHERS / INVIGILATORS ONLY", space_after=2)
 centered(doc, "STARALEX BECE COMPUTING MOCK, OCTOBER 2026", space_after=10)
 
-centered(doc, "PAPER 1 — OBJECTIVE TEST (one mark each = 40 marks)", space_after=6)
-for chunk_start in range(0, len(p1_key), 8):
-    chunk = p1_key[chunk_start : chunk_start + 8]
-    line(doc, "        ".join(f"{n}. {k}" for n, k in chunk), space_after=2)
+render_marking_scheme_p1_key(doc, p1_key)
 
 line(doc, "", space_after=8)
 centered(doc, "PAPER 2 — ESSAY (Question 1 + any three of Questions 2–5 = 60 marks)", space_after=6)
@@ -593,14 +446,9 @@ scheme = [
         "5(b) Any two @ 2 marks each: speed; accuracy; large storage capacity; reliability; can work for long hours without getting tired",
     ]),
 ]
-for header, points in scheme:
-    line(doc, header, bold=True, space_before=8, space_after=2)
-    for pt_ in points:
-        p = line(doc, "", indent=0.8, space_after=1)
-        add_runs(p, "• " + pt_)
+render_marking_scheme_sections(doc, scheme)
 
 doc.save(OUT)
-from collections import Counter
 print("saved:", OUT)
 print("Paper 1 key:", " ".join(f"{n}{k}" for n, k in p1_key))
 print("key counts:", Counter(k for _, k in p1_key))

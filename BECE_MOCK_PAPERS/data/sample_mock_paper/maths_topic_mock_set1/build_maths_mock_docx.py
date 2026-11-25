@@ -31,18 +31,36 @@ problems. All money in GH₵ to 2 decimal places.
 """
 from __future__ import annotations
 
-import re
 import shutil
+import sys
 from collections import Counter
 from pathlib import Path
 
-from docx import Document
 from docx.enum.section import WD_SECTION
 from docx.enum.table import WD_TABLE_ALIGNMENT
-from docx.enum.text import WD_ALIGN_PARAGRAPH, WD_BREAK
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Cm, Pt
+
+TOOLS_DIR = Path(__file__).resolve().parents[4] / "tools"
+if str(TOOLS_DIR) not in sys.path:
+    sys.path.insert(0, str(TOOLS_DIR))
+
+from waec_mock_docx import (  # noqa: E402
+    add_candidate_fields,
+    add_paper1_rubric,
+    add_runs,
+    add_staralex_letterhead,
+    centered,
+    footer_code,
+    line,
+    new_waec_doc,
+    page_break,
+    page_number_header,
+    picture,
+    render_marking_scheme_p1_key,
+    render_marking_scheme_sections,
+    set_cols,
+)
 
 HERE = Path(__file__).resolve().parent
 FIQ = HERE / "diagrams"
@@ -55,174 +73,14 @@ if not LOGO.exists():
     LOGO.parent.mkdir(exist_ok=True)
     shutil.copyfile(src, LOGO)
 
-# ----------------------------------------------------------------------------- helpers
-BOLD_RE = re.compile(r"\*\*(.+?)\*\*")
-
-
-def add_runs(par, text: str, italic=False):
-    """Render text with **bold** markers as alternating runs."""
-    pos = 0
-    for m in BOLD_RE.finditer(text):
-        if m.start() > pos:
-            r = par.add_run(text[pos:m.start()])
-            if italic:
-                r.italic = True
-        rb = par.add_run(m.group(1))
-        rb.bold = True
-        if italic:
-            rb.italic = True
-        pos = m.end()
-    if pos < len(text):
-        r = par.add_run(text[pos:])
-        if italic:
-            r.italic = True
-
-
-def line(doc, text="", bold=False, italic=False, align=None, indent=None,
-         space_before=0, space_after=2, size=None):
-    p = doc.add_paragraph()
-    if align:
-        p.alignment = align
-    pf = p.paragraph_format
-    pf.space_before = Pt(space_before)
-    pf.space_after = Pt(space_after)
-    if indent is not None:
-        pf.left_indent = Cm(indent)
-    if text:
-        if bold:
-            r = p.add_run(text)
-            r.bold = True
-            if italic:
-                r.italic = True
-        else:
-            add_runs(p, text, italic=italic)
-    if size:
-        for run in p.runs:
-            run.font.size = Pt(size)
-    return p
-
-
-def centered(doc, text, bold=True, italic=False, space_before=6, space_after=6, size=None, shaded=False):
-    p = line(doc, text, bold=bold, italic=italic, align=WD_ALIGN_PARAGRAPH.CENTER,
-             space_before=space_before, space_after=space_after, size=size)
-    if shaded:  # grey bar behind the heading, like the approved mock covers
-        pPr = p._p.get_or_add_pPr()
-        shd = OxmlElement("w:shd")
-        shd.set(qn("w:val"), "clear")
-        shd.set(qn("w:fill"), "D9D9D9")
-        pPr.append(shd)
-    return p
-
-
-def set_cols(section, num):
-    sectPr = section._sectPr
-    cols = sectPr.find(qn("w:cols"))
-    if cols is None:
-        cols = OxmlElement("w:cols")
-        sectPr.append(cols)
-    cols.set(qn("w:num"), str(num))
-    cols.set(qn("w:space"), "480")
-
-
-def nil_borders(cell):
-    tcPr = cell._tc.get_or_add_tcPr()
-    borders = OxmlElement("w:tcBorders")
-    for edge in ("top", "left", "bottom", "right"):
-        el = OxmlElement(f"w:{edge}")
-        el.set(qn("w:val"), "nil")
-        borders.append(el)
-    tcPr.append(borders)
-
-
-def box_borders(cell):
-    tcPr = cell._tc.get_or_add_tcPr()
-    borders = OxmlElement("w:tcBorders")
-    for edge in ("top", "left", "bottom", "right"):
-        el = OxmlElement(f"w:{edge}")
-        el.set(qn("w:val"), "single")
-        el.set(qn("w:sz"), "6")
-        borders.append(el)
-    tcPr.append(borders)
-
-
-def page_number_header(section):
-    """Centered real PAGE field in the page header (later sections inherit)."""
-    p = section.header.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run()
-    b = OxmlElement("w:fldChar"); b.set(qn("w:fldCharType"), "begin")
-    instr = OxmlElement("w:instrText"); instr.set(qn("xml:space"), "preserve"); instr.text = " PAGE "
-    e = OxmlElement("w:fldChar"); e.set(qn("w:fldCharType"), "end")
-    run._r.append(b); run._r.append(instr); run._r.append(e)
-
-
-def footer_code(section, code="26/030019/2&1/stx/oct/bece"):
-    p = section.footer.paragraphs[0]
-    p.alignment = WD_ALIGN_PARAGRAPH.LEFT
-    r = p.add_run(code)
-    r.font.size = Pt(9)
-
-
-def page_break(doc):
-    p = doc.add_paragraph()
-    p.add_run().add_break(WD_BREAK.PAGE)
-
-
-def picture(doc, path, width_cm, space_before=4, space_after=6):
-    """Centered image in its own paragraph, sized for the current column."""
-    p = doc.add_paragraph()
-    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    pf = p.paragraph_format
-    pf.space_before = Pt(space_before)
-    pf.space_after = Pt(space_after)
-    p.add_run().add_picture(str(path), width=Cm(width_cm))
-    return p
-
-
 # ----------------------------------------------------------------------------- build
 p1_key: list[tuple[int, str]] = []
 
-doc = Document()
-normal = doc.styles["Normal"]
-normal.font.name = "Times New Roman"
-normal.font.size = Pt(11.5)
-for section in doc.sections:
-    section.page_width, section.page_height = Cm(21.0), Cm(29.7)   # A4 like the real papers
-    section.top_margin, section.bottom_margin = Cm(1.8), Cm(1.8)
-    section.left_margin, section.right_margin = Cm(2.0), Cm(2.0)
+doc = new_waec_doc()
 
 # ------------------------------------------------------------------ cover (CDT letterhead style)
-if LOGO.exists():
-    head = doc.add_table(rows=1, cols=2)
-    head.alignment = WD_TABLE_ALIGNMENT.CENTER
-    c_logo, c_school = head.rows[0].cells
-    c_logo.width, c_school.width = Cm(6.2), Cm(10.8)
-    nil_borders(c_school)
-    box_borders(c_logo)
-    pl = c_logo.paragraphs[0]
-    pl.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    pl.add_run().add_picture(str(LOGO), width=Cm(4.6))
-    pb = c_logo.add_paragraph()
-    pb.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    rb = pb.add_run("OCTOBER 2026  ·  MOCK")
-    rb.bold = True
-    rb.font.size = Pt(10)
-    t1 = c_school.paragraphs[0]
-    r1 = t1.add_run("STARALEX SCHOOL COMPLEX")
-    r1.bold = True
-    r1.font.size = Pt(20)
-    r1.font.name = "Old English Text MT"
-    for t in ("MOTTO: Education is Power. Slogan: Happy Parents Our Pride.",
-              "For more info. About the school, please call: 026-2535-502/054-8028-300"):
-        p_ = c_school.add_paragraph()
-        rr = p_.add_run(t)
-        rr.font.size = Pt(10.5)
-else:
-    centered(doc, "STARALEX SCHOOL COMPLEX", size=20)
-
-line(doc, "", space_after=4)
-for label in ["Full Name:", "Index Number:", "Signature:", "Date of Examination:"]:
-    line(doc, label + "  " + "." * (84 - len(label)), space_after=2)
+add_staralex_letterhead(doc, LOGO)
+add_candidate_fields(doc)
 
 centered(doc, "Basic Education Certificate Mock Examination",
                           space_before=10, space_after=2, size=13, shaded=True)
@@ -387,22 +245,15 @@ essay_q(doc, 8, None, [
 centered(doc, "END OF ESSAY TEST", bold=True, space_before=16)
 
 # ------------------------------------------------------------------ PAPER 1
-page_break(doc)
-centered(doc, "PAPER 1", space_after=0, size=13)
-centered(doc, "OBJECTIVE TEST  ·  [40 MARKS]  ·  1 HOUR", space_after=10)
-line(doc, "**Answer all the questions.**", space_after=4)
-line(doc, "Each question is followed by **four** options lettered **A to D**. Find the **correct** "
-          "option for **each** question and **shade in pencil** on your answer sheet the answer "
-          "space which bears the same letter as the option you have chosen. Give only **one** "
-          "answer to **each** question. An example is given below.", space_after=6)
-line(doc, "If 3n + 2 = 8, find the value of n.", space_after=2)
-line(doc, "A. 10       B. 6       C. 3       D. 2", indent=1.0, space_after=2)
-line(doc, "The correct answer is 2, which is lettered **D**, and therefore answer space **D** would "
-          "be shaded.", space_after=2)
-line(doc, "A ☐      B ☐      C ☐      D ☑", indent=1.0, space_after=6)
-line(doc, "**Think carefully before you shade** the answer spaces. **Erase your first answer "
-          "completely** and shade the appropriate space for the new answer. **Do all rough work in "
-          "this paper.** **Now answer the following questions.**", space_after=12)
+add_paper1_rubric(
+    doc,
+    duration_label="1 HOUR",
+    sample_stem="If 3n + 2 = 8, find the value of n.",
+    sample_options="A. 10       B. 6       C. 3       D. 2",
+    sample_explanation="The correct answer is 2, which is lettered **D**, and therefore answer space **D** would be shaded.",
+    sample_shading="A ☐      B ☐      C ☐      D ☑",
+    find_phrase="Find the **correct** option",
+)
 
 
 def objective(num, stem, opts, image_name=None, ndts=False, width=7.3):
@@ -550,7 +401,7 @@ centered(doc, "END OF PAPER", space_before=16)
 
 # ------------------------------------------------------------------ header / footer codes
 page_number_header(doc.sections[0])
-footer_code(doc.sections[0])
+footer_code(doc.sections[0], code="26/030019/2&1/stx/oct/bece")
 
 # ------------------------------------------------------------------ MARKING SCHEME
 page_break(doc)
@@ -560,10 +411,7 @@ line(doc, "(Method = **M1**, Accuracy = **A1**, Independent result = **B1**; −
           "once only, per paper. Every question = 15 marks; candidates earn four questions × 15 "
           "= 60 marks on Paper 2.)", italic=True, space_after=8)
 
-centered(doc, "PAPER 1 — OBJECTIVE TEST (one mark each = 40 marks)", space_after=6)
-for chunk_start in range(0, len(p1_key), 8):
-    chunk = p1_key[chunk_start:chunk_start + 8]
-    line(doc, "        ".join(f"{n_}. {k_}" for n_, k_ in chunk), space_after=2)
+render_marking_scheme_p1_key(doc, p1_key)
 
 line(doc, "", space_after=8)
 centered(doc, "PAPER 2 — ESSAY (any four of the eight questions × 15 marks = 60 marks)", space_after=6)
@@ -622,11 +470,7 @@ scheme = [
         "8(c) profit = 3,250.00 − 2,500.00 = GH₵ 750.00; 750/2,500 × 100 = **30%**",
     ]),
 ]
-for header, points in scheme:
-    line(doc, header, bold=True, space_before=8, space_after=2)
-    for pt_ in points:
-        p = line(doc, "", indent=0.8, space_after=1)
-        add_runs(p, "• " + pt_)
+render_marking_scheme_sections(doc, scheme)
 
 line(doc, "", space_after=8)
 centered(doc, "PAPER 1 — WORKING NOTES (selected items)", space_after=6)
